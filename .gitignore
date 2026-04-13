@@ -13,6 +13,12 @@ coverage
 
 # Playwright session files
 .playwright-cli/
+.playwright-mcp/
+
+# Dočasné screenshoty
+*.png
+*.jpg
+!public/**
 
 # Snapshot assets jsou nahrane v Sanity, binarka do repa nepripatri
 snapshot/assets/
