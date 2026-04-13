@@ -126,9 +126,14 @@ import { createHmac } from "crypto";
 
 const secret = process.env.SANITY_REVALIDATE_SECRET;
 const payload = JSON.stringify({ _type: "siteSettings" });
-const timestamp = Math.floor(Date.now() / 1000);
-const signed = `${timestamp}.${payload}`;
-const signature = `t=${timestamp},v1=${createHmac("sha256", secret).update(signed).digest("hex")}`;
+const timestamp = Date.now(); // milisekundy — @sanity/webhook v4 vyžaduje ms přesnost
+
+const hmac = createHmac("sha256", secret)
+  .update(`${timestamp}.${payload}`)
+  .digest("base64")
+  .replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); // base64url
+
+const signature = `t=${timestamp},v1=${hmac}`;
 
 const res = await fetch("http://localhost:3000/api/revalidate/sanity", {
   method: "POST",
