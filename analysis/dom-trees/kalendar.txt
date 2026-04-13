@@ -1,0 +1,54 @@
+- body.body-12
+  - section.sekce-copy
+    - div.w-layout-blockcontainer.container_darek.w-container
+      - div.w-layout-grid.grid-21
+        - img#w-node-_08adfae6-ac02-1905-945b-a738815f53ab-cfe06e69.image-51 [alt="Adventní kalendář pro rok 2023"]
+        - div#w-node-_95d9c6f7-712f-f6b7-796f-c5e50b5c494f-cfe06e69
+          - h3.heading-20
+            - br
+          - h1.heading-jumbo.h1-capital
+          - p.paragraph-23
+            - strong
+            - strong
+            - strong
+            - strong
+            - br
+            - br
+            - br
+            - br
+            - br
+            - br
+            - ... (1 more siblings)
+          - div.text-block-23
+          - div#js-clock.js-clock
+            - div.box
+              - ... (2 hidden child nodes)
+            - div.box
+              - ... (2 hidden child nodes)
+            - div.box
+              - ... (2 hidden child nodes)
+            - div.box
+              - ... (2 hidden child nodes)
+          - p.paragraph-23.ostavec_mail
+            - br
+          - div.w-embed
+            - div.ml-embedded
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

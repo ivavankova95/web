@@ -1,0 +1,42 @@
+{
+  "url": "https://www.zdravimebavi.cz/search",
+  "slug": "search",
+  "page_type": "search",
+  "title": "Search Results",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/search",
+  "headings": [
+    "Search results"
+  ],
+  "ctas": [],
+  "forms": [
+    {
+      "name": "",
+      "id": "",
+      "method": "get",
+      "action": "/search",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "search",
+          "name": "query",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "submit",
+          "name": "",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "images": [],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Search results"
+    }
+  ]
+}

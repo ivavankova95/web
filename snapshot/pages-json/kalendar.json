@@ -1,0 +1,59 @@
+{
+  "url": "https://www.zdravimebavi.cz/kalendar",
+  "slug": "kalendar",
+  "page_type": "calendar",
+  "title": "Adventní kalendář",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/kalendar",
+  "headings": [
+    "🎁 Zdarma 🎁 Přidej se k otevírání",
+    "Adventního kalendáře!"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/653e733da43278e1ab4662dd_ADVENTNI%20KALENDAR.png",
+      "alt": "Adventní kalendář pro rok 2023",
+      "context": "img",
+      "local_path": "snapshot/assets/images/ebfd6b0263ec__653e733da43278e1ab4662dd_ADVENTNI-20KALENDAR.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/653e733da43278e1ab4662dd_ADVENTNI%20KALENDAR.png",
+      "alt": "Adventní kalendář pro rok 2023"
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "🎁 Zdarma 🎁 Přidej se k otevírání"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Adventního kalendáře!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Advent už začal, takže je nejvyšší čas využít zvýbající dny do Vánoc. Každý adventní den si otevři , který tě inspirativně povede k , a . ‍ Díky tomu budeš letos u stromečku zářit. ✨ Plněním malých každodenních úkolů budeš mít možnost získat nové návyky, které ti zpříjemní nejen advent, ale i celý příští rok. Navíc individuální výživovou konzultaci a originální čelenku od české značky. dárek lepšímu stravování pohybu péči o sebe můžeš vyhrát"
+    },
+    {
+      "type": "paragraph",
+      "text": "A každý z těchto dnů můžeš věnovat chvilku svému zdraví a pohodě. Na jakou emailovou adresu chceš adventní kalendář poslat?"
+    }
+  ]
+}

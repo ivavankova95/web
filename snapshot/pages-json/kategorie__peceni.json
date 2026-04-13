@@ -1,0 +1,154 @@
+{
+  "url": "https://www.zdravimebavi.cz/kategorie/peceni",
+  "slug": "kategorie__peceni",
+  "page_type": "category-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/kategorie/peceni",
+  "headings": [
+    "Pečení",
+    "Dort k prvním narozeninám",
+    "Tiramisu",
+    "Tvarohová bábovka"
+  ],
+  "ctas": [
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64e0e0426e4ab569241a526a_dort6_uvodka.png",
+      "alt": "Dort k prvním narozeninám",
+      "context": "img",
+      "local_path": "snapshot/assets/images/ec62faea1173__64e0e0426e4ab569241a526a_dort6_uvodka.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551eb543816e4f939a9c864_tiramisu%201_nahled-2.jpg",
+      "alt": "Tiramisu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/67ba5d45e076__6551eb543816e4f939a9c864_tiramisu-201_nahled-2.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e9c110a99fe2eddf9799_babovka_nahled.jpg",
+      "alt": "Tvarohová bábovka",
+      "context": "img",
+      "local_path": "snapshot/assets/images/9a41fe6847cc__6551e9c110a99fe2eddf9799_babovka_nahled.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Pečení"
+    },
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64e0e0426e4ab569241a526a_dort6_uvodka.png",
+      "alt": "Dort k prvním narozeninám"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Dort k prvním narozeninám"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upéct dort k prvním narozeninám je výzva. Mám pro tebe ověřený recept na zdravý, chutný a krásný dort, který je jednoduchý na přípravu a můžeš ho nachystat den předem. A k tomu spoustu tipů, aby se dort povedl podle tvých představ a jak po upravit do dospělácké verze."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551eb543816e4f939a9c864_tiramisu%201_nahled-2.jpg",
+      "alt": "Tiramisu"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Tiramisu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiramisu se tradičně připravuje z mascarpone smíchaným se žloutky, cukrářských piškotů a mandlového likéru. Jestli ale netrváte na italských postupech a chcete si tiramisu připravit ve zdravější bezlepkové verzi plné bílkovin, jste tady správně."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e9c110a99fe2eddf9799_babovka_nahled.jpg",
+      "alt": "Tvarohová bábovka"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Tvarohová bábovka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tvarohová bábovka u vás najde využití jako sladká snídaně nebo svačina. A po jednom kousku si nejspíš budete chtít dát další, klidně jen tak. Ozdobená rozpuštěnou čokoládou a čerstvým ovocem vypadá nádherně a chutná ještě líp."
+    }
+  ]
+}

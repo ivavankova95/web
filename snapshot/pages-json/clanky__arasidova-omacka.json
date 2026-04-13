@@ -1,0 +1,185 @@
+{
+  "url": "https://www.zdravimebavi.cz/clanky/arasidova-omacka",
+  "slug": "clanky__arasidova-omacka",
+  "page_type": "article-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/clanky/arasidova-omacka",
+  "headings": [
+    "Skvělá omáčka z arašídového másla se zázvorem.",
+    "Nutriční hodnoty",
+    "Ingredience",
+    "Jak na to?",
+    "1.",
+    "2.",
+    "3.",
+    "Galerie"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e864254ee1bb611bc9c4_arasidova_omacka.jpg",
+      "alt": "Arašídová omáčka z arašídového másla se zázvorem a lahůdkovým droždím, servírovaná se zeleninou.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/742f7e7a2ec3__6551e864254ee1bb611bc9c4_arasidova_omacka.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Skvělá omáčka z arašídového másla se zázvorem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arašídová omáčka dodá každému receptu asijský nádech. Můžete s ní doplnit zeleninové jídlo, které díky ní bude sytější. Příprava zabere jen pár minut a omáčka je proto ideální pro chvíle, kdy potřebujete v kuchyni rychle vykouzlit něco výjimečného. Díky zázvoru je omáčka lehce pikantní a lahůdkové droždí jí kromě zajímavé chuti dodává další bílkoviny a vitamíny skupiny B. Arašídová omáčka krásně ladí s různými druhy nudlí, rýží, čočkou a výborná je taky k zeleninovým závitkům, čerstvé nebo pečené zelenině. Když ji připravíte z menšího množství vody, poslouží vám jako zajímavý dip."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e864254ee1bb611bc9c4_arasidova_omacka.jpg",
+      "alt": "Arašídová omáčka z arašídového másla se zázvorem a lahůdkovým droždím, servírovaná se zeleninou."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Nutriční hodnoty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uvedené množství živin je přibližné a platí pro celé množství arašídové omáčky. Pokud ji rozdělíte na 3 porce, v každé bude 365 kcal, 18 g bílkovin, 12 g sacharidů a 29 g tuků."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ingredience"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arašídové máslo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Voda"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lahůdkové droždí"
+    },
+    {
+      "type": "paragraph",
+      "text": "Citronová šťáva"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sójová omáčka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zázvor (kolečko)"
+    },
+    {
+      "type": "paragraph",
+      "text": "170 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "250 ml ‍"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 lžíce"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 lžíce"
+    },
+    {
+      "type": "paragraph",
+      "text": "‍ 2 lžíce"
+    },
+    {
+      "type": "paragraph",
+      "text": "1/2 cm"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pečená/čerstvá zelenina"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jarní závitky"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rýže"
+    },
+    {
+      "type": "paragraph",
+      "text": "Soba nudle ‍"
+    },
+    {
+      "type": "paragraph",
+      "text": "Červená čočka"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jak na to?"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "1."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do výkonného mixéru dejte kolečko zázvoru, které jste nakrájeli na menší kousky, sojovou omáčku, citronovou šťávu, lahůdkové droždí a přidejte přibližně 50 ml vody. Rozmixujte dohladka."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "2."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do mixéru přidejte arašídové máslo a zbytek vody (přibližně 200 ml). Mixujte, dokud se všechny složky omáčky nepropojí."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "3."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arašídová omáčka je hotová. Můžete ji podávat teplou, nebo ji před servírováním vychlaďte v lednici."
+    },
+    {
+      "type": "paragraph",
+      "text": "‍"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Galerie"
+    }
+  ]
+}

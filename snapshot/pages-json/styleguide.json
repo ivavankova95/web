@@ -1,0 +1,128 @@
+{
+  "url": "https://www.zdravimebavi.cz/styleguide",
+  "slug": "styleguide",
+  "page_type": "content-page",
+  "title": "Styleguide",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/styleguide",
+  "headings": [
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "What’s a Rich Text element?",
+    "Static and dynamic content editing",
+    "How to customize formatting for each rich text"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Heading 1"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Heading 2"
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "Heading 3"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "Heading 4"
+    },
+    {
+      "type": "heading",
+      "level": "5",
+      "text": "Heading 5"
+    },
+    {
+      "type": "heading",
+      "level": "6",
+      "text": "Heading 6"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paragraph-bigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paragraph"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paragraph-de-emphasized"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paragraph-smaller"
+    },
+    {
+      "type": "paragraph",
+      "text": "Paragraph-tiny"
+    },
+    {
+      "type": "list_item",
+      "text": "První řádek"
+    },
+    {
+      "type": "list_item",
+      "text": "Druhý řádek"
+    },
+    {
+      "type": "list_item",
+      "text": "Třetí řádek"
+    },
+    {
+      "type": "blockquote",
+      "text": "Block Quote"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "What’s a Rich Text element?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content."
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "Static and dynamic content editing"
+    },
+    {
+      "type": "paragraph",
+      "text": "A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odkaz na nějaký text"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "How to customize formatting for each rich text"
+    },
+    {
+      "type": "paragraph",
+      "text": "Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system."
+    }
+  ]
+}

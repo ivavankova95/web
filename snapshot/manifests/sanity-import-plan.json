@@ -1,0 +1,849 @@
+{
+  "generated_at": "2026-04-11",
+  "source_dir": "snapshot/pages-json",
+  "entries": [
+    {
+      "source_file": "home.json",
+      "url": "https://www.zdravimebavi.cz/",
+      "path": "/",
+      "source_slug": "home",
+      "title": "Zdraví mě baví - Provedu tě na cestě za zdravým a funkčním tělem",
+      "page_type": "homepage",
+      "target_type": "page",
+      "target_slug": "home",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Homepage doporuceno ridit pres page s pageKey='home' a globální siteSettings.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "404.json",
+      "url": "https://www.zdravimebavi.cz/404",
+      "path": "/404",
+      "source_slug": "404",
+      "title": "Zdraví mě baví - Not Found",
+      "page_type": "error-404",
+      "target_type": "page",
+      "target_slug": "404",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "blog.json",
+      "url": "https://www.zdravimebavi.cz/blog",
+      "path": "/blog",
+      "source_slug": "blog",
+      "title": "Zdraví mě baví - Blog",
+      "page_type": "blog-index",
+      "target_type": "blogIndexVirtual",
+      "target_slug": "blog",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Blog index nebude importovany jako samostatny dokument; bude slozen z blogPost a category.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "clanky__5-tipu-jak-zvladnout-cviceni-v-horku.json",
+      "url": "https://www.zdravimebavi.cz/clanky/5-tipu-jak-zvladnout-cviceni-v-horku",
+      "path": "/clanky/5-tipu-jak-zvladnout-cviceni-v-horku",
+      "source_slug": "clanky__5-tipu-jak-zvladnout-cviceni-v-horku",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "5-tipu-jak-zvladnout-cviceni-v-horku",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__arasidova-omacka.json",
+      "url": "https://www.zdravimebavi.cz/clanky/arasidova-omacka",
+      "path": "/clanky/arasidova-omacka",
+      "source_slug": "clanky__arasidova-omacka",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "arasidova-omacka",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__brokolicova-omacka.json",
+      "url": "https://www.zdravimebavi.cz/clanky/brokolicova-omacka",
+      "path": "/clanky/brokolicova-omacka",
+      "source_slug": "clanky__brokolicova-omacka",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "brokolicova-omacka",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__broskvovy-dort.json",
+      "url": "https://www.zdravimebavi.cz/clanky/broskvovy-dort",
+      "path": "/clanky/broskvovy-dort",
+      "source_slug": "clanky__broskvovy-dort",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "broskvovy-dort",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__chia-pudink.json",
+      "url": "https://www.zdravimebavi.cz/clanky/chia-pudink",
+      "path": "/clanky/chia-pudink",
+      "source_slug": "clanky__chia-pudink",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "chia-pudink",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__datle-v-cokolade-s-malinovym-kremem-a-omega-3.json",
+      "url": "https://www.zdravimebavi.cz/clanky/datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+      "path": "/clanky/datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+      "source_slug": "clanky__datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__dort-k-prvnim-narozeninam.json",
+      "url": "https://www.zdravimebavi.cz/clanky/dort-k-prvnim-narozeninam",
+      "path": "/clanky/dort-k-prvnim-narozeninam",
+      "source_slug": "clanky__dort-k-prvnim-narozeninam",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "dort-k-prvnim-narozeninam",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__jak-spravne-jist.json",
+      "url": "https://www.zdravimebavi.cz/clanky/jak-spravne-jist",
+      "path": "/clanky/jak-spravne-jist",
+      "source_slug": "clanky__jak-spravne-jist",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "jak-spravne-jist",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__jarni-salat-ktery-zasyti.json",
+      "url": "https://www.zdravimebavi.cz/clanky/jarni-salat-ktery-zasyti",
+      "path": "/clanky/jarni-salat-ktery-zasyti",
+      "source_slug": "clanky__jarni-salat-ktery-zasyti",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "jarni-salat-ktery-zasyti",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu.json",
+      "url": "https://www.zdravimebavi.cz/clanky/nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+      "path": "/clanky/nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+      "source_slug": "clanky__nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__obilna-kase-ctyrikrat-jinak.json",
+      "url": "https://www.zdravimebavi.cz/clanky/obilna-kase-ctyrikrat-jinak",
+      "path": "/clanky/obilna-kase-ctyrikrat-jinak",
+      "source_slug": "clanky__obilna-kase-ctyrikrat-jinak",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "obilna-kase-ctyrikrat-jinak",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__ochutnej-orech.json",
+      "url": "https://www.zdravimebavi.cz/clanky/ochutnej-orech",
+      "path": "/clanky/ochutnej-orech",
+      "source_slug": "clanky__ochutnej-orech",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "ochutnej-orech",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__plnene-datle-v-cokolade.json",
+      "url": "https://www.zdravimebavi.cz/clanky/plnene-datle-v-cokolade",
+      "path": "/clanky/plnene-datle-v-cokolade",
+      "source_slug": "clanky__plnene-datle-v-cokolade",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "plnene-datle-v-cokolade",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__pohyb-mimo-cviceni.json",
+      "url": "https://www.zdravimebavi.cz/clanky/pohyb-mimo-cviceni",
+      "path": "/clanky/pohyb-mimo-cviceni",
+      "source_slug": "clanky__pohyb-mimo-cviceni",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "pohyb-mimo-cviceni",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__skupinove-lekce-cviceni-v-benatkach-nad-jizerou.json",
+      "url": "https://www.zdravimebavi.cz/clanky/skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+      "path": "/clanky/skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+      "source_slug": "clanky__skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__tiramisu.json",
+      "url": "https://www.zdravimebavi.cz/clanky/tiramisu",
+      "path": "/clanky/tiramisu",
+      "source_slug": "clanky__tiramisu",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "tiramisu",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__tvarohova-babovka.json",
+      "url": "https://www.zdravimebavi.cz/clanky/tvarohova-babovka",
+      "path": "/clanky/tvarohova-babovka",
+      "source_slug": "clanky__tvarohova-babovka",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "tvarohova-babovka",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__unava-5-duvodu-proc-jste-neustale-unaveni.json",
+      "url": "https://www.zdravimebavi.cz/clanky/unava-5-duvodu-proc-jste-neustale-unaveni",
+      "path": "/clanky/unava-5-duvodu-proc-jste-neustale-unaveni",
+      "source_slug": "clanky__unava-5-duvodu-proc-jste-neustale-unaveni",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "unava-5-duvodu-proc-jste-neustale-unaveni",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "clanky__veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni.json",
+      "url": "https://www.zdravimebavi.cz/clanky/veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+      "path": "/clanky/veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+      "source_slug": "clanky__veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+      "title": "Zdraví mě baví",
+      "page_type": "article-detail",
+      "target_type": "blogPost",
+      "target_slug": "veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "cookies.json",
+      "url": "https://www.zdravimebavi.cz/cookies",
+      "path": "/cookies",
+      "source_slug": "cookies",
+      "title": "Zdraví mě baví - Cookies",
+      "page_type": "legal",
+      "target_type": "legalPage",
+      "target_slug": "cookies",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "Legal texty importovat jako rich text a pred publikaci zkontrolovat finalni pravni zneni."
+      ]
+    },
+    {
+      "source_file": "cviceni-v-benatkach-nad-jizerou.json",
+      "url": "https://www.zdravimebavi.cz/cviceni-v-benatkach-nad-jizerou",
+      "path": "/cviceni-v-benatkach-nad-jizerou",
+      "source_slug": "cviceni-v-benatkach-nad-jizerou",
+      "title": "Zdraví mě baví - Cvičení v Benátkách nad Jizerou",
+      "page_type": "service-landing",
+      "target_type": "servicePage",
+      "target_slug": "cviceni-v-benatkach-nad-jizerou",
+      "layout_family": "MarketingLayout",
+      "form_keys": [
+        "skupinove_lekce"
+      ],
+      "product_key": null,
+      "notes": [
+        "Na strance je detekovan formular: skupinove_lekce.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "cviceni-v-benatkach-nad-jizerou-formular.json",
+      "url": "https://www.zdravimebavi.cz/cviceni-v-benatkach-nad-jizerou-formular",
+      "path": "/cviceni-v-benatkach-nad-jizerou-formular",
+      "source_slug": "cviceni-v-benatkach-nad-jizerou-formular",
+      "title": "Cvičení v Benátkách nad Jizerou - Formulář",
+      "page_type": "conversion-form",
+      "target_type": "offerPage",
+      "target_slug": "cviceni-v-benatkach-nad-jizerou-formular",
+      "layout_family": "CheckoutLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Product key neni definitivne potvrzeny; pred importem overit obchodni a checkout logiku.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "e-book-jak-sestavit-jidelnicek.json",
+      "url": "https://www.zdravimebavi.cz/e-book-jak-sestavit-jidelnicek",
+      "path": "/e-book-jak-sestavit-jidelnicek",
+      "source_slug": "e-book-jak-sestavit-jidelnicek",
+      "title": "E-book Jak sestavit jídelníček",
+      "page_type": "content-page",
+      "target_type": "offerPage",
+      "target_slug": "e-book-jak-sestavit-jidelnicek",
+      "layout_family": "StandaloneLayout",
+      "form_keys": [],
+      "product_key": "ebook_jak_sestavit_jidelnicek",
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "formular---pruvodce-vyzivou-a-pohybem.json",
+      "url": "https://www.zdravimebavi.cz/formular---pruvodce-vyzivou-a-pohybem",
+      "path": "/formular---pruvodce-vyzivou-a-pohybem",
+      "source_slug": "formular---pruvodce-vyzivou-a-pohybem",
+      "title": "Formulář - Průvodce výživou a pohybem",
+      "page_type": "conversion-form",
+      "target_type": "offerPage",
+      "target_slug": "formular---pruvodce-vyzivou-a-pohybem",
+      "layout_family": "CheckoutLayout",
+      "form_keys": [],
+      "product_key": "pruvodce_vyzivou_a_pohybem",
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "gdpr.json",
+      "url": "https://www.zdravimebavi.cz/gdpr",
+      "path": "/gdpr",
+      "source_slug": "gdpr",
+      "title": "Zdraví mě baví - GDPR",
+      "page_type": "legal",
+      "target_type": "legalPage",
+      "target_slug": "gdpr",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "Legal texty importovat jako rich text a pred publikaci zkontrolovat finalni pravni zneni."
+      ]
+    },
+    {
+      "source_file": "individualni-treninky-benatky-nad-jizerou-a-okoli.json",
+      "url": "https://www.zdravimebavi.cz/individualni-treninky-benatky-nad-jizerou-a-okoli",
+      "path": "/individualni-treninky-benatky-nad-jizerou-a-okoli",
+      "source_slug": "individualni-treninky-benatky-nad-jizerou-a-okoli",
+      "title": "Zdraví mě baví - Individuální tréninky (Benátky nad Jizerou a okolí)",
+      "page_type": "service-landing",
+      "target_type": "servicePage",
+      "target_slug": "individualni-treninky-benatky-nad-jizerou-a-okoli",
+      "layout_family": "MarketingLayout",
+      "form_keys": [
+        "individualni_treninky"
+      ],
+      "product_key": null,
+      "notes": [
+        "Na strance je detekovan formular: individualni_treninky.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "kalendar.json",
+      "url": "https://www.zdravimebavi.cz/kalendar",
+      "path": "/kalendar",
+      "source_slug": "kalendar",
+      "title": "Adventní kalendář",
+      "page_type": "calendar",
+      "target_type": "offerPage",
+      "target_slug": "kalendar",
+      "layout_family": "StandaloneLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Product key neni definitivne potvrzeny; pred importem overit obchodni a checkout logiku.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "kategorie__cum-ea.json",
+      "url": "https://www.zdravimebavi.cz/kategorie/cum-ea",
+      "path": "/kategorie/cum-ea",
+      "source_slug": "kategorie__cum-ea",
+      "title": "Zdraví mě baví",
+      "page_type": "category-detail",
+      "target_type": "category",
+      "target_slug": "cum-ea",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "kategorie__peceni.json",
+      "url": "https://www.zdravimebavi.cz/kategorie/peceni",
+      "path": "/kategorie/peceni",
+      "source_slug": "kategorie__peceni",
+      "title": "Zdraví mě baví",
+      "page_type": "category-detail",
+      "target_type": "category",
+      "target_slug": "peceni",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "kategorie__sladke.json",
+      "url": "https://www.zdravimebavi.cz/kategorie/sladke",
+      "path": "/kategorie/sladke",
+      "source_slug": "kategorie__sladke",
+      "title": "Zdraví mě baví",
+      "page_type": "category-detail",
+      "target_type": "category",
+      "target_slug": "sladke",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "kategorie__slane.json",
+      "url": "https://www.zdravimebavi.cz/kategorie/slane",
+      "path": "/kategorie/slane",
+      "source_slug": "kategorie__slane",
+      "title": "Zdraví mě baví",
+      "page_type": "category-detail",
+      "target_type": "category",
+      "target_slug": "slane",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "kategorie__vareni.json",
+      "url": "https://www.zdravimebavi.cz/kategorie/vareni",
+      "path": "/kategorie/vareni",
+      "source_slug": "kategorie__vareni",
+      "title": "Zdraví mě baví",
+      "page_type": "category-detail",
+      "target_type": "category",
+      "target_slug": "vareni",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "kategorie__ze-zivota.json",
+      "url": "https://www.zdravimebavi.cz/kategorie/ze-zivota",
+      "path": "/kategorie/ze-zivota",
+      "source_slug": "kategorie__ze-zivota",
+      "title": "Zdraví mě baví",
+      "page_type": "category-detail",
+      "target_type": "category",
+      "target_slug": "ze-zivota",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "konzultace-zdarma.json",
+      "url": "https://www.zdravimebavi.cz/konzultace-zdarma",
+      "path": "/konzultace-zdarma",
+      "source_slug": "konzultace-zdarma",
+      "title": "Zdraví mě baví - Konzultace zdarma",
+      "page_type": "service-landing",
+      "target_type": "servicePage",
+      "target_slug": "konzultace-zdarma",
+      "layout_family": "MarketingLayout",
+      "form_keys": [
+        "konzultace_zdarma"
+      ],
+      "product_key": null,
+      "notes": [
+        "Na strance je detekovan formular: konzultace_zdarma.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "lekce-cviceni.json",
+      "url": "https://www.zdravimebavi.cz/lekce-cviceni",
+      "path": "/lekce-cviceni",
+      "source_slug": "lekce-cviceni",
+      "title": "Zdraví mě baví - Lekce cvičení",
+      "page_type": "service-landing",
+      "target_type": "servicePage",
+      "target_slug": "lekce-cviceni",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "letni-prazdninova-vyzva.json",
+      "url": "https://www.zdravimebavi.cz/letni-prazdninova-vyzva",
+      "path": "/letni-prazdninova-vyzva",
+      "source_slug": "letni-prazdninova-vyzva",
+      "title": "Letní prázdninová výzva",
+      "page_type": "content-page",
+      "target_type": "offerPage",
+      "target_slug": "letni-prazdninova-vyzva",
+      "layout_family": "StandaloneLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Product key neni definitivne potvrzeny; pred importem overit obchodni a checkout logiku.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "napis-mi.json",
+      "url": "https://www.zdravimebavi.cz/napis-mi",
+      "path": "/napis-mi",
+      "source_slug": "napis-mi",
+      "title": "Zdraví mě baví - Kontakt",
+      "page_type": "content-page",
+      "target_type": "page",
+      "target_slug": "napis-mi",
+      "layout_family": "MarketingLayout",
+      "form_keys": [
+        "kontakt"
+      ],
+      "product_key": null,
+      "notes": [
+        "Na strance je detekovan formular: kontakt.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "o-mne.json",
+      "url": "https://www.zdravimebavi.cz/o-mne",
+      "path": "/o-mne",
+      "source_slug": "o-mne",
+      "title": "Zdraví mě baví - O mně",
+      "page_type": "content-page",
+      "target_type": "page",
+      "target_slug": "o-mne",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "obchodni-podminky.json",
+      "url": "https://www.zdravimebavi.cz/obchodni-podminky",
+      "path": "/obchodni-podminky",
+      "source_slug": "obchodni-podminky",
+      "title": "Zdraví mě baví - Obchodní podmínky",
+      "page_type": "legal",
+      "target_type": "legalPage",
+      "target_slug": "obchodni-podminky",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "Legal texty importovat jako rich text a pred publikaci zkontrolovat finalni pravni zneni."
+      ]
+    },
+    {
+      "source_file": "odpovednost.json",
+      "url": "https://www.zdravimebavi.cz/odpovednost",
+      "path": "/odpovednost",
+      "source_slug": "odpovednost",
+      "title": "Odpovědnost",
+      "page_type": "legal",
+      "target_type": "legalPage",
+      "target_slug": "odpovednost",
+      "layout_family": "MarketingLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "Legal texty importovat jako rich text a pred publikaci zkontrolovat finalni pravni zneni."
+      ]
+    },
+    {
+      "source_file": "osobni-konzultace.json",
+      "url": "https://www.zdravimebavi.cz/osobni-konzultace",
+      "path": "/osobni-konzultace",
+      "source_slug": "osobni-konzultace",
+      "title": "Zdraví mě baví - Osobní konzultace",
+      "page_type": "service-landing",
+      "target_type": "servicePage",
+      "target_slug": "osobni-konzultace",
+      "layout_family": "StandaloneLayout",
+      "form_keys": [
+        "osobni_konzultace"
+      ],
+      "product_key": null,
+      "notes": [
+        "Na strance je detekovan formular: osobni_konzultace.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "osobni-konzultace-objednavka.json",
+      "url": "https://www.zdravimebavi.cz/osobni-konzultace-objednavka",
+      "path": "/osobni-konzultace-objednavka",
+      "source_slug": "osobni-konzultace-objednavka",
+      "title": "Osobní konzultace - objednávka",
+      "page_type": "conversion-form",
+      "target_type": "offerPage",
+      "target_slug": "osobni-konzultace-objednavka",
+      "layout_family": "CheckoutLayout",
+      "form_keys": [],
+      "product_key": "osobni_konzultace",
+      "notes": []
+    },
+    {
+      "source_file": "pruvodce.json",
+      "url": "https://www.zdravimebavi.cz/pruvodce",
+      "path": "/pruvodce",
+      "source_slug": "pruvodce",
+      "title": "Průvodce výživou a pohybem",
+      "page_type": "content-page",
+      "target_type": "offerPage",
+      "target_slug": "pruvodce",
+      "layout_family": "StandaloneLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Product key neni definitivne potvrzeny; pred importem overit obchodni a checkout logiku.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne.",
+        "CTA odkazy zkontrolovat a nahradit legacy app/member odkazy za https://app.zdravimebavi.cz/, kde dava smysl."
+      ]
+    },
+    {
+      "source_file": "search.json",
+      "url": "https://www.zdravimebavi.cz/search",
+      "path": "/search",
+      "source_slug": "search",
+      "title": "Search Results",
+      "page_type": "search",
+      "target_type": "searchVirtual",
+      "target_slug": "search",
+      "layout_family": "ContentLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Search route nebude importovana jako obsahovy dokument; zustava aplikacni route."
+      ]
+    },
+    {
+      "source_file": "skupinove-lekce-benatky-nad-jizerou.json",
+      "url": "https://www.zdravimebavi.cz/skupinove-lekce-benatky-nad-jizerou",
+      "path": "/skupinove-lekce-benatky-nad-jizerou",
+      "source_slug": "skupinove-lekce-benatky-nad-jizerou",
+      "title": "Zdraví mě baví - Skupinové lekce (Benátky nad Jizerou)",
+      "page_type": "service-landing",
+      "target_type": "servicePage",
+      "target_slug": "skupinove-lekce-benatky-nad-jizerou",
+      "layout_family": "MarketingLayout",
+      "form_keys": [
+        "skupinove_lekce"
+      ],
+      "product_key": null,
+      "notes": [
+        "Na strance je detekovan formular: skupinove_lekce.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "styleguide.json",
+      "url": "https://www.zdravimebavi.cz/styleguide",
+      "path": "/styleguide",
+      "source_slug": "styleguide",
+      "title": "Styleguide",
+      "page_type": "content-page",
+      "target_type": "page",
+      "target_slug": "styleguide",
+      "layout_family": "StandaloneLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Styleguide muze zustat neveřejny nebo pomocny page dokument pro UI kontrolu.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    },
+    {
+      "source_file": "zhubni-bez-pocitani-kalorii.json",
+      "url": "https://www.zdravimebavi.cz/zhubni-bez-pocitani-kalorii",
+      "path": "/zhubni-bez-pocitani-kalorii",
+      "source_slug": "zhubni-bez-pocitani-kalorii",
+      "title": "Zhubni bez počítání kalorií",
+      "page_type": "content-page",
+      "target_type": "offerPage",
+      "target_slug": "zhubni-bez-pocitani-kalorii",
+      "layout_family": "StandaloneLayout",
+      "form_keys": [],
+      "product_key": null,
+      "notes": [
+        "Product key neni definitivne potvrzeny; pred importem overit obchodni a checkout logiku.",
+        "Obrazky importovat do Sanity asset pipeline a zachovat alt texty, kde jsou dostupne."
+      ]
+    }
+  ]
+}

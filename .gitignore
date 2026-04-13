@@ -1,0 +1,23 @@
+.next
+node_modules
+.env
+.env.local
+.env.production
+.env.development
+dist
+coverage
+*.log
+
+# macOS
+.DS_Store
+
+# Playwright session files
+.playwright-cli/
+
+# Snapshot assets jsou nahrane v Sanity, binarka do repa nepripatri
+snapshot/assets/
+
+# Search Console exporty — lokalni analyza, neni soucasti projektu
+zdravimebavi.cz-Performance-on-Search-2026-04-12/
+zdravimebavi.cz-Performance-on-Search-2026-04-12_obrazek/
+

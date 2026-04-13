@@ -1,0 +1,290 @@
+{
+  "url": "https://www.zdravimebavi.cz/clanky/jarni-salat-ktery-zasyti",
+  "slug": "clanky__jarni-salat-ktery-zasyti",
+  "page_type": "article-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/clanky/jarni-salat-ktery-zasyti",
+  "headings": [
+    "Jarní salát, který zasytí",
+    "Ingredience",
+    "1.",
+    "2.",
+    "3.",
+    "4.",
+    "Galerie"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1338cfd24c122eb824b2a_IMG_2853.jpeg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d29de2be2edb__67f1338cfd24c122eb824b2a_IMG_2853.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f133c66455127fcc6d937f_IMG_2833.jpeg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/16d4659633b4__67f133c66455127fcc6d937f_IMG_2833.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f133e971dce35c56afe381_IMG_2848.jpeg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/a3134a34b44a__67f133e971dce35c56afe381_IMG_2848.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d80e9ecbd462c6765_IMG_2844.jpeg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/c46f894e2849__67f1341d80e9ecbd462c6765_IMG_2844.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d32778f33e0a07c1b_IMG_2858.jpeg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/55e1eb800ad2__67f1341d32778f33e0a07c1b_IMG_2858.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d71dce35c56b00a0a_IMG_2860.jpeg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7592860c7e7c__67f1341d71dce35c56b00a0a_IMG_2860.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "paragraph",
+      "text": "Miluješ saláty, protože jsou lehké a zdravé, ale často po nich máš brzo hlad? Nejčastějším důvodem je to, že v salátu chybí bílkoviny pro sytost a komplexí sacharidy pro dlouhodobou energii. Bývá to typicky jen zelenina a spousta tučné zálivky. Výsledek? Nejsi sytá, i když jsi snědla poměrně kalorické jídlo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Proto pro tebe mám recept na jarní salát, který tě skutečně zasytí a navíc ti doplní omega-3 mastné kyseliny. Ty jsou totiž pro tvoje tělo klíčové – podporují zdraví mozku, srdce, hormonální rovnováhu, posilují imunitu a snižují zánětlivé procesy v těle."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1338cfd24c122eb824b2a_IMG_2853.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "caption",
+      "text": "Sytý jarní salát s omega-3"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ingredience"
+    },
+    {
+      "type": "paragraph",
+      "text": "Salátvé listy (polníček, špenát, rukola, římský salát, ...)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ředkvičky"
+    },
+    {
+      "type": "paragraph",
+      "text": "Čerstvé jarní bylinky (medvědí česnek, pažitka, petržel, ...)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Opražrné vlašské ořechy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mozzarella light"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vařená cizrna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vařená quinoa"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 hrsti"
+    },
+    {
+      "type": "paragraph",
+      "text": "5 ks"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 hrst"
+    },
+    {
+      "type": "paragraph",
+      "text": "Několik půlek"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 ks (125 g)"
+    },
+    {
+      "type": "paragraph",
+      "text": "50 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "Med"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dijonská hořčice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Olivvý olej"
+    },
+    {
+      "type": "paragraph",
+      "text": "Omega-3 olej Norsan Total"
+    },
+    {
+      "type": "paragraph",
+      "text": "Citronová šťáva"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 lžíce"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 lžička"
+    },
+    {
+      "type": "paragraph",
+      "text": "Salát obsahuje všechny tři makroživiny, které potřebuješ:"
+    },
+    {
+      "type": "list_item",
+      "text": "Mozzarella light je skvělý zdroj lehce stravitelných bílkovin a vápníku, cizrna dodá bílkoviny rostlinné a navíc i vlákninu, která podporuje dobré trávení. Můžeš si ji předem namočit a uvařit, nebo ji kup už uvařenou ve sklenici. Bílkoviny:"
+    },
+    {
+      "type": "list_item",
+      "text": "Quinoa ti zajistí dlouhodobou energii a zasytí tě na delší dobu. Kdybys quinou neměla po ruce, klidně k salátu přikusuj kváskový chléb. Komplexní sacharidy:"
+    },
+    {
+      "type": "list_item",
+      "text": "Kvalitní tuky z vlašských ořechů, olivového oleje a hlavně z jsou důležité nejen pro zdraví, ale také pro vstřebávání vitamínů. Zdravé tuky: omega-3 oleje Norsan Total"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f133c66455127fcc6d937f_IMG_2833.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "caption",
+      "text": "Ingredience na jarní salát"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recept vznill ve spolupráci s NORSANem, který nabízí . Kvalita produktů je za mě na špičkové úrovni a celková filozofie firmy je mi velmi blízká. Jejich oleje a kapsle užívá celá moje rodina (mají i skvělou ) a ráda je doporučuji mým klientkám. Na nákup všech produktů platí , stačí na e-shopu v košíku zadat kód . přírodní doplňky stravy s vysokým obsahem omega-3 mastných kyselin dětskou řadu produktů sleva 10 % vaňková10"
+    },
+    {
+      "type": "paragraph",
+      "text": "Omega-3 olej od Norsanu má jemnou chuť bez nepříjemné rybí pachuti, takže si ho určitě oblíbíš. Skvěle se hodí právě do salátové zálivky. Už se těšíš na recept? Jdeme na to:"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "1."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do mísy dej quinou, cizrnu, salátové listy, nakrájené ředkvičky a mozzarellu."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "2."
+    },
+    {
+      "type": "paragraph",
+      "text": "Přidej nasekané čerstvé bylinky. Já jsem použila medvědí česnek, ale skvěle se hodí i pažitka nebo petrželka."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "3."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zálivku připrav smícháním medu, dijonské hořčice, citronové šťávy, olivového oleje, soli a pepře. Nakonec jemně vmíchej omega-3 olej Norsan Total."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "4."
+    },
+    {
+      "type": "paragraph",
+      "text": "Salát přelij připravenou zálivkou a posyp opraženými vlašskými ořechy. Výborné budou i pekany nebo pistácie."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f133e971dce35c56afe381_IMG_2848.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "caption",
+      "text": "Jarní salát s medvědím česnekem, ředkvičkami a omega-3 olejem"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uvedené množství zálivky je na 1 porci a obsahuje 1 lžíci omega-3 oleje. To je denní doporučená dávka, kterou pokryješ potřebné množství omega-3 mastných kyselin. Omega-3 oleje od Norsanu jsou ideální nejen do salátů, ale i na doplnění jiných jídel (přidávej je až nakonec, tepelně neupravuj) nebo jen tak na lžíci. Nejlepší je jíst omega-3 olej zároveň s jídlem. Omega-3 jsou tak nejlépe využitelé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dobrou chuť a přeji krásné jarní dny!"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Galerie"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d80e9ecbd462c6765_IMG_2844.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d32778f33e0a07c1b_IMG_2858.jpeg",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d71dce35c56b00a0a_IMG_2860.jpeg",
+      "alt": ""
+    }
+  ]
+}

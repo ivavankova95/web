@@ -1,0 +1,7 @@
+{
+  "input": "snapshot/manifests/sanity-import-documents.ndjson",
+  "asset_map": "snapshot/manifests/sanity-asset-map.json",
+  "output": "snapshot/manifests/sanity-import-documents.hydrated.ndjson",
+  "document_count": 51,
+  "hydrated_asset_count": 181
+}

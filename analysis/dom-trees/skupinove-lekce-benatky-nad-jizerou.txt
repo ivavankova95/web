@@ -1,0 +1,35 @@
+- body.body-11
+  - section.hero-heading-center
+    - div.w-layout-grid.about-grid-top.cc-about-2.+
+      - div#w-node-_5d1362f0-7aad-d88a-4d1d-9645d19d45e5-cfe06ea7.div-block-43.div-block-uvod-cviceni_krok2
+        - div.home-section-wrap
+          - h1.heading-11.heading-jumbo-small.heading_cviceni
+          - div.contact-form-wrap.objednavka_pruvodce
+            - div.contact-form-heading-wrap.contact-wrap-sluzby
+              - ... (1 hidden child nodes)
+      - img#w-node-_3aaf4478-20a6-14a0-8b0b-5ad81fc3ef57-cfe06ea7.image-18-copy [alt="Skupinové lekce cvičení v Benátkách nad "]
+      - div#w-node-a4ac9f01-7d3a-b137-abfa-0b03b6f4a407-cfe06ea7.html-embed-2.w-embed.w-script
+        - span.wistia_embed.wistia_async_i4gba1gbn2.popover=true.+
+          - a [href="#", text="▶️ Podívej se, co tě na lekci čeká"]
+  - div.w-layout-grid.about-grid.cc-about-2.+
+    - img#w-node-_7561eb12-bf0c-d0aa-e22a-ef2512758703-cfe06ea7.image-15 [alt="Ahoj, jmenuji se Iva a jsem zakladatelka"]
+    - div#w-node-_7561eb12-bf0c-d0aa-e22a-ef2512758704-cfe06ea7.div-block-41
+      - div.home-section-wrap
+        - h2.section-heading.heading-jumbo-small.about_left
+          - strong.bold-text-10
+        - p.about_delsi_text
+          - strong
+          - br
+          - br
+          - strong
+          - strong
+          - strong
+  - section.footer-subscribe_commerce_var
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

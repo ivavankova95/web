@@ -1,0 +1,82 @@
+{
+  "url": "https://www.zdravimebavi.cz/formular---pruvodce-vyzivou-a-pohybem",
+  "slug": "formular---pruvodce-vyzivou-a-pohybem",
+  "page_type": "conversion-form",
+  "title": "Formulář - Průvodce výživou a pohybem",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/formular---pruvodce-vyzivou-a-pohybem",
+  "headings": [
+    "Online kurz MÁMA VE FORMĚ Průvodce výživou a pohybem pro zaneprázdněné ženy - metoda bez diet na celý život",
+    "Zpětná vazba na kurz",
+    "Ještě váháš?"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a31f0081a51eda36c98_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.29.png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/0dd773d0e549__66be1a31f0081a51eda36c98_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.29.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a318a0e7ff92d2767c0_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.44.png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/ac4d2d1c328e__66be1a318a0e7ff92d2767c0_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.44.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a3007c4939f0e150e40_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.35.png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/b7d3643a4cb1__66be1a3007c4939f0e150e40_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.35.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1c7541babeb7431d28df_garance.png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/fac55501013a__66be1c7541babeb7431d28df_garance.png"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Online kurz MÁMA VE FORMĚ Průvodce výživou a pohybem pro zaneprázdněné ženy - metoda bez diet na celý život"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Zpětná vazba na kurz"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a31f0081a51eda36c98_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.29.png",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a318a0e7ff92d2767c0_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.44.png",
+      "alt": ""
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a3007c4939f0e150e40_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.35.png",
+      "alt": ""
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ještě váháš?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jestli projdeš celou členskou sekci, postupy aplikuješ do svého života a nenastane u tebe žádná změna, napiš mi a já ti vrátím peníze."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1c7541babeb7431d28df_garance.png",
+      "alt": ""
+    }
+  ]
+}

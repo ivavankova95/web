@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-04-12T00:00:00Z",
+  "output": "snapshot/manifests/sanity-import-documents.ndjson",
+  "document_count": 51,
+  "counts_by_type": {
+    "siteSettings": 1,
+    "navigation": 1,
+    "footer": 1,
+    "page": 5,
+    "blogPost": 19,
+    "legalPage": 4,
+    "servicePage": 6,
+    "offerPage": 8,
+    "category": 6
+  }
+}

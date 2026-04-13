@@ -1,0 +1,118 @@
+- body.body-6
+  - div.w-embed
+  - div.dd_shadow
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block.w--current [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.section.cc-store-home-wrap
+    - div#seamless-replace.container
+      - div.motto-wrap
+        - div.heading-jumbo-small
+      - div.collection-list-wrapper-5.w-dyn-list
+        - div.collection-list-7.w-dyn-items
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/ze-zivota", text="Ze života"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/slane", text="Slané"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/sladke", text="Sladké"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/cum-ea", text="Rady a tipy"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/vareni", text="Vaření"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/peceni", text="Pečení"]
+      - div.w-dyn-list
+        - div.collection-list-5.w-dyn-items
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/jarni-salat-ktery-zasyti"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/jarni-salat-ktery-zasyti"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/datle-v-cokolade-s-malinovym-kremem-a-omega-3"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/datle-v-cokolade-s-malinovym-kremem-a-omega-3"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/ochutnej-orech"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/ochutnej-orech"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/skupinove-lekce-cviceni-v-benatkach-nad-jizerou"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/skupinove-lekce-cviceni-v-benatkach-nad-jizerou"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/dort-k-prvnim-narozeninam"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/dort-k-prvnim-narozeninam"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/plnene-datle-v-cokolade"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/plnene-datle-v-cokolade"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+        - div.w-pagination-wrapper.pagination
+          - a.w-pagination-next.button [href="?9cdf212f_page=2"]
+            - div.w-inline-block
+          - link
+          - div.w-page-count.page-count
+  - div.div-block-60
+    - div.w-embed.w-script
+      - div.elfsight-app-f2cd6cc5-dc4a-4b66-a520-f09b4e8930df
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

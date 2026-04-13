@@ -1,0 +1,578 @@
+{
+  "url": "https://www.zdravimebavi.cz/",
+  "slug": "home",
+  "page_type": "homepage",
+  "title": "Zdraví mě baví - Provedu tě na cestě za zdravým a funkčním tělem",
+  "meta_description": "Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.",
+  "canonical": "https://www.zdravimebavi.cz/",
+  "headings": [
+    "Provedu tě na cestě za zdravým a funkčním tělem",
+    "díky propojení pohybu a výživy",
+    "Co pro tebe mám nového? Workshop pro mámy: Jak nastartovat hubnutí po dětech",
+    "🎁 VÁNOČNÍ DÁREK 🎁",
+    "S čím ti pomohu?",
+    "MŮŽEŠ SE NA MĚ OBRÁTIT, JESTLI:",
+    "Co ti můžu nabídnout?",
+    "Osobní konzultace",
+    "Online kurz",
+    "E-book",
+    "Lekce cvičení",
+    "Přečti si jednu z referencí na konzultaci",
+    "Co je nového na blogu?",
+    "Jarní salát, který zasytí",
+    "Datle v čokoládě s malinovým krémem a omega-3",
+    "Ochutnej ořech"
+  ],
+  "ctas": [
+    {
+      "type": "cta",
+      "text": "Chci vědět víc",
+      "href": "https://nabidka.zdravimebavi.cz/zdravi-me/workshoppromamy"
+    },
+    {
+      "type": "cta",
+      "text": "PŘEČTI SI O MNĚ VÍC",
+      "href": "/o-mne"
+    },
+    {
+      "type": "cta",
+      "text": "Chci konzultaci",
+      "href": "/osobni-konzultace"
+    },
+    {
+      "type": "cta",
+      "text": "to Mě zajímá",
+      "href": "/pruvodce"
+    },
+    {
+      "type": "cta",
+      "text": "to je přesně pro mě",
+      "href": "/e-book-jak-sestavit-jidelnicek"
+    },
+    {
+      "type": "cta",
+      "text": "chci vědět víc",
+      "href": "/lekce-cviceni"
+    },
+    {
+      "type": "cta",
+      "text": "Chci konzultaci zdarma",
+      "href": "/konzultace-zdarma"
+    },
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    },
+    {
+      "type": "cta",
+      "text": "Další",
+      "href": "?d2e85baa_page=2"
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647998cd0ea66978a9e99b4c_podpis.png",
+      "alt": "Podpis Iva",
+      "context": "img",
+      "local_path": "snapshot/assets/images/ad1917ef077d__647998cd0ea66978a9e99b4c_podpis.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a2c88b39363e2e38bae1a_Uvodka(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2f40d4a04944__646a2c88b39363e2e38bae1a_Uvodka-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a3198c550b93445d8a3d7_Uvodka_mobile(1).jpg",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/292899f8f302__646a3198c550b93445d8a3d7_Uvodka_mobile-1-.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6582ca4deac684257cf4a618_1.png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/c32329c94d93__6582ca4deac684257cf4a618_1.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64609aab46818cacc5c61e27_DSC02394.jpg",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/c709e8434f58__64609aab46818cacc5c61e27_DSC02394.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini(1).png",
+      "alt": "Moje základní nabízená služba je Průvodce výživou a pohybem.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7fbdc336f9bc__6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e07031ac5d639195ac2bdb_Online_kurz_mockup.png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/c2ab12d63fb4__66e07031ac5d639195ac2bdb_Online_kurz_mockup.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66dff65b0990f6008059890b_E-book%20mockup%20kniha%201(1).png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/f3f977e96100__66dff65b0990f6008059890b_E-book-20mockup-20kniha-201-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646925913039900ad6431d69_Treninky_cviceni_mini(1).png",
+      "alt": "Také nabízím lekce cvičení a tréninky.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/dfd787e02b7a__646925913039900ad6431d69_Treninky_cviceni_mini-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6460b0dc3cd46f902830f882_peta_kralikova.jpg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/1758d1e80d5d__6460b0dc3cd46f902830f882_peta_kralikova.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6743281a3101db4a6daf9246_IMG_8365(1).png",
+      "alt": "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/6d1a41aceb03__6743281a3101db4a6daf9246_IMG_8365-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "alt": "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!",
+      "context": "img",
+      "local_path": "snapshot/assets/images/b888fb3f501b__671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Provedu tě na cestě za zdravým a funkčním tělem"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "díky propojení pohybu a výživy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jsem certifikovaná kondiční trenérka a výživářka pro ženy."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647998cd0ea66978a9e99b4c_podpis.png",
+      "alt": "Podpis Iva"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a2c88b39363e2e38bae1a_Uvodka(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a3198c550b93445d8a3d7_Uvodka_mobile(1).jpg",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Co pro tebe mám nového? Workshop pro mámy: Jak nastartovat hubnutí po dětech"
+    },
+    {
+      "type": "cta",
+      "text": "Chci vědět víc",
+      "href": "https://nabidka.zdravimebavi.cz/zdravi-me/workshoppromamy"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "🎁 VÁNOČNÍ DÁREK 🎁"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6582ca4deac684257cf4a618_1.png",
+      "alt": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Mám pro tebe Průvodce tě dovede ke zdravému a funkčnímu tělu, ve kterém se budeš cítit skvěle. S radostí a bez diet. Na jakou e-mailovou adresu ti mám dárek poslat? jednu z kapitol z Průvodce výživou a pohybem ."
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "S čím ti pomohu?"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64609aab46818cacc5c61e27_DSC02394.jpg",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "cta",
+      "text": "PŘEČTI SI O MNĚ VÍC",
+      "href": "/o-mne"
+    },
+    {
+      "type": "paragraph",
+      "text": "Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "MŮŽEŠ SE NA MĚ OBRÁTIT, JESTLI:"
+    },
+    {
+      "type": "list_item",
+      "text": "jsi své cesty za zdravým životním stylem. na začátku"
+    },
+    {
+      "type": "list_item",
+      "text": "už , ale potřebuješ cokoli změnit nebo doladit. zkušenosti máš"
+    },
+    {
+      "type": "list_item",
+      "text": "se ve výživě a pohybu perfektně orientuješ a máš . specifické požadavky"
+    },
+    {
+      "type": "list_item",
+      "text": "se stravuješ , jsi , nebo máš . klasicky vegetariánka veganka výživové omezení"
+    },
+    {
+      "type": "list_item",
+      "text": "pravidelně , nebo jsi naopak . necvičíš sportovně založená"
+    },
+    {
+      "type": "paragraph",
+      "text": "Budu se ti věnovat s respektem ke tvému životnímu stylu. Předám ti mé znalosti a zkušenosti nasbírané díky práci s ženami, které čelí podobným výzvám jako ty. ‍"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Co ti můžu nabídnout?"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Osobní konzultace"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini(1).png",
+      "alt": "Moje základní nabízená služba je Průvodce výživou a pohybem."
+    },
+    {
+      "type": "list_item",
+      "text": "Vyplníš kontaktní formulář a já se ti ozvu."
+    },
+    {
+      "type": "list_item",
+      "text": "Domluvíme termín konzultace a způsob, kterým se spojíme."
+    },
+    {
+      "type": "list_item",
+      "text": "Na konzultaci si vyhraď přibližně 60 minut."
+    },
+    {
+      "type": "list_item",
+      "text": "Probereme tvůj aktuální stav a cíle."
+    },
+    {
+      "type": "list_item",
+      "text": "Dostaneš ode mě individuální doporučení přesně pro tvou situaci."
+    },
+    {
+      "type": "cta",
+      "text": "Chci konzultaci",
+      "href": "/osobni-konzultace"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Online kurz"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e07031ac5d639195ac2bdb_Online_kurz_mockup.png",
+      "alt": ""
+    },
+    {
+      "type": "list_item",
+      "text": "Unikátní metoda, díky které . zhubneš bez počítání kalorií"
+    },
+    {
+      "type": "list_item",
+      "text": "Inspirativní který doopravdy využiješ v praxi. Včetně a jídelníček na 7 dní, nákupního seznamu receptů."
+    },
+    {
+      "type": "list_item",
+      "text": "od jógy po intervalový HIIT Video tréninky"
+    },
+    {
+      "type": "list_item",
+      "text": "cílů a priorit na celý rok Plánovač"
+    },
+    {
+      "type": "list_item",
+      "text": "... a spoustu dalšího!"
+    },
+    {
+      "type": "cta",
+      "text": "to Mě zajímá",
+      "href": "/pruvodce"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "E-book"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66dff65b0990f6008059890b_E-book%20mockup%20kniha%201(1).png",
+      "alt": ""
+    },
+    {
+      "type": "list_item",
+      "text": "Provede tě krok za krokem k jídelníčku, který ti pomůže k vysněné postavě."
+    },
+    {
+      "type": "list_item",
+      "text": "Osvojíš si , které využiješ každý den, ať jsi kdekoli a děláš cokoli. zdravé návyky"
+    },
+    {
+      "type": "list_item",
+      "text": ", zakázané potraviny a diety. Žádné počítání kalorií"
+    },
+    {
+      "type": "list_item",
+      "text": "Naučíš se unikátní metodou sestavit jídelníček přesně . podle tvých cílů"
+    },
+    {
+      "type": "list_item",
+      "text": "Zjistíš, že . Jde to, i když vaříš pro rodinu nebo jíš v práci. jíst zdravě je jednoduché"
+    },
+    {
+      "type": "cta",
+      "text": "to je přesně pro mě",
+      "href": "/e-book-jak-sestavit-jidelnicek"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Lekce cvičení"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646925913039900ad6431d69_Treninky_cviceni_mini(1).png",
+      "alt": "Také nabízím lekce cvičení a tréninky."
+    },
+    {
+      "type": "list_item",
+      "text": "Skupinové lekce pro sílu a kondici"
+    },
+    {
+      "type": "list_item",
+      "text": "Individuální lekce podle tvých potřeb"
+    },
+    {
+      "type": "list_item",
+      "text": "Lekce pro tebe a kamarádku, partnera nebo malou skupinu"
+    },
+    {
+      "type": "list_item",
+      "text": "Diagnostika pohybového aparátu"
+    },
+    {
+      "type": "cta",
+      "text": "chci vědět víc",
+      "href": "/lekce-cviceni"
+    },
+    {
+      "type": "list_item",
+      "text": "Do kontaktního formuláře vyplníš tvé jméno, e-mail a téma, kterému se chceš věnovat."
+    },
+    {
+      "type": "list_item",
+      "text": "Ozvu se ti a domluvíme termín konzultace a způsob, kterým ses pojíme."
+    },
+    {
+      "type": "list_item",
+      "text": "Na konzultaci si vyhraď přibližně 30 minut."
+    },
+    {
+      "type": "list_item",
+      "text": "Probereme tvůj a . aktuální stav cíle"
+    },
+    {
+      "type": "list_item",
+      "text": "Po skončení konzultace ti pošlu shrnutí a praktické návrhy, co konkrétně dělat."
+    },
+    {
+      "type": "list_item",
+      "text": "Poprosím tě o krátkou zpětnou vazbu."
+    },
+    {
+      "type": "list_item",
+      "text": "A pak už je na tobě, jestli se rozhodneš moje doporučení využívat."
+    },
+    {
+      "type": "list_item",
+      "text": "Když budeš chtít, napíšeš mi a domluvíme se na další spolupráci."
+    },
+    {
+      "type": "list_item",
+      "text": "Pokud ti ale jedna konzultace bude stačit, je to naprosto v pořádku."
+    },
+    {
+      "type": "cta",
+      "text": "Chci konzultaci zdarma",
+      "href": "/konzultace-zdarma"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Přečti si jednu z referencí na konzultaci"
+    },
+    {
+      "type": "paragraph",
+      "text": "„Z konzultace jsem si odnesla hlavně , jak si mám poskládat jídlo, když nejím maso. Věděla jsem, že jím málo bílkovin a Iva mi poradila i kombinace jejich rostlinných zdrojů. Taky teď vím, že bych měla celkově jíst víc.“ praktické informace Petra Králíková, maminka 2 kluků"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6460b0dc3cd46f902830f882_peta_kralikova.jpg",
+      "alt": ""
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Co je nového na blogu?"
+    },
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "paragraph",
+      "text": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6743281a3101db4a6daf9246_IMG_8365(1).png",
+      "alt": "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Datle v čokoládě s malinovým krémem a omega-3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "alt": "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ochutnej ořech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!"
+    },
+    {
+      "type": "cta",
+      "text": "Další",
+      "href": "?d2e85baa_page=2"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+- body.body-2
+  - div.w-embed
+  - div.dd_shadow
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand.w--current [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.section.cc-store-home-wrap
+    - div.div-block-35.div-block-uvod
+      - div.w-layout-grid.about-grid.cc-about-2.+
+        - div#w-node-_86e64837-0616-515b-4568-76c147234d42-cfe06dd5.home-section-wrap.header-on-homepage
+          - h1.section-heading.heading-jumbo-small.heading_capital
+          - h2.heading-3.heading-homepage
+          - p.paragraph-12-_info
+        - img#w-node-c9c5d8d1-ff1f-8ba0-4350-e83719dad3e5-cfe06dd5.image-42 [alt="Podpis Iva"]
+        - img#w-node-_86e64837-0616-515b-4568-76c147234d4c-cfe06dd5.image-39 [alt="Ahoj, jmenuji se Iva a jsem zakladatelka"]
+        - img#w-node-_63cf9d9b-9e6b-a36a-bffa-b24192b93eb9-cfe06dd5.image-40 [alt="Ahoj, jmenuji se Iva a jsem zakladatelka"]
+      - div.div-block-82
+        - h1.section-heading.heading-jumbo-small.heading_capital-copy
+          - br
+          - br
+        - a.button-copy.cc-jumbo-button.w-inline-block [href="https://nabidka.zdravimebavi.cz/zdravi-me/workshoppromamy"]
+          - div
+      - div.w-layout-blockcontainer.container_darek.w-container
+        - div.w-layout-grid.grid-21
+          - h1.heading-jumbo-small.heading_darek-mobile
+          - img#w-node-b8251c17-1792-5c5a-9524-6096de9e6709-cfe06dd5.image-51-copy
+          - div#w-node-b8251c17-1792-5c5a-9524-6096de9e670a-cfe06dd5.div-block-68
+            - div.motto-wrap.wrap2-copy
+              - ... (3 hidden child nodes)
+    - div
+      - div.div-block-14
+        - h1.heading-jumbo-small
+        - div.w-layout-grid.grid-14.grid_homepage
+          - img#w-node-d7a82b90-b778-9fd3-16d4-5eefab5f6c67-cfe06dd5.image-15.akcnizeny-copy [alt="Ahoj, jmenuji se Iva a jsem zakladatelka"]
+          - div#w-node-bfe27154-7428-308a-c9b2-1f37e3dd6fbb-cfe06dd5.div-block-36.div-block-about-me.div-block-grid
+            - a.button-copy.cc-jumbo-button.button-sand.+ [href="/o-mne"]
+              - ... (1 hidden child nodes)
+          - div#w-node-fca74379-9b15-d218-7f22-4b52fe096a35-cfe06dd5.div-block-38
+            - p.paragraph-12
+            - h2#w-node-a63f854b-a148-963d-ea84-fe3358828955-cfe06dd5.heading-17
+              - ... (1 hidden child nodes)
+            - ul#w-node-_214fe71f-cfbd-0dc0-99cc-ad95138606c8-cfe06dd5.list-4
+              - ... (5 hidden child nodes)
+            - p.paragraph-12-copy
+              - ... (1 hidden child nodes)
+    - div#Sluzby.sluzby
+      - div.motto-wrap
+        - h1.heading-jumbo-small
+      - div.w-layout-grid.grid-13
+        - div.sluzby-panel-1
+          - h2.heading-sluzby
+          - img.nabidka_mini_photo [alt="Moje základní nabízená služba je Průvodc"]
+          - div.text-sluzby
+            - strong
+            - strong
+            - strong
+            - strong
+            - strong
+            - strong
+            - br
+            - br
+            - strong
+            - br
+          - ul.list-5
+            - li.list-item-11.standard-list-item
+              - ... (1 hidden child nodes)
+            - li.list-item-11
+            - li.list-item-11
+            - li.list-item-11
+            - li.list-item-11
+          - a.button-sluzby.cc-jumbo-button.button-white-bg.+ [href="/osobni-konzultace"]
+            - div
+        - div.sluzby-panel-1
+          - h2.heading-sluzby
+          - img.nabidka_mini_photo
+          - div.text-sluzby
+            - strong
+              - ... (4 hidden child nodes)
+            - br
+            - br
+            - strong
+            - br
+          - ul.list-5
+            - li.list-item-11.standard-list-item
+              - ... (2 hidden child nodes)
+            - li.list-item-11.standard-list-item
+              - ... (5 hidden child nodes)
+            - li.list-item-11
+              - ... (1 hidden child nodes)
+            - li.list-item-11
+              - ... (1 hidden child nodes)
+            - li.list-item-11
+          - a.button-sluzby.cc-jumbo-button.button-white-bg.+ [href="/pruvodce"]
+            - div
+        - div.sluzby-panel-1
+          - h2.heading-sluzby
+          - img.nabidka_mini_photo
+          - div.text-sluzby
+            - strong
+            - br
+            - strong
+            - strong
+            - br
+            - br
+            - strong
+            - br
+          - ul.list-5
+            - li.list-item-11.standard-list-item
+              - ... (2 hidden child nodes)
+            - li.list-item-11.standard-list-item
+              - ... (2 hidden child nodes)
+            - li.list-item-11
+              - ... (1 hidden child nodes)
+            - li.list-item-11
+              - ... (1 hidden child nodes)
+            - li.list-item-11
+              - ... (1 hidden child nodes)
+          - a.button-sluzby.cc-jumbo-button.button-white-bg.+ [href="/e-book-jak-sestavit-jidelnicek"]
+            - div
+        - div.sluzby-panel-1
+          - h2.heading-sluzby
+          - img.nabidka_mini_photo [alt="Také nabízím lekce cvičení a tréninky."]
+          - div.text-sluzby
+            - strong
+            - strong
+            - br
+            - br
+            - strong
+          - ul.list-5.list_rozdeleni
+            - li.list-item-11.standard-list-item
+              - ... (1 hidden child nodes)
+            - li.list-item-11
+            - li.list-item-11
+            - li.list-item-11
+          - ul.list-5
+          - a.button-sluzby.cc-jumbo-button.button-white-bg.+ [href="/lekce-cviceni"]
+            - div
+    - div.section-7
+      - div.section.cc-cta
+        - div.container
+          - div.cta-wrap
+            - div
+              - ... (3 hidden child nodes)
+    - div#seamless-replace.container
+      - div.motto-wrap
+        - h1.heading-jumbo-small
+      - div.collection-list-wrapper-5.w-dyn-list
+        - div.collection-list-7.w-dyn-items
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/ze-zivota", text="Ze života"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/slane", text="Slané"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/sladke", text="Sladké"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/cum-ea", text="Rady a tipy"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/vareni", text="Vaření"]
+          - div.collection-item-5.w-dyn-item
+            - a.button-3.w-button [href="/kategorie/peceni", text="Pečení"]
+      - div.w-dyn-list
+        - div.collection-list-5.w-dyn-items
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/jarni-salat-ktery-zasyti"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/jarni-salat-ktery-zasyti"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/datle-v-cokolade-s-malinovym-kremem-a-omega-3"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/datle-v-cokolade-s-malinovym-kremem-a-omega-3"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+          - div.collection-item-4.w-dyn-item
+            - a.link-block-4.w-inline-block [href="/clanky/ochutnej-orech"]
+              - ... (2 hidden child nodes)
+            - a.link-block-6.w-inline-block [href="/clanky/ochutnej-orech"]
+              - ... (1 hidden child nodes)
+            - p.paragraph-13.truncate.line-clamp
+            - div.collection-list-wrapper-3.w-dyn-list
+              - ... (1 hidden child nodes)
+        - div.w-pagination-wrapper.pagination
+          - a.w-pagination-next.button [href="?d2e85baa_page=2"]
+            - div.w-inline-block
+          - link
+          - div.w-page-count
+  - div.div-block-60
+    - div.w-embed.w-script
+      - div.elfsight-app-f2cd6cc5-dc4a-4b66-a520-f09b4e8930df
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

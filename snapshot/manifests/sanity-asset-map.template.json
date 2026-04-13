@@ -1,0 +1,913 @@
+{
+  "notes": [
+    "Vypln `asset_ref` po nahrani assetu do Sanity datasetu.",
+    "Klíčem je `local_path` ze snapshotu, aby hydratační skript mohl nahradit migrationImage placeholdery."
+  ],
+  "assets": {
+    "snapshot/assets/images/0099cf69789f__6551eb43de5933fd682eecfe_tiramisu-201-2.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "0099cf69789f__6551eb43de5933fd682eecfe_tiramisu-201-2.jpg"
+    },
+    "snapshot/assets/images/03879939f94d__671912be02cc06cbf9e03b94_6428550807c9bbd7879a8601_prirozeny_pohyb.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "03879939f94d__671912be02cc06cbf9e03b94_6428550807c9bbd7879a8601_prirozeny_pohyb.jpeg"
+    },
+    "snapshot/assets/images/04d000b83cb1__66a911f7488b20f7060c605a_IMG_9435.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "04d000b83cb1__66a911f7488b20f7060c605a_IMG_9435.jpeg"
+    },
+    "snapshot/assets/images/056662070f68__66f13c63723b5b9b621d8513_banner-20webina-CC-81r-CC-8C-20na-20web-20-PC-1-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "056662070f68__66f13c63723b5b9b621d8513_banner-20webina-CC-81r-CC-8C-20na-20web-20-PC-1-1-.png"
+    },
+    "snapshot/assets/images/079709beefbe__64ff38b8139448b55c8af833_IMG_6776.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "079709beefbe__64ff38b8139448b55c8af833_IMG_6776.jpeg"
+    },
+    "snapshot/assets/images/0ad412c37989__66a90f5b62210e947efc8a3e_Na-CC-81vrh-20bez-20na-CC-81zvu-7-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "0ad412c37989__66a90f5b62210e947efc8a3e_Na-CC-81vrh-20bez-20na-CC-81zvu-7-.jpg"
+    },
+    "snapshot/assets/images/0d143af95c6e__64dceab3412e782bfa015df5_dort6_upraveno.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "0d143af95c6e__64dceab3412e782bfa015df5_dort6_upraveno.jpg"
+    },
+    "snapshot/assets/images/0d7798091182__671914ed7ab8dd8be8b7df77_6428524af54066482e612eae_jak_spravne_jist_3.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "0d7798091182__671914ed7ab8dd8be8b7df77_6428524af54066482e612eae_jak_spravne_jist_3.jpeg"
+    },
+    "snapshot/assets/images/0dd773d0e549__66be1a31f0081a51eda36c98_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.29.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "0dd773d0e549__66be1a31f0081a51eda36c98_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.29.png"
+    },
+    "snapshot/assets/images/16772e8e885d__671912be02cc06cbf9e03bac_642854e35973979182962955_doplnujte_tekutiny.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "16772e8e885d__671912be02cc06cbf9e03bac_642854e35973979182962955_doplnujte_tekutiny.jpeg"
+    },
+    "snapshot/assets/images/16d4659633b4__67f133c66455127fcc6d937f_IMG_2833.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "16d4659633b4__67f133c66455127fcc6d937f_IMG_2833.jpeg"
+    },
+    "snapshot/assets/images/1758d1e80d5d__6460b0dc3cd46f902830f882_peta_kralikova.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "1758d1e80d5d__6460b0dc3cd46f902830f882_peta_kralikova.jpg"
+    },
+    "snapshot/assets/images/17cd064471c7__6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "17cd064471c7__6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg"
+    },
+    "snapshot/assets/images/191837f554ad__64d10cd850040191c74733c1_cviceni_ref2.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "191837f554ad__64d10cd850040191c74733c1_cviceni_ref2.jpg"
+    },
+    "snapshot/assets/images/198fe21960fd__64284eedf54066d12f60eb03_marketas_vibes.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "198fe21960fd__64284eedf54066d12f60eb03_marketas_vibes.jpg"
+    },
+    "snapshot/assets/images/1b95e7dc2333__66e1a8beff1798bdf412754e_IMG_0600.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "1b95e7dc2333__66e1a8beff1798bdf412754e_IMG_0600.jpeg"
+    },
+    "snapshot/assets/images/1bd70e9a8219__651ad2664907e767dd1f1dc4_6509a67c73c26c897f344b10_IMG_6323.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "1bd70e9a8219__651ad2664907e767dd1f1dc4_6509a67c73c26c897f344b10_IMG_6323.jpg"
+    },
+    "snapshot/assets/images/1beff60be104__64e0b5476e4ab56924f95c72_dort_uprava.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "1beff60be104__64e0b5476e4ab56924f95c72_dort_uprava.jpg"
+    },
+    "snapshot/assets/images/1c291c4f0b96__671914ed7ab8dd8be8b7df7a_6428525c625193371f440c84_jak_spravne_jist-1.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "1c291c4f0b96__671914ed7ab8dd8be8b7df7a_6428525c625193371f440c84_jak_spravne_jist-1.jpeg"
+    },
+    "snapshot/assets/images/236959fb6ad4__64d10af5c5c3ff4ded63c1f9_konzultace_ref4.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "236959fb6ad4__64d10af5c5c3ff4ded63c1f9_konzultace_ref4.jpg"
+    },
+    "snapshot/assets/images/23b08045315c__64ff38b9fa72f55a13cc2e8f_IMG_6777.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "23b08045315c__64ff38b9fa72f55a13cc2e8f_IMG_6777.png"
+    },
+    "snapshot/assets/images/26caa29cac03__646124bd46818cacc538506b_1.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "26caa29cac03__646124bd46818cacc538506b_1.jpg"
+    },
+    "snapshot/assets/images/278810a69966__6741f8f348d1a5d5349e51fa_IMG_8358.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "278810a69966__6741f8f348d1a5d5349e51fa_IMG_8358.jpg"
+    },
+    "snapshot/assets/images/292899f8f302__646a3198c550b93445d8a3d7_Uvodka_mobile-1-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "292899f8f302__646a3198c550b93445d8a3d7_Uvodka_mobile-1-.jpg"
+    },
+    "snapshot/assets/images/298d952d466d__64273ae1d1013234a3fe6ed9_vive_hazelnut.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "298d952d466d__64273ae1d1013234a3fe6ed9_vive_hazelnut.jpg"
+    },
+    "snapshot/assets/images/2cb84c5559ff__670a8415ab9b9d6184cf5ec8_6551e9113415203dd5468dec_chia1.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "2cb84c5559ff__670a8415ab9b9d6184cf5ec8_6551e9113415203dd5468dec_chia1.jpeg"
+    },
+    "snapshot/assets/images/2cc7f99976fb__64298e3ba3e86e074e30cc6a_Instruktor-20fitness.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "2cc7f99976fb__64298e3ba3e86e074e30cc6a_Instruktor-20fitness.jpg"
+    },
+    "snapshot/assets/images/2d26f82237e3__64692400ab8a9b8f10c3ae00_DSC02101_ctverec-1-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "2d26f82237e3__64692400ab8a9b8f10c3ae00_DSC02101_ctverec-1-.jpg"
+    },
+    "snapshot/assets/images/2f40d4a04944__646a2c88b39363e2e38bae1a_Uvodka-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "2f40d4a04944__646a2c88b39363e2e38bae1a_Uvodka-1-.png"
+    },
+    "snapshot/assets/images/35d17d3195df__647048d54f90b915dad25155_IMG_2827-1-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "35d17d3195df__647048d54f90b915dad25155_IMG_2827-1-.jpg"
+    },
+    "snapshot/assets/images/35f48e6ea484__670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "35f48e6ea484__670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg"
+    },
+    "snapshot/assets/images/368b87213439__64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "368b87213439__64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg"
+    },
+    "snapshot/assets/images/36db8afa8720__6509a67c73c26c897f344b10_IMG_6323.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "36db8afa8720__6509a67c73c26c897f344b10_IMG_6323.jpg"
+    },
+    "snapshot/assets/images/3a9a4fe65749__6428524af54066482e612eae_jak_spravne_jist_3.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "3a9a4fe65749__6428524af54066482e612eae_jak_spravne_jist_3.jpg"
+    },
+    "snapshot/assets/images/3c0e8fedd4b0__64284ee9f9d51a810c842639_cukrfree.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "3c0e8fedd4b0__64284ee9f9d51a810c842639_cukrfree.jpg"
+    },
+    "snapshot/assets/images/3cccb9e865a8__64203273649c3a5520d633f9_joga_web-scaled.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "3cccb9e865a8__64203273649c3a5520d633f9_joga_web-scaled.jpg"
+    },
+    "snapshot/assets/images/3dcaf8fa2d13__6481e97d03140ba416cd7052_Iva_maska-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "3dcaf8fa2d13__6481e97d03140ba416cd7052_Iva_maska-1-.png"
+    },
+    "snapshot/assets/images/3dfd1a040d23__64273a0e2993b9eb1b309d7b_bodylab.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "3dfd1a040d23__64273a0e2993b9eb1b309d7b_bodylab.jpg"
+    },
+    "snapshot/assets/images/3e1d5514a092__64dceab32bf823fe3e93844c_dort5.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "3e1d5514a092__64dceab32bf823fe3e93844c_dort5.jpg"
+    },
+    "snapshot/assets/images/3ea1790c5939__642854bd0cb3c8559d862744_cvicte_brzy_rano.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "3ea1790c5939__642854bd0cb3c8559d862744_cvicte_brzy_rano.jpg"
+    },
+    "snapshot/assets/images/4115a677a6a7__6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "4115a677a6a7__6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg"
+    },
+    "snapshot/assets/images/41d5cc9ac9fe__651ad1203112f9ffb3df04d6_IMG_7096-1-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "41d5cc9ac9fe__651ad1203112f9ffb3df04d6_IMG_7096-1-.jpg"
+    },
+    "snapshot/assets/images/451f0dc03bde__64273ad32a7f28617642e1e1_chocolate_orange.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "451f0dc03bde__64273ad32a7f28617642e1e1_chocolate_orange.jpg"
+    },
+    "snapshot/assets/images/481b3eebd521__64623929bb4016750fad84aa_kolecka-20ikona-201.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "481b3eebd521__64623929bb4016750fad84aa_kolecka-20ikona-201.png"
+    },
+    "snapshot/assets/images/481f126354a1__6716769c0edb7b6e9dee6e97_671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "481f126354a1__6716769c0edb7b6e9dee6e97_671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/493398a22f51__6551e37c927d21cb6b7f5e2c_brokolicova-CC-81-20oma-CC-81c-CC-8Cka-2.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "493398a22f51__6551e37c927d21cb6b7f5e2c_brokolicova-CC-81-20oma-CC-81c-CC-8Cka-2.jpg"
+    },
+    "snapshot/assets/images/494a5c3d236c__6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "494a5c3d236c__6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/49bbac1f40cb__66e06df04c513a944a7fd958_Ebook_recenze.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "49bbac1f40cb__66e06df04c513a944a7fd958_Ebook_recenze.jpeg"
+    },
+    "snapshot/assets/images/4c37405a5d39__64273f36e23a163ad42e23f4_unava.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "4c37405a5d39__64273f36e23a163ad42e23f4_unava.jpg"
+    },
+    "snapshot/assets/images/505b19ddd343__64d10af51ceaa7987fc6ae9e_konzultace_ref3.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "505b19ddd343__64d10af51ceaa7987fc6ae9e_konzultace_ref3.jpg"
+    },
+    "snapshot/assets/images/529759f0b44f__670b67512d58b361347a72d2_644e563c0704ea3e6126afe9_plnene_datle.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "529759f0b44f__670b67512d58b361347a72d2_644e563c0704ea3e6126afe9_plnene_datle.jpeg"
+    },
+    "snapshot/assets/images/52ebd5158911__66e06df0fec5f6dd0ffa7c10_Ebook_recenze2.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "52ebd5158911__66e06df0fec5f6dd0ffa7c10_Ebook_recenze2.jpeg"
+    },
+    "snapshot/assets/images/534dec00fd22__66f01c81b4ab43c2248ebcab_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "534dec00fd22__66f01c81b4ab43c2248ebcab_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-1-.png"
+    },
+    "snapshot/assets/images/53d637b08f85__64ff38b9caa809055227dba6_IMG_6757.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "53d637b08f85__64ff38b9caa809055227dba6_IMG_6757.jpeg"
+    },
+    "snapshot/assets/images/55cac94d2388__64273aeb07c9bb53c3885b27_vive_saltedcaramel-scaled.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "55cac94d2388__64273aeb07c9bb53c3885b27_vive_saltedcaramel-scaled.jpg"
+    },
+    "snapshot/assets/images/55e1eb800ad2__67f1341d32778f33e0a07c1b_IMG_2858.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "55e1eb800ad2__67f1341d32778f33e0a07c1b_IMG_2858.jpeg"
+    },
+    "snapshot/assets/images/55fe9db9b386__64704ad2dc557cbd3f2efe66_Mask-20recenze-20cviceni-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "55fe9db9b386__64704ad2dc557cbd3f2efe66_Mask-20recenze-20cviceni-1-.png"
+    },
+    "snapshot/assets/images/56b6376a566c__64dceab38e7442e7a7628b45_dort4_upraveno.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "56b6376a566c__64dceab38e7442e7a7628b45_dort4_upraveno.jpg"
+    },
+    "snapshot/assets/images/56ca57b6e3c2__6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "56ca57b6e3c2__6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/5d5a463bca80__671914ed7ab8dd8be8b7df7d_642852296251938076440876_jak_spravne_jist_2.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "5d5a463bca80__671914ed7ab8dd8be8b7df7d_642852296251938076440876_jak_spravne_jist_2.jpeg"
+    },
+    "snapshot/assets/images/5d89573abe79__64273b25aa3462768d43ee94_rawprotein_kakao.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "5d89573abe79__64273b25aa3462768d43ee94_rawprotein_kakao.jpg"
+    },
+    "snapshot/assets/images/5daf26bee794__64284ef48fbcbe32b1c38402_anna_faltova.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "5daf26bee794__64284ef48fbcbe32b1c38402_anna_faltova.jpg"
+    },
+    "snapshot/assets/images/5ded891d2f4c__64ff3893bbb1fafbff388405_IMG_6773.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "5ded891d2f4c__64ff3893bbb1fafbff388405_IMG_6773.jpeg"
+    },
+    "snapshot/assets/images/6058cf17f76c__6716769c0edb7b6e9dee6e9e_671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "6058cf17f76c__6716769c0edb7b6e9dee6e9e_671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/60ea1401c9c6__6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "60ea1401c9c6__6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/629753fa81d4__646132a9ddc53c25e657e7f0_OK_icon.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "629753fa81d4__646132a9ddc53c25e657e7f0_OK_icon.png"
+    },
+    "snapshot/assets/images/631fcba7bd3a__6596da19e4136d5b0e85d586_2.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "631fcba7bd3a__6596da19e4136d5b0e85d586_2.png"
+    },
+    "snapshot/assets/images/64cfe65f4445__64dceab4412e782bfa015f60_dort3_upraveno.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "64cfe65f4445__64dceab4412e782bfa015f60_dort3_upraveno.jpg"
+    },
+    "snapshot/assets/images/6614fc634259__646239293ca951c935181f2e_cinka-20ikona-201.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "6614fc634259__646239293ca951c935181f2e_cinka-20ikona-201.png"
+    },
+    "snapshot/assets/images/680bd7a8cc34__6716769c0edb7b6e9dee6e91_67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "680bd7a8cc34__6716769c0edb7b6e9dee6e91_67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/69692e7344cd__659bbc704ee19afb1487d367_materialy-2.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "69692e7344cd__659bbc704ee19afb1487d367_materialy-2.png"
+    },
+    "snapshot/assets/images/69be55c17c89__6428525c625193371f440c84_jak_spravne_jist-1.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "69be55c17c89__6428525c625193371f440c84_jak_spravne_jist-1.jpg"
+    },
+    "snapshot/assets/images/69ce12091919__66a90f5b5c686ac89c7f80c5_Na-CC-81vrh-20bez-20na-CC-81zvu-6-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "69ce12091919__66a90f5b5c686ac89c7f80c5_Na-CC-81vrh-20bez-20na-CC-81zvu-6-.jpg"
+    },
+    "snapshot/assets/images/6d1a41aceb03__6743281a3101db4a6daf9246_IMG_8365-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "6d1a41aceb03__6743281a3101db4a6daf9246_IMG_8365-1-.png"
+    },
+    "snapshot/assets/images/6f8618669407__644e563c0704ea3e6126afe9_plnene_datle.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "6f8618669407__644e563c0704ea3e6126afe9_plnene_datle.jpg"
+    },
+    "snapshot/assets/images/6faed26f45a3__651accfe0ac1107691703abe_647048d54f90b915dad25155_IMG_2827.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "6faed26f45a3__651accfe0ac1107691703abe_647048d54f90b915dad25155_IMG_2827.jpg"
+    },
+    "snapshot/assets/images/73d1e4e966d9__64284ee369d01c08100c7884_za_hranici_fitness.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "73d1e4e966d9__64284ee369d01c08100c7884_za_hranici_fitness.jpg"
+    },
+    "snapshot/assets/images/742f7e7a2ec3__6551e864254ee1bb611bc9c4_arasidova_omacka.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "742f7e7a2ec3__6551e864254ee1bb611bc9c4_arasidova_omacka.jpg"
+    },
+    "snapshot/assets/images/7592860c7e7c__67f1341d71dce35c56b00a0a_IMG_2860.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7592860c7e7c__67f1341d71dce35c56b00a0a_IMG_2860.jpeg"
+    },
+    "snapshot/assets/images/75cecc890399__67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "75cecc890399__67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/76e0df0e7658__646a78359edfdb7aedb784b8_cviceni-1-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "76e0df0e7658__646a78359edfdb7aedb784b8_cviceni-1-.jpg"
+    },
+    "snapshot/assets/images/771e3978ec99__64613182215f1e3513be86d8_Srdce_icon.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "771e3978ec99__64613182215f1e3513be86d8_Srdce_icon.png"
+    },
+    "snapshot/assets/images/784d09a552e0__64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "784d09a552e0__64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg"
+    },
+    "snapshot/assets/images/7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png"
+    },
+    "snapshot/assets/images/7ab0d2bf0950__64273af92993b9406f30afea_passionbar_skoricovarolka.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7ab0d2bf0950__64273af92993b9406f30afea_passionbar_skoricovarolka.jpg"
+    },
+    "snapshot/assets/images/7b246e743f2c__66f01c81e25a73fe3dbbdd73_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-2-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7b246e743f2c__66f01c81e25a73fe3dbbdd73_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-2-.png"
+    },
+    "snapshot/assets/images/7d7d5b445e3e__66f15ded02476dc31c6d3a05_banner-20webina-CC-81r-CC-8C-20na-20web_mobil.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7d7d5b445e3e__66f15ded02476dc31c6d3a05_banner-20webina-CC-81r-CC-8C-20na-20web_mobil.png"
+    },
+    "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    "snapshot/assets/images/7e1bae3c6006__671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7e1bae3c6006__671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/7fbdc336f9bc__6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "7fbdc336f9bc__6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini-1-.png"
+    },
+    "snapshot/assets/images/812b8cdab736__66f01c81a278bdd5fbe7b0b2_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "812b8cdab736__66f01c81a278bdd5fbe7b0b2_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81.png"
+    },
+    "snapshot/assets/images/83a8d9e2e386__6551e9b1a0623d92b0e02ac3_babovka.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "83a8d9e2e386__6551e9b1a0623d92b0e02ac3_babovka.jpg"
+    },
+    "snapshot/assets/images/83b7f389711d__64ff38b7917dbdce695babe1_IMG_6779.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "83b7f389711d__64ff38b7917dbdce695babe1_IMG_6779.png"
+    },
+    "snapshot/assets/images/83cad4c3300a__6741fb39f202ea83fb0151fb_6741f8f348d1a5d5349e51fa_IMG_8358.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "83cad4c3300a__6741fb39f202ea83fb0151fb_6741f8f348d1a5d5349e51fa_IMG_8358.jpeg"
+    },
+    "snapshot/assets/images/8b3aac724fa6__66a911f797cd5f7a9cc730c2_IMG_9437.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "8b3aac724fa6__66a911f797cd5f7a9cc730c2_IMG_9437.jpeg"
+    },
+    "snapshot/assets/images/8b7fe8be11e3__641f5f1c9a01004b30b80bf0_broskvovy_dort_2.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "8b7fe8be11e3__641f5f1c9a01004b30b80bf0_broskvovy_dort_2.jpg"
+    },
+    "snapshot/assets/images/8c36bdcc1f58__6596da1a8b6b807361567a66_3.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "8c36bdcc1f58__6596da1a8b6b807361567a66_3.png"
+    },
+    "snapshot/assets/images/8c7990c844cf__6596dcd85747043fc8608140_pruvodce_mockup_clovek.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "8c7990c844cf__6596dcd85747043fc8608140_pruvodce_mockup_clovek.png"
+    },
+    "snapshot/assets/images/8c7f8e540989__64ff38b7c59e8d32ab4ce26a_IMG_6758.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "8c7f8e540989__64ff38b7c59e8d32ab4ce26a_IMG_6758.jpeg"
+    },
+    "snapshot/assets/images/9408b2505a60__651ad014164bc8c400014d20_recenze_cviceni2.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "9408b2505a60__651ad014164bc8c400014d20_recenze_cviceni2.jpg"
+    },
+    "snapshot/assets/images/96933caf36d8__6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "96933caf36d8__6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg"
+    },
+    "snapshot/assets/images/9bcfe8911951__64284ed75fbce2278f5056b4_healthy_tapes.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "9bcfe8911951__64284ed75fbce2278f5056b4_healthy_tapes.jpg"
+    },
+    "snapshot/assets/images/9ff449eda797__64216e4fd97ba4a3778bb2bc_quinoova-kase.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "9ff449eda797__64216e4fd97ba4a3778bb2bc_quinoova-kase.jpg"
+    },
+    "snapshot/assets/images/a0e4267c5a8e__646239292d294a3a2483de4c_mufin-20ikona-201.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a0e4267c5a8e__646239292d294a3a2483de4c_mufin-20ikona-201.png"
+    },
+    "snapshot/assets/images/a152e343c845__64216df20c33f7ca4cde28bd_ryzova-kase.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a152e343c845__64216df20c33f7ca4cde28bd_ryzova-kase.jpg"
+    },
+    "snapshot/assets/images/a3134a34b44a__67f133e971dce35c56afe381_IMG_2848.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a3134a34b44a__67f133e971dce35c56afe381_IMG_2848.jpeg"
+    },
+    "snapshot/assets/images/a63a2f47a6d0__651accf6dae6aa4f3584eb0e_64704ad2e8327f36a7835712_skupinove-20cviceni.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a63a2f47a6d0__651accf6dae6aa4f3584eb0e_64704ad2e8327f36a7835712_skupinove-20cviceni.jpg"
+    },
+    "snapshot/assets/images/a6996b77969e__651accc5e4f87227dcdb1dda_6509a67c73c26c897f344b10_IMG_6323.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a6996b77969e__651accc5e4f87227dcdb1dda_6509a67c73c26c897f344b10_IMG_6323.png"
+    },
+    "snapshot/assets/images/a70dd52a4370__64189e3e83439ff9b72cba63_logo-20wine-20transparent-20256x256.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a70dd52a4370__64189e3e83439ff9b72cba63_logo-20wine-20transparent-20256x256.png"
+    },
+    "snapshot/assets/images/a74baa2c2397__6596da198b83c83698823ea8_recenze-5-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a74baa2c2397__6596da198b83c83698823ea8_recenze-5-.png"
+    },
+    "snapshot/assets/images/a7b42e3a2954__640f2bee3a879f926764eab0_grebovka.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a7b42e3a2954__640f2bee3a879f926764eab0_grebovka.jpg"
+    },
+    "snapshot/assets/images/a7eb45bb649b__67272e76a360899135f4554f_E-book-20mock-up_small.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a7eb45bb649b__67272e76a360899135f4554f_E-book-20mock-up_small.png"
+    },
+    "snapshot/assets/images/a80273b3b7fc__6716769c0edb7b6e9dee6e94_6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a80273b3b7fc__6716769c0edb7b6e9dee6e94_6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/a83bc2d171d8__6551e9113415203dd5468dec_chia1.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a83bc2d171d8__6551e9113415203dd5468dec_chia1.jpg"
+    },
+    "snapshot/assets/images/a9496c56d3e1__66a911f7c6947b23762f4ae6_IMG_9436.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "a9496c56d3e1__66a911f7c6947b23762f4ae6_IMG_9436.jpeg"
+    },
+    "snapshot/assets/images/aa751277f18c__64216dc9a2bd1eaf4d604bfe_vsechnykase_lezato.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "aa751277f18c__64216dc9a2bd1eaf4d604bfe_vsechnykase_lezato.jpg"
+    },
+    "snapshot/assets/images/ac4d2d1c328e__66be1a318a0e7ff92d2767c0_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.44.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "ac4d2d1c328e__66be1a318a0e7ff92d2767c0_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.44.png"
+    },
+    "snapshot/assets/images/ad1917ef077d__647998cd0ea66978a9e99b4c_podpis.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "ad1917ef077d__647998cd0ea66978a9e99b4c_podpis.png"
+    },
+    "snapshot/assets/images/adfde70189c9__670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "adfde70189c9__670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg"
+    },
+    "snapshot/assets/images/aef5ac7695c8__64ff38b99b62bbb1fdf8345c_IMG_6775.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "aef5ac7695c8__64ff38b99b62bbb1fdf8345c_IMG_6775.png"
+    },
+    "snapshot/assets/images/b390831e46a7__651ad0a096050c6d3fcb2846_IMG_6975.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "b390831e46a7__651ad0a096050c6d3fcb2846_IMG_6975.jpg"
+    },
+    "snapshot/assets/images/b3fd01f65a13__65029097c1c183e59a5ec623_1.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "b3fd01f65a13__65029097c1c183e59a5ec623_1.png"
+    },
+    "snapshot/assets/images/b7d3643a4cb1__66be1a3007c4939f0e150e40_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.35.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "b7d3643a4cb1__66be1a3007c4939f0e150e40_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.35.png"
+    },
+    "snapshot/assets/images/b888fb3f501b__671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "b888fb3f501b__671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png"
+    },
+    "snapshot/assets/images/b8bbc203f0f4__6596da1874b05d8261fe0bea_4.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "b8bbc203f0f4__6596da1874b05d8261fe0bea_4.png"
+    },
+    "snapshot/assets/images/b90673e0fed3__671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "b90673e0fed3__671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/bc434d07e24c__671675f5fcbf8fafa4ecaf83_6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "bc434d07e24c__671675f5fcbf8fafa4ecaf83_6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/be29cb483e92__64cb582aa725b757be2c16de_Sni-CC-81mek-20obrazovky-202023-08-03-20v-C2-A09.26-201.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "be29cb483e92__64cb582aa725b757be2c16de_Sni-CC-81mek-20obrazovky-202023-08-03-20v-C2-A09.26-201.png"
+    },
+    "snapshot/assets/images/c10e13a83fce__64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c10e13a83fce__64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg"
+    },
+    "snapshot/assets/images/c166fd450afb__66a90f5c10e8fb088f9c27db_Na-CC-81vrh-20bez-20na-CC-81zvu-5-.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c166fd450afb__66a90f5c10e8fb088f9c27db_Na-CC-81vrh-20bez-20na-CC-81zvu-5-.jpg"
+    },
+    "snapshot/assets/images/c2ab12d63fb4__66e07031ac5d639195ac2bdb_Online_kurz_mockup.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c2ab12d63fb4__66e07031ac5d639195ac2bdb_Online_kurz_mockup.png"
+    },
+    "snapshot/assets/images/c2cf24b82e04__64612d34ddc53c25e652f6a0_Otaznik_icon.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c2cf24b82e04__64612d34ddc53c25e652f6a0_Otaznik_icon.png"
+    },
+    "snapshot/assets/images/c32329c94d93__6582ca4deac684257cf4a618_1.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c32329c94d93__6582ca4deac684257cf4a618_1.png"
+    },
+    "snapshot/assets/images/c3ecec3fb02a__642854fdf48759a939b2570d_persona.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c3ecec3fb02a__642854fdf48759a939b2570d_persona.jpg"
+    },
+    "snapshot/assets/images/c46f894e2849__67f1341d80e9ecbd462c6765_IMG_2844.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c46f894e2849__67f1341d80e9ecbd462c6765_IMG_2844.jpeg"
+    },
+    "snapshot/assets/images/c709e8434f58__64609aab46818cacc5c61e27_DSC02394.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c709e8434f58__64609aab46818cacc5c61e27_DSC02394.jpg"
+    },
+    "snapshot/assets/images/c8e1bda55aed__642854e35973979182962955_doplnujte_tekutiny.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "c8e1bda55aed__642854e35973979182962955_doplnujte_tekutiny.jpg"
+    },
+    "snapshot/assets/images/ca3d47ded0cc__6716769c0edb7b6e9dee6ea3_671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "ca3d47ded0cc__6716769c0edb7b6e9dee6ea3_671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/cb4e389a3152__6741f8f3c89de7fa9e748c28_IMG_8365.JPG": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "cb4e389a3152__6741f8f3c89de7fa9e748c28_IMG_8365.JPG"
+    },
+    "snapshot/assets/images/cc1e1b30b997__66a911f7f3c5d97aaee94a8a_IMG_9434.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "cc1e1b30b997__66a911f7f3c5d97aaee94a8a_IMG_9434.jpeg"
+    },
+    "snapshot/assets/images/d0d611e07d54__646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d0d611e07d54__646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini-1-.png"
+    },
+    "snapshot/assets/images/d0fa0fa9a74c__651acfff222dfe87ff7ad5dc_recenze_cviceni.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d0fa0fa9a74c__651acfff222dfe87ff7ad5dc_recenze_cviceni.jpg"
+    },
+    "snapshot/assets/images/d150ca3635c8__6741fb39f202ea83fb015201_6741f8f3c89de7fa9e748c28_IMG_8365.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d150ca3635c8__6741fb39f202ea83fb015201_6741f8f3c89de7fa9e748c28_IMG_8365.jpeg"
+    },
+    "snapshot/assets/images/d184a9df25f7__6596ce6f4372ca5db646aadf_uvodni_mockup_lepsi_kvalita-2.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d184a9df25f7__6596ce6f4372ca5db646aadf_uvodni_mockup_lepsi_kvalita-2.png"
+    },
+    "snapshot/assets/images/d27adeeca02e__642739e4c17e68553bec531b_phdsmart.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d27adeeca02e__642739e4c17e68553bec531b_phdsmart.jpg"
+    },
+    "snapshot/assets/images/d29de2be2edb__67f1338cfd24c122eb824b2a_IMG_2853.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d29de2be2edb__67f1338cfd24c122eb824b2a_IMG_2853.jpeg"
+    },
+    "snapshot/assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png"
+    },
+    "snapshot/assets/images/d64fc6d760ca__64609aab5a61c167cdb158b4_DSC02320.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d64fc6d760ca__64609aab5a61c167cdb158b4_DSC02320.jpg"
+    },
+    "snapshot/assets/images/d659979fccc8__642739f20cb3c85190742d04_aktin_mandlejahoda.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d659979fccc8__642739f20cb3c85190742d04_aktin_mandlejahoda.jpg"
+    },
+    "snapshot/assets/images/d87c20e966ed__64d10cd80150bbca4a2cba37_cviceni_ref1.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d87c20e966ed__64d10cd80150bbca4a2cba37_cviceni_ref1.jpg"
+    },
+    "snapshot/assets/images/d93417f25ff6__642852296251938076440876_jak_spravne_jist_2.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d93417f25ff6__642852296251938076440876_jak_spravne_jist_2.jpg"
+    },
+    "snapshot/assets/images/d9367de792f6__670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d9367de792f6__670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg"
+    },
+    "snapshot/assets/images/d9a31d60cb81__64273af3e6a9cd36bb144bd7_passionbar_brownie.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "d9a31d60cb81__64273af3e6a9cd36bb144bd7_passionbar_brownie.jpg"
+    },
+    "snapshot/assets/images/daaafbb4e627__641f5f1c7a77c620d69cc8ff_broskovy_dort.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "daaafbb4e627__641f5f1c7a77c620d69cc8ff_broskovy_dort.jpg"
+    },
+    "snapshot/assets/images/dba5690c9770__6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "dba5690c9770__6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg"
+    },
+    "snapshot/assets/images/dd260f6a515b__6718acd706c363cbd4a6090e_DE3A0A66-D9CB-4B9C-A2B6-A22ED04CDB89_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "dd260f6a515b__6718acd706c363cbd4a6090e_DE3A0A66-D9CB-4B9C-A2B6-A22ED04CDB89_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/de889ac225a3__6428550807c9bbd7879a8601_prirozeny_pohyb.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "de889ac225a3__6428550807c9bbd7879a8601_prirozeny_pohyb.jpg"
+    },
+    "snapshot/assets/images/df2bff9f3dfe__670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "df2bff9f3dfe__670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg"
+    },
+    "snapshot/assets/images/df3e01dd9d7a__6461354c75a21d411d7565f9_Sipka_icon.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "df3e01dd9d7a__6461354c75a21d411d7565f9_Sipka_icon.png"
+    },
+    "snapshot/assets/images/dfd787e02b7a__646925913039900ad6431d69_Treninky_cviceni_mini-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "dfd787e02b7a__646925913039900ad6431d69_Treninky_cviceni_mini-1-.png"
+    },
+    "snapshot/assets/images/e099632638b9__6427137136cf91cd18032b70_tycinky_vsechny-scaled.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "e099632638b9__6427137136cf91cd18032b70_tycinky_vsechny-scaled.jpg"
+    },
+    "snapshot/assets/images/e09ca22535b2__640f1086c93f3f37d98f0bfb_broskvovy_dort_1.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "e09ca22535b2__640f1086c93f3f37d98f0bfb_broskvovy_dort_1.jpg"
+    },
+    "snapshot/assets/images/e1734af961e6__671912be02cc06cbf9e03b91_642854bd0cb3c8559d862744_cvicte_brzy_rano.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "e1734af961e6__671912be02cc06cbf9e03b91_642854bd0cb3c8559d862744_cvicte_brzy_rano.jpeg"
+    },
+    "snapshot/assets/images/e22e8dcf524c__671912be02cc06cbf9e03b7c_642854fdf48759a939b2570d_persona.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "e22e8dcf524c__671912be02cc06cbf9e03b7c_642854fdf48759a939b2570d_persona.jpeg"
+    },
+    "snapshot/assets/images/e597d76641ad__64273a70625193948831962e_aktin_horkacokolada.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "e597d76641ad__64273a70625193948831962e_aktin_horkacokolada.jpg"
+    },
+    "snapshot/assets/images/e6c7765d2e7a__6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "e6c7765d2e7a__6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg"
+    },
+    "snapshot/assets/images/e8b56de6bf32__64d10af4debe9b46e361406c_konzultace_ref2.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "e8b56de6bf32__64d10af4debe9b46e361406c_konzultace_ref2.jpg"
+    },
+    "snapshot/assets/images/eb31fedcbce1__6596da1dd69bdfb16491520c_5.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "eb31fedcbce1__6596da1dd69bdfb16491520c_5.png"
+    },
+    "snapshot/assets/images/eba44f4c4f6d__64273a51bb87cbecc216a8a3_superprotein_arasidykakao.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "eba44f4c4f6d__64273a51bb87cbecc216a8a3_superprotein_arasidykakao.jpg"
+    },
+    "snapshot/assets/images/ebfd6b0263ec__653e733da43278e1ab4662dd_ADVENTNI-20KALENDAR.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "ebfd6b0263ec__653e733da43278e1ab4662dd_ADVENTNI-20KALENDAR.png"
+    },
+    "snapshot/assets/images/edddedb11aac__671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "edddedb11aac__671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/ee8d7165ae33__6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "ee8d7165ae33__6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg"
+    },
+    "snapshot/assets/images/efa63c471363__64216df69a01004475dcd87a_jahlova-kase.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "efa63c471363__64216df69a01004475dcd87a_jahlova-kase.jpg"
+    },
+    "snapshot/assets/images/f16657ea5583__6596da183fda5900a768c679_recenze-3-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "f16657ea5583__6596da183fda5900a768c679_recenze-3-.png"
+    },
+    "snapshot/assets/images/f210909da0dc__6427139508a1a5472db9dda7_tycinky-scaled.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "f210909da0dc__6427139508a1a5472db9dda7_tycinky-scaled.jpg"
+    },
+    "snapshot/assets/images/f3f977e96100__66dff65b0990f6008059890b_E-book-20mockup-20kniha-201-1-.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "f3f977e96100__66dff65b0990f6008059890b_E-book-20mockup-20kniha-201-1-.png"
+    },
+    "snapshot/assets/images/f518f57e4e23__6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "f518f57e4e23__6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg"
+    },
+    "snapshot/assets/images/f8b003673d40__6716769c0edb7b6e9dee6e9a_6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "f8b003673d40__6716769c0edb7b6e9dee6e9a_6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg"
+    },
+    "snapshot/assets/images/fac55501013a__66be1c7541babeb7431d28df_garance.png": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "fac55501013a__66be1c7541babeb7431d28df_garance.png"
+    },
+    "snapshot/assets/images/fe8db066cb8b__6426bacf559fd0b00b1bb124_joga_web-scaled.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "fe8db066cb8b__6426bacf559fd0b00b1bb124_joga_web-scaled.jpg"
+    },
+    "snapshot/assets/images/ffff13a3c876__64216e5122b6671bd3c1a9e8_pohankova-kase.jpg": {
+      "asset_ref": "",
+      "asset_type": "sanity.imageAsset",
+      "original_filename": "ffff13a3c876__64216e5122b6671bd3c1a9e8_pohankova-kase.jpg"
+    }
+  }
+}

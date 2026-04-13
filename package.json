@@ -1,0 +1,43 @@
+{
+  "name": "zdravimebavi-web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node node_modules/next/dist/bin/next dev",
+    "build": "node node_modules/next/dist/bin/next build",
+    "start": "node node_modules/next/dist/bin/next start",
+    "lint": "node node_modules/eslint/bin/eslint.js .",
+    "typecheck": "node node_modules/typescript/bin/tsc --noEmit",
+    "sanity": "node node_modules/sanity/bin/sanity",
+    "sanity:dev": "node node_modules/sanity/bin/sanity dev",
+    "sanity:deploy": "node node_modules/sanity/bin/sanity deploy",
+    "sanity:generate-import-documents": "python3 scripts/generate_sanity_snapshot_documents.py",
+    "sanity:generate-asset-manifest": "python3 scripts/generate_sanity_asset_manifest.py",
+    "sanity:hydrate-assets": "python3 scripts/hydrate_sanity_assets.py",
+    "sanity:upload-assets": "python3 scripts/upload_sanity_assets.py",
+    "seo:analyze-gsc": "python3 scripts/analyze_search_console_export.py"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.29.2",
+    "@portabletext/react": "^6.0.3",
+    "@sanity/client": "^7.20.0",
+    "@sanity/image-url": "^2.1.1",
+    "@sanity/webhook": "^4.0.4",
+    "next": "^16.2.3",
+    "next-sanity": "^12.2.2",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "sanity": "^5.20.0",
+    "stripe": "^22.0.1",
+    "styled-components": "^6.4.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.2.0",
+    "eslint-config-next": "^16.2.3",
+    "typescript": "^6.0.2"
+  }
+}

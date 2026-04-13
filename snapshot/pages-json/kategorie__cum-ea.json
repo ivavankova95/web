@@ -1,0 +1,185 @@
+{
+  "url": "https://www.zdravimebavi.cz/kategorie/cum-ea",
+  "slug": "kategorie__cum-ea",
+  "page_type": "category-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/kategorie/cum-ea",
+  "headings": [
+    "Rady a tipy",
+    "Jarní salát, který zasytí",
+    "Datle v čokoládě s malinovým krémem a omega-3",
+    "Ochutnej ořech",
+    "Dort k prvním narozeninám"
+  ],
+  "ctas": [
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    },
+    {
+      "type": "cta",
+      "text": "Další",
+      "href": "?b0ee97b8_page=2"
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Jarní salát, který zasytí",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6743281a3101db4a6daf9246_IMG_8365(1).png",
+      "alt": "Datle v čokoládě s malinovým krémem a omega-3",
+      "context": "img",
+      "local_path": "snapshot/assets/images/6d1a41aceb03__6743281a3101db4a6daf9246_IMG_8365-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "alt": "Ochutnej ořech",
+      "context": "img",
+      "local_path": "snapshot/assets/images/b888fb3f501b__671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64e0e0426e4ab569241a526a_dort6_uvodka.png",
+      "alt": "Dort k prvním narozeninám",
+      "context": "img",
+      "local_path": "snapshot/assets/images/ec62faea1173__64e0e0426e4ab569241a526a_dort6_uvodka.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Rady a tipy"
+    },
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "paragraph",
+      "text": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6743281a3101db4a6daf9246_IMG_8365(1).png",
+      "alt": "Datle v čokoládě s malinovým krémem a omega-3"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Datle v čokoládě s malinovým krémem a omega-3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "alt": "Ochutnej ořech"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ochutnej ořech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64e0e0426e4ab569241a526a_dort6_uvodka.png",
+      "alt": "Dort k prvním narozeninám"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Dort k prvním narozeninám"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upéct dort k prvním narozeninám je výzva. Mám pro tebe ověřený recept na zdravý, chutný a krásný dort, který je jednoduchý na přípravu a můžeš ho nachystat den předem. A k tomu spoustu tipů, aby se dort povedl podle tvých představ a jak po upravit do dospělácké verze."
+    },
+    {
+      "type": "cta",
+      "text": "Další",
+      "href": "?b0ee97b8_page=2"
+    }
+  ]
+}

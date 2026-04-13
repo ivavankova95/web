@@ -1,0 +1,76 @@
+- body.body-9
+  - div.dd_shadow
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.section
+    - div.container-contact_2
+      - div.w-layout-grid.contact-form-grid.container-kontakt
+        - div#w-node-_3f61509a-fac7-b0d5-3763-509be705858e-cfe06e81.contact-form-wrap
+        - img#w-node-e39a577c-16ec-db19-6115-e59397859a49-cfe06e81.image-41 [alt="Moje pokročilejší nabízená služba je Výž"]
+        - div.div-block-54
+          - div.details-wrap
+            - div.label-jmeno
+            - div.label
+            - div.paragraph-light
+              - ... (2 hidden child nodes)
+          - div.details-wrap
+            - div.label
+            - a.contact-email-link [href="mailto:info@zdravimebavi.cz", text="info@zdravimebavi.cz"]
+            - div.paragraph-light.tel
+          - div.details-wrap
+            - div.label
+            - div.paragraph-light.info
+            - a.bussiness-info-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+            - a.contact-email-link.bussiness-info-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+            - a.contact-email-link.bussiness-info-link.cookie_link [href="/cookies", text="Soubory Cookie"]
+            - a.contact-email-link.bussiness-info-link.cookie_link [href="/odpovednost", text="Odpovědnost"]
+        - div#w-node-d58dac08-36a6-bfe2-a4ae-1f11bed9cac7-cfe06e81.div-block-61
+          - div.contact-form-heading-wrap
+            - h2.contact-heading
+            - img.image-41-mobile [alt="Moje pokročilejší nabízená služba je Výž"]
+            - div.paragraph-light
+              - ... (2 hidden child nodes)
+          - div.contact-form.w-form
+            - form#email-form.get-in-touch-form [name="wf-form-Get-In-Touch-Form"]
+              - ... (7 hidden child nodes)
+            - div.status-message.cc-success-message.w-form-done
+              - ... (1 hidden child nodes)
+            - div.status-message.cc-error-message.w-form-fail
+              - ... (1 hidden child nodes)
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link.w--current [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

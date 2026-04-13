@@ -1,0 +1,133 @@
+{
+  "url": "https://www.zdravimebavi.cz/kategorie/vareni",
+  "slug": "kategorie__vareni",
+  "page_type": "category-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/kategorie/vareni",
+  "headings": [
+    "Vaření",
+    "Jarní salát, který zasytí",
+    "Brokolicová omáčka"
+  ],
+  "ctas": [
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Jarní salát, který zasytí",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e539254ee1bb611946e3_brokolicova%CC%81%20oma%CC%81c%CC%8Cka_nahled.jpg",
+      "alt": "Brokolicová omáčka",
+      "context": "img",
+      "local_path": "snapshot/assets/images/9a2ce31927f1__6551e539254ee1bb611946e3_brokolicova-CC-81-20oma-CC-81c-CC-8Cka_nahled.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Vaření"
+    },
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Slané",
+      "href": "/kategorie/slane"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "paragraph",
+      "text": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e539254ee1bb611946e3_brokolicova%CC%81%20oma%CC%81c%CC%8Cka_nahled.jpg",
+      "alt": "Brokolicová omáčka"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Brokolicová omáčka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brokolicová omáčka je jídlo pro chvíle, kdy chcete mít uvařeno za 20 minut, neušpinit moc nádobí a zároveň se chcete skvěle a zdravě najíst. Výborná je se soba nudlemi, které jsou taky hotové za chvilku. A protože je fajn mít v jídle i čerstvou zeleninu, můžete je namíchat s nudlemi z cukety, jako to ráda dělám já. Brokolicovou omáčku s přílohou je dobré doplnit ještě o bílkoviny. Vegani si k ní můžou přidat tofu a ostatní třeba balkánský sýr. A navrchu krásně křupe černý sezam. Takhle poskládané jídlo skvěle chutná a dodá tělu všechny potřebné živiny. Tak a teď už pojďme na recept."
+    }
+  ]
+}

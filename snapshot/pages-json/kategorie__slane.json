@@ -1,0 +1,175 @@
+{
+  "url": "https://www.zdravimebavi.cz/kategorie/slane",
+  "slug": "kategorie__slane",
+  "page_type": "category-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/kategorie/slane",
+  "headings": [
+    "Slané",
+    "Jarní salát, který zasytí",
+    "Ochutnej ořech",
+    "Brokolicová omáčka",
+    "Arašídová omáčka"
+  ],
+  "ctas": [
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Jarní salát, který zasytí",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "alt": "Ochutnej ořech",
+      "context": "img",
+      "local_path": "snapshot/assets/images/b888fb3f501b__671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e539254ee1bb611946e3_brokolicova%CC%81%20oma%CC%81c%CC%8Cka_nahled.jpg",
+      "alt": "Brokolicová omáčka",
+      "context": "img",
+      "local_path": "snapshot/assets/images/9a2ce31927f1__6551e539254ee1bb611946e3_brokolicova-CC-81-20oma-CC-81c-CC-8Cka_nahled.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e888d108cb03d78917d0_arasidova_omacka_nahled.jpg",
+      "alt": "Arašídová omáčka",
+      "context": "img",
+      "local_path": "snapshot/assets/images/f61fe1690fcf__6551e888d108cb03d78917d0_arasidova_omacka_nahled.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Slané"
+    },
+    {
+      "type": "cta",
+      "text": "Ze života",
+      "href": "/kategorie/ze-zivota"
+    },
+    {
+      "type": "cta",
+      "text": "Sladké",
+      "href": "/kategorie/sladke"
+    },
+    {
+      "type": "cta",
+      "text": "Rady a tipy",
+      "href": "/kategorie/cum-ea"
+    },
+    {
+      "type": "cta",
+      "text": "Vaření",
+      "href": "/kategorie/vareni"
+    },
+    {
+      "type": "cta",
+      "text": "Pečení",
+      "href": "/kategorie/peceni"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "alt": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jarní salát, který zasytí"
+    },
+    {
+      "type": "paragraph",
+      "text": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "alt": "Ochutnej ořech"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ochutnej ořech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e539254ee1bb611946e3_brokolicova%CC%81%20oma%CC%81c%CC%8Cka_nahled.jpg",
+      "alt": "Brokolicová omáčka"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Brokolicová omáčka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brokolicová omáčka je jídlo pro chvíle, kdy chcete mít uvařeno za 20 minut, neušpinit moc nádobí a zároveň se chcete skvěle a zdravě najíst. Výborná je se soba nudlemi, které jsou taky hotové za chvilku. A protože je fajn mít v jídle i čerstvou zeleninu, můžete je namíchat s nudlemi z cukety, jako to ráda dělám já. Brokolicovou omáčku s přílohou je dobré doplnit ještě o bílkoviny. Vegani si k ní můžou přidat tofu a ostatní třeba balkánský sýr. A navrchu krásně křupe černý sezam. Takhle poskládané jídlo skvěle chutná a dodá tělu všechny potřebné živiny. Tak a teď už pojďme na recept."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e888d108cb03d78917d0_arasidova_omacka_nahled.jpg",
+      "alt": "Arašídová omáčka"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Arašídová omáčka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arašídová omáčka dodá každému receptu asijský nádech. Můžete s ní doplnit zeleninové jídlo, které díky ní bude sytější. Příprava zabere jen pár minut a omáčka je proto ideální pro chvíle, kdy potřebujete v kuchyni rychle vykouzlit něco výjimečného. Díky zázvoru je omáčka lehce pikantní a lahůdkové droždí jí kromě zajímavé chuti dodává další bílkoviny a vitamíny skupiny B. Arašídová omáčka krásně ladí s různými druhy nudlí, rýží, čočkou a výborná je taky k zeleninovým závitkům, čerstvé nebo pečené zelenině. Když ji připravíte z menšího množství vody, poslouží vám jako zajímavý dip."
+    }
+  ]
+}

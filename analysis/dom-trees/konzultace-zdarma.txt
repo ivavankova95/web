@@ -1,0 +1,56 @@
+- body
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.dd_shadow
+  - div.div-block-51
+  - section#Formular_pruvodce.formular-konzultace-zdarma
+    - div.w-layout-grid.grid-17
+      - h1#w-node-e5725b29-f84b-00d4-7591-3061ebd9eaf9-cfe06e7f.heading-11.heading-jumbo-small.heading_konzultace
+      - p#w-node-_7a6c3fa9-2de5-4bba-b174-52b3d1b3b394-cfe06e7f.paragraph-16
+      - img#w-node-_25e723c6-0984-366a-72ab-73457db50c60-cfe06e7f.image-37 [alt="Ahoj, jmenuji se Iva a jsem zakladatelka"]
+      - div#w-node-e5725b29-f84b-00d4-7591-3061ebd9eafb-cfe06e7f.contact-form-wrap.objednavka_pruvodce.grid_konzultace_zdarma
+        - div.contact-form-heading-wrap
+          - div.contact-form.w-form
+            - form#wf-form-Konzultace_zdarma.get-in-touch-form [name="wf-form-Konzultace_zdarma"]
+              - ... (10 hidden child nodes)
+            - div.status-message.cc-success-message.w-form-done
+              - ... (1 hidden child nodes)
+            - div.status-message.cc-error-message.w-form-fail
+              - ... (1 hidden child nodes)
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

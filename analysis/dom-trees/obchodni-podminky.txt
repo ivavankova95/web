@@ -1,0 +1,65 @@
+- body.body-13
+  - div.dd_shadow
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - section.sekce-policy
+    - div.div-block-55
+      - h1.heading-policy.heading-jumbo
+      - div.rich-text-block.w-richtext
+        - p
+        - p
+        - h2
+        - ol
+        - p
+        - p
+          - br
+          - br
+          - br
+          - a [href="mailto:info@zdravimebavi.cz", text="info@zdravimebavi.cz"]
+          - br
+          - br
+          - a [href="http://www.zdravimebavi.cz", text="www.zdravimebavi.cz"]
+          - br
+        - p
+        - ol
+        - p
+        - ol
+        - ... (119 more siblings)
+      - p.text-policy
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link.w--current [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

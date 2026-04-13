@@ -1,0 +1,16 @@
+- body.body-11
+  - section.hero-heading-center.konzultace
+    - div#w-node-_5d1362f0-7aad-d88a-4d1d-9645d19d45e5-cfe06e88.div-block-43.div-block-uvod-cviceni_krok2.konzultace
+      - div.home-section-wrap
+        - h1.heading-11.heading-jumbo-small.heading_cviceni.+
+          - strong
+      - div.w-embed.w-script
+  - section.footer-subscribe_commerce_var
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

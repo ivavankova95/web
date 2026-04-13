@@ -1,0 +1,95 @@
+- body.body-8
+  - div.w-embed
+  - div.dd_shadow
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.container
+    - div.w-dyn-list
+      - div.collection-list-7.w-dyn-items
+        - div.collection-item-5.w-dyn-item
+          - h1.heading-jumbo
+    - div.collection-list-wrapper-4.w-dyn-list
+      - div.collection-list-7.w-dyn-items
+        - div.collection-item-5.w-dyn-item
+          - a.button-3.w-button [href="/kategorie/ze-zivota", text="Ze života"]
+        - div.collection-item-5.w-dyn-item
+          - a.button-3.w-button [href="/kategorie/slane", text="Slané"]
+        - div.collection-item-5.w-dyn-item
+          - a.button-3.w-button [href="/kategorie/sladke", text="Sladké"]
+        - div.collection-item-5.w-dyn-item
+          - a.button-3.w-button [href="/kategorie/cum-ea", text="Rady a tipy"]
+        - div.collection-item-5.w-dyn-item
+          - a.button-3.w-button [href="/kategorie/vareni", text="Vaření"]
+    - div.w-dyn-list
+      - div.collection-list-5.w-dyn-items
+        - div.collection-item-4.w-dyn-item
+          - a.link-block-4.w-inline-block [href="/clanky/dort-k-prvnim-narozeninam"]
+            - img.image-5 [alt="Dort k prvním narozeninám"]
+          - a.link-block-3.w-inline-block [href="/clanky/dort-k-prvnim-narozeninam"]
+            - h2.heading-3
+          - a.link-block-6.w-inline-block [href="/clanky/dort-k-prvnim-narozeninam"]
+            - div.text-block-19
+          - p.paragraph-13.truncate.line-clamp
+          - div.collection-list-wrapper-3.w-dyn-list
+            - div.collection-list-6.w-dyn-items
+              - ... (3 hidden child nodes)
+        - div.collection-item-4.w-dyn-item
+          - a.link-block-4.w-inline-block [href="/clanky/tiramisu"]
+            - img.image-5 [alt="Tiramisu"]
+          - a.link-block-3.w-inline-block [href="/clanky/tiramisu"]
+            - h2.heading-3
+          - a.link-block-6.w-inline-block [href="/clanky/tiramisu"]
+            - div.text-block-19
+          - p.paragraph-13.truncate.line-clamp
+          - div.collection-list-wrapper-3.w-dyn-list
+            - div.collection-list-6.w-dyn-items
+              - ... (2 hidden child nodes)
+        - div.collection-item-4.w-dyn-item
+          - a.link-block-4.w-inline-block [href="/clanky/tvarohova-babovka"]
+            - img.image-5 [alt="Tvarohová bábovka"]
+          - a.link-block-3.w-inline-block [href="/clanky/tvarohova-babovka"]
+            - h2.heading-3
+          - a.link-block-6.w-inline-block [href="/clanky/tvarohova-babovka"]
+            - div.text-block-19
+          - p.paragraph-13.truncate.line-clamp
+          - div.collection-list-wrapper-3.w-dyn-list
+            - div.collection-list-6.w-dyn-items
+              - ... (2 hidden child nodes)
+      - div.w-pagination-wrapper.pagination
+    - section.footer-subscribe
+      - div.container-3
+        - div.footer-divider-two
+        - div.footer-wrapper-three
+          - div.footer-block-three
+            - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+            - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+          - div.footer-social-block-three
+            - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+              - ... (1 hidden child nodes)
+            - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+              - ... (1 hidden child nodes)
+        - div.footer-divider-two
+        - div.footer-bottom
+          - div.footer-copyright
+          - div.footer-legal-block
+            - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+            - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+            - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

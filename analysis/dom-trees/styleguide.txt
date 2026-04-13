@@ -1,0 +1,87 @@
+- body.body-3
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.section
+    - div.styleguide-header-wrap
+      - div.heading-jumbo
+      - div.paragraph-bigger.cc-bigger-light
+    - div.container
+      - div.styleguide-content-wrap
+        - div.styleguide-block
+          - div.label.cc-styleguide-label
+          - div.heading-jumbo
+            - br
+          - div.heading-jumbo-small
+          - div.heading-jumbo-tiny
+          - h1.heading-4
+            - br
+          - h2.heading-5
+          - h3.heading-6
+            - br
+          - h4.heading-7
+            - br
+          - h5.heading-8
+            - br
+          - h6.heading-9
+        - div.divider
+        - div.styleguide-block
+          - div.label.cc-styleguide-label
+          - p.paragraph-bigger
+          - p.paragraph-14
+          - p.paragraph-light
+          - p.paragraph-small
+          - p.paragraph-tiny
+          - div.label
+          - a.text-link [href="#", text="A text link"]
+        - div.divider
+        - div.styleguide-block
+          - div.label.cc-styleguide-label
+          - div.styleguide-button-wrap
+            - a.button.w-inline-block [href="#"]
+              - ... (1 hidden child nodes)
+          - div.styleguide-button-wrap-white-bg-small
+            - a.button-white-bg-small.w-inline-block [href="#"]
+              - ... (1 hidden child nodes)
+          - div.styleguide-button-wrap
+            - a.button.cc-jumbo-button.w-inline-block [href="#"]
+              - ... (1 hidden child nodes)
+          - div.styleguide-button-wrap-white-bg
+            - a.button-white-bg.cc-jumbo-button.w-inline-block [href="#"]
+              - ... (1 hidden child nodes)
+          - div.styleguide-button-wrap.blue
+            - a.button-sand.cc-jumbo-button.w-inline-block [href="#"]
+              - ... (1 hidden child nodes)
+        - ol.list.list-ordered
+          - li.list-item
+          - li.list-item-2
+          - li.list-item-3
+        - blockquote.block-quote-wine
+        - blockquote.block-quote-white
+        - div.rich-text.w-richtext
+          - h2
+          - p
+          - h3
+          - p
+          - p
+            - a [href="http://www.zdravimebavi.cz", text="Odkaz na nějaký text"]
+          - h4
+          - p
+        - div.divider

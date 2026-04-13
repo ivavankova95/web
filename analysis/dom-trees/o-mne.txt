@@ -1,0 +1,169 @@
+- body.body-7
+  - div.dd_shadow
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block.w--current [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.div-block-35
+    - div.w-layout-grid.about-grid.cc-about-2
+      - div#w-node-eec6bdc3-5a8b-bb26-9cba-da545af8743a-cfe06e82.about-me-text-2
+        - div.home-section-wrap
+          - h1.heading-left-align.heading-jumbo-small
+          - p.paragraph-9
+            - strong
+            - strong
+            - strong
+            - strong
+            - strong
+            - strong
+            - br
+            - br
+            - strong
+            - strong
+            - ... (6 more siblings)
+      - img#w-node-eec6bdc3-5a8b-bb26-9cba-da545af87443-cfe06e82.image-16 [alt="Ahoj, jmenuji se Iva a jsem zakladatelka"]
+    - div.div-block-37
+      - a.button-konzultace.cc-jumbo-button.w-inline-block [href="#Konzultace_zdarma"]
+        - div
+  - div.section-5
+    - h1.heading-11.heading-jumbo-small
+    - div.w-layout-grid.about-grid.cc-about-2.+
+      - div#w-node-_83a5fd74-a876-b659-91ac-620c3aab5483-cfe06e82.div-block-30.pilir-styl
+        - div.home-section-wrap
+          - div.div-block-57
+            - h2.heading-12
+              - ... (3 hidden child nodes)
+          - div.div-block-32
+            - p.paragraph-6
+              - ... (2 hidden child nodes)
+      - div#w-node-_961c73e5-262c-7a1f-02b4-ce09e022c38e-cfe06e82.div-block-30.pilir-styl
+        - div.home-section-wrap
+          - div.div-block-31.div-block_zasady
+            - h2.heading-12.heading12-for-mobile
+              - ... (3 hidden child nodes)
+          - div.div-block-33
+            - p.paragraph-6
+              - ... (2 hidden child nodes)
+      - div#w-node-_89cac4c1-de82-9635-d56e-354af49576a3-cfe06e82.div-block-30.pilir-styl
+        - div.home-section-wrap
+          - h2.heading-12.heading12-for-mobile
+            - span.text-span
+              - ... (1 hidden child nodes)
+            - br
+            - strong.bold-text
+          - p.paragraph-6
+            - strong
+      - div#w-node-ecf8c4c0-4812-4042-01a1-465132a5472d-cfe06e82.div-block-30.pilir-styl
+        - div.home-section-wrap
+          - h2.heading-12.heading12-for-mobile
+            - span.text-span
+              - ... (1 hidden child nodes)
+            - br
+            - strong.bold-text
+          - p.paragraph-6
+            - strong
+            - strong
+            - strong
+            - strong
+      - div#w-node-_0295131c-9434-d6e8-d5f2-85930794ddd6-cfe06e82.div-block-30.pilir-styl
+        - div.home-section-wrap
+          - h2.heading-12.heading12-for-mobile
+            - span.text-span
+              - ... (1 hidden child nodes)
+            - br
+            - strong.bold-text
+          - p.paragraph-6
+            - strong
+            - strong
+  - div.section-2
+    - h2.heading-jumbo-small
+    - p.paragraph-4
+      - strong
+      - br
+      - br
+      - strong
+      - strong
+      - br
+      - br
+      - strong
+      - br
+      - br
+      - ... (12 more siblings)
+  - div.section-4
+    - h1.heading-jumbo-small
+    - p.paragraph-4
+      - strong
+      - strong
+      - strong
+      - strong
+      - strong
+      - strong
+      - br
+    - div.w-layout-grid.about-grid.cc-about-2.+
+      - div#w-node-_0c5d638b-518f-b537-76f0-6cad3305dfa1-cfe06e82
+        - div.home-section-wrap
+          - img.image-10
+          - p.paragraph-7
+            - em.italic-text
+      - div#w-node-cb28c0ed-1f4d-daff-3865-8e0213980417-cfe06e82
+        - div.home-section-wrap
+          - img#w-node-_5498cf77-653e-ec8f-f39e-754234fe1501-cfe06e82.image-9 [alt="Osvědčení o získání certifikátu - Instru"]
+          - p.paragraph-8
+            - em.italic-text-3
+              - ... (1 hidden child nodes)
+  - div.section-blue_list
+    - h2.heading-jumbo-small.white
+    - ul.list-2
+      - li.white-list-item
+      - li.white-list-item
+      - li.white-list-item
+      - li.white-list-item
+      - li.white-list-item
+      - li.white-list-item
+      - li.white-list-item
+  - div#Konzultace_zdarma.section-10
+    - div.section.cc-cta
+      - div.container
+        - div.cta-wrap
+          - div
+            - div.cta-text
+              - ... (3 hidden child nodes)
+            - a.button.cc-jumbo-button.button-white-bg.+ [href="/konzultace-zdarma"]
+              - ... (1 hidden child nodes)
+            - div
+              - ... (2 hidden child nodes)
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link.w--current [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

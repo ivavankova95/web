@@ -1,0 +1,1164 @@
+{
+  "session": "zmb-runtime",
+  "pages": [
+    {
+      "url": "https://www.zdravimebavi.cz/",
+      "title": "Zdraví mě baví - Provedu tě na cestě za zdravým a funkčním tělem",
+      "readyState": "complete",
+      "bodyClass": "body-2",
+      "headings": [
+        "Provedu tě na cestě za zdravým a funkčním tělem",
+        "díky propojení pohybu a výživy",
+        "Co pro tebe mám nového?Workshop pro mámy: Jak nastartovat hubnutí po dětech",
+        "🎁 VÁNOČNÍ DÁREK 🎁",
+        "🎁 VÁNOČNÍ DÁREK 🎁",
+        "S čím ti pomohu?",
+        "MŮŽEŠ SE NA MĚ OBRÁTIT, JESTLI:",
+        "Co ti můžu nabídnout?"
+      ],
+      "forms": [
+        {
+          "id": "",
+          "name": "",
+          "action": "https://assets.mailerlite.com/jsonp/378261/forms/108087475171231602/subscribe",
+          "method": "post",
+          "fieldCount": 3,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "fields[email]",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "ml-submit",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "anticsrf",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "groot.mailerlite.com",
+        "assets.mlcdn.com",
+        "static.elfsight.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com",
+        "cdnjs.cloudflare.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "core.service.elfsight.com",
+        "static.elfsight.com",
+        "service-reviews-ultimate.elfsight.com",
+        "storage.elfsight.com",
+        "assets.mailerlite.com",
+        "www.zdravimebavi.cz"
+      ],
+      "anchorsToExternal": [
+        "https://nabidka.zdravimebavi.cz/zdravi-me/workshoppromamy",
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/p/DW1H6KrDG35",
+        "https://www.instagram.com/p/DWuVFSOgDvI",
+        "https://www.instagram.com/p/DWpNuQbDMXW",
+        "https://www.instagram.com/p/DWo_xEgjB5s",
+        "https://www.instagram.com/p/DWmjem1jGA1",
+        "https://www.instagram.com/p/DWhQZRGjLnh",
+        "https://www.instagram.com/p/DWeNEtdDFJu",
+        "https://www.instagram.com/p/DWWVRjCDPHQ",
+        "https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_medium=clients&utm_content=instashow&utm_term=www.zdravimebavi.cz&utm_campaign=free-widget",
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 5,
+        "richText": 0,
+        "forms": 0,
+        "pagination": 1,
+        "lightbox": 0,
+        "elfsight": 1,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 1
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/blog",
+      "title": "Zdraví mě baví - Blog",
+      "readyState": "complete",
+      "bodyClass": "body-6",
+      "headings": [
+        "Jarní salát, který zasytí",
+        "Datle v čokoládě s malinovým krémem a omega-3",
+        "Ochutnej ořech",
+        "Skupinové lekce cvičení v Benátkách nad Jizerou",
+        "Dort k prvním narozeninám",
+        "Plněné datle v čokoládě"
+      ],
+      "forms": [],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "static.elfsight.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com",
+        "cdnjs.cloudflare.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "core.service.elfsight.com",
+        "static.elfsight.com",
+        "service-reviews-ultimate.elfsight.com",
+        "storage.elfsight.com",
+        "assets.mailerlite.com",
+        "www.zdravimebavi.cz"
+      ],
+      "anchorsToExternal": [
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/zdravi_me_bavi",
+        "https://www.instagram.com/p/DW1H6KrDG35",
+        "https://www.instagram.com/p/DWuVFSOgDvI",
+        "https://www.instagram.com/p/DWpNuQbDMXW",
+        "https://www.instagram.com/p/DWo_xEgjB5s",
+        "https://www.instagram.com/p/DWmjem1jGA1",
+        "https://www.instagram.com/p/DWhQZRGjLnh",
+        "https://www.instagram.com/p/DWeNEtdDFJu",
+        "https://www.instagram.com/p/DWWVRjCDPHQ",
+        "https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_medium=clients&utm_content=instashow&utm_term=www.zdravimebavi.cz&utm_campaign=free-widget",
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 8,
+        "richText": 0,
+        "forms": 0,
+        "pagination": 1,
+        "lightbox": 0,
+        "elfsight": 1,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 1
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/clanky/arasidova-omacka",
+      "title": "Zdraví mě baví",
+      "readyState": "complete",
+      "bodyClass": "body",
+      "headings": [
+        "Skvělá omáčka z arašídového másla se zázvorem.",
+        "Nutriční hodnoty",
+        "Ingredience",
+        "Jak na to?",
+        "Galerie"
+      ],
+      "forms": [],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://www.grizly.cz/country-life-drozdi-lahudkove-150-g?utm_source=dognet&a_aid=5f64739b9effb&a_bid=e2647eb1",
+        "https://www.grizly.cz/grizly-cocka-cervena-loupana-pulena-1000-g?utm_source=dognet&a_aid=5f64739b9effb&a_bid=e2647eb1",
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 2,
+        "richText": 6,
+        "forms": 0,
+        "pagination": 0,
+        "lightbox": 1,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 0
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/kategorie/sladke",
+      "title": "Zdraví mě baví",
+      "readyState": "complete",
+      "bodyClass": "body-8",
+      "headings": [
+        "Sladké",
+        "Datle v čokoládě s malinovým krémem a omega-3",
+        "Ochutnej ořech",
+        "Dort k prvním narozeninám",
+        "Plněné datle v čokoládě"
+      ],
+      "forms": [],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com",
+        "www.zdravimebavi.cz"
+      ],
+      "anchorsToExternal": [
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 7,
+        "richText": 0,
+        "forms": 0,
+        "pagination": 1,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 0
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/cviceni-v-benatkach-nad-jizerou",
+      "title": "Zdraví mě baví - Cvičení v Benátkách nad Jizerou",
+      "readyState": "complete",
+      "bodyClass": "body-11",
+      "headings": [
+        "CVIČENÍ V BENÁTKÁCH NAD JIZEROU",
+        "skupinové lekce pro sílu a kondici",
+        "S kým si zacvičíš?",
+        "Máš ještě nějaké otázky?",
+        "Přečti si referenci na tréninky pod mým vedením",
+        "Další reference",
+        "Dej mi vědět, že chceš na lekci přijít"
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Skupinove_lekce-2",
+          "name": "wf-form-Skupinove_lekce-2",
+          "action": "",
+          "method": "get",
+          "fieldCount": 5,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Jmeno",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "Email",
+              "required": true
+            },
+            {
+              "tag": "textarea",
+              "type": "",
+              "name": "Message",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "Souhlas-s-obch.-podm",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "browser.sentry-cdn.com",
+        "fast.wistia.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://chat.whatsapp.com/J50NK0OcDW734gpbwEYfkT",
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 1,
+        "richText": 12,
+        "forms": 1,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 7,
+        "youtube": 0,
+        "embeddedScripts": 2
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/letni-prazdninova-vyzva",
+      "title": "Letní prázdninová výzva",
+      "readyState": "complete",
+      "bodyClass": "body-11",
+      "headings": [
+        "PĚKNĚ PÁLIVÁ PLÁŽOVÁ PECKAPRO AKČNÍ ŽENY",
+        "s Ivou Vaňkovou",
+        "Než se vrhnete na trénink, mám pro vás důležité informace.",
+        "A teď už jdeme na to. Připravte si podložku a pusťte se do cvičení!",
+        "Napište mi, jak jste si cvičení užily. Kliknutím na ikonky se dostanete na mé sociální sítě a web.",
+        "S kým si zacvičíte?"
+      ],
+      "forms": [],
+      "iframes": [
+        "https://www.youtube.com/embed/qhf-Ri7PJt4?rel=0&controls=1&autoplay=0&mute=0&start=0"
+      ],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://chat.whatsapp.com/J50NK0OcDW734gpbwEYfkT",
+        "https://nabidka.zdravimebavi.cz/zdravi-me-1/",
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 0,
+        "dynList": 0,
+        "richText": 0,
+        "forms": 0,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 1,
+        "embeddedScripts": 0
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/napis-mi",
+      "title": "Zdraví mě baví - Kontakt",
+      "readyState": "complete",
+      "bodyClass": "body-9",
+      "headings": [
+        "Napiš mi"
+      ],
+      "forms": [
+        {
+          "id": "email-form",
+          "name": "wf-form-Get-In-Touch-Form",
+          "action": "",
+          "method": "post",
+          "fieldCount": 4,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "name",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "Email",
+              "required": true
+            },
+            {
+              "tag": "textarea",
+              "type": "",
+              "name": "Message",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "mailto:info@zdravimebavi.cz",
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 0,
+        "richText": 0,
+        "forms": 1,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 0
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/konzultace-zdarma",
+      "title": "Zdraví mě baví - Konzultace zdarma",
+      "readyState": "complete",
+      "bodyClass": "",
+      "headings": [
+        "Zamluv si konzultaci zdarma"
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Konzultace_zdarma",
+          "name": "wf-form-Konzultace_zdarma",
+          "action": "",
+          "method": "post",
+          "fieldCount": 6,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Jmeno",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "Email",
+              "required": true
+            },
+            {
+              "tag": "textarea",
+              "type": "",
+              "name": "Message",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "Souhlas-s-obch.-podm",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "Souhlas-GDPR",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 0,
+        "richText": 0,
+        "forms": 1,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 0
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/osobni-konzultace",
+      "title": "Zdraví mě baví - Osobní konzultace",
+      "readyState": "interactive",
+      "bodyClass": "body-11",
+      "headings": [
+        "Moje certifikace",
+        "Zamluv si svou osobní konzultaci",
+        "Přečti si jednu z referencí na konzultaci",
+        "Další reference",
+        "Průvodce výživou a pohybem",
+        "Objev zdravý životní styl, který ti přinese svobodu a spokojenost",
+        "Dopřej si svého individuálního Průvodce výživou a pohybem.Dovede tě ke zdravému a funkčnímu tělu, ve kterém se budeš cítit skvěle.",
+        "Průvodce výživou a pohybem je jako kompas, který tě vede ke tvému osobnímu cíli. Najdeš v něm výživová doporučení, která na základě dotazníku a konzultace připravím tobě přesně na míru."
+      ],
+      "forms": [
+        {
+          "id": "wf-form-Osobni_konzultace",
+          "name": "wf-form-Osobni_konzultace",
+          "action": "",
+          "method": "post",
+          "fieldCount": 6,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "Name",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "Email",
+              "required": true
+            },
+            {
+              "tag": "textarea",
+              "type": "",
+              "name": "Message",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "Souhlas-s-obch.-podm",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "Souhlas-GDPR",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "",
+              "required": false
+            }
+          ]
+        },
+        {
+          "id": "uid-3-6gbfn-fapi-form-form",
+          "name": "",
+          "action": "",
+          "method": "get",
+          "fieldCount": 18,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "website",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "0_items",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "0_item_group_29966685",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "phone",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "company",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "ico",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "dic",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "ic_dph",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "first_name",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "last_name",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "street",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "city",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "zip",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "country",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "paymentMethod",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "terms",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "uid-65-uxl2r-90909-purpose",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [
+        "https://js.stripe.com/v3/controller-with-preconnect-c7a06f97390dd67aacbcf7afc8b439d4.html#__shared_params__[version]=clover&__shared_params__[light_experiment_assignments]=%7B%22token%22%3A%223ea32fa4-be51-4c6e-a95b-194f3f2c2bd6%22%2C%22assignments%22%3A%7B%22link_ewcs_prewarm_experiment_v2%22%3A%22control%22%2C%22react_version_17_v2%22%3A%22treatment%22%7D%7D&apiKey=pk_live_51Pgl5cEQxL98tdox8Joi0mQdeBkT2nqF3boM3JfMeGLybq83LsLIM4FsVX3FFc5isHouQ2UBsVlRqK5BpDz3XF4G00dEKiJIzr&apiVersion=2025-09-30.clover&stripeJsId=3ea32fa4-be51-4c6e-a95b-194f3f2c2bd6&stripeObjId=sobj-7b1fb23d-a35d-4513-9494-6a698345eab8&firstStripeInstanceCreatedLatency=14&locale=cs&controllerCount=1&isCheckout=false&stripeJsLoadTime=1775751257684&manualBrowserDeprecationRollout=false&mids[guid]=NA&mids[muid]=NA&mids[sid]=NA&react_version_variant=treatment&referrer=https%3A%2F%2Fwww.zdravimebavi.cz%2Fosobni-konzultace&controllerId=__privateStripeController1591"
+      ],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "form.fapi.cz",
+        "js.stripe.com",
+        "browser.sentry-cdn.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "form.fapi.cz",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "mailto:info@zdravimebavi.cz",
+        "https://zdravimebavi.cz/gdpr",
+        "https://fapi.cz/?utm_source=form&utm_medium=link&utm_campaign=promo_bottom&fr_code=o8rx01uu"
+      ],
+      "counts": {
+        "nav": 0,
+        "dynList": 1,
+        "richText": 7,
+        "forms": 1,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 1
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/formular---pruvodce-vyzivou-a-pohybem",
+      "title": "Formulář - Průvodce výživou a pohybem",
+      "readyState": "complete",
+      "bodyClass": "body-10-copy",
+      "headings": [
+        "Online kurzMÁMA VE FORMĚ Průvodce výživou a pohybem pro zaneprázdněné ženy - metoda bez diet na celý život",
+        "Zpětná vazba na kurz",
+        "Ještě váháš?"
+      ],
+      "forms": [
+        {
+          "id": "uid-3-w5ymn-fapi-form-form",
+          "name": "",
+          "action": "",
+          "method": "get",
+          "fieldCount": 18,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "website",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "0_items",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "radio",
+              "name": "0_item_group_29966685",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "email",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "phone",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "company",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "ico",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "dic",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "ic_dph",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "first_name",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "last_name",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "street",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "city",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "zip",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "text",
+              "name": "country",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "paymentMethod",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "terms",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "checkbox",
+              "name": "uid-65-cibp5-90909-purpose",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [
+        "https://js.stripe.com/v3/controller-with-preconnect-c7a06f97390dd67aacbcf7afc8b439d4.html#__shared_params__[version]=clover&__shared_params__[light_experiment_assignments]=%7B%22token%22%3A%227d6a0345-8bf6-451a-8257-f2c1ed3b9b7f%22%2C%22assignments%22%3A%7B%22link_ewcs_prewarm_experiment_v2%22%3A%22treatment%22%2C%22react_version_17_v2%22%3A%22treatment%22%7D%7D&apiKey=pk_live_51Pgl5cEQxL98tdox8Joi0mQdeBkT2nqF3boM3JfMeGLybq83LsLIM4FsVX3FFc5isHouQ2UBsVlRqK5BpDz3XF4G00dEKiJIzr&apiVersion=2025-09-30.clover&stripeJsId=7d6a0345-8bf6-451a-8257-f2c1ed3b9b7f&stripeObjId=sobj-d0a666e1-671a-4ad1-85c7-b721f1b50d94&firstStripeInstanceCreatedLatency=42&locale=cs&controllerCount=1&isCheckout=false&stripeJsLoadTime=1775751270009&manualBrowserDeprecationRollout=false&mids[guid]=NA&mids[muid]=NA&mids[sid]=NA&react_version_variant=treatment&referrer=https%3A%2F%2Fwww.zdravimebavi.cz%2Fformular---pruvodce-vyzivou-a-pohybem&controllerId=__privateStripeController0581",
+        "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html#url=https%3A%2F%2Fwww.zdravimebavi.cz%2Fformular---pruvodce-vyzivou-a-pohybem&title=Formul%C3%A1%C5%99%20-%20Pr%C5%AFvodce%20v%C3%BD%C5%BEivou%20a%20pohybem&referrer=&muid=NA&sid=NA&version=6&preview=false&__shared_params__[version]=clover"
+      ],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "form.fapi.cz",
+        "js.stripe.com",
+        "browser.sentry-cdn.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "form.fapi.cz",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://zdravimebavi.cz/gdpr",
+        "https://fapi.cz/?utm_source=form&utm_medium=link&utm_campaign=promo_bottom&fr_code=o8rx01uu",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 0,
+        "dynList": 0,
+        "richText": 0,
+        "forms": 0,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 1
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/kalendar",
+      "title": "Adventní kalendář",
+      "readyState": "complete",
+      "bodyClass": "body-12",
+      "headings": [
+        "🎁 Zdarma 🎁Přidej se k otevírání",
+        "Adventního kalendáře!"
+      ],
+      "forms": [
+        {
+          "id": "",
+          "name": "",
+          "action": "https://assets.mailerlite.com/jsonp/378261/forms/103383645109093742/subscribe",
+          "method": "post",
+          "fieldCount": 3,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "email",
+              "name": "fields[email]",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "ml-submit",
+              "required": false
+            },
+            {
+              "tag": "input",
+              "type": "hidden",
+              "name": "anticsrf",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "groot.mailerlite.com",
+        "assets.mlcdn.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 0,
+        "dynList": 0,
+        "richText": 0,
+        "forms": 0,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 0
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/search",
+      "title": "Search Results",
+      "readyState": "complete",
+      "bodyClass": "",
+      "headings": [
+        "Search results"
+      ],
+      "forms": [
+        {
+          "id": "",
+          "name": "",
+          "action": "/search",
+          "method": "get",
+          "fieldCount": 2,
+          "fields": [
+            {
+              "tag": "input",
+              "type": "search",
+              "name": "query",
+              "required": true
+            },
+            {
+              "tag": "input",
+              "type": "submit",
+              "name": "",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 0,
+        "dynList": 0,
+        "richText": 0,
+        "forms": 1,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 0
+      }
+    },
+    {
+      "url": "https://www.zdravimebavi.cz/404",
+      "title": "Zdraví mě baví - Not Found",
+      "readyState": "complete",
+      "bodyClass": "body-4",
+      "headings": [],
+      "forms": [],
+      "iframes": [],
+      "scriptDomains": [
+        "static.hotjar.com",
+        "www.googletagmanager.com",
+        "assets.mailerlite.com",
+        "connect.facebook.net",
+        "ajax.googleapis.com",
+        "cdn.cookie-script.com",
+        "d3e54v103j8qbb.cloudfront.net",
+        "cdn.prod.website-files.com"
+      ],
+      "stylesheetDomains": [
+        "cdn.prod.website-files.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "assets.mailerlite.com"
+      ],
+      "anchorsToExternal": [
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/",
+        "https://cookie-script.com/"
+      ],
+      "counts": {
+        "nav": 1,
+        "dynList": 0,
+        "richText": 0,
+        "forms": 0,
+        "pagination": 0,
+        "lightbox": 0,
+        "elfsight": 0,
+        "wistia": 0,
+        "youtube": 0,
+        "embeddedScripts": 0
+      }
+    }
+  ]
+}

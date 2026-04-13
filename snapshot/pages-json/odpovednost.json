@@ -1,0 +1,78 @@
+{
+  "url": "https://www.zdravimebavi.cz/odpovednost",
+  "slug": "odpovednost",
+  "page_type": "legal",
+  "title": "Odpovědnost",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/odpovednost",
+  "headings": [
+    "Moje odpovědnost",
+    "‍"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Moje odpovědnost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tímto dokumentem se zříkám odpovědnosti za zdraví klienta, který využívá mé služby v rámci výživového poradenství a trenérských služeb. Prosím, pečlivě si přečtěte následující ustanovení:"
+    },
+    {
+      "type": "list_item",
+      "text": "Veškeré poradenství a služby, které poskytuji, jsou založeny na mém profesionálním vzdělání a znalostech. Snažím se poskytovat přesné a aktuální informace, avšak nemohu zaručit jejich absolutní správnost a úplnost. Výsledky a účinky poradenství a služeb se mohou lišit u jednotlivých klientů a jsou ovlivněny mnoha faktory, které jsou mimo mou kontrolu."
+    },
+    {
+      "type": "list_item",
+      "text": "Klient bere na vědomí, že poradenství a služby, které poskytuji, nenahrazují profesionální lékařskou diagnózu, léčbu nebo péči. Klient na sebe bere odpovědnost konzultovat veškerá má doporučení se svým lékařem nebo jiným odborníkem."
+    },
+    {
+      "type": "list_item",
+      "text": "Nepřijímám odpovědnost za jakékoli škody, ztráty nebo zranění, které by mohly vzniknout přímou nebo nepřímou souvislostí s využíváním mého poradenství a služeb. Klient souhlasí, že na mě nevznáší žádné nároky na náhradu škody ve vztahu ke zdravotním problémům, které by mohly vzniknout v souvislosti s využíváním mého poradenství a služeb."
+    },
+    {
+      "type": "list_item",
+      "text": "Klient se zavazuje plně nést odpovědnost za své zdraví a zdravotní stav. Měl by mě informovat o jakýchkoli existujících zdravotních obtížích, alergiích, medikacích nebo jiných relevantních faktorech, které by mohly ovlivnit účinky mého poradenství a poskytovaných služeb. Pokud po aplikaci mých rad a doporučených postupů dojde ke zhoršení zdravotního stavu nebo výskytu jakýchkoliv zdravotních obtíží, doporučuji upustit od další aplikace rad a postupů a záležitost konzultovat s lékařem."
+    },
+    {
+      "type": "list_item",
+      "text": "Toto omezení odpovědnosti se vztahuje na všechny zaměstnance, zástupce a přidružené osoby, které jednají jménem nebo ve spojení se mnou."
+    },
+    {
+      "type": "list_item",
+      "text": "Toto omezení odpovědnosti je platné a účinné po dobu poskytování mého poradenství a služeb a nadále i po jeho ukončení."
+    },
+    {
+      "type": "paragraph",
+      "text": "Platbou za mé poradenství a služby klient deklaruje, že si přečetl(a) a porozuměl(a) tomuto omezení odpovědnosti a souhlasím s jeho platností. Klient deklaruje, že taktéž všechny moje bezplatné rady a doporučení aplikuje na vlastní zodpovědnost."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "‍"
+    }
+  ]
+}

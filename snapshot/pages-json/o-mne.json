@@ -1,0 +1,277 @@
+{
+  "url": "https://www.zdravimebavi.cz/o-mne",
+  "slug": "o-mne",
+  "page_type": "content-page",
+  "title": "Zdraví mě baví - O mně",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/o-mne",
+  "headings": [
+    "Kdo jsem?",
+    "Podívej se na 5 zásad mé práce",
+    "1. Individualita",
+    "2. Udržitelnost",
+    "3. Dostupnost",
+    "4. Komplexnost",
+    "5. Nezávislost",
+    "Jakým způsobem pracuji?",
+    "Moje certifikace",
+    "Co by tě ještě mohlo zajímat?",
+    "Přečti si jednu z referencí na konzultaci"
+  ],
+  "ctas": [
+    {
+      "type": "cta",
+      "text": "chci konzultaci zdarma",
+      "href": "#Konzultace_zdarma"
+    },
+    {
+      "type": "cta",
+      "text": "Chci konzultaci zdarma",
+      "href": "/konzultace-zdarma"
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64cb582aa725b757be2c16de_Sni%CC%81mek%20obrazovky%202023-08-03%20v%C2%A09.26%201.png",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/be29cb483e92__64cb582aa725b757be2c16de_Sni-CC-81mek-20obrazovky-202023-08-03-20v-C2-A09.26-201.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64298e3ba3e86e074e30cc6a_Instruktor%20fitness.jpg",
+      "alt": "Osvědčení o získání certifikátu - Instruktor Fitness",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2cc7f99976fb__64298e3ba3e86e074e30cc6a_Instruktor-20fitness.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6460b0dc3cd46f902830f882_peta_kralikova.jpg",
+      "alt": "",
+      "context": "img",
+      "local_path": "snapshot/assets/images/1758d1e80d5d__6460b0dc3cd46f902830f882_peta_kralikova.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Kdo jsem?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jmenuji se , jsem certifikovaná kondiční a a suplementaci. Zdravým životním stylem se zabývám víc než . ‍ Naučím tě, jak poskládat , a celkovou tak, aby to zapadalo do tvého každodenního života. ‍ I ty můžeš mít , ve kterém se budeš . Stačí vědět, jak na to. Ráda ti to ukážu a předám ti mé znalosti a zkušenosti. Iva Vaňková trenérka poradkyně pro výživu 10 let pohyb výživu péči o sebe silné a funkční tělo cítít skvěle"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "cta",
+      "text": "chci konzultaci zdarma",
+      "href": "#Konzultace_zdarma"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Podívej se na 5 zásad mé práce"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "1. Individualita"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dostaneš doporučení , která ti . Žádný univerzální jídelníček a předepsaný pohyb podle tabulek. dokonale sednou"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "2. Udržitelnost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tvůj nový životní styl bude . Nechci po tobě extrémní výkony ani vyřazení určitých potravin. dlouhodobě realizovatelný"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "3. Dostupnost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Žít zdravě můžeš bez speciálních výživových doplňků i bez členství ve fitku. Využiješ jen . to, co máš k dispozici"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "4. Komplexnost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kromě zajištění se zaměříme na tvou , a celkovou dostatku všech živin hormonální rovnováhu spánek pohodu."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "5. Nezávislost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Osvojíš si , které ti pomohou po cestě zdravého životního stylu i po skončení naší spolupráce. návyky pokračovat"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jakým způsobem pracuji?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vyzkoušela jsem si několik výživových směrů a přístupů k pohybu. Postupně jsem zjistila, že nejlepší je vzít si z každého jen tu část, která mi sedí. A přesně to bych přála každé ženě – , která vede do cíle. Každá potřebujeme něco jiného, a já to ve své práci naprosto respektuji. Nebudu se tě snažit napasovat do univerzálních pohybových doporučení nebo tlačit do určitého výživového směru. Společně sestavíme tvůj , který ti bude každý den dělat . Zdravý životní styl vnímám jako skládačku. Naše zdraví je ovlivněno nejen jídlem a pohybem, ale také kvalitním spánkem, dostatečným odpočinkem, životním nastavením, blízkými lidmi kolem nás a mnoha dalšími faktory. a jednotlivé části skládačky do sebe musí zapadat. ‍ V oblasti výživy nejsem zastánce zákazů a omezování. Naopak se podíváme, co můžeš do svého jídelníčku přidat, abys měla všeho potřebného pro . Ať už chceš zhubnout, přibrat, osvojit si zdravé návyky nebo máš jakýkoli jiný cíl, vždy je pro mě důležité, aby ti na tvé cestě bylo dobře. ‍ Má trenérská praxe stojí na , ze kterého vychází celková síla. Je pro mě zásadní, aby pohyb přispíval ke zdraví a nestal se jen nástrojem ke spalování kalorií a růstu svalů. Kladu důraz na během dne a při cvičení. Výsledkem je nejen , ale také silné a které ti umožní . najít svou vlastní nejlepší cestu jedinečný zdravý životní styl radost Všechno souvisí se vším dostatek zdraví a celkovou pohodu pevném středu těla přirozený pohyb správnou techniku krásná postava funkční tělo, žít každý den naplno"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Moje certifikace"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jsem nadšená studentka. nové vědecké poznatky ze světa výživy a pohybu, a v oboru. Informace vkládám do a předávám tobě tak, abys už nic hledat nemusela. a je pro mě pevným základem, na kterém každý den stavím a přidávám nové vědomosti. Neustále hledám čtu studie sleduji autority kontextu ženského zdraví Certifikace instruktora fittness poradce pro výživu a suplementaci"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64cb582aa725b757be2c16de_Sni%CC%81mek%20obrazovky%202023-08-03%20v%C2%A09.26%201.png",
+      "alt": ""
+    },
+    {
+      "type": "paragraph",
+      "text": "Absolvovala jsem půlroční intenzivní výživový kurz se zaměřením na celostní přístup ke stravování."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64298e3ba3e86e074e30cc6a_Instruktor%20fitness.jpg",
+      "alt": "Osvědčení o získání certifikátu - Instruktor Fitness"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trenérský kurz akreditovaný MŠMT jsem zakončila závěrečnou prací na téma cvičení v těhotenství."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Co by tě ještě mohlo zajímat?"
+    },
+    {
+      "type": "list_item",
+      "text": "Vystudovala jsem ekonomii a projekt Zdraví měbaví vznikl jako podklad pro mou diplomovou práci."
+    },
+    {
+      "type": "list_item",
+      "text": "Zjistila jsem, že mě víc baví počítat odcvičené dřepy než zisky firem. A proto jsem teď tady."
+    },
+    {
+      "type": "list_item",
+      "text": "Já i můj manžel jsme věřící."
+    },
+    {
+      "type": "list_item",
+      "text": "Mám malou dceru Amálku. Vím, jak náročné je žít zdravě, když není čas a energie nazbyt. Ale ukážu ti, že to jde."
+    },
+    {
+      "type": "list_item",
+      "text": "Jsem hrdou členkou Sokola jako instruktorka intervalového tréninku."
+    },
+    {
+      "type": "list_item",
+      "text": "Spoustu let jsem hrála na příčnou flétnu a tančila."
+    },
+    {
+      "type": "list_item",
+      "text": "Miluju hořkou čokoládu. Tak moc, že už se to o mně docela ví."
+    },
+    {
+      "type": "list_item",
+      "text": "Do kontaktního formuláře vyplníš tvé jméno, e-mail a téma, kterému se chceš věnovat."
+    },
+    {
+      "type": "list_item",
+      "text": "Ozvu se ti a domluvíme termín konzultace a způsob, kterým ses pojíme."
+    },
+    {
+      "type": "list_item",
+      "text": "Na konzultaci si vyhraď přibližně 30 minut."
+    },
+    {
+      "type": "list_item",
+      "text": "Probereme tvůj a . aktuální stav cíle"
+    },
+    {
+      "type": "list_item",
+      "text": "Dostaneš ode mě individuální doporučení přesně pro tvou situaci."
+    },
+    {
+      "type": "list_item",
+      "text": "Po skončení konzultace ti pošlu shrnutí a praktické návrhy, co konkrétně dělat."
+    },
+    {
+      "type": "list_item",
+      "text": "Poprosím tě o krátkou zpětnou vazbu."
+    },
+    {
+      "type": "list_item",
+      "text": "A pak už je na tobě, jestli se rozhodneš moje doporučení využívat."
+    },
+    {
+      "type": "list_item",
+      "text": "Když budeš chtít, napíšeš mi a domluvíme se na další spolupráci."
+    },
+    {
+      "type": "list_item",
+      "text": "Pokud ti ale jedna konzultace bude stačit, je to naprosto v pořádku."
+    },
+    {
+      "type": "cta",
+      "text": "Chci konzultaci zdarma",
+      "href": "/konzultace-zdarma"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Přečti si jednu z referencí na konzultaci"
+    },
+    {
+      "type": "paragraph",
+      "text": "„Z konzultace jsem si odnesla hlavně , jak si mám poskládat jídlo, když nejím maso. Věděla jsem, že jím málo bílkovin a Iva mi poradila i kombinace jejich rostlinných zdrojů. Taky teď vím, že bych měla celkově jíst víc.“ praktické informace Petra Králíková, maminka 2 kluků"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6460b0dc3cd46f902830f882_peta_kralikova.jpg",
+      "alt": ""
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "url": "https://www.zdravimebavi.cz/clanky/brokolicova-omacka",
+  "slug": "clanky__brokolicova-omacka",
+  "page_type": "article-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/clanky/brokolicova-omacka",
+  "headings": [
+    "Brokolicová omáčka ve zdravé veganské verzi.",
+    "Nutriční hodnoty",
+    "Ingredience",
+    "Jak na to?",
+    "1.",
+    "2.",
+    "3.",
+    "Galerie"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e37c927d21cb6b7f5e2c_brokolicova%CC%81%20oma%CC%81c%CC%8Cka-2.jpg",
+      "alt": "Brokolicová omáčka se soba nudlemi",
+      "context": "img",
+      "local_path": "snapshot/assets/images/493398a22f51__6551e37c927d21cb6b7f5e2c_brokolicova-CC-81-20oma-CC-81c-CC-8Cka-2.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Brokolicová omáčka ve zdravé veganské verzi."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brokolicová omáčka je jídlo pro chvíle, kdy chcete mít uvařeno za 20 minut, neušpinit moc nádobí a zároveň se chcete skvěle a zdravě najíst. Výborná je se soba nudlemi, které jsou taky hotové za chvilku. A protože je fajn mít v jídle i čerstvou zeleninu, můžete je namíchat s nudlemi z cukety, jako to ráda dělám já. Brokolicovou omáčku s přílohou je dobré doplnit ještě o bílkoviny. Vegani si k ní můžou přidat tofu a ostatní třeba balkánský sýr. A navrchu krásně křupe černý sezam. Takhle poskládané jídlo skvěle chutná a dodá tělu všechny potřebné živiny. Tak a teď už pojďme na recept."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e37c927d21cb6b7f5e2c_brokolicova%CC%81%20oma%CC%81c%CC%8Cka-2.jpg",
+      "alt": "Brokolicová omáčka se soba nudlemi"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Nutriční hodnoty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uvedené množství živin je přibližné a platí pro celé množství brokolicové omáčky bez přílohy. Pokud ji rozdělíte na 3 porce, v každé bude 128 kcal, 3 g bílkovin, 13 g sacharidů a 5 g tuků."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ingredience"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brokolice i s košťálem"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 malá brambora"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 cibule"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 stroužek česneku"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 velké lžíce hummusu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Citronová šťáva"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sůl, tymián, pepř"
+    },
+    {
+      "type": "paragraph",
+      "text": "160 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "80 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "100 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "5 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "60 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 lžíce"
+    },
+    {
+      "type": "paragraph",
+      "text": "Soba nudle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuketové nudle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uzené tofu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Černý sezam"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jak na to?"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "1."
+    },
+    {
+      "type": "paragraph",
+      "text": "V hrnci přiveďte k varu přibližně 0,5 l osolené vody. Cibuli, bramboru, česnek a oloupaný košťál brokolice nakrájejte na malé kostky a vložte do hrnce s vroucí vodou."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "2."
+    },
+    {
+      "type": "paragraph",
+      "text": "Po 5 minutách přidejte do hrnce brokolici rozlámanou na malé růžičky a vařte do změknutí."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "3."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hrnec odstavte z plotny, přidejte hummus a koření a rozmixujte tyčovým mixérem. Konzistenci můžete doladit přilitím vody."
+    },
+    {
+      "type": "paragraph",
+      "text": "‍"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Galerie"
+    }
+  ]
+}

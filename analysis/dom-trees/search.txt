@@ -1,0 +1,10 @@
+- body
+  - div.w-container
+    - h1
+    - form.w-form [action="/search"]
+      - label [text="Search"]
+      - input#search.w-input [type="search", name="query"]
+      - input.w-button [type="submit"]
+    - div
+      - div
+        - div

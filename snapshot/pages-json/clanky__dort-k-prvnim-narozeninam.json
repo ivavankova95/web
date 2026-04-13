@@ -1,0 +1,528 @@
+{
+  "url": "https://www.zdravimebavi.cz/clanky/dort-k-prvnim-narozeninam",
+  "slug": "clanky__dort-k-prvnim-narozeninam",
+  "page_type": "article-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/clanky/dort-k-prvnim-narozeninam",
+  "headings": [
+    "Recept na zdravý dort k prvním narozeninám, který budeš péct znovu a znovu!",
+    "Čím dort osladit?",
+    "Jak na nadýchaný a pružný korpus?",
+    "Z čeho připravit lehký krém, který neteče?",
+    "Čím ozdobit dort pro roční dítě?",
+    "Bonusové tipy, díky kterým budeš dort péct nejen na první narozeniny",
+    "Ingredience",
+    "Jak na to?",
+    "1.",
+    "2.",
+    "3.",
+    "4.",
+    "5.",
+    "6.",
+    "7.",
+    "8.",
+    "9.",
+    "10.",
+    "Galerie"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg",
+      "alt": "Zdravý dort s jahodami",
+      "context": "img",
+      "local_path": "snapshot/assets/images/35f48e6ea484__670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg",
+      "alt": "Lehký dort bez cukru",
+      "context": "img",
+      "local_path": "snapshot/assets/images/f518f57e4e23__6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg",
+      "alt": "Dort k druhým narozeninám",
+      "context": "img",
+      "local_path": "snapshot/assets/images/df2bff9f3dfe__670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg",
+      "alt": "Dort bez cukru čokoládovým krémem",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d9367de792f6__670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg",
+      "alt": "Dort s ovocem",
+      "context": "img",
+      "local_path": "snapshot/assets/images/adfde70189c9__670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg",
+      "alt": "Zdravý dort bez cukru",
+      "context": "img",
+      "local_path": "snapshot/assets/images/368b87213439__64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg",
+      "alt": "Zdravý dort s čokoládovým krémem",
+      "context": "img",
+      "local_path": "snapshot/assets/images/c10e13a83fce__64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab4412e782bfa015f60_dort3_upraveno.jpg",
+      "alt": "Zdravý dort pro dvouleté dítě",
+      "context": "img",
+      "local_path": "snapshot/assets/images/64cfe65f4445__64dceab4412e782bfa015f60_dort3_upraveno.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab38e7442e7a7628b45_dort4_upraveno.jpg",
+      "alt": "Lehký dort s jahodami",
+      "context": "img",
+      "local_path": "snapshot/assets/images/56b6376a566c__64dceab38e7442e7a7628b45_dort4_upraveno.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab32bf823fe3e93844c_dort5.jpg",
+      "alt": "Lehký krém na dort s ovocem",
+      "context": "img",
+      "local_path": "snapshot/assets/images/3e1d5514a092__64dceab32bf823fe3e93844c_dort5.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab3412e782bfa015df5_dort6_upraveno.jpg",
+      "alt": "Zdravý dort k prvním narozeninám",
+      "context": "img",
+      "local_path": "snapshot/assets/images/0d143af95c6e__64dceab3412e782bfa015df5_dort6_upraveno.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64e0b5476e4ab56924f95c72_dort_uprava.jpg",
+      "alt": "zdravý dort s čokoládovým krémem a třešněmi",
+      "context": "img",
+      "local_path": "snapshot/assets/images/1beff60be104__64e0b5476e4ab56924f95c72_dort_uprava.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Recept na zdravý dort k prvním narozeninám, který budeš péct znovu a znovu!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upéct je krásný, ale náročný úkol. Na začátku stojí jedno velké rozhodnutí: Zkusit zdravý recept, nebo se radši držet klasiky? dort k prvním narozeninám"
+    },
+    {
+      "type": "paragraph",
+      "text": "Než se ponoříme do dortové tematiky, tohle by tě mohlo zajímat ... Rok s miminkem utekl jako voda a tebe se po těhotenství stále drží pár kilo navíc? Přihlas se na workshop pro mámy . Ukážu ti tam jednoduchou cestu k vysněné postavě. Zvládneš to, i když máš jen minimum času, nechceš držet diety, počítat kalorie a trávit hodiny cvičením. JAK NASTARTOVAT HUBNUTÍ PO PORODU Tady je odkaz."
+    },
+    {
+      "type": "paragraph",
+      "text": "A teď už pojďme na pečení! Nejdřív je potřeba si ujasnit, pro koho dort ve skutečnosti bude. Jestli myslíš, že ho dítě bude opravdu jíst, zdravý recept se dostává do vedení. Často ale dítě dort jen ochutná a nemá o něj zájem. Potom nemá smysl experimentovat a bude lepší upéct dort, který chutná většině hostů."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg",
+      "alt": "Zdravý dort s jahodami"
+    },
+    {
+      "type": "caption",
+      "text": "Dort pro dvouleté dítě, které zvládne sníst drobné ovoce."
+    },
+    {
+      "type": "paragraph",
+      "text": "A pak je tu situace, kdy víš, že dítě jíst dort bude, ale tobě se do alternativních receptů nechce. Když dítě čas od času sní něco mimo výživová doporučení, vůbec nic se nestane. Určitě bych ale hlídala množství, aby oslavenci nebylo špatně, neexperimentovala s novými alergeny a vynechala suroviny, u kterých hrozí vdechnutí (kusy ořechů, drobné ovoce, ...)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Jestli ses rozhodla pustit do pečení zdravého dortu, moc ti fandím! Já jsem do toho šla taky. Při vymýšlení receptu bylo potřeba postavit se : třem výzvám"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dort musí nejen malému , ale hostům. 1. chutnat oslavenci i dospělým"
+    },
+    {
+      "type": "paragraph",
+      "text": ", které může jíst malé dítě, je . 2. Výběr ingrediencí omezený"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dort musí být natolik , aby se dal poskládat do pater a nazdobit. 3. pružný a pevný"
+    },
+    {
+      "type": "paragraph",
+      "text": "Proto pro tebe mám který je a můžeš ho nachystat den předem. Co víc si rodič malého dítěte může přát, že? recept na zdravý, chutný a krásný dort, jednoduchý na přípravu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aby se dort povedl a stala se z něj jasná volba i na , je potřeba znát a vědět, proč je potřeba je dodržet. Pojďme se na ně postupně podívat. druhé a každé další narozeniny pár pravidel"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg",
+      "alt": "Lehký dort bez cukru"
+    },
+    {
+      "type": "caption",
+      "text": "Dort k prvním narozeninám"
+    },
+    {
+      "type": "heading",
+      "level": "5",
+      "text": "Čím dort osladit?"
+    },
+    {
+      "type": "paragraph",
+      "text": "jsou tady jasná volba. Díky nim bude dort příjemně sladký a vláčný. Použij hodně banány, na chuti to je opravdu znát. V receptu je uvedeno 200 g, to jsou dva střední kusy. Snaž se množství přibližně dodržet, protože málo banánů znamená suché těsto bez chuti. A naopak moc banánů způsobí, že těsto ztěžkne a zůstane mazlavé. Banány zralé"
+    },
+    {
+      "type": "paragraph",
+      "text": "‍"
+    },
+    {
+      "type": "heading",
+      "level": "5",
+      "text": "Jak na nadýchaný a pružný korpus?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dortový korpus se tradičně peče z piškotového nebo třeného těsta. Jemnost těchto druhů těst stojí na cukru, který je utřený s tukem a vejci. V těstě díky tomu nejsou různě velké bublinky, korpus se nedrobí a nemá typickou pachuť prášku do pečiva. Pro pružnost se přidává trochu škrobu. Na stavění patrových dortů, které musí vydržet váhu krému a dekorací, je to prostě nejlepší volba."
+    },
+    {
+      "type": "paragraph",
+      "text": "úplně stejné struktury nedocílíš, můžeš ji ale docela věrně napodobit. Heslo zní: dobře vyšlehaný , pojistka v podobě menšího množství prášku do pečiva a citronová šťáva, která zakryje jeho chuť. Bez cukru sníh z bílků"
+    },
+    {
+      "type": "paragraph",
+      "text": "I když ses rozhodla pro zdravou variantu dortu, použij . Celozrnná varianta se pro malé dítě nehodí a ani struktura těsta by s ní nebyla ideální. Recept počítá s přidáním trochy bramborového škrobu, který těstu dodá tu správnou dortovou konzistenci. Nevynechávej ho obzvlášť, jestli plánuješ skládat dort do více pater. Při prokrajování korpusu a vrstvení pater dortu si ušetříš čas i nervy, protože všechno bude držet, kde má. bílou hladkou nebo polohrubou mouku"
+    },
+    {
+      "type": "heading",
+      "level": "5",
+      "text": "Z čeho připravit lehký krém, který neteče?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jen co si oddychneš, protože se ti povedl korpus, je čas myselt na krém. V dětské verzi bude lepší vyhnout se máslovým, smetanovým a mascarpone krémům, které jsou příliš tučné. Ani tvaroh není nejlepší volba, obsahuje totiž pro dítě až moc bílkovin."
+    },
+    {
+      "type": "paragraph",
+      "text": "Na přípravu lehkého a dostatečně hustého dortového krému se hodí . A teď přichází na řadu další trik, díky kterému bude krém sladký, barevný a ještě o trochu pevnější. Do řeckého jogurtu stačí přimíchat rozdrcené . Pro získání odstínů růžové použij maliny nebo jahody, fialovou barvu krému propůjčí borůvky a ostružiny. Světle žlutá barva vznikne přidáním lyofilozovaných banánů nebo ananasu. Nejradši používám . Poměr ceny a kvality je za mě bezkonkurenční. řecký jogurt s obsahem tuku 5 % lyofilizované (mrazem sušené) ovoce tohle lyofilizované ovoce z e-shopu Ochutnej ořech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hladký a rovnoměrně barevný krém vznikne, když lyofilizované ovoce ve stolním mixéru . Přidej k němu malé množství jogurtu, rovnoměrně rozmíchej a až potom obarvi celý krém. Vyhneš se tak zběsilému rozmíchávání hrudek v celém krému. Jogurt ale do stolního mixéru nepřidávej, mixováním by se stal příliš tekutým. rozmixuješ na prach"
+    },
+    {
+      "type": "heading",
+      "level": "5",
+      "text": "Čím ozdobit dort pro roční dítě?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lehký dort s ovocným krémem si přímo říká o jednoduché . Pro malé děti je to stejně nejlepší volba, protože marcipánové, čokoládové a další dortové ozdoby jsou příliš sladké a často uměle obarvené. Pozor na kusy ořechů a drobné ovoce v celku, které by dítě mohlo vdechnout. Například borůvky, kterými je ozdobený dort na fotce, bude lepší na oslavu prvních narozenin nakrájet na poloviny nebo čtvrtiny. Doporučení, v jaké podobě bezpečně nabízet různé potraviny malým dětem, najdeš například na webu . zdobení z ovoce Solid Starts"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg",
+      "alt": "Dort k druhým narozeninám"
+    },
+    {
+      "type": "caption",
+      "text": "Dort k druhým narozeninám"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "Bonusové tipy, díky kterým budeš dort péct nejen na první narozeniny"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jsem si jistá, že si tenhle recept na zdravý dort zamiluješ stejně jako moje rodina a budeš se k němu vracet. Já jsem ho opakovala na dcery svátek, v upravené dospělácké verzi ho dostal manžel a peču ho i jako letní koláč s ovocem. Velká výhoda receptu je totiž v jeho nekonečné variabilitě. Vyzkoušej tyhle obměny:"
+    },
+    {
+      "type": "list_item",
+      "text": "Aby dort získal zajímavou chuťovou linku, přidej do těsta . Pro nákup kvalitních ořechů za fajn ceny . lžíci kokosu, mletých ořechů nebo kakaa omrkni e-shop Ochutnej ořech"
+    },
+    {
+      "type": "list_item",
+      "text": "Ovocný krém vyměň za . Do řeckého jogurtu po částech vmíchej rozpuštěnou čokoládu (200 g čokolády na 500 g jogurtu). čokoládový"
+    },
+    {
+      "type": "list_item",
+      "text": "Jestli chceš korpus prokrajovat, použij formu o průměru 21 cm. Pokud chceš jednopatrový dort, zvol průměr formy okolo 24 cm."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg",
+      "alt": "Dort bez cukru čokoládovým krémem"
+    },
+    {
+      "type": "caption",
+      "text": "Dort v letní verzi jako koláč s ovocem"
+    },
+    {
+      "type": "paragraph",
+      "text": "Než se pustíš do pečení, mám pro tebe poslední tip, díky kterému poskládáš patra dortu na sebe tak, aby se nesesouvala a vrstva krému zůstala na svém místě. Použij , které zatlačíš do krému jako , o které se bude opírat horní plát korpusu. větší kusy ovoce vzpěrné sloupy"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg",
+      "alt": "Dort s ovocem"
+    },
+    {
+      "type": "caption",
+      "text": "Vrstva krému s ovocem před přiklopením dalším plátem korpusu"
+    },
+    {
+      "type": "paragraph",
+      "text": "A teď už pojďme na recept!"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ingredience"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vejce"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bílá mouka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bramborový škrob"
+    },
+    {
+      "type": "paragraph",
+      "text": "Řepkový olej"
+    },
+    {
+      "type": "paragraph",
+      "text": "(Ovesné) mléko"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 střední banány"
+    },
+    {
+      "type": "paragraph",
+      "text": "Citronová šťáva"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sůl"
+    },
+    {
+      "type": "paragraph",
+      "text": "1/2 prášku do pečiva"
+    },
+    {
+      "type": "paragraph",
+      "text": "5"
+    },
+    {
+      "type": "paragraph",
+      "text": "110 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "20 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "6 lžic"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 lžíce"
+    },
+    {
+      "type": "paragraph",
+      "text": "200 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 lžíce"
+    },
+    {
+      "type": "paragraph",
+      "text": "Špetka"
+    },
+    {
+      "type": "paragraph",
+      "text": "7 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "Řecký jogurt 5 %"
+    },
+    {
+      "type": "paragraph",
+      "text": "(na fotkách ) Lyofilizované ovoce jahody"
+    },
+    {
+      "type": "paragraph",
+      "text": "500 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "25 g"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jak na to?"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "1."
+    },
+    {
+      "type": "paragraph",
+      "text": "Banány rozmixuj na hladký krém."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "2."
+    },
+    {
+      "type": "paragraph",
+      "text": "Odděl žloutky od bílků. K bílkům přidej citronovou šťávu, špetku soli a vyšlehej tuhý sníh."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "3."
+    },
+    {
+      "type": "paragraph",
+      "text": "K banánům přidej žloutky, olej, mléko a pořádně promíchej."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "4."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ve větší míse metličkou smíchej mouku, škrob a prášek do pečiva."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "5."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do mísy k sypkým surovinám přilej banánovou směs. Metličkou míchej jen tak dlouho, dokud se suché a mokré ingredience nepropojí."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "6."
+    },
+    {
+      "type": "paragraph",
+      "text": "Do těsta opatrně vmíchej sníh."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "7."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dno dortové formy vylož pečícím papírem, nalij do ní těsto a peč na 170 °C asi 40 minut (kotroluj špejlí)."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "8."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hotový korpus nech asi 10 minut chladnout ve formě, pak ho po obvodu odděl pomocí špejle a bok dortové formy sundej. Před prokrajováním musí být korpus úplně vychladlý."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "9."
+    },
+    {
+      "type": "paragraph",
+      "text": "rozmixuj ve stolním mixéru na prach. Z řeckého jogurtu odeber asi 3 lžíce, přisyp k nim prach z ovoce (pozor, lítá všude kolem) a pečlivě rozmíchej. Tuhle část krému pak přidej ke zbytku jogurtu. Lyofilizované ovoce"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "10."
+    },
+    {
+      "type": "paragraph",
+      "text": "Než korpus vychladne a ty se pustíš do zdobení dortu, ulož krém aspoň na hodinu do lednice."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Galerie"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg",
+      "alt": "Zdravý dort bez cukru"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg",
+      "alt": "Zdravý dort s čokoládovým krémem"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab4412e782bfa015f60_dort3_upraveno.jpg",
+      "alt": "Zdravý dort pro dvouleté dítě"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab38e7442e7a7628b45_dort4_upraveno.jpg",
+      "alt": "Lehký dort s jahodami"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab32bf823fe3e93844c_dort5.jpg",
+      "alt": "Lehký krém na dort s ovocem"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab3412e782bfa015df5_dort6_upraveno.jpg",
+      "alt": "Zdravý dort k prvním narozeninám"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64e0b5476e4ab56924f95c72_dort_uprava.jpg",
+      "alt": "zdravý dort s čokoládovým krémem a třešněmi"
+    }
+  ]
+}

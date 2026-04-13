@@ -1,0 +1,17 @@
+- body.body-10-copy
+  - section#Web_KontaktniFormular_pruvodce.section-9-copy
+    - h2.heading-11.heading-jumbo-small
+      - br
+      - br
+    - div.div-block-70
+      - div.w-layout-grid.grid-26
+        - div
+          - div.w-embed.w-script
+        - div
+          - h2.heading-jumbo-small
+          - img.image-64_recenze
+          - img.image-64_recenze
+          - img.image-64_recenze
+          - h2.heading-jumbo-small
+          - p
+          - img.image-63

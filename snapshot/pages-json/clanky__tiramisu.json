@@ -1,0 +1,187 @@
+{
+  "url": "https://www.zdravimebavi.cz/clanky/tiramisu",
+  "slug": "clanky__tiramisu",
+  "page_type": "article-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/clanky/tiramisu",
+  "headings": [
+    "Tiramisu s domácím piškotem a tvarohem.",
+    "Nutriční hodnoty",
+    "Ingredience",
+    "Jak na to?",
+    "1.",
+    "2.",
+    "3.",
+    "4.",
+    "Galerie"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551eb43de5933fd682eecfe_tiramisu%201-2.jpg",
+      "alt": "tiramisu ve zdravé verzi s banánovým krémem bez lepku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/0099cf69789f__6551eb43de5933fd682eecfe_tiramisu-201-2.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Tiramisu s domácím piškotem a tvarohem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiramisu se tradičně připravuje z mascarpone smíchaným se žloutky, cukrářských piškotů a mandlového likéru. Jestli ale netrváte na italských postupech a chcete si tiramisu připravit ve zdravější bezlepkové verzi plné bílkovin, jste tady správně."
+    },
+    {
+      "type": "paragraph",
+      "text": "Upéct si na tiramisu vlastní piškot z kokosové mouky není nic složitého a právě díky němu a banánu v krému je celkový výsledek tak trochu exotický. Klidně mu můžete říkat ‚‚Exotické tiramisu‘‘ 🥥🌴🍌. Jestli vám k tiramisu exotika úplně nesedí, oslaďte si krém podle svého klidně obyčejným cukrem."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551eb43de5933fd682eecfe_tiramisu%201-2.jpg",
+      "alt": "tiramisu ve zdravé verzi s banánovým krémem bez lepku"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Nutriční hodnoty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uvedené množství živin je přibližné a platí pro celé tiramisu. Pokud ho rozkrájíte na 12 kusů, v každém bude 127 kcal, 11 g bílkovin, 8 g sacharidů a 5 g tuků."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Ingredience"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kokosová mouka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Čekankový sirup"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vejce"
+    },
+    {
+      "type": "paragraph",
+      "text": "Silné espresso"
+    },
+    {
+      "type": "paragraph",
+      "text": "50 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "‍ 50 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "5 ks"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 tvarohy v papíru"
+    },
+    {
+      "type": "paragraph",
+      "text": "Banány"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kakao"
+    },
+    {
+      "type": "paragraph",
+      "text": "500 g"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 k"
+    },
+    {
+      "type": "paragraph",
+      "text": "‍ 2 lžíce"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Jak na to?"
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "1."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oddělte žloutky od bílků a z bílků vyšlehejte sníh."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "2."
+    },
+    {
+      "type": "paragraph",
+      "text": "V míse promíchejte kokosovou mouku, čekankový sirup a žloutky. Nakoce opatrně přidejte sníh z bílků."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "3."
+    },
+    {
+      "type": "paragraph",
+      "text": "Těsto rozetřete na pečící papír do obdélníku o tloušťce 1 cm a pečte na 170° přibližně 20 minut (až se těsto zpevní a zezlátne, je hotovo). Plech s piškotem vyndejte z trouby a nechte vychladnout."
+    },
+    {
+      "type": "heading",
+      "level": "4",
+      "text": "4."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vychladlý piškot rozřízněte na poloviny a propíchejte vidličkou. První polovinu položte na dno formy, pokapejte espressem a rozetřete na ni polovinu krému. Pokračujte s druhou polovinou piškotu, zbytkem espressa a druhou polovinou krému. Hotové tiramisu posypejte kakaem a uložte do druhého dne do lednice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pro extra rychlou variantu vynechte střídavé vrstvení piškotu a krému. Piškot nerozkrajujte, rovnou propíchejte vidličkou, pokapejte expressem a krém rozetřete v jedné vrstvě. Výsledek bude vypadat jako na fotce."
+    },
+    {
+      "type": "paragraph",
+      "text": "‍"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Galerie"
+    }
+  ]
+}

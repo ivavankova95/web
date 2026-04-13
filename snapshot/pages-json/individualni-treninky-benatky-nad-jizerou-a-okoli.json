@@ -1,0 +1,103 @@
+{
+  "url": "https://www.zdravimebavi.cz/individualni-treninky-benatky-nad-jizerou-a-okoli",
+  "slug": "individualni-treninky-benatky-nad-jizerou-a-okoli",
+  "page_type": "service-landing",
+  "title": "Zdraví mě baví - Individuální tréninky (Benátky nad Jizerou a okolí)",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/individualni-treninky-benatky-nad-jizerou-a-okoli",
+  "headings": [
+    "Individuální tréninky (Benátky nad Jizerou a okolí)",
+    "S kým si zacvičíš?"
+  ],
+  "ctas": [],
+  "forms": [
+    {
+      "name": "wf-form-Individualni_treninky",
+      "id": "wf-form-Individualni_treninky",
+      "method": "post",
+      "action": "",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "Jmeno",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "Email",
+          "required": true
+        },
+        {
+          "tag": "textarea",
+          "type": "",
+          "name": "Message",
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "Souhlas-s-obch.-podm",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "Souhlas-GDPR",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "submit",
+          "name": "",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647048d54f90b915dad25155_IMG_2827(1).jpg",
+      "alt": "Individuální tréninky v Benátkách nad Jizerou na workautovém hřišti poblíž Loděnice",
+      "context": "img",
+      "local_path": "snapshot/assets/images/35d17d3195df__647048d54f90b915dad25155_IMG_2827-1-.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Individuální tréninky (Benátky nad Jizerou a okolí)"
+    },
+    {
+      "type": "paragraph",
+      "text": "* Povinný údaj"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647048d54f90b915dad25155_IMG_2827(1).jpg",
+      "alt": "Individuální tréninky v Benátkách nad Jizerou na workautovém hřišti poblíž Loděnice"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "S kým si zacvičíš?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jmenuji se Iva Vaňková, jsem certifikovaná kondiční trenérka a poradkyně pro výživu a suplementaci. Zdravým životním stylem se zabývám víc než 10 let. Moje klientky oceňují hlavně mou . ‍ Kladu důraz na během dne a na . Výsledkem je nejen postava, se kterou budeš spokojená, ale také , které ti umožní žít každý den naplno. empatii a celostní zaměření přirozený pohyb správnou techniku cvičení silné a funkční tělo"
+    }
+  ]
+}

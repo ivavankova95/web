@@ -1,0 +1,239 @@
+{
+  "url": "https://www.zdravimebavi.cz/lekce-cviceni",
+  "slug": "lekce-cviceni",
+  "page_type": "service-landing",
+  "title": "Zdraví mě baví - Lekce cvičení",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/lekce-cviceni",
+  "headings": [
+    "Tréninky a lekce cvičení",
+    "Zacvič se mnou naživo nebo online. Provedu tě kondičním tréninkem a pomohu ti vybudovat svaly i vytvarovat postavu.",
+    "Moc ráda se s tebou potkám na některé z mých skupinových lekcí. Nebo se můžeme domluvit na individuálním tréninku.",
+    "S kým si zacvičíš?",
+    "Přečti si referenci na tréninky pod mým vedením",
+    "Další reference"
+  ],
+  "ctas": [
+    {
+      "type": "cta",
+      "text": "Chci si zacVIČIT se skvělou partou",
+      "href": "/cviceni-v-benatkach-nad-jizerou"
+    },
+    {
+      "type": "cta",
+      "text": "potřebuji individuální lekci",
+      "href": "/individualni-treninky-benatky-nad-jizerou-a-okoli"
+    }
+  ],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64613182215f1e3513be86d8_Srdce_icon.png",
+      "alt": "Ikona srdíčka",
+      "context": "img",
+      "local_path": "snapshot/assets/images/771e3978ec99__64613182215f1e3513be86d8_Srdce_icon.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a78359edfdb7aedb784b8_cviceni(1).jpg",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/76e0df0e7658__646a78359edfdb7aedb784b8_cviceni-1-.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64612d34ddc53c25e652f6a0_Otaznik_icon.png",
+      "alt": "Ikona otazníku představující otázku.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/c2cf24b82e04__64612d34ddc53c25e652f6a0_Otaznik_icon.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "alt": "Skupinové lekce cvičení v Benátkách nad Jizerou",
+      "context": "img",
+      "local_path": "snapshot/assets/images/36db8afa8720__6509a67c73c26c897f344b10_IMG_6323.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646132a9ddc53c25e657e7f0_OK_icon.png",
+      "alt": "Ikona představující symbol \"splněno\"",
+      "context": "img",
+      "local_path": "snapshot/assets/images/629753fa81d4__646132a9ddc53c25e657e7f0_OK_icon.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647048d54f90b915dad25155_IMG_2827(1).jpg",
+      "alt": "Individuální tréninky v Benátkách nad Jizerou na workautovém hřišti poblíž Loděnice",
+      "context": "img",
+      "local_path": "snapshot/assets/images/35d17d3195df__647048d54f90b915dad25155_IMG_2827-1-.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64704ad2dc557cbd3f2efe66_Mask%20recenze%20cviceni(1).png",
+      "alt": "Ivana Staňková",
+      "context": "img",
+      "local_path": "snapshot/assets/images/55fe9db9b386__64704ad2dc557cbd3f2efe66_Mask-20recenze-20cviceni-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10cd80150bbca4a2cba37_cviceni_ref1.jpg",
+      "alt": "Cvičení Benátky nad Jizerou, skupinové lekce, zlepšení kondice a posilování",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d87c20e966ed__64d10cd80150bbca4a2cba37_cviceni_ref1.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10cd850040191c74733c1_cviceni_ref2.jpg",
+      "alt": "Benátky nad Jizerou cvičení, intervalový trénink pro ženy",
+      "context": "img",
+      "local_path": "snapshot/assets/images/191837f554ad__64d10cd850040191c74733c1_cviceni_ref2.jpg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Tréninky a lekce cvičení"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Zacvič se mnou naživo nebo online. Provedu tě kondičním tréninkem a pomohu ti vybudovat svaly i vytvarovat postavu."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64613182215f1e3513be86d8_Srdce_icon.png",
+      "alt": "Ikona srdíčka"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cvičení pod mým vedením ti pomůže nejen ke , ale také k silnému a . krásné postavě funkčnímu tělu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Naučíš se cvičení a , ze kterého vychází celková síla. správnou techniku zpevníš střed těla"
+    },
+    {
+      "type": "paragraph",
+      "text": "Z lekce odejdeš s dobrou náladou. Užiješ si a poskytnu ti maximální . milou atmosféru podporu"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a78359edfdb7aedb784b8_cviceni(1).jpg",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Moc ráda se s tebou potkám na některé z mých skupinových lekcí. Nebo se můžeme domluvit na individuálním tréninku."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64612d34ddc53c25e652f6a0_Otaznik_icon.png",
+      "alt": "Ikona otazníku představující otázku."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "alt": "Skupinové lekce cvičení v Benátkách nad Jizerou"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646132a9ddc53c25e657e7f0_OK_icon.png",
+      "alt": "Ikona představující symbol \"splněno\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Na lekcích střídáme cviky pro a s vlastní vahou i s pomůckami. Každý cvik ti ukážu ve více variantách podle obtížnosti. Čeká tě perfektní , kde si najdeš to svoje. intervalového tréninku zlepšení kondice posilování kombinace pomalejšího a rychlejšího cvičení"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kdy a kde cvičíme?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Čtvrtek 18:00 – 19:00"
+    },
+    {
+      "type": "paragraph",
+      "text": "TJ Sokol Benátky nad Jizerou Ladislava Vágnera 87/17, Benátky nad Jizerou I Z hezkého počasí . cvičíme venku"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cena lekce je 120 Kč."
+    },
+    {
+      "type": "paragraph",
+      "text": "Skupinové lekce (Benátky nad Jizerou)"
+    },
+    {
+      "type": "cta",
+      "text": "Chci si zacVIČIT se skvělou partou",
+      "href": "/cviceni-v-benatkach-nad-jizerou"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nemáš čas chodit a skupinovky nebo radši cvičíš v soukromí? Ráda pro tebe připravím individuální lekci na míru. Můžeme se sejít a ukážu ti, jak si můžeš parádně zacvičit u sebe doma. I kdyby to byla jen židle a ručník :). - Vysvětlím ti, které cviky jsou pro tebe vhodné. - Naučím tě . Díky tomu nebudeš ztrácet čas a radost z pohybu zbytečným cvičením bez efektu. ‍ PS: Klidně se domluv s pár . Můžete cvičit spolu a náklady za lekci si rozdělit. u tebe doma, venku nebo v sokolovně v Benátkách s vybavením, které máš k dispozici správné provedení cviků kamarádkami"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lekce trvá 60 minut a součástí je diagnostika pohybového aparátu. Cena je 890 Kč."
+    },
+    {
+      "type": "paragraph",
+      "text": "Individuální tréninky (Benátky nad Jizerou a okolí)"
+    },
+    {
+      "type": "cta",
+      "text": "potřebuji individuální lekci",
+      "href": "/individualni-treninky-benatky-nad-jizerou-a-okoli"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647048d54f90b915dad25155_IMG_2827(1).jpg",
+      "alt": "Individuální tréninky v Benátkách nad Jizerou na workautovém hřišti poblíž Loděnice"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "S kým si zacvičíš?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jmenuji se Iva Vaňková, jsem certifikovaná kondiční trenérka a poradkyně pro výživu a suplementaci. Zdravým životním stylem se zabývám víc než 10 let. Moje klientky oceňují hlavně mou . ‍ Kladu důraz na během dne a na . Výsledkem je nejen postava, se kterou budeš spokojená, ale také , které ti umožní žít každý den naplno. empatii a celostní zaměření přirozený pohyb správnou techniku cvičení silné a funkční tělo"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Přečti si referenci na tréninky pod mým vedením"
+    },
+    {
+      "type": "paragraph",
+      "text": "„Na tréninky chodím pravidelně. Líbí se mi . Lekce je pokaždé trochu jiná a proto . Také je super tvůj , který vždycky k lepším výkonům.“ kombinace silového a kondičního cvičení mě vždycky baví pozitivní přístup namotivuje Ivana Staňková, maminka na mateřské dovolené"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64704ad2dc557cbd3f2efe66_Mask%20recenze%20cviceni(1).png",
+      "alt": "Ivana Staňková"
+    },
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Další reference"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10cd80150bbca4a2cba37_cviceni_ref1.jpg",
+      "alt": "Cvičení Benátky nad Jizerou, skupinové lekce, zlepšení kondice a posilování"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10cd850040191c74733c1_cviceni_ref2.jpg",
+      "alt": "Benátky nad Jizerou cvičení, intervalový trénink pro ženy"
+    }
+  ]
+}

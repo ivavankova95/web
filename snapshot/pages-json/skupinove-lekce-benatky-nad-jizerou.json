@@ -1,0 +1,103 @@
+{
+  "url": "https://www.zdravimebavi.cz/skupinove-lekce-benatky-nad-jizerou",
+  "slug": "skupinove-lekce-benatky-nad-jizerou",
+  "page_type": "service-landing",
+  "title": "Zdraví mě baví - Skupinové lekce (Benátky nad Jizerou)",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/skupinove-lekce-benatky-nad-jizerou",
+  "headings": [
+    "Přijď si zacvičit na skupinové lekce do Benátek nad Jizerou",
+    "S kým si zacvičíš?"
+  ],
+  "ctas": [],
+  "forms": [
+    {
+      "name": "wf-form-Skupinove_lekce-2",
+      "id": "wf-form-Skupinove_lekce-2",
+      "method": "post",
+      "action": "",
+      "fields": [
+        {
+          "tag": "input",
+          "type": "text",
+          "name": "Jmeno",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "email",
+          "name": "Email",
+          "required": true
+        },
+        {
+          "tag": "textarea",
+          "type": "",
+          "name": "Message",
+          "required": false
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "Souhlas-s-obch.-podm",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "checkbox",
+          "name": "Souhlas-GDPR",
+          "required": true
+        },
+        {
+          "tag": "input",
+          "type": "submit",
+          "name": "",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "alt": "Skupinové lekce cvičení v Benátkách nad Jizerou",
+      "context": "img",
+      "local_path": "snapshot/assets/images/36db8afa8720__6509a67c73c26c897f344b10_IMG_6323.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Přijď si zacvičit na skupinové lekce do Benátek nad Jizerou"
+    },
+    {
+      "type": "paragraph",
+      "text": "* Povinný údaj"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "alt": "Skupinové lekce cvičení v Benátkách nad Jizerou"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "S kým si zacvičíš?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jmenuji se Iva Vaňková, jsem certifikovaná kondiční trenérka a poradkyně pro výživu a suplementaci. Zdravým životním stylem se zabývám víc než 10 let. Moje klientky oceňují hlavně mou . ‍ Kladu důraz na během dne a na . Výsledkem je nejen postava, se kterou budeš spokojená, ale také , které ti umožní žít každý den naplno. empatii a celostní zaměření přirozený pohyb správnou techniku cvičení silné a funkční tělo"
+    }
+  ]
+}

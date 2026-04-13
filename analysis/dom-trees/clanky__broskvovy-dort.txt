@@ -1,0 +1,119 @@
+- body.body
+  - div.dd_shadow
+  - div.navbar.w-nav
+    - div.container-2.w-container
+      - a.brand.w-nav-brand [href="/"]
+        - img.image [alt="Logo Zdraví mě baví"]
+      - nav.nav-menu.w-nav-menu
+        - a.link-block.w-inline-block [href="/o-mne"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/blog"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/e-book-jak-sestavit-jidelnicek"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.link-block.w-inline-block [href="/pruvodce"]
+          - div.text-block-3
+          - div.bottom-line
+        - a.button-2.w-button [href="/pruvodce-pristup/domu", text="Členská sekce"]
+      - div.menu-button-2.w-nav-button
+        - div.lottie-animation
+  - div.section
+    - div.container.cc-blog-detail
+      - div.blog-detail-header-wrap
+        - div
+          - h1.heading-4
+          - div.collection-list-wrapper-3.w-dyn-list
+            - div.collection-list-6.blog-post-labels.w-dyn-items
+              - ... (1 hidden child nodes)
+          - div.label.cc-blog-date
+      - div.rich-text.w-richtext
+        - p
+        - p
+        - figure.w-richtext-align-center.w-richtext-figure-type-image
+          - div
+            - img [alt="Nepečený broskvový dort s korpusem ze se"]
+      - div.blog-detail-header-wrap_2
+        - h2.heading-13.heading-5
+        - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237c1-cfe06e61.w-layout-grid.grid-7
+          - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237c2-cfe06e61.w-layout-grid.grid-8
+            - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237c3-cfe06e61.text-block-8.nutricni-hodnoty-cisla
+            - div.text-block_nutri
+          - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237c5-cfe06e61.w-layout-grid.grid-9
+            - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237c6-cfe06e61.text-block-9.nutricni-hodnoty-cisla
+            - div.text-block-5.text-block_nutri
+          - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237c8-cfe06e61.w-layout-grid.grid-10
+            - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237c9-cfe06e61.text-block-10.nutricni-hodnoty-cisla
+            - div.text-block-6.text-block_nutri
+          - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237cb-cfe06e61.w-layout-grid.grid-11
+            - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237cc-cfe06e61.text-block-11.nutricni-hodnoty-cisla
+            - div.text-block-7.text-block_nutri
+        - div#w-node-_6a2bba6c-6ca1-9799-21e9-25b4662237ce-cfe06e61
+          - p.paragraph-10
+      - div.blog-detail-header-wrap_2
+        - div
+          - h2.heading-13.heading-5
+        - div.w-layout-grid.grid-4
+          - div#w-node-f588b533-556a-f2ea-3f96-dce5cc33a07a-cfe06e61.w-layout-grid.grid-5.grid-white-bg-shadow
+            - div#w-node-b61b3fde-040f-fb66-d826-98fe9db46993-cfe06e61.heading-5.red-heading
+            - div#w-node-d64b2e1e-372b-3a0e-944d-8d06e2db6b01-cfe06e61.rich-text-semi-bold.spacing-left-and-down.w-richtext
+              - ... (3 hidden child nodes)
+            - div#w-node-ed9f2e83-68b8-c0b6-5939-01ab0264fe45-cfe06e61.rich-text-semi-bold.spacing-right-and-down.w-richtext
+              - ... (3 hidden child nodes)
+          - div#w-node-_944dbfd9-27bf-4e51-6a8f-36bbf61efa27-cfe06e61.w-layout-grid.grid-6.grid-5
+            - div#w-node-_17eb807d-4b9b-e033-3e64-59ac85c15f68-cfe06e61.heading-5.red-heading
+            - div#w-node-_28ed29ed-d706-f843-66cd-0cfa43cf3a3d-cfe06e61.rich-text-semi-bold.spacing-left-and-down.w-richtext
+              - ... (4 hidden child nodes)
+            - div#w-node-e4c742a3-81e7-e583-5854-76ac3587aa07-cfe06e61.rich-text-semi-bold.spacing-right-and-down.w-richtext
+              - ... (4 hidden child nodes)
+      - div.rich-text.w-richtext
+        - h2
+        - h4
+          - strong
+        - p
+          - strong
+        - h4
+          - strong
+        - p
+          - strong
+        - h4
+          - strong
+        - p
+        - h4
+          - strong
+        - p
+      - h2.heading-14
+      - div.w-dyn-list
+        - div.collection-list-10.w-dyn-items
+          - div.collection-item-8.w-dyn-item.w-dyn-repeater-item
+            - a.w-inline-block.w-lightbox [href="#"]
+              - ... (1 hidden child nodes)
+          - div.collection-item-8.w-dyn-item.w-dyn-repeater-item
+            - a.w-inline-block.w-lightbox [href="#"]
+              - ... (1 hidden child nodes)
+          - div.collection-item-8.w-dyn-item.w-dyn-repeater-item
+            - a.w-inline-block.w-lightbox [href="#"]
+              - ... (1 hidden child nodes)
+        - div.w-dyn-hide.w-dyn-empty
+          - div
+  - section.footer-subscribe
+    - div.container-3
+      - div.footer-divider-two
+      - div.footer-wrapper-three
+        - div.footer-block-three
+          - a.footer-link-three.text-link [href="/o-mne", text="O mně"]
+          - a.footer-link-three.text-link [href="/napis-mi", text="Napiš mi"]
+        - div.footer-social-block-three
+          - a.footer-social-link-three.w-inline-block [href="https://www.facebook.com/zdravimebavi.fb"]
+            - img.image-14 [alt="Ikona Facebooku"]
+          - a.footer-social-link-three.w-inline-block [href="https://www.instagram.com/zdravi_me_bavi/"]
+            - img [alt="Ikona Instagramu"]
+      - div.footer-divider-two
+      - div.footer-bottom
+        - div.footer-copyright
+        - div.footer-legal-block
+          - a.footer-legal-link.text-link [href="/obchodni-podminky", text="Obchodní podmínky"]
+          - a.footer-legal-link.text-link [href="/gdpr", text="Podmínky ochrany osobních údajů"]
+          - a.footer-legal-link.text-link [href="/odpovednost", text="Odpovědnost"]

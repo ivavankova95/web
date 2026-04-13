@@ -1,0 +1,4018 @@
+{
+  "generated_from": "snapshot/manifests/sanity-import-documents.ndjson",
+  "asset_count": 181,
+  "assets": [
+    {
+      "local_path": "snapshot/assets/images/0099cf69789f__6551eb43de5933fd682eecfe_tiramisu-201-2.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/0099cf69789f__6551eb43de5933fd682eecfe_tiramisu-201-2.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551eb43de5933fd682eecfe_tiramisu%201-2.jpg",
+      "suggested_alt": "tiramisu ve zdravé verzi s banánovým krémem bez lepku",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 184423,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.tiramisu",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "tiramisu ve zdravé verzi s banánovým krémem bez lepku",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/03879939f94d__671912be02cc06cbf9e03b94_6428550807c9bbd7879a8601_prirozeny_pohyb.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/03879939f94d__671912be02cc06cbf9e03b94_6428550807c9bbd7879a8601_prirozeny_pohyb.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671912be02cc06cbf9e03b94_6428550807c9bbd7879a8601_prirozeny_pohyb.jpeg",
+      "suggested_alt": "Přirozený pohyb jako procházka může být v horkém počasí skvělá alternativa cvičení",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 276964,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[19]",
+          "alt": "Přirozený pohyb jako procházka může být v horkém počasí skvělá alternativa cvičení",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/04d000b83cb1__66a911f7488b20f7060c605a_IMG_9435.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/04d000b83cb1__66a911f7488b20f7060c605a_IMG_9435.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66a911f7488b20f7060c605a_IMG_9435.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 65231,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/056662070f68__66f13c63723b5b9b621d8513_banner-20webina-CC-81r-CC-8C-20na-20web-20-PC-1-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/056662070f68__66f13c63723b5b9b621d8513_banner-20webina-CC-81r-CC-8C-20na-20web-20-PC-1-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66f13c63723b5b9b621d8513_banner%20webina%CC%81r%CC%8C%20na%20web%20(PC)(1)(1).png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 114840,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/079709beefbe__64ff38b8139448b55c8af833_IMG_6776.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/079709beefbe__64ff38b8139448b55c8af833_IMG_6776.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64ff38b8139448b55c8af833_IMG_6776.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 533899,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[18].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/0ad412c37989__66a90f5b62210e947efc8a3e_Na-CC-81vrh-20bez-20na-CC-81zvu-7-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/0ad412c37989__66a90f5b62210e947efc8a3e_Na-CC-81vrh-20bez-20na-CC-81zvu-7-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66a90f5b62210e947efc8a3e_Na%CC%81vrh%20bez%20na%CC%81zvu(7).jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 75669,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[4].content[1]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[4].content[1]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[2].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/0d143af95c6e__64dceab3412e782bfa015df5_dort6_upraveno.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/0d143af95c6e__64dceab3412e782bfa015df5_dort6_upraveno.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab3412e782bfa015df5_dort6_upraveno.jpg",
+      "suggested_alt": "Zdravý dort k prvním narozeninám",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 628710,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[90]",
+          "alt": "Zdravý dort k prvním narozeninám",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/0d7798091182__671914ed7ab8dd8be8b7df77_6428524af54066482e612eae_jak_spravne_jist_3.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/0d7798091182__671914ed7ab8dd8be8b7df77_6428524af54066482e612eae_jak_spravne_jist_3.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671914ed7ab8dd8be8b7df77_6428524af54066482e612eae_jak_spravne_jist_3.jpeg",
+      "suggested_alt": "Jak správně jíst? Místo složitých strategií raději vědomé jedení",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 312555,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jak-spravne-jist",
+          "document_type": "blogPost",
+          "field_path": "content[28]",
+          "alt": "Jak správně jíst? Místo složitých strategií raději vědomé jedení",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/0dd773d0e549__66be1a31f0081a51eda36c98_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.29.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/0dd773d0e549__66be1a31f0081a51eda36c98_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.29.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a31f0081a51eda36c98_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.29.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 216517,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.formular---pruvodce-vyzivou-a-pohybem",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/16772e8e885d__671912be02cc06cbf9e03bac_642854e35973979182962955_doplnujte_tekutiny.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/16772e8e885d__671912be02cc06cbf9e03bac_642854e35973979182962955_doplnujte_tekutiny.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671912be02cc06cbf9e03bac_642854e35973979182962955_doplnujte_tekutiny.jpeg",
+      "suggested_alt": "hydratace v horku, doplnění tekutin, ovocné smoothie",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 270152,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[11]",
+          "alt": "hydratace v horku, doplnění tekutin, ovocné smoothie",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/16d4659633b4__67f133c66455127fcc6d937f_IMG_2833.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/16d4659633b4__67f133c66455127fcc6d937f_IMG_2833.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f133c66455127fcc6d937f_IMG_2833.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 1253287,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jarni-salat-ktery-zasyti",
+          "document_type": "blogPost",
+          "field_path": "content[30]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/1758d1e80d5d__6460b0dc3cd46f902830f882_peta_kralikova.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/1758d1e80d5d__6460b0dc3cd46f902830f882_peta_kralikova.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6460b0dc3cd46f902830f882_peta_kralikova.jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 219753,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[9].content[1]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "page.o-mne",
+          "document_type": "page",
+          "field_path": "pageBuilder[9].content[1]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[3].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/17cd064471c7__6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/17cd064471c7__6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 159214,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[19]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/191837f554ad__64d10cd850040191c74733c1_cviceni_ref2.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/191837f554ad__64d10cd850040191c74733c1_cviceni_ref2.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10cd850040191c74733c1_cviceni_ref2.jpg",
+      "suggested_alt": "Benátky nad Jizerou cvičení, intervalový trénink pro ženy",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 186478,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[5].content[1]",
+          "alt": "Benátky nad Jizerou cvičení, intervalový trénink pro ženy",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[4].content[1]",
+          "alt": "Benátky nad Jizerou cvičení, intervalový trénink pro ženy",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/198fe21960fd__64284eedf54066d12f60eb03_marketas_vibes.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/198fe21960fd__64284eedf54066d12f60eb03_marketas_vibes.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284eedf54066d12f60eb03_marketas_vibes.jpg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 187243,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[33]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/1b95e7dc2333__66e1a8beff1798bdf412754e_IMG_0600.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/1b95e7dc2333__66e1a8beff1798bdf412754e_IMG_0600.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e1a8beff1798bdf412754e_IMG_0600.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 136016,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[11].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/1bd70e9a8219__651ad2664907e767dd1f1dc4_6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/1bd70e9a8219__651ad2664907e767dd1f1dc4_6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651ad2664907e767dd1f1dc4_6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 602234,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[26]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/1beff60be104__64e0b5476e4ab56924f95c72_dort_uprava.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/1beff60be104__64e0b5476e4ab56924f95c72_dort_uprava.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64e0b5476e4ab56924f95c72_dort_uprava.jpg",
+      "suggested_alt": "zdravý dort s čokoládovým krémem a třešněmi",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 3460223,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[91]",
+          "alt": "zdravý dort s čokoládovým krémem a třešněmi",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/1c291c4f0b96__671914ed7ab8dd8be8b7df7a_6428525c625193371f440c84_jak_spravne_jist-1.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/1c291c4f0b96__671914ed7ab8dd8be8b7df7a_6428525c625193371f440c84_jak_spravne_jist-1.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671914ed7ab8dd8be8b7df7a_6428525c625193371f440c84_jak_spravne_jist-1.jpeg",
+      "suggested_alt": "Jak správně jíst? Nejdůležitější zásada, jíst vědomě.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 240117,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jak-spravne-jist",
+          "document_type": "blogPost",
+          "field_path": "content[7]",
+          "alt": "Jak správně jíst? Nejdůležitější zásada, jíst vědomě.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/236959fb6ad4__64d10af5c5c3ff4ded63c1f9_konzultace_ref4.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/236959fb6ad4__64d10af5c5c3ff4ded63c1f9_konzultace_ref4.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10af5c5c3ff4ded63c1f9_konzultace_ref4.jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 279882,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[4].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/23b08045315c__64ff38b9fa72f55a13cc2e8f_IMG_6777.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/23b08045315c__64ff38b9fa72f55a13cc2e8f_IMG_6777.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64ff38b9fa72f55a13cc2e8f_IMG_6777.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 196661,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[18].content[4]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/26caa29cac03__646124bd46818cacc538506b_1.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/26caa29cac03__646124bd46818cacc538506b_1.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646124bd46818cacc538506b_1.jpg",
+      "suggested_alt": "Pavla Hejralová a její psy",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 374552,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[18].content[1]",
+          "alt": "Pavla Hejralová a její psy",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[17].content[1]",
+          "alt": "Pavla Hejralová a její psy",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/278810a69966__6741f8f348d1a5d5349e51fa_IMG_8358.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/278810a69966__6741f8f348d1a5d5349e51fa_IMG_8358.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6741f8f348d1a5d5349e51fa_IMG_8358.jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 302376,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+          "document_type": "blogPost",
+          "field_path": "content[44]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/292899f8f302__646a3198c550b93445d8a3d7_Uvodka_mobile-1-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/292899f8f302__646a3198c550b93445d8a3d7_Uvodka_mobile-1-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a3198c550b93445d8a3d7_Uvodka_mobile(1).jpg",
+      "suggested_alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 195716,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[0].content[3]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/298d952d466d__64273ae1d1013234a3fe6ed9_vive_hazelnut.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/298d952d466d__64273ae1d1013234a3fe6ed9_vive_hazelnut.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273ae1d1013234a3fe6ed9_vive_hazelnut.jpg",
+      "suggested_alt": "Vive Protein Snack Bar: Lískový ořech",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 319538,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[59]",
+          "alt": "Vive Protein Snack Bar: Lískový ořech",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/2cb84c5559ff__670a8415ab9b9d6184cf5ec8_6551e9113415203dd5468dec_chia1.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/2cb84c5559ff__670a8415ab9b9d6184cf5ec8_6551e9113415203dd5468dec_chia1.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a8415ab9b9d6184cf5ec8_6551e9113415203dd5468dec_chia1.jpeg",
+      "suggested_alt": "chia pudink s kokosovým mlékem a ovocem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 228480,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.chia-pudink",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "chia pudink s kokosovým mlékem a ovocem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/2cc7f99976fb__64298e3ba3e86e074e30cc6a_Instruktor-20fitness.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/2cc7f99976fb__64298e3ba3e86e074e30cc6a_Instruktor-20fitness.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64298e3ba3e86e074e30cc6a_Instruktor%20fitness.jpg",
+      "suggested_alt": "Osvědčení o získání certifikátu - Instruktor Fitness",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 126831,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "page.o-mne",
+          "document_type": "page",
+          "field_path": "pageBuilder[7].content[3]",
+          "alt": "Osvědčení o získání certifikátu - Instruktor Fitness",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[1]",
+          "alt": "Osvědčení o získání certifikátu - Instruktor Fitness",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/2d26f82237e3__64692400ab8a9b8f10c3ae00_DSC02101_ctverec-1-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/2d26f82237e3__64692400ab8a9b8f10c3ae00_DSC02101_ctverec-1-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64692400ab8a9b8f10c3ae00_DSC02101_ctverec(1).jpg",
+      "suggested_alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 152229,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "servicePage.konzultace-zdarma",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[1]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/2f40d4a04944__646a2c88b39363e2e38bae1a_Uvodka-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/2f40d4a04944__646a2c88b39363e2e38bae1a_Uvodka-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a2c88b39363e2e38bae1a_Uvodka(1).png",
+      "suggested_alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 408224,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[0].content[2]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/35d17d3195df__647048d54f90b915dad25155_IMG_2827-1-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/35d17d3195df__647048d54f90b915dad25155_IMG_2827-1-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647048d54f90b915dad25155_IMG_2827(1).jpg",
+      "suggested_alt": "Individuální tréninky v Benátkách nad Jizerou na workautovém hřišti poblíž Loděnice",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 378943,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "servicePage.individualni-treninky-benatky-nad-jizerou-a-okoli",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[1]",
+          "alt": "Individuální tréninky v Benátkách nad Jizerou na workautovém hřišti poblíž Loděnice",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[14]",
+          "alt": "Individuální tréninky v Benátkách nad Jizerou na workautovém hřišti poblíž Loděnice",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/35f48e6ea484__670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/35f48e6ea484__670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec2_64dceab3412e782bfa015df5_dort6_upraveno.jpeg",
+      "suggested_alt": "Zdravý dort s jahodami",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 628710,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[4]",
+          "alt": "Zdravý dort s jahodami",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/368b87213439__64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/368b87213439__64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab43d9feaffeb6fcf93_dort1_upraveno.jpg",
+      "suggested_alt": "Zdravý dort bez cukru",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 677851,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[85]",
+          "alt": "Zdravý dort bez cukru",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/36db8afa8720__6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/36db8afa8720__6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6509a67c73c26c897f344b10_IMG_6323.jpg",
+      "suggested_alt": "Skupinové lekce cvičení v Benátkách nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 623989,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[13]",
+          "alt": "Skupinové lekce cvičení v Benátkách nad Jizerou",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[1]",
+          "alt": "Skupinové lekce cvičení v Benátkách nad Jizerou",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.skupinove-lekce-benatky-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[1]",
+          "alt": "Skupinové lekce cvičení v Benátkách nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/3a9a4fe65749__6428524af54066482e612eae_jak_spravne_jist_3.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/3a9a4fe65749__6428524af54066482e612eae_jak_spravne_jist_3.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6428524af54066482e612eae_jak_spravne_jist_3.jpg",
+      "suggested_alt": "Jak správně jíst? Místo složitých strategií raději vědomé jedení",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 312555,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jak-spravne-jist",
+          "document_type": "blogPost",
+          "field_path": "content[33]",
+          "alt": "Jak správně jíst? Místo složitých strategií raději vědomé jedení",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/3c0e8fedd4b0__64284ee9f9d51a810c842639_cukrfree.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/3c0e8fedd4b0__64284ee9f9d51a810c842639_cukrfree.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ee9f9d51a810c842639_cukrfree.jpg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 128772,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[32]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/3cccb9e865a8__64203273649c3a5520d633f9_joga_web-scaled.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/3cccb9e865a8__64203273649c3a5520d633f9_joga_web-scaled.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64203273649c3a5520d633f9_joga_web-scaled.jpg",
+      "suggested_alt": "přirozený pohyb během dne, v přírodě",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 1470069,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.pohyb-mimo-cviceni",
+          "document_type": "blogPost",
+          "field_path": "content[4]",
+          "alt": "přirozený pohyb během dne, v přírodě",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/3dcaf8fa2d13__6481e97d03140ba416cd7052_Iva_maska-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/3dcaf8fa2d13__6481e97d03140ba416cd7052_Iva_maska-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6481e97d03140ba416cd7052_Iva_maska(1).png",
+      "suggested_alt": "Cvičení Benátky nad Jizerou, začátečníci i pokročilí, skupinové lekce",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 349962,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[19]",
+          "alt": "Cvičení Benátky nad Jizerou, začátečníci i pokročilí, skupinové lekce",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.letni-prazdninova-vyzva",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[3].content[0]",
+          "alt": "Cvičení Benátky nad Jizerou, začátečníci i pokročilí, skupinové lekce",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/3dfd1a040d23__64273a0e2993b9eb1b309d7b_bodylab.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/3dfd1a040d23__64273a0e2993b9eb1b309d7b_bodylab.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273a0e2993b9eb1b309d7b_bodylab.jpg",
+      "suggested_alt": "Bodylab Vegan Protein Bar: Kokos/mandle",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 412446,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[39]",
+          "alt": "Bodylab Vegan Protein Bar: Kokos/mandle",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/3e1d5514a092__64dceab32bf823fe3e93844c_dort5.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/3e1d5514a092__64dceab32bf823fe3e93844c_dort5.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab32bf823fe3e93844c_dort5.jpg",
+      "suggested_alt": "Lehký krém na dort s ovocem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 691411,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[89]",
+          "alt": "Lehký krém na dort s ovocem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/3ea1790c5939__642854bd0cb3c8559d862744_cvicte_brzy_rano.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/3ea1790c5939__642854bd0cb3c8559d862744_cvicte_brzy_rano.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/642854bd0cb3c8559d862744_cvicte_brzy_rano.jpg",
+      "suggested_alt": "Cvičení brzy ráno, běh při východu slunce.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 240830,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[22]",
+          "alt": "Cvičení brzy ráno, běh při východu slunce.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/4115a677a6a7__6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/4115a677a6a7__6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 149630,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[16]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/41d5cc9ac9fe__651ad1203112f9ffb3df04d6_IMG_7096-1-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/41d5cc9ac9fe__651ad1203112f9ffb3df04d6_IMG_7096-1-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651ad1203112f9ffb3df04d6_IMG_7096(1).jpg",
+      "suggested_alt": "skupinové lekce cvičení Benátky nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 307231,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[24]",
+          "alt": "skupinové lekce cvičení Benátky nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/451f0dc03bde__64273ad32a7f28617642e1e1_chocolate_orange.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/451f0dc03bde__64273ad32a7f28617642e1e1_chocolate_orange.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273ad32a7f28617642e1e1_chocolate_orange.jpg",
+      "suggested_alt": "Tom Oliver Nutrition Vegan Protein Bar: Čokoláda/pomeranč",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 345391,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[54]",
+          "alt": "Tom Oliver Nutrition Vegan Protein Bar: Čokoláda/pomeranč",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/481b3eebd521__64623929bb4016750fad84aa_kolecka-20ikona-201.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/481b3eebd521__64623929bb4016750fad84aa_kolecka-20ikona-201.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64623929bb4016750fad84aa_kolecka%20ikona%201.png",
+      "suggested_alt": "Ikona koleček známé z nastavení symbolizuje, jak všechno do sebe hezky zapadá a souvisí spolu.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 9233,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[7].content[0]",
+          "alt": "Ikona koleček známé z nastavení symbolizuje, jak všechno do sebe hezky zapadá a souvisí spolu.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[8].content[0]",
+          "alt": "Ikona koleček známé z nastavení symbolizuje, jak všechno do sebe hezky zapadá a souvisí spolu.",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[7].content[0]",
+          "alt": "Ikona koleček známé z nastavení symbolizuje, jak všechno do sebe hezky zapadá a souvisí spolu.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/481f126354a1__6716769c0edb7b6e9dee6e97_671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/481f126354a1__6716769c0edb7b6e9dee6e97_671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716769c0edb7b6e9dee6e97_671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 68805,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[16]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/493398a22f51__6551e37c927d21cb6b7f5e2c_brokolicova-CC-81-20oma-CC-81c-CC-8Cka-2.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/493398a22f51__6551e37c927d21cb6b7f5e2c_brokolicova-CC-81-20oma-CC-81c-CC-8Cka-2.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e37c927d21cb6b7f5e2c_brokolicova%CC%81%20oma%CC%81c%CC%8Cka-2.jpg",
+      "suggested_alt": "Brokolicová omáčka se soba nudlemi",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 204710,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.brokolicova-omacka",
+          "document_type": "blogPost",
+          "field_path": "content[2]",
+          "alt": "Brokolicová omáčka se soba nudlemi",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/494a5c3d236c__6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/494a5c3d236c__6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 103052,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[61]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/49bbac1f40cb__66e06df04c513a944a7fd958_Ebook_recenze.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/49bbac1f40cb__66e06df04c513a944a7fd958_Ebook_recenze.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e06df04c513a944a7fd958_Ebook_recenze.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 141134,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[11].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/4c37405a5d39__64273f36e23a163ad42e23f4_unava.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/4c37405a5d39__64273f36e23a163ad42e23f4_unava.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273f36e23a163ad42e23f4_unava.jpg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 120771,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.unava-5-duvodu-proc-jste-neustale-unaveni",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/505b19ddd343__64d10af51ceaa7987fc6ae9e_konzultace_ref3.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/505b19ddd343__64d10af51ceaa7987fc6ae9e_konzultace_ref3.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10af51ceaa7987fc6ae9e_konzultace_ref3.jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 272388,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[4].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/529759f0b44f__670b67512d58b361347a72d2_644e563c0704ea3e6126afe9_plnene_datle.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/529759f0b44f__670b67512d58b361347a72d2_644e563c0704ea3e6126afe9_plnene_datle.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670b67512d58b361347a72d2_644e563c0704ea3e6126afe9_plnene_datle.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 206200,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[37]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "blogPost.plnene-datle-v-cokolade",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "Plněné datle v čokoládě, uvnitř s mandlemi. Dekorace z květin",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/52ebd5158911__66e06df0fec5f6dd0ffa7c10_Ebook_recenze2.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/52ebd5158911__66e06df0fec5f6dd0ffa7c10_Ebook_recenze2.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e06df0fec5f6dd0ffa7c10_Ebook_recenze2.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 150751,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[11].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/534dec00fd22__66f01c81b4ab43c2248ebcab_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/534dec00fd22__66f01c81b4ab43c2248ebcab_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66f01c81b4ab43c2248ebcab_ZHUBNI%20BEZ%20POC%CC%8CI%CC%81TA%CC%81NI%CC%81%20KALORII%CC%81(1).png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 67864,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[4]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/53d637b08f85__64ff38b9caa809055227dba6_IMG_6757.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/53d637b08f85__64ff38b9caa809055227dba6_IMG_6757.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64ff38b9caa809055227dba6_IMG_6757.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 360601,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[18].content[3]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/55cac94d2388__64273aeb07c9bb53c3885b27_vive_saltedcaramel-scaled.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/55cac94d2388__64273aeb07c9bb53c3885b27_vive_saltedcaramel-scaled.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273aeb07c9bb53c3885b27_vive_saltedcaramel-scaled.jpg",
+      "suggested_alt": "Vive Protein Snack Bar: Slaný karamel",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 324061,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[64]",
+          "alt": "Vive Protein Snack Bar: Slaný karamel",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/55e1eb800ad2__67f1341d32778f33e0a07c1b_IMG_2858.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/55e1eb800ad2__67f1341d32778f33e0a07c1b_IMG_2858.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d32778f33e0a07c1b_IMG_2858.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 434432,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jarni-salat-ktery-zasyti",
+          "document_type": "blogPost",
+          "field_path": "content[48]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/55fe9db9b386__64704ad2dc557cbd3f2efe66_Mask-20recenze-20cviceni-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/55fe9db9b386__64704ad2dc557cbd3f2efe66_Mask-20recenze-20cviceni-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64704ad2dc557cbd3f2efe66_Mask%20recenze%20cviceni(1).png",
+      "suggested_alt": "Ivana Staňková",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 538612,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[4].content[1]",
+          "alt": "Ivana Staňková",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[3].content[1]",
+          "alt": "Ivana Staňková",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/56b6376a566c__64dceab38e7442e7a7628b45_dort4_upraveno.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/56b6376a566c__64dceab38e7442e7a7628b45_dort4_upraveno.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab38e7442e7a7628b45_dort4_upraveno.jpg",
+      "suggested_alt": "Lehký dort s jahodami",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 446741,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[88]",
+          "alt": "Lehký dort s jahodami",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/56ca57b6e3c2__6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/56ca57b6e3c2__6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 80476,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[54]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/5d5a463bca80__671914ed7ab8dd8be8b7df7d_642852296251938076440876_jak_spravne_jist_2.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/5d5a463bca80__671914ed7ab8dd8be8b7df7d_642852296251938076440876_jak_spravne_jist_2.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671914ed7ab8dd8be8b7df7d_642852296251938076440876_jak_spravne_jist_2.jpeg",
+      "suggested_alt": "Jak jíst správně při hubnutí, sportu a pro zdraví?",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 308121,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jak-spravne-jist",
+          "document_type": "blogPost",
+          "field_path": "content[16]",
+          "alt": "Jak jíst správně při hubnutí, sportu a pro zdraví?",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/5d89573abe79__64273b25aa3462768d43ee94_rawprotein_kakao.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/5d89573abe79__64273b25aa3462768d43ee94_rawprotein_kakao.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273b25aa3462768d43ee94_rawprotein_kakao.jpg",
+      "suggested_alt": "Bombus Raw Protein Bar: Kakaové boby",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 301430,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[49]",
+          "alt": "Bombus Raw Protein Bar: Kakaové boby",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/5daf26bee794__64284ef48fbcbe32b1c38402_anna_faltova.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/5daf26bee794__64284ef48fbcbe32b1c38402_anna_faltova.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ef48fbcbe32b1c38402_anna_faltova.jpg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 151012,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[34]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/5ded891d2f4c__64ff3893bbb1fafbff388405_IMG_6773.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/5ded891d2f4c__64ff3893bbb1fafbff388405_IMG_6773.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64ff3893bbb1fafbff388405_IMG_6773.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 330477,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[4].content[3]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/6058cf17f76c__6716769c0edb7b6e9dee6e9e_671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/6058cf17f76c__6716769c0edb7b6e9dee6e9e_671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716769c0edb7b6e9dee6e9e_671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 80323,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[26]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/60ea1401c9c6__6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/60ea1401c9c6__6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 212868,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[56]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/629753fa81d4__646132a9ddc53c25e657e7f0_OK_icon.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/629753fa81d4__646132a9ddc53c25e657e7f0_OK_icon.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646132a9ddc53c25e657e7f0_OK_icon.png",
+      "suggested_alt": "Ikona představující symbol \"splněno\"",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 2598,
+      "exists": true,
+      "usage_count": 5,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[4]",
+          "alt": "Ikona představující symbol \"splněno\"",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[8].content[0]",
+          "alt": "Ikona představující symbol \"splněno\"",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[2]",
+          "alt": "Ikona představující symbol \"splněno\"",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[9].content[0]",
+          "alt": "Ikona představující symbol \"splněno\"",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[8].content[0]",
+          "alt": "Ikona představující symbol \"splněno\"",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/631fcba7bd3a__6596da19e4136d5b0e85d586_2.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/631fcba7bd3a__6596da19e4136d5b0e85d586_2.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596da19e4136d5b0e85d586_2.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 37182,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[12].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/64cfe65f4445__64dceab4412e782bfa015f60_dort3_upraveno.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/64cfe65f4445__64dceab4412e782bfa015f60_dort3_upraveno.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab4412e782bfa015f60_dort3_upraveno.jpg",
+      "suggested_alt": "Zdravý dort pro dvouleté dítě",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 837644,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[87]",
+          "alt": "Zdravý dort pro dvouleté dítě",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/6614fc634259__646239293ca951c935181f2e_cinka-20ikona-201.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/6614fc634259__646239293ca951c935181f2e_cinka-20ikona-201.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646239293ca951c935181f2e_cinka%20ikona%201.png",
+      "suggested_alt": "Ikona činky",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 2039,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[6].content[0]",
+          "alt": "Ikona činky",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[7].content[0]",
+          "alt": "Ikona činky",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[6].content[0]",
+          "alt": "Ikona činky",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/680bd7a8cc34__6716769c0edb7b6e9dee6e91_67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/680bd7a8cc34__6716769c0edb7b6e9dee6e91_67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716769c0edb7b6e9dee6e91_67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 55358,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[48]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/69692e7344cd__659bbc704ee19afb1487d367_materialy-2.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/69692e7344cd__659bbc704ee19afb1487d367_materialy-2.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/659bbc704ee19afb1487d367_materialy-2.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 377188,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[9].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/69be55c17c89__6428525c625193371f440c84_jak_spravne_jist-1.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/69be55c17c89__6428525c625193371f440c84_jak_spravne_jist-1.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6428525c625193371f440c84_jak_spravne_jist-1.jpg",
+      "suggested_alt": "Jak správně jíst? Nejdůležitější zásada, jíst vědomě.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 240117,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jak-spravne-jist",
+          "document_type": "blogPost",
+          "field_path": "content[32]",
+          "alt": "Jak správně jíst? Nejdůležitější zásada, jíst vědomě.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/69ce12091919__66a90f5b5c686ac89c7f80c5_Na-CC-81vrh-20bez-20na-CC-81zvu-6-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/69ce12091919__66a90f5b5c686ac89c7f80c5_Na-CC-81vrh-20bez-20na-CC-81zvu-6-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66a90f5b5c686ac89c7f80c5_Na%CC%81vrh%20bez%20na%CC%81zvu(6).jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 95886,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[4].content[2]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[4].content[2]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[2].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/6d1a41aceb03__6743281a3101db4a6daf9246_IMG_8365-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/6d1a41aceb03__6743281a3101db4a6daf9246_IMG_8365-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6743281a3101db4a6daf9246_IMG_8365(1).png",
+      "suggested_alt": "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 218041,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[11].content[1]",
+          "alt": "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/6f8618669407__644e563c0704ea3e6126afe9_plnene_datle.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/6f8618669407__644e563c0704ea3e6126afe9_plnene_datle.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/644e563c0704ea3e6126afe9_plnene_datle.jpg",
+      "suggested_alt": "Plněné datle v čokoládě, uvnitř s mandlemi. Dekorace z květin",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 206200,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.plnene-datle-v-cokolade",
+          "document_type": "blogPost",
+          "field_path": "content[29]",
+          "alt": "Plněné datle v čokoládě, uvnitř s mandlemi. Dekorace z květin",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/6faed26f45a3__651accfe0ac1107691703abe_647048d54f90b915dad25155_IMG_2827.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/6faed26f45a3__651accfe0ac1107691703abe_647048d54f90b915dad25155_IMG_2827.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651accfe0ac1107691703abe_647048d54f90b915dad25155_IMG_2827.jpg",
+      "suggested_alt": "skupinové lekce cvičení Benátky nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 363904,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[12]",
+          "alt": "skupinové lekce cvičení Benátky nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/73d1e4e966d9__64284ee369d01c08100c7884_za_hranici_fitness.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/73d1e4e966d9__64284ee369d01c08100c7884_za_hranici_fitness.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ee369d01c08100c7884_za_hranici_fitness.jpg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 159214,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[31]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/742f7e7a2ec3__6551e864254ee1bb611bc9c4_arasidova_omacka.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/742f7e7a2ec3__6551e864254ee1bb611bc9c4_arasidova_omacka.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e864254ee1bb611bc9c4_arasidova_omacka.jpg",
+      "suggested_alt": "Arašídová omáčka z arašídového másla se zázvorem a lahůdkovým droždím, servírovaná se zeleninou.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 185741,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.arasidova-omacka",
+          "document_type": "blogPost",
+          "field_path": "content[2]",
+          "alt": "Arašídová omáčka z arašídového másla se zázvorem a lahůdkovým droždím, servírovaná se zeleninou.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7592860c7e7c__67f1341d71dce35c56b00a0a_IMG_2860.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7592860c7e7c__67f1341d71dce35c56b00a0a_IMG_2860.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d71dce35c56b00a0a_IMG_2860.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 398887,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jarni-salat-ktery-zasyti",
+          "document_type": "blogPost",
+          "field_path": "content[49]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/75cecc890399__67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/75cecc890399__67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67166844ee047783a47b3486_F62F3797-A6A8-4EB9-A370-D6452E992BDA_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 55358,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[60]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/76e0df0e7658__646a78359edfdb7aedb784b8_cviceni-1-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/76e0df0e7658__646a78359edfdb7aedb784b8_cviceni-1-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646a78359edfdb7aedb784b8_cviceni(1).jpg",
+      "suggested_alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 264827,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[4]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/771e3978ec99__64613182215f1e3513be86d8_Srdce_icon.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/771e3978ec99__64613182215f1e3513be86d8_Srdce_icon.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64613182215f1e3513be86d8_Srdce_icon.png",
+      "suggested_alt": "Ikona srdíčka",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 2618,
+      "exists": true,
+      "usage_count": 6,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[7]",
+          "alt": "Ikona srdíčka",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[3].content[0]",
+          "alt": "Ikona srdíčka",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Ikona srdíčka",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[6].content[0]",
+          "alt": "Ikona srdíčka",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[3].content[0]",
+          "alt": "Ikona srdíčka",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[3].content[2]",
+          "alt": "Ikona srdíčka",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/784d09a552e0__64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/784d09a552e0__64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 152228,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[35]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7929d49a6fb0__67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848-201-2.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f17f7bf71b33ff4c438320_67f133e971dce35c56afe381_IMG_2848%201-2.png",
+      "suggested_alt": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 235465,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[10].content[6]",
+          "alt": "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7ab0d2bf0950__64273af92993b9406f30afea_passionbar_skoricovarolka.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7ab0d2bf0950__64273af92993b9406f30afea_passionbar_skoricovarolka.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273af92993b9406f30afea_passionbar_skoricovarolka.jpg",
+      "suggested_alt": "Passion Bar: Skořicová rolka",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 277989,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[74]",
+          "alt": "Passion Bar: Skořicová rolka",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7b246e743f2c__66f01c81e25a73fe3dbbdd73_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-2-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7b246e743f2c__66f01c81e25a73fe3dbbdd73_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81-2-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66f01c81e25a73fe3dbbdd73_ZHUBNI%20BEZ%20POC%CC%8CI%CC%81TA%CC%81NI%CC%81%20KALORII%CC%81(2).png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 255509,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[6]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7d7d5b445e3e__66f15ded02476dc31c6d3a05_banner-20webina-CC-81r-CC-8C-20na-20web_mobil.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7d7d5b445e3e__66f15ded02476dc31c6d3a05_banner-20webina-CC-81r-CC-8C-20na-20web_mobil.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66f15ded02476dc31c6d3a05_banner%20webina%CC%81r%CC%8C%20na%20web_mobil.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 227028,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "suggested_alt": "Logo Zdraví mě baví",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 38049,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Logo Zdraví mě baví",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Logo Zdraví mě baví",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Logo Zdraví mě baví",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7e1bae3c6006__671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7e1bae3c6006__671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 86530,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[58]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/7fbdc336f9bc__6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/7fbdc336f9bc__6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini(1).png",
+      "suggested_alt": "Moje základní nabízená služba je Průvodce výživou a pohybem.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 411671,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[5].content[0]",
+          "alt": "Moje základní nabízená služba je Průvodce výživou a pohybem.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/812b8cdab736__66f01c81a278bdd5fbe7b0b2_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/812b8cdab736__66f01c81a278bdd5fbe7b0b2_ZHUBNI-20BEZ-20POC-CC-8CI-CC-81TA-CC-81NI-CC-81-20KALORII-CC-81.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66f01c81a278bdd5fbe7b0b2_ZHUBNI%20BEZ%20POC%CC%8CI%CC%81TA%CC%81NI%CC%81%20KALORII%CC%81.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 151969,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[5]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/83a8d9e2e386__6551e9b1a0623d92b0e02ac3_babovka.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/83a8d9e2e386__6551e9b1a0623d92b0e02ac3_babovka.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e9b1a0623d92b0e02ac3_babovka.jpg",
+      "suggested_alt": "Tvarohová bábovka s kokosovou moukou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 239446,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.tvarohova-babovka",
+          "document_type": "blogPost",
+          "field_path": "content[4]",
+          "alt": "Tvarohová bábovka s kokosovou moukou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/83b7f389711d__64ff38b7917dbdce695babe1_IMG_6779.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/83b7f389711d__64ff38b7917dbdce695babe1_IMG_6779.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64ff38b7917dbdce695babe1_IMG_6779.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 148273,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[18].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/83cad4c3300a__6741fb39f202ea83fb0151fb_6741f8f348d1a5d5349e51fa_IMG_8358.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/83cad4c3300a__6741fb39f202ea83fb0151fb_6741f8f348d1a5d5349e51fa_IMG_8358.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6741fb39f202ea83fb0151fb_6741f8f348d1a5d5349e51fa_IMG_8358.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 302376,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/8b3aac724fa6__66a911f797cd5f7a9cc730c2_IMG_9437.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/8b3aac724fa6__66a911f797cd5f7a9cc730c2_IMG_9437.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66a911f797cd5f7a9cc730c2_IMG_9437.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 55540,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/8b7fe8be11e3__641f5f1c9a01004b30b80bf0_broskvovy_dort_2.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/8b7fe8be11e3__641f5f1c9a01004b30b80bf0_broskvovy_dort_2.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/641f5f1c9a01004b30b80bf0_broskvovy_dort_2.jpg",
+      "suggested_alt": "Nepečený dort s krémem z broskví a korpusu ze sezamu a rozinek. Ozdobený ovocem, ořechy a mátou.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 915506,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.broskvovy-dort",
+          "document_type": "blogPost",
+          "field_path": "content[30]",
+          "alt": "Nepečený dort s krémem z broskví a korpusu ze sezamu a rozinek. Ozdobený ovocem, ořechy a mátou.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/8c36bdcc1f58__6596da1a8b6b807361567a66_3.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/8c36bdcc1f58__6596da1a8b6b807361567a66_3.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596da1a8b6b807361567a66_3.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 77700,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[12].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/8c7990c844cf__6596dcd85747043fc8608140_pruvodce_mockup_clovek.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/8c7990c844cf__6596dcd85747043fc8608140_pruvodce_mockup_clovek.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596dcd85747043fc8608140_pruvodce_mockup_clovek.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 249856,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/8c7f8e540989__64ff38b7c59e8d32ab4ce26a_IMG_6758.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/8c7f8e540989__64ff38b7c59e8d32ab4ce26a_IMG_6758.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64ff38b7c59e8d32ab4ce26a_IMG_6758.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 224349,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[18].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/9408b2505a60__651ad014164bc8c400014d20_recenze_cviceni2.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/9408b2505a60__651ad014164bc8c400014d20_recenze_cviceni2.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651ad014164bc8c400014d20_recenze_cviceni2.jpg",
+      "suggested_alt": "skupinové lekce cvičení Benátky nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 186478,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[17]",
+          "alt": "skupinové lekce cvičení Benátky nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/96933caf36d8__6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/96933caf36d8__6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 128772,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[22]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/9bcfe8911951__64284ed75fbce2278f5056b4_healthy_tapes.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/9bcfe8911951__64284ed75fbce2278f5056b4_healthy_tapes.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ed75fbce2278f5056b4_healthy_tapes.jpg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 149630,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[30]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/9ff449eda797__64216e4fd97ba4a3778bb2bc_quinoova-kase.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/9ff449eda797__64216e4fd97ba4a3778bb2bc_quinoova-kase.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64216e4fd97ba4a3778bb2bc_quinoova-kase.jpg",
+      "suggested_alt": "Quinoová kaše s fíky a pekany",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 889854,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.obilna-kase-ctyrikrat-jinak",
+          "document_type": "blogPost",
+          "field_path": "content[32]",
+          "alt": "Quinoová kaše s fíky a pekany",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a0e4267c5a8e__646239292d294a3a2483de4c_mufin-20ikona-201.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a0e4267c5a8e__646239292d294a3a2483de4c_mufin-20ikona-201.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646239292d294a3a2483de4c_mufin%20ikona%201.png",
+      "suggested_alt": "Ikona Muffinu je část z loga projektu Zdraví mě baví",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 6015,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[1]",
+          "alt": "Ikona Muffinu je část z loga projektu Zdraví mě baví",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[6].content[6]",
+          "alt": "Ikona Muffinu je část z loga projektu Zdraví mě baví",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[1]",
+          "alt": "Ikona Muffinu je část z loga projektu Zdraví mě baví",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a152e343c845__64216df20c33f7ca4cde28bd_ryzova-kase.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a152e343c845__64216df20c33f7ca4cde28bd_ryzova-kase.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64216df20c33f7ca4cde28bd_ryzova-kase.jpg",
+      "suggested_alt": "Rýžová kaše s kokosovým mlékem a ovocem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 759771,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.obilna-kase-ctyrikrat-jinak",
+          "document_type": "blogPost",
+          "field_path": "content[24]",
+          "alt": "Rýžová kaše s kokosovým mlékem a ovocem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a3134a34b44a__67f133e971dce35c56afe381_IMG_2848.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a3134a34b44a__67f133e971dce35c56afe381_IMG_2848.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f133e971dce35c56afe381_IMG_2848.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 586007,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jarni-salat-ktery-zasyti",
+          "document_type": "blogPost",
+          "field_path": "content[42]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a63a2f47a6d0__651accf6dae6aa4f3584eb0e_64704ad2e8327f36a7835712_skupinove-20cviceni.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a63a2f47a6d0__651accf6dae6aa4f3584eb0e_64704ad2e8327f36a7835712_skupinove-20cviceni.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651accf6dae6aa4f3584eb0e_64704ad2e8327f36a7835712_skupinove%20cviceni.jpg",
+      "suggested_alt": "skupinové lekce cvičení Benátky nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 292259,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[8]",
+          "alt": "skupinové lekce cvičení Benátky nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a6996b77969e__651accc5e4f87227dcdb1dda_6509a67c73c26c897f344b10_IMG_6323.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a6996b77969e__651accc5e4f87227dcdb1dda_6509a67c73c26c897f344b10_IMG_6323.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651accc5e4f87227dcdb1dda_6509a67c73c26c897f344b10_IMG_6323.png",
+      "suggested_alt": "skupinové lekce cvičení Benátky nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 294401,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "skupinové lekce cvičení Benátky nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a70dd52a4370__64189e3e83439ff9b72cba63_logo-20wine-20transparent-20256x256.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a70dd52a4370__64189e3e83439ff9b72cba63_logo-20wine-20transparent-20256x256.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64189e3e83439ff9b72cba63_logo%20wine%20transparent%20256x256.png",
+      "suggested_alt": "Logo Zdraví mě baví",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 27530,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.letni-prazdninova-vyzva",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Logo Zdraví mě baví",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a74baa2c2397__6596da198b83c83698823ea8_recenze-5-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a74baa2c2397__6596da198b83c83698823ea8_recenze-5-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596da198b83c83698823ea8_recenze(5).png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 42738,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[12].content[3]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a7b42e3a2954__640f2bee3a879f926764eab0_grebovka.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a7b42e3a2954__640f2bee3a879f926764eab0_grebovka.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/640f2bee3a879f926764eab0_grebovka.jpg",
+      "suggested_alt": "přirozený pohyb každý den",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 416703,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.pohyb-mimo-cviceni",
+          "document_type": "blogPost",
+          "field_path": "content[8]",
+          "alt": "přirozený pohyb každý den",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a7eb45bb649b__67272e76a360899135f4554f_E-book-20mock-up_small.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a7eb45bb649b__67272e76a360899135f4554f_E-book-20mock-up_small.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/67272e76a360899135f4554f_E-book%20mock-up_small.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 122916,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a80273b3b7fc__6716769c0edb7b6e9dee6e94_6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a80273b3b7fc__6716769c0edb7b6e9dee6e94_6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716769c0edb7b6e9dee6e94_6716690e663bbd58e8e5cd18_B134BA6B-95AE-443A-86D5-162DAE52BC33_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 212868,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[43]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a83bc2d171d8__6551e9113415203dd5468dec_chia1.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a83bc2d171d8__6551e9113415203dd5468dec_chia1.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6551e9113415203dd5468dec_chia1.jpg",
+      "suggested_alt": "chia pudink s kokosovým mlékem a ovocem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 228480,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.chia-pudink",
+          "document_type": "blogPost",
+          "field_path": "content[33]",
+          "alt": "chia pudink s kokosovým mlékem a ovocem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/a9496c56d3e1__66a911f7c6947b23762f4ae6_IMG_9436.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/a9496c56d3e1__66a911f7c6947b23762f4ae6_IMG_9436.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66a911f7c6947b23762f4ae6_IMG_9436.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 59920,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[3]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/aa751277f18c__64216dc9a2bd1eaf4d604bfe_vsechnykase_lezato.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/aa751277f18c__64216dc9a2bd1eaf4d604bfe_vsechnykase_lezato.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64216dc9a2bd1eaf4d604bfe_vsechnykase_lezato.jpg",
+      "suggested_alt": "Kaše na snídani s ořechy a ovocem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 634662,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.obilna-kase-ctyrikrat-jinak",
+          "document_type": "blogPost",
+          "field_path": "content[8]",
+          "alt": "Kaše na snídani s ořechy a ovocem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/ac4d2d1c328e__66be1a318a0e7ff92d2767c0_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.44.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/ac4d2d1c328e__66be1a318a0e7ff92d2767c0_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.44.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a318a0e7ff92d2767c0_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.44.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 217530,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.formular---pruvodce-vyzivou-a-pohybem",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/ad1917ef077d__647998cd0ea66978a9e99b4c_podpis.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/ad1917ef077d__647998cd0ea66978a9e99b4c_podpis.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/647998cd0ea66978a9e99b4c_podpis.png",
+      "suggested_alt": "Podpis Iva",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 20323,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[0].content[1]",
+          "alt": "Podpis Iva",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/adfde70189c9__670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/adfde70189c9__670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec5_64dceab32bf823fe3e93844c_dort5.jpeg",
+      "suggested_alt": "Dort s ovocem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 691411,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[37]",
+          "alt": "Dort s ovocem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/aef5ac7695c8__64ff38b99b62bbb1fdf8345c_IMG_6775.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/aef5ac7695c8__64ff38b99b62bbb1fdf8345c_IMG_6775.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64ff38b99b62bbb1fdf8345c_IMG_6775.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 200959,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[18].content[5]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/b390831e46a7__651ad0a096050c6d3fcb2846_IMG_6975.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/b390831e46a7__651ad0a096050c6d3fcb2846_IMG_6975.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651ad0a096050c6d3fcb2846_IMG_6975.jpg",
+      "suggested_alt": "skupinové lekce cvičení Benátky nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 102132,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[18]",
+          "alt": "skupinové lekce cvičení Benátky nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/b3fd01f65a13__65029097c1c183e59a5ec623_1.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/b3fd01f65a13__65029097c1c183e59a5ec623_1.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/65029097c1c183e59a5ec623_1.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 193947,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[12].content[0]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[13].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/b7d3643a4cb1__66be1a3007c4939f0e150e40_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.35.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/b7d3643a4cb1__66be1a3007c4939f0e150e40_Sni-CC-81mek-20obrazovky-202024-08-15-20v-C2-A017.08.35.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1a3007c4939f0e150e40_Sni%CC%81mek%20obrazovky%202024-08-15%20v%C2%A017.08.35.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 147896,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.formular---pruvodce-vyzivou-a-pohybem",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[2]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/b888fb3f501b__671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/b888fb3f501b__671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671944eace7675339b3eef21_ochutnej_orech_nahledovka-2.png",
+      "suggested_alt": "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 282931,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[12].content[1]",
+          "alt": "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/b8bbc203f0f4__6596da1874b05d8261fe0bea_4.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/b8bbc203f0f4__6596da1874b05d8261fe0bea_4.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596da1874b05d8261fe0bea_4.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 73038,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[12].content[5]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/b90673e0fed3__671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/b90673e0fed3__671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671667aaef59739a81f3c428_B3975157-5952-420F-BE87-9F511A5A694A_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 80323,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[57]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/bc434d07e24c__671675f5fcbf8fafa4ecaf83_6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/bc434d07e24c__671675f5fcbf8fafa4ecaf83_6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671675f5fcbf8fafa4ecaf83_6716673ce9b8f4c51114a68d_217B25C8-CEEB-44C0-B68F-49449D8C54EA_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 80476,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[10]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/be29cb483e92__64cb582aa725b757be2c16de_Sni-CC-81mek-20obrazovky-202023-08-03-20v-C2-A09.26-201.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/be29cb483e92__64cb582aa725b757be2c16de_Sni-CC-81mek-20obrazovky-202023-08-03-20v-C2-A09.26-201.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64cb582aa725b757be2c16de_Sni%CC%81mek%20obrazovky%202023-08-03%20v%C2%A09.26%201.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 576017,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "page.o-mne",
+          "document_type": "page",
+          "field_path": "pageBuilder[7].content[1]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c10e13a83fce__64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c10e13a83fce__64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64dceab5bc78c04f95d18a4d_dort2_upraveno.jpg",
+      "suggested_alt": "Zdravý dort s čokoládovým krémem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 707523,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[86]",
+          "alt": "Zdravý dort s čokoládovým krémem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c166fd450afb__66a90f5c10e8fb088f9c27db_Na-CC-81vrh-20bez-20na-CC-81zvu-5-.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c166fd450afb__66a90f5c10e8fb088f9c27db_Na-CC-81vrh-20bez-20na-CC-81zvu-5-.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66a90f5c10e8fb088f9c27db_Na%CC%81vrh%20bez%20na%CC%81zvu(5).jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 83796,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[4].content[0]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[4].content[0]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[2].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c2ab12d63fb4__66e07031ac5d639195ac2bdb_Online_kurz_mockup.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c2ab12d63fb4__66e07031ac5d639195ac2bdb_Online_kurz_mockup.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e07031ac5d639195ac2bdb_Online_kurz_mockup.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 113278,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[6].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c2cf24b82e04__64612d34ddc53c25e652f6a0_Otaznik_icon.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c2cf24b82e04__64612d34ddc53c25e652f6a0_Otaznik_icon.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64612d34ddc53c25e652f6a0_Otaznik_icon.png",
+      "suggested_alt": "Ikona otazníku představující otázku.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 2636,
+      "exists": true,
+      "usage_count": 5,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[0]",
+          "alt": "Ikona otazníku představující otázku.",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[2].content[0]",
+          "alt": "Ikona otazníku představující otázku.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[0]",
+          "alt": "Ikona otazníku představující otázku.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[5].content[2]",
+          "alt": "Ikona otazníku představující otázku.",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[2].content[0]",
+          "alt": "Ikona otazníku představující otázku.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c32329c94d93__6582ca4deac684257cf4a618_1.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c32329c94d93__6582ca4deac684257cf4a618_1.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6582ca4deac684257cf4a618_1.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 105170,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[2].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c3ecec3fb02a__642854fdf48759a939b2570d_persona.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c3ecec3fb02a__642854fdf48759a939b2570d_persona.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/642854fdf48759a939b2570d_persona.jpg",
+      "suggested_alt": "cvičení v horku na workoutovém hřišti",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 172128,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[24]",
+          "alt": "cvičení v horku na workoutovém hřišti",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c46f894e2849__67f1341d80e9ecbd462c6765_IMG_2844.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c46f894e2849__67f1341d80e9ecbd462c6765_IMG_2844.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1341d80e9ecbd462c6765_IMG_2844.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 596686,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jarni-salat-ktery-zasyti",
+          "document_type": "blogPost",
+          "field_path": "content[47]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c709e8434f58__64609aab46818cacc5c61e27_DSC02394.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c709e8434f58__64609aab46818cacc5c61e27_DSC02394.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64609aab46818cacc5c61e27_DSC02394.jpg",
+      "suggested_alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 343771,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[3].content[0]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.letni-prazdninova-vyzva",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[1]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/c8e1bda55aed__642854e35973979182962955_doplnujte_tekutiny.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/c8e1bda55aed__642854e35973979182962955_doplnujte_tekutiny.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/642854e35973979182962955_doplnujte_tekutiny.jpg",
+      "suggested_alt": "hydratace v horku, doplnění tekutin, ovocné smoothie",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 270152,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[23]",
+          "alt": "hydratace v horku, doplnění tekutin, ovocné smoothie",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/ca3d47ded0cc__6716769c0edb7b6e9dee6ea3_671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/ca3d47ded0cc__6716769c0edb7b6e9dee6ea3_671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716769c0edb7b6e9dee6ea3_671667de69621e20268d2f9c_D281526F-A534-444A-8963-A332102C937A_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 86530,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[31]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/cb4e389a3152__6741f8f3c89de7fa9e748c28_IMG_8365.JPG",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/cb4e389a3152__6741f8f3c89de7fa9e748c28_IMG_8365.JPG",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6741f8f3c89de7fa9e748c28_IMG_8365.JPG",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 702587,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+          "document_type": "blogPost",
+          "field_path": "content[45]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/cc1e1b30b997__66a911f7f3c5d97aaee94a8a_IMG_9434.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/cc1e1b30b997__66a911f7f3c5d97aaee94a8a_IMG_9434.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66a911f7f3c5d97aaee94a8a_IMG_9434.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 69939,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d0d611e07d54__646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d0d611e07d54__646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini(1).png",
+      "suggested_alt": "Moje pokročilejší nabízená služba je Výživový a pohybový plán.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 411522,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "offerPage.cviceni-v-benatkach-nad-jizerou-formular",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Moje pokročilejší nabízená služba je Výživový a pohybový plán.",
+          "caption": ""
+        },
+        {
+          "document_id": "page.napis-mi",
+          "document_type": "page",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Moje pokročilejší nabízená služba je Výživový a pohybový plán.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Moje pokročilejší nabízená služba je Výživový a pohybový plán.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d0fa0fa9a74c__651acfff222dfe87ff7ad5dc_recenze_cviceni.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d0fa0fa9a74c__651acfff222dfe87ff7ad5dc_recenze_cviceni.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/651acfff222dfe87ff7ad5dc_recenze_cviceni.jpg",
+      "suggested_alt": "skupinové lekce cvičení Benátky nad Jizerou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 275697,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.skupinove-lekce-cviceni-v-benatkach-nad-jizerou",
+          "document_type": "blogPost",
+          "field_path": "content[16]",
+          "alt": "skupinové lekce cvičení Benátky nad Jizerou",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d150ca3635c8__6741fb39f202ea83fb015201_6741f8f3c89de7fa9e748c28_IMG_8365.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d150ca3635c8__6741fb39f202ea83fb015201_6741f8f3c89de7fa9e748c28_IMG_8365.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6741fb39f202ea83fb015201_6741f8f3c89de7fa9e748c28_IMG_8365.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 702587,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.datle-v-cokolade-s-malinovym-kremem-a-omega-3",
+          "document_type": "blogPost",
+          "field_path": "content[38]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d184a9df25f7__6596ce6f4372ca5db646aadf_uvodni_mockup_lepsi_kvalita-2.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d184a9df25f7__6596ce6f4372ca5db646aadf_uvodni_mockup_lepsi_kvalita-2.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596ce6f4372ca5db646aadf_uvodni_mockup_lepsi_kvalita-2.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 657533,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[1]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d27adeeca02e__642739e4c17e68553bec531b_phdsmart.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d27adeeca02e__642739e4c17e68553bec531b_phdsmart.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/642739e4c17e68553bec531b_phdsmart.jpg",
+      "suggested_alt": "PhD Smart plant bar Choc Peanut Caramel",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 326959,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[24]",
+          "alt": "PhD Smart plant bar Choc Peanut Caramel",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d29de2be2edb__67f1338cfd24c122eb824b2a_IMG_2853.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d29de2be2edb__67f1338cfd24c122eb824b2a_IMG_2853.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/67f1338cfd24c122eb824b2a_IMG_2853.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 482127,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jarni-salat-ktery-zasyti",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6463868a9796734524a26b9b_Photo_mask(1).png",
+      "suggested_alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 460304,
+      "exists": true,
+      "usage_count": 8,
+      "usages": [
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[9].content[1]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.individualni-treninky-benatky-nad-jizerou-a-okoli",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[2]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[15]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "page.o-mne",
+          "document_type": "page",
+          "field_path": "pageBuilder[0].content[1]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[15].content[21]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[10].content[3]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.skupinove-lekce-benatky-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[0].content[2]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.zhubni-bez-pocitani-kalorii",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[3].content[7]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d64fc6d760ca__64609aab5a61c167cdb158b4_DSC02320.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d64fc6d760ca__64609aab5a61c167cdb158b4_DSC02320.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64609aab5a61c167cdb158b4_DSC02320.jpg",
+      "suggested_alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 264233,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[5].content[1]",
+          "alt": "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d659979fccc8__642739f20cb3c85190742d04_aktin_mandlejahoda.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d659979fccc8__642739f20cb3c85190742d04_aktin_mandlejahoda.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/642739f20cb3c85190742d04_aktin_mandlejahoda.jpg",
+      "suggested_alt": "Aktin Vegan Protein Bar: Mandle/jahoda",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 325323,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[29]",
+          "alt": "Aktin Vegan Protein Bar: Mandle/jahoda",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d87c20e966ed__64d10cd80150bbca4a2cba37_cviceni_ref1.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d87c20e966ed__64d10cd80150bbca4a2cba37_cviceni_ref1.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10cd80150bbca4a2cba37_cviceni_ref1.jpg",
+      "suggested_alt": "Cvičení Benátky nad Jizerou, skupinové lekce, zlepšení kondice a posilování",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 275697,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[5].content[0]",
+          "alt": "Cvičení Benátky nad Jizerou, skupinové lekce, zlepšení kondice a posilování",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.lekce-cviceni",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[4].content[0]",
+          "alt": "Cvičení Benátky nad Jizerou, skupinové lekce, zlepšení kondice a posilování",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d93417f25ff6__642852296251938076440876_jak_spravne_jist_2.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d93417f25ff6__642852296251938076440876_jak_spravne_jist_2.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/642852296251938076440876_jak_spravne_jist_2.jpg",
+      "suggested_alt": "Jak jíst správně při hubnutí, sportu a pro zdraví?",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 308121,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.jak-spravne-jist",
+          "document_type": "blogPost",
+          "field_path": "content[34]",
+          "alt": "Jak jíst správně při hubnutí, sportu a pro zdraví?",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d9367de792f6__670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d9367de792f6__670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ebc_64dceab5bc78c04f95d18a4d_dort2_upraveno.jpeg",
+      "suggested_alt": "Dort bez cukru čokoládovým krémem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 707523,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[34]",
+          "alt": "Dort bez cukru čokoládovým krémem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/d9a31d60cb81__64273af3e6a9cd36bb144bd7_passionbar_brownie.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/d9a31d60cb81__64273af3e6a9cd36bb144bd7_passionbar_brownie.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273af3e6a9cd36bb144bd7_passionbar_brownie.jpg",
+      "suggested_alt": "Passion Bar: Brownies s malinami",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 272907,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[69]",
+          "alt": "Passion Bar: Brownies s malinami",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/daaafbb4e627__641f5f1c7a77c620d69cc8ff_broskovy_dort.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/daaafbb4e627__641f5f1c7a77c620d69cc8ff_broskovy_dort.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/641f5f1c7a77c620d69cc8ff_broskovy_dort.jpg",
+      "suggested_alt": "Detail broskvového dortu se sezamem a rozinkami",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 689845,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.broskvovy-dort",
+          "document_type": "blogPost",
+          "field_path": "content[31]",
+          "alt": "Detail broskvového dortu se sezamem a rozinkami",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/dba5690c9770__6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/dba5690c9770__6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 187243,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[25]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/dd260f6a515b__6718acd706c363cbd4a6090e_DE3A0A66-D9CB-4B9C-A2B6-A22ED04CDB89_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/dd260f6a515b__6718acd706c363cbd4a6090e_DE3A0A66-D9CB-4B9C-A2B6-A22ED04CDB89_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6718acd706c363cbd4a6090e_DE3A0A66-D9CB-4B9C-A2B6-A22ED04CDB89_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 75493,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[59]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/de889ac225a3__6428550807c9bbd7879a8601_prirozeny_pohyb.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/de889ac225a3__6428550807c9bbd7879a8601_prirozeny_pohyb.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6428550807c9bbd7879a8601_prirozeny_pohyb.jpg",
+      "suggested_alt": "Přirozený pohyb jako procházka může být v horkém počasí skvělá alternativa cvičení",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 276964,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[25]",
+          "alt": "Přirozený pohyb jako procházka může být v horkém počasí skvělá alternativa cvičení",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/df2bff9f3dfe__670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/df2bff9f3dfe__670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/670a3a5bdcc461672d2a9ec8_64dceab4412e782bfa015f60_dort3_upraveno.jpeg",
+      "suggested_alt": "Dort k druhým narozeninám",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 837644,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[27]",
+          "alt": "Dort k druhým narozeninám",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/df3e01dd9d7a__6461354c75a21d411d7565f9_Sipka_icon.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/df3e01dd9d7a__6461354c75a21d411d7565f9_Sipka_icon.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6461354c75a21d411d7565f9_Sipka_icon.png",
+      "suggested_alt": "Ikona šipky vpravo",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 2494,
+      "exists": true,
+      "usage_count": 3,
+      "usages": [
+        {
+          "document_id": "servicePage.cviceni-v-benatkach-nad-jizerou",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[1].content[14]",
+          "alt": "Ikona šipky vpravo",
+          "caption": ""
+        },
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[15].content[0]",
+          "alt": "Ikona šipky vpravo",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[15].content[0]",
+          "alt": "Ikona šipky vpravo",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/dfd787e02b7a__646925913039900ad6431d69_Treninky_cviceni_mini-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/dfd787e02b7a__646925913039900ad6431d69_Treninky_cviceni_mini-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646925913039900ad6431d69_Treninky_cviceni_mini(1).png",
+      "suggested_alt": "Také nabízím lekce cvičení a tréninky.",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 349564,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[8].content[0]",
+          "alt": "Také nabízím lekce cvičení a tréninky.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/e099632638b9__6427137136cf91cd18032b70_tycinky_vsechny-scaled.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/e099632638b9__6427137136cf91cd18032b70_tycinky_vsechny-scaled.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6427137136cf91cd18032b70_tycinky_vsechny-scaled.jpg",
+      "suggested_alt": "Veganské proteinové tyčinky porovnání",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 322750,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[18]",
+          "alt": "Veganské proteinové tyčinky porovnání",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/e09ca22535b2__640f1086c93f3f37d98f0bfb_broskvovy_dort_1.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/e09ca22535b2__640f1086c93f3f37d98f0bfb_broskvovy_dort_1.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/640f1086c93f3f37d98f0bfb_broskvovy_dort_1.jpg",
+      "suggested_alt": "Nepečený broskvový dort s korpusem ze sezamových semínek a rozinek. Svěží, sladký a zdravý.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 930626,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.broskvovy-dort",
+          "document_type": "blogPost",
+          "field_path": "content[2]",
+          "alt": "Nepečený broskvový dort s korpusem ze sezamových semínek a rozinek. Svěží, sladký a zdravý.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/e1734af961e6__671912be02cc06cbf9e03b91_642854bd0cb3c8559d862744_cvicte_brzy_rano.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/e1734af961e6__671912be02cc06cbf9e03b91_642854bd0cb3c8559d862744_cvicte_brzy_rano.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671912be02cc06cbf9e03b91_642854bd0cb3c8559d862744_cvicte_brzy_rano.jpeg",
+      "suggested_alt": "Cvičení brzy ráno, běh při východu slunce.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 240830,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[5]",
+          "alt": "Cvičení brzy ráno, běh při východu slunce.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/e22e8dcf524c__671912be02cc06cbf9e03b7c_642854fdf48759a939b2570d_persona.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/e22e8dcf524c__671912be02cc06cbf9e03b7c_642854fdf48759a939b2570d_persona.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671912be02cc06cbf9e03b7c_642854fdf48759a939b2570d_persona.jpeg",
+      "suggested_alt": "cvičení v horku na workoutovém hřišti",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 172128,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.5-tipu-jak-zvladnout-cviceni-v-horku",
+          "document_type": "blogPost",
+          "field_path": "content[15]",
+          "alt": "cvičení v horku na workoutovém hřišti",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/e597d76641ad__64273a70625193948831962e_aktin_horkacokolada.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/e597d76641ad__64273a70625193948831962e_aktin_horkacokolada.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273a70625193948831962e_aktin_horkacokolada.jpg",
+      "suggested_alt": "Aktin Vegan Protein Bar: Hořká čokoláda",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 314538,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[44]",
+          "alt": "Aktin Vegan Protein Bar: Hořká čokoláda",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/e6c7765d2e7a__6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/e6c7765d2e7a__6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 152228,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/e8b56de6bf32__64d10af4debe9b46e361406c_konzultace_ref2.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/e8b56de6bf32__64d10af4debe9b46e361406c_konzultace_ref2.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64d10af4debe9b46e361406c_konzultace_ref2.jpg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 285544,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "servicePage.osobni-konzultace",
+          "document_type": "servicePage",
+          "field_path": "pageBuilder[4].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/eb31fedcbce1__6596da1dd69bdfb16491520c_5.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/eb31fedcbce1__6596da1dd69bdfb16491520c_5.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596da1dd69bdfb16491520c_5.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 72478,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[12].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/eba44f4c4f6d__64273a51bb87cbecc216a8a3_superprotein_arasidykakao.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/eba44f4c4f6d__64273a51bb87cbecc216a8a3_superprotein_arasidykakao.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273a51bb87cbecc216a8a3_superprotein_arasidykakao.jpg",
+      "suggested_alt": "Superprotein: Arašídy/kakao",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 267101,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[34]",
+          "alt": "Superprotein: Arašídy/kakao",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/ebfd6b0263ec__653e733da43278e1ab4662dd_ADVENTNI-20KALENDAR.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/ebfd6b0263ec__653e733da43278e1ab4662dd_ADVENTNI-20KALENDAR.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/653e733da43278e1ab4662dd_ADVENTNI%20KALENDAR.png",
+      "suggested_alt": "Adventní kalendář pro rok 2023",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 308359,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.kalendar",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[0].content[0]",
+          "alt": "Adventní kalendář pro rok 2023",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/edddedb11aac__671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/edddedb11aac__671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/671667626924b0de4c1d22b8_16517083-1D72-4437-B633-5FE4817A968A_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 68805,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[55]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/ee8d7165ae33__6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/ee8d7165ae33__6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg",
+      "suggested_alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 151012,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+          "document_type": "blogPost",
+          "field_path": "content[28]",
+          "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/efa63c471363__64216df69a01004475dcd87a_jahlova-kase.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/efa63c471363__64216df69a01004475dcd87a_jahlova-kase.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64216df69a01004475dcd87a_jahlova-kase.jpg",
+      "suggested_alt": "Jáhlová kaše s granátovým jablkem",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 867571,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.obilna-kase-ctyrikrat-jinak",
+          "document_type": "blogPost",
+          "field_path": "content[28]",
+          "alt": "Jáhlová kaše s granátovým jablkem",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/f16657ea5583__6596da183fda5900a768c679_recenze-3-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/f16657ea5583__6596da183fda5900a768c679_recenze-3-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6596da183fda5900a768c679_recenze(3).png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 62384,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[12].content[4]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/f210909da0dc__6427139508a1a5472db9dda7_tycinky-scaled.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/f210909da0dc__6427139508a1a5472db9dda7_tycinky-scaled.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6427139508a1a5472db9dda7_tycinky-scaled.jpg",
+      "suggested_alt": "Test veganských proteinových tyčinek",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 429041,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.veganske-proteinove-tycinky-ktere-stoji-za-vyzkouseni",
+          "document_type": "blogPost",
+          "field_path": "content[3]",
+          "alt": "Test veganských proteinových tyčinek",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/f3f977e96100__66dff65b0990f6008059890b_E-book-20mockup-20kniha-201-1-.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/f3f977e96100__66dff65b0990f6008059890b_E-book-20mockup-20kniha-201-1-.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66dff65b0990f6008059890b_E-book%20mockup%20kniha%201(1).png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 59206,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "page.home",
+          "document_type": "page",
+          "field_path": "pageBuilder[7].content[0]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.e-book-jak-sestavit-jidelnicek",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[5].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/f518f57e4e23__6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/f518f57e4e23__6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719156b7ad24b460a80b33c_670a3a5bdcc461672d2a9eb8_64dceab38e7442e7a7628b45_dort4_upraveno.jpeg",
+      "suggested_alt": "Lehký dort bez cukru",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 446741,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.dort-k-prvnim-narozeninam",
+          "document_type": "blogPost",
+          "field_path": "content[13]",
+          "alt": "Lehký dort bez cukru",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/f8b003673d40__6716769c0edb7b6e9dee6e9a_6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/f8b003673d40__6716769c0edb7b6e9dee6e9a_6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6716769c0edb7b6e9dee6e9a_6716677ef3f90f4bde8255a0_E4B11DC7-21A9-467C-B9DB-644DEF15430D_1_105_c.jpeg",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 103052,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.ochutnej-orech",
+          "document_type": "blogPost",
+          "field_path": "content[21]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/fac55501013a__66be1c7541babeb7431d28df_garance.png",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/fac55501013a__66be1c7541babeb7431d28df_garance.png",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66be1c7541babeb7431d28df_garance.png",
+      "suggested_alt": "",
+      "suggested_caption": "",
+      "mime_type": "image/png",
+      "file_size": 124015,
+      "exists": true,
+      "usage_count": 2,
+      "usages": [
+        {
+          "document_id": "offerPage.formular---pruvodce-vyzivou-a-pohybem",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[1].content[1]",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "document_id": "offerPage.pruvodce",
+          "document_type": "offerPage",
+          "field_path": "pageBuilder[10].content[0]",
+          "alt": "",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/fe8db066cb8b__6426bacf559fd0b00b1bb124_joga_web-scaled.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/fe8db066cb8b__6426bacf559fd0b00b1bb124_joga_web-scaled.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6426bacf559fd0b00b1bb124_joga_web-scaled.jpg",
+      "suggested_alt": "přirozený pohyb během dne, v přírodě",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 1641785,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.pohyb-mimo-cviceni",
+          "document_type": "blogPost",
+          "field_path": "content[20]",
+          "alt": "přirozený pohyb během dne, v přírodě",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "local_path": "snapshot/assets/images/ffff13a3c876__64216e5122b6671bd3c1a9e8_pohankova-kase.jpg",
+      "absolute_path": "/Users/jakub-mac/Documents/AI/Programovani/Zdravi me bavi/snapshot/assets/images/ffff13a3c876__64216e5122b6671bd3c1a9e8_pohankova-kase.jpg",
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64216e5122b6671bd3c1a9e8_pohankova-kase.jpg",
+      "suggested_alt": "Pohanková kaše s banánem a čokoládou",
+      "suggested_caption": "",
+      "mime_type": "image/jpeg",
+      "file_size": 912499,
+      "exists": true,
+      "usage_count": 1,
+      "usages": [
+        {
+          "document_id": "blogPost.obilna-kase-ctyrikrat-jinak",
+          "document_type": "blogPost",
+          "field_path": "content[36]",
+          "alt": "Pohanková kaše s banánem a čokoládou",
+          "caption": ""
+        }
+      ]
+    }
+  ]
+}

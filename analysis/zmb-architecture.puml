@@ -1,0 +1,204 @@
+@startuml ZMB_Current_Site
+title Zdravimebavi.cz - Current Site Component Map
+left to right direction
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+
+package "Global Shell" {
+  component "Standard Navbar" as Navbar
+  component "Footer + Legal + Social" as Footer
+  component "Tracking + Consent Layer" as Tracking
+}
+
+package "Public Site" {
+  component "Homepage" as Home
+  component "Blog Index" as Blog
+  component "Article Detail x19" as Article
+  component "Category Detail x6" as Category
+  component "Service Landings x6" as Service
+  component "Content Pages x7" as Content
+  component "Conversion Pages x3" as Conversion
+  component "Calendar Landing" as Calendar
+  component "Search Page" as Search
+  component "404 Page" as Error404
+}
+
+database "Webflow CMS\nArticles" as CMSArticles
+database "Webflow CMS\nCategories" as CMSCategories
+database "Webflow Search Index" as WFSearch
+component "Protected Member Area\n/pruvodce-pristup/domu\n(401)" as MemberArea
+
+cloud "External Services" {
+  component "GTM / GA4" as GTM
+  component "Hotjar" as Hotjar
+  component "Facebook Pixel" as FacebookPixel
+  component "Cookie Script" as CookieScript
+  component "MailerLite" as MailerLite
+  component "Elfsight" as Elfsight
+  component "Wistia" as Wistia
+  component "YouTube" as YouTube
+  component "FAPI" as FAPI
+  component "Stripe" as Stripe
+}
+
+Tracking --> GTM
+Tracking --> Hotjar
+Tracking --> FacebookPixel
+Tracking --> CookieScript
+
+Home --> Navbar
+Home --> Footer
+Home --> Tracking
+Home --> CMSArticles : latest content + pagination
+Home --> MailerLite : lead capture
+Home --> Elfsight : social widget
+Home --> MemberArea : CTA
+
+Blog --> Navbar
+Blog --> Footer
+Blog --> Tracking
+Blog --> CMSArticles : article listing
+Blog --> CMSCategories : category chips
+Blog --> Elfsight : social widget
+
+Article --> Navbar
+Article --> Footer
+Article --> Tracking
+Article --> CMSArticles : article data
+Article --> CMSCategories : labels
+
+Category --> Navbar
+Category --> Footer
+Category --> Tracking
+Category --> CMSCategories : category header
+Category --> CMSArticles : filtered listing + pagination
+
+Service --> Tracking
+Service --> CMSArticles : related content
+Service --> Wistia : selected pages
+Service --> MemberArea : CTA on selected pages
+
+Content --> Tracking
+Content --> MailerLite : selected pages
+Content --> YouTube : selected pages
+
+Conversion --> Tracking
+Conversion --> FAPI : order / signup embeds
+Conversion --> Stripe : checkout iframe
+
+Calendar --> Tracking
+Calendar --> MailerLite : subscribe form
+
+Search --> WFSearch
+Search --> Tracking
+
+Error404 --> Navbar
+Error404 --> Footer
+Error404 --> Tracking
+
+Service --> FAPI : mixed on /osobni-konzultace
+Service --> Stripe : mixed on /osobni-konzultace
+
+@enduml
+
+@startuml ZMB_Target_Migration
+title Zdravimebavi.cz - Target Migration Architecture (Next.js + Sanity + Netlify)
+left to right direction
+skinparam componentStyle rectangle
+skinparam packageStyle rectangle
+
+package "Next.js App Router" {
+  component "MarketingLayout" as MarketingLayout
+  component "ContentLayout" as ContentLayout
+  component "StandaloneLayout" as StandaloneLayout
+  component "CheckoutLayout" as CheckoutLayout
+
+  component "Home Route" as NextHome
+  component "Blog Listing Route" as NextBlog
+  component "Article Route\n/clanky/[slug]" as NextArticle
+  component "Category Route\n/kategorie/[slug]" as NextCategory
+  component "Service / Offer Routes" as NextOffers
+  component "Search Route" as NextSearch
+  component "404 / Redirects" as Next404
+  component "API / Server Actions" as NextApi
+}
+
+database "Sanity Content Lake" {
+  component "siteSettings" as SanitySettings
+  component "navigation" as SanityNav
+  component "footer" as SanityFooter
+  component "page" as SanityPage
+  component "servicePage" as SanityService
+  component "offerPage" as SanityOffer
+  component "blogPost" as SanityBlog
+  component "category" as SanityCategory
+  component "formBlock" as SanityForm
+  component "embedBlock" as SanityEmbed
+  component "testimonial / faq" as SanitySocialProof
+  component "seo" as SanitySeo
+}
+
+cloud "Netlify" {
+  component "CDN + Hosting" as NetlifyHosting
+  component "Functions / Edge" as NetlifyFunctions
+  component "Deploy Hooks / Preview" as NetlifyDeploy
+}
+
+cloud "Integrations" {
+  component "Analytics via GTM" as TargetAnalytics
+  component "Forms / Lead Capture" as TargetForms
+  component "CRM / Email\n(MailerLite or replacement)" as TargetCRM
+  component "Video Providers\n(Wistia / YouTube)" as TargetVideo
+  component "Payments\n(Stripe)" as TargetPayments
+}
+
+NextHome --> MarketingLayout
+NextBlog --> ContentLayout
+NextArticle --> ContentLayout
+NextCategory --> ContentLayout
+NextOffers --> StandaloneLayout
+NextSearch --> ContentLayout
+Next404 --> MarketingLayout
+
+MarketingLayout --> SanitySettings
+MarketingLayout --> SanityNav
+MarketingLayout --> SanityFooter
+ContentLayout --> SanitySeo
+StandaloneLayout --> SanitySeo
+CheckoutLayout --> SanitySeo
+
+NextHome --> SanityPage
+NextBlog --> SanityBlog
+NextArticle --> SanityBlog
+NextArticle --> SanityCategory
+NextCategory --> SanityCategory
+NextCategory --> SanityBlog
+NextOffers --> SanityService
+NextOffers --> SanityOffer
+NextOffers --> SanitySocialProof
+NextOffers --> SanityForm
+NextOffers --> SanityEmbed
+NextSearch --> SanityBlog
+NextSearch --> SanityPage
+
+NextApi --> TargetForms
+NextApi --> TargetCRM
+NextApi --> TargetPayments
+NextOffers --> TargetVideo
+NextHome --> TargetAnalytics
+NextBlog --> TargetAnalytics
+NextArticle --> TargetAnalytics
+NextCategory --> TargetAnalytics
+NextOffers --> TargetAnalytics
+
+NetlifyHosting --> NextHome
+NetlifyHosting --> NextBlog
+NetlifyHosting --> NextArticle
+NetlifyHosting --> NextCategory
+NetlifyHosting --> NextOffers
+NetlifyHosting --> NextSearch
+NetlifyHosting --> Next404
+NetlifyFunctions --> NextApi
+NetlifyDeploy --> SanitySettings
+
+@enduml

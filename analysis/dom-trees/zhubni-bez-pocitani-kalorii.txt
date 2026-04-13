@@ -1,0 +1,72 @@
+- body.body-10
+  - div#Sluzby.first_section-copy
+    - div.motto-wrap.wrap2-copy
+      - div
+        - img.image_magnet [alt="Logo Zdraví mě baví"]
+      - h1.heading-jumbo-small.heading_capital
+        - br
+      - div.div-block-75.div_video
+      - p.paragraph-25
+      - div.w-embed
+        - div.ml-embedded
+    - div.div-block-14-copy
+      - img.image-68_mobile
+      - img.image-68
+      - p.paragraph-25-copy.heading-7
+        - strong
+        - strong
+        - strong
+        - br
+      - div.div-block-79
+        - div.w-layout-grid.grid-25
+          - img#w-node-_1c85656d-5899-7e2a-3cd1-a02cc8e5dcd1-2b45e98e.image-60
+          - img#w-node-_1c85656d-5899-7e2a-3cd1-a02cc8e5dcd2-2b45e98e.image-61
+          - img#w-node-_1c85656d-5899-7e2a-3cd1-a02cc8e5dcd3-2b45e98e.image-62
+      - p.paragraph-25-copy.heading-7
+    - div.div-block-53-copy
+      - h2.section-heading.heading-jumbo-small.about_midle
+      - div.div-block-79
+        - div.w-layout-grid.grid-25
+          - img#w-node-_750c4ef4-34ac-bb54-641c-d49d72036efb-2b45e98e.image-60
+          - img#w-node-_22734c8e-831a-d0a6-d0ab-99f6f15cdc3c-2b45e98e.image-61
+          - img#w-node-_49b8311f-65ea-b0ff-cbb2-22818566a510-2b45e98e.image-62
+    - div.div-block-78
+      - h2.section-heading.heading-jumbo-small.about_midle
+        - strong.bold-text-10
+      - p.paragraph-25-copy2
+        - br
+        - strong
+      - p.paragraph-25-copy2.paragraf_odsazeni
+        - strong
+      - div.w-layout-grid.grid-15-cop_webinar
+        - img#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b0464-2b45e98e.srdce-ikona [alt="Ikona srdíčka"]
+        - img#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b0465-2b45e98e.srdce-ikona [alt="Ikona srdíčka"]
+        - img#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b0466-2b45e98e.srdce-ikona [alt="Ikona srdíčka"]
+        - img#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b0467-2b45e98e.srdce-ikona [alt="Ikona srdíčka"]
+        - p#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b0468-2b45e98e.paragraph-15
+        - p#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b046d-2b45e98e.paragraph-15
+        - p#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b0472-2b45e98e.paragraph-15
+        - p#w-node-bf6ffdf1-eb1b-a952-7936-32303e4b0477-2b45e98e.paragraph-15
+    - p.paragraph-25
+    - div.w-embed
+      - div.ml-embedded
+    - div.div-block-53.color
+      - div.w-layout-grid.about-grid.cc-about-2.+
+        - img#w-node-cb9aa07a-6e5b-0ed3-3920-4c16d917fcb8-2b45e98e.image-15-copy [alt="Ahoj, jmenuji se Iva a jsem zakladatelka"]
+        - div#w-node-cb9aa07a-6e5b-0ed3-3920-4c16d917fcb9-2b45e98e.div-block-41
+          - div.home-section-wrap
+            - h2.section-heading.heading-jumbo-small.about_left
+              - ... (1 hidden child nodes)
+            - p.about_delsi_text.font_18
+              - ... (6 hidden child nodes)
+    - p.paragraph-25
+    - div.w-embed
+      - div.ml-embedded
+    - div.div-block-53
+      - h2.section-heading.heading-jumbo-small.about_midle
+    - ... (1 more siblings)
+  - p.paragraph-25
+  - div.w-embed
+    - div.ml-embedded
+  - p.paragraph-25_small
+    - a [href="https://www.zdravimebavi.cz/gdpr", text="s mými podmínkami pro ochranu osobních údajů"]

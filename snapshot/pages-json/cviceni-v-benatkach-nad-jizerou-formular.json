@@ -1,0 +1,48 @@
+{
+  "url": "https://www.zdravimebavi.cz/cviceni-v-benatkach-nad-jizerou-formular",
+  "slug": "cviceni-v-benatkach-nad-jizerou-formular",
+  "page_type": "conversion-form",
+  "title": "Cvičení v Benátkách nad Jizerou - Formulář",
+  "meta_description": "Skupinové lekce cvičení Benátky nad Jizerou. Cvičení pro zlepšení kondice a posilování pro začátečníky i pokročilé. Intervalový trénink.",
+  "canonical": "https://www.zdravimebavi.cz/cviceni-v-benatkach-nad-jizerou-formular",
+  "headings": [],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini(1).png",
+      "alt": "Moje pokročilejší nabízená služba je Výživový a pohybový plán.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/d0d611e07d54__646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini-1-.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646924c94a930d70dea79824_Vyzivovy_pohybovy_plan_mini(1).png",
+      "alt": "Moje pokročilejší nabízená služba je Výživový a pohybový plán."
+    },
+    {
+      "type": "paragraph",
+      "text": "Moc děkuji za tvůj zájem o cvičení! Do 24 hodin ti odpovím na e-mail. Kontroluj prosím i hromadnou poštu a SPAM."
+    }
+  ]
+}

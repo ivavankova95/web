@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-04-11",
+  "source": "snapshot/pages-json",
+  "notes": [
+    "Seed je pripraveny jako import-ready zaklad pro globalni Sanity dokumenty.",
+    "Social link href jsou zatim prazdne a je potreba je doplnit z realnych uctu.",
+    "Kontaktni email a telefon zatim nejsou potvrzene ze snapshotu a zustavaji prazdne."
+  ],
+  "documents": [
+    {
+      "_id": "siteSettings",
+      "_type": "siteSettings",
+      "title": "Zdraví mě baví",
+      "siteDescription": "Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.",
+      "siteUrl": "https://www.zdravimebavi.cz",
+      "appUrl": "https://app.zdravimebavi.cz/",
+      "contactEmail": "",
+      "contactPhone": "",
+      "gtmId": "",
+      "ga4MeasurementId": "",
+      "metaPixelId": "",
+      "hotjarId": "",
+      "cookieScriptId": "",
+      "socialLinks": [
+        {
+          "label": "Instagram",
+          "href": "",
+          "openInNewTab": true,
+          "variant": "social"
+        },
+        {
+          "label": "Facebook",
+          "href": "",
+          "openInNewTab": true,
+          "variant": "social"
+        }
+      ],
+      "seo": {
+        "metaTitle": "Zdraví mě baví - Provedu tě na cestě za zdravým a funkčním tělem",
+        "metaDescription": "Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.",
+        "canonicalUrl": "https://www.zdravimebavi.cz/",
+        "noIndex": false
+      }
+    },
+    {
+      "_id": "navigation-main",
+      "_type": "navigation",
+      "title": "Main navigation",
+      "items": [
+        {
+          "label": "O mně",
+          "href": "/o-mne",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "Osobní konzultace",
+          "href": "/osobni-konzultace",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "Průvodce",
+          "href": "/pruvodce",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "E-book",
+          "href": "/e-book-jak-sestavit-jidelnicek",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "Lekce cvičení",
+          "href": "/lekce-cviceni",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog",
+          "openInNewTab": false,
+          "variant": "default"
+        }
+      ],
+      "ctaLabel": "Otevřít app",
+      "ctaHref": "https://app.zdravimebavi.cz/"
+    },
+    {
+      "_id": "footer-main",
+      "_type": "footer",
+      "title": "Footer",
+      "aboutText": "Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.",
+      "primaryLinks": [
+        {
+          "label": "Konzultace zdarma",
+          "href": "/konzultace-zdarma",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "Kontakt",
+          "href": "/napis-mi",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "Kalendář",
+          "href": "/kalendar",
+          "openInNewTab": false,
+          "variant": "default"
+        }
+      ],
+      "legalLinks": [
+        {
+          "label": "Cookies",
+          "href": "/cookies",
+          "openInNewTab": false,
+          "variant": "legal"
+        },
+        {
+          "label": "GDPR",
+          "href": "/gdpr",
+          "openInNewTab": false,
+          "variant": "legal"
+        },
+        {
+          "label": "Obchodní podmínky",
+          "href": "/obchodni-podminky",
+          "openInNewTab": false,
+          "variant": "legal"
+        },
+        {
+          "label": "Odpovědnost",
+          "href": "/odpovednost",
+          "openInNewTab": false,
+          "variant": "legal"
+        }
+      ],
+      "socialLinks": [
+        {
+          "label": "Instagram",
+          "href": "",
+          "openInNewTab": true,
+          "variant": "social"
+        },
+        {
+          "label": "Facebook",
+          "href": "",
+          "openInNewTab": true,
+          "variant": "social"
+        }
+      ]
+    }
+  ]
+}

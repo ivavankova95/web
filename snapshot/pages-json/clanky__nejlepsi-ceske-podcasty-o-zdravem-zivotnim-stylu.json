@@ -1,0 +1,288 @@
+{
+  "url": "https://www.zdravimebavi.cz/clanky/nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+  "slug": "clanky__nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+  "page_type": "article-detail",
+  "title": "Zdraví mě baví",
+  "meta_description": "",
+  "canonical": "https://www.zdravimebavi.cz/clanky/nejlepsi-ceske-podcasty-o-zdravem-zivotnim-stylu",
+  "headings": [
+    "Nejlepší české podcasty o zdravém životním stylu",
+    "Nejlepší české podcasty o zdravém životním stylu jako skvělá inspirace přímo do vašich uší.",
+    "Proč poslouchat podcasty o zdravém životním stylu?",
+    "Kde hledat nejlepší české podcasty?",
+    "Vybrané nejlepší české podcasty o zdravém životním stylu",
+    "THE HEALTHY TAPES",
+    "ZA HRANICÍ FITNESS",
+    "CUKRFREE PODCAST",
+    "MARKETA’S VIBES",
+    "ANNA FALTOVÁ",
+    "Galerie"
+  ],
+  "ctas": [],
+  "forms": [],
+  "images": [
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png",
+      "alt": "Logo Zdraví mě baví",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7da057d7e2fa__63ff355fa75a040c5c8adb51_logo-wine-transparent_small.png"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/e6c7765d2e7a__6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/4115a677a6a7__6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/17cd064471c7__6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/96933caf36d8__6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/dba5690c9770__6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/ee8d7165ae33__6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ed75fbce2278f5056b4_healthy_tapes.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/9bcfe8911951__64284ed75fbce2278f5056b4_healthy_tapes.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ee369d01c08100c7884_za_hranici_fitness.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/73d1e4e966d9__64284ee369d01c08100c7884_za_hranici_fitness.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ee9f9d51a810c842639_cukrfree.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/3c0e8fedd4b0__64284ee9f9d51a810c842639_cukrfree.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284eedf54066d12f60eb03_marketas_vibes.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/198fe21960fd__64284eedf54066d12f60eb03_marketas_vibes.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ef48fbcbe32b1c38402_anna_faltova.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/5daf26bee794__64284ef48fbcbe32b1c38402_anna_faltova.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení.",
+      "context": "img",
+      "local_path": "snapshot/assets/images/784d09a552e0__64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f8b62883995d2141ba3_Facebook.svg",
+      "alt": "Ikona Facebooku",
+      "context": "img",
+      "local_path": "snapshot/assets/images/7649300b1db6__64159f8b62883995d2141ba3_Facebook.svg"
+    },
+    {
+      "source_url": "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/64159f3336dcd3d2f6d860dc_Instagram.svg",
+      "alt": "Ikona Instagramu",
+      "context": "img",
+      "local_path": "snapshot/assets/images/2c70e4fb6a14__64159f3336dcd3d2f6d860dc_Instagram.svg"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "level": "1",
+      "text": "Nejlepší české podcasty o zdravém životním stylu"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Nejlepší české podcasty o zdravém životním stylu jako skvělá inspirace přímo do vašich uší."
+    },
+    {
+      "type": "paragraph",
+      "text": "Podcasty teď frčí. Není divu, když se díky nim můžeme nechat inspirovat, namotivovat, pobavit i vzdělávat. Umožňují nám věnovat se zároveň dalším činnostem. A navíc neunavujeme oči koukáním do monitoru nebo do knížky. Podcasty jsou prostě značka ideál."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a48_64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Proč poslouchat podcasty o zdravém životním stylu?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jestli jste ještě nepropadli kouzlu podcastů, chci vám je moc doporučit! Tyhle audio nahrávky si můžete pustit do sluchátek naprosto kdekoli a užívat si je cestou do práce, při úklidu a nebo vám můžou dělat společnost třeba při běhu."
+    },
+    {
+      "type": "paragraph",
+      "text": "Autorů i témat podcastů je nepřeberné množství. Já bych se v tomhle článku chtěla zaměřit na , ve kterých autoři rozebírají témata související se zdravým životním stylem. Podcasty a jdou podle mě skvěle dohromady. Naservírují vám hodnotné informace a zároveň vás neomezují v pohybu. Poslouchat můžete při běžných denních činnostech. Tím šetříte čas, který pak můžete využít k tomu, abyste udělali něco pro sebe 🙂 nejlepší české podcasty zdravý životní styl"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Kde hledat nejlepší české podcasty?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Majitelé iPhonů mohou zdarma využít aplikaci . V telefonu je nainstalovaná automaticky a nabízí velký výběr podcastů zařazených do tématických kategorií, umožňuje poslouchat „top“ podcasty a umí vás upozornit na nové a zajímavé epizody. Apple Podcasts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Další možností je mobilní aplikace , která je v základní verzi s reklamami také zdarma. Většina lidí ji používá hlavně k poslechu hudby, ale své podcasty tam nahrává velká část českých autorů. Najít v jedné aplikaci hudbu i podcasty je velká výhoda, takže Spotify je podle mě skvělá volba. Spotify"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vaše oblíbené podcasty najdete taky na . Na výběr jsou české i zahraniční podcasty a stejně jako předchozí dvě uvedené platformy umožňuje aplikace Google Podcasts vyhledávat přímo nebo procházet podle kategorií. Google Podcasts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Prohledejte . Najdete tam většinou podcasty autorů, kteří natáčí i videa a chtějí mít svou tvorbu dostupnou na jedné platformě. YouTube"
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Vybrané nejlepší české podcasty o zdravém životním stylu"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pojďme se podívat na podcasty, které si ráda pouštím já a myslím, že vám se budou líbit taky. Seřadila jsem je náhodně, každý je úplně jiný a všechny mám oblíbené stejně. Nasaďte si sluchátka, jdeme na to!"
+    },
+    {
+      "type": "paragraph",
+      "text": "‍"
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "THE HEALTHY TAPES"
+    },
+    {
+      "type": "paragraph",
+      "text": "U poslouchání podcastu sympatické crossfitové trenérky Lucie Minářové se budete cítit jako na kafi s kamarádkou. Lucka mile a lidsky vysvětluje témata spojená se cvičením, stravováním a seberozvojem. V žádné epizodě nechybí její nadhled a hlavně rozumný a pozitivní přístup. Lucka témata krásně propojuje se svým osobním životem a je poznat, že ví, o čem mluví. V některých epizodách předává své zkušenosti sama, často si ale do podcastu přizve zajímavého hosta."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a45_64284ed75fbce2278f5056b4_healthy_tapes.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "ZA HRANICÍ FITNESS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podcastem vás provedou Charlie a Gárl, dva kamarádi a nadšenci do fitness. Rozebírají snad všechna témata, která by vás ve spojitosti se zdravým životním stylem mohla napadnout. Největší plus podcastu vidím v tom, že kluci vycházejí z odborných studií a mají schopnost informace předávat srozumitelnou a zábavnou formou. U poslechu se dozvíte kopec vědecky podložených informací stylem, který vás nebude ani na vteřinu nudit."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a4d_64284ee369d01c08100c7884_za_hranici_fitness.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "CUKRFREE PODCAST"
+    },
+    {
+      "type": "paragraph",
+      "text": "V epizodách Cukrfree Podcastu se můžete těšit na rozhovory o jídle a zdraví s odborníky, kteří dostanou prostor rozebrat témata do hloubky. Není to typický fitness podcast o cvičení, autorka Janina Černá probírá se svými hosty zdraví komplexně a odhaluje nečekané souvislosti. Získáte informace o tématech, která se běžně moc neřeší, ale rozhodně stojí za to mít o nich přehled."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a51_64284ee9f9d51a810c842639_cukrfree.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "MARKETA’S VIBES"
+    },
+    {
+      "type": "paragraph",
+      "text": "Markéta Gajdošová je odbornice na výživu, která vám ve svém podcastu předá svoje znalosti tak, že vás to bude bavit. Navíc zjistíte, že zdravé stravování není žádná věda a stačí vám k němu obyčejný selský rozum. Podcast vychází z praxe, Markét má milý hlas, příjemný projev a myslím, že po jedné epizodě nebudete chtít přestat."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a54_64284eedf54066d12f60eb03_marketas_vibes.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "heading",
+      "level": "3",
+      "text": "ANNA FALTOVÁ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anna Faltová má osobní kouzlo a úžasné znalosti o správném cvičení i zdravém stravování, které vám ve svém podcastu předá jasně a srozumitelně. Hned po poslechu první epizody vám bude jasné, že Anička svou práci trenérky miluje a dává do ní všechno. Těšit se můžete na spoustu tipů, které vám pomůžou k efektivnějšímu tréninku a ke zdravému životnímu stylu, který bude dlouhodobě udržitelný."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/6719160b8d55a366c7c77a40_64284ef48fbcbe32b1c38402_anna_faltova.jpeg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "heading",
+      "level": "2",
+      "text": "Galerie"
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ed75fbce2278f5056b4_healthy_tapes.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ee369d01c08100c7884_za_hranici_fitness.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ee9f9d51a810c842639_cukrfree.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284eedf54066d12f60eb03_marketas_vibes.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64284ef48fbcbe32b1c38402_anna_faltova.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    },
+    {
+      "type": "image",
+      "src": "https://cdn.prod.website-files.com/63ff2d0a40f8ce66e9828872/64273edce23a16e5092e1de8_nejlepsi_ceske_podcasty.jpg",
+      "alt": "Únava může mít spoustu důvodů. Kromě nedostatku spánku existují i další důvody, proč jste neustále unavení."
+    }
+  ]
+}
