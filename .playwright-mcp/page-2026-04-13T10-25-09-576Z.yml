@@ -1,0 +1,187 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zdraví mě baví" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "O mně" [ref=e6] [cursor=pointer]:
+          - /url: /o-mne
+        - link "Osobní konzultace" [ref=e7] [cursor=pointer]:
+          - /url: /osobni-konzultace
+        - link "Průvodce" [ref=e8] [cursor=pointer]:
+          - /url: /pruvodce
+        - link "E-book" [ref=e9] [cursor=pointer]:
+          - /url: /e-book-jak-sestavit-jidelnicek
+        - link "Lekce cvičení" [ref=e10] [cursor=pointer]:
+          - /url: /lekce-cviceni
+        - link "Blog" [ref=e11] [cursor=pointer]:
+          - /url: /blog
+        - link "Otevřít app" [ref=e12] [cursor=pointer]:
+          - /url: https://app.zdravimebavi.cz/
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: MarketingLayout
+        - heading "Zdraví mě baví - Provedu tě na cestě za zdravým a funkčním tělem" [level=1] [ref=e18]
+        - paragraph [ref=e19]: Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.
+        - figure "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e20]:
+          - img "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e21]
+          - generic [ref=e22]: Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.
+      - article [ref=e23]:
+        - heading "Provedu tě na cestě za zdravým a funkčním tělem" [level=1] [ref=e24]
+        - heading "díky propojení pohybu a výživy" [level=2] [ref=e25]
+        - paragraph [ref=e26]: Jsem certifikovaná kondiční trenérka a výživářka pro ženy.
+        - figure "Podpis Iva" [ref=e27]:
+          - img "Podpis Iva" [ref=e28]
+          - generic [ref=e29]: Podpis Iva
+        - figure "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e30]:
+          - img "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e31]
+          - generic [ref=e32]: Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.
+        - figure "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e33]:
+          - img "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e34]
+          - generic [ref=e35]: Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.
+        - 'heading "Co pro tebe mám nového? Workshop pro mámy: Jak nastartovat hubnutí po dětech" [level=1] [ref=e36]'
+        - link "Chci vědět víc" [ref=e37] [cursor=pointer]:
+          - /url: https://nabidka.zdravimebavi.cz/zdravi-me/workshoppromamy
+        - heading "🎁 VÁNOČNÍ DÁREK 🎁" [level=1] [ref=e38]
+        - figure [ref=e39]
+        - paragraph [ref=e40]: Mám pro tebe Průvodce tě dovede ke zdravému a funkčnímu tělu, ve kterém se budeš cítit skvěle. S radostí a bez diet. Na jakou e-mailovou adresu ti mám dárek poslat? jednu z kapitol z Průvodce výživou a pohybem .
+        - heading "S čím ti pomohu?" [level=1] [ref=e41]
+        - figure "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e42]:
+          - img "Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví." [ref=e43]
+          - generic [ref=e44]: Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.
+        - link "PŘEČTI SI O MNĚ VÍC" [ref=e45] [cursor=pointer]:
+          - /url: /o-mne
+        - paragraph [ref=e46]: Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.
+        - heading "MŮŽEŠ SE NA MĚ OBRÁTIT, JESTLI:" [level=2] [ref=e47]
+        - list [ref=e48]:
+          - listitem [ref=e49]: jsi své cesty za zdravým životním stylem. na začátku
+          - listitem [ref=e50]: už , ale potřebuješ cokoli změnit nebo doladit. zkušenosti máš
+          - listitem [ref=e51]: se ve výživě a pohybu perfektně orientuješ a máš . specifické požadavky
+          - listitem [ref=e52]: se stravuješ , jsi , nebo máš . klasicky vegetariánka veganka výživové omezení
+          - listitem [ref=e53]: pravidelně , nebo jsi naopak . necvičíš sportovně založená
+        - paragraph [ref=e54]: Budu se ti věnovat s respektem ke tvému životnímu stylu. Předám ti mé znalosti a zkušenosti nasbírané díky práci s ženami, které čelí podobným výzvám jako ty. ‍
+        - heading "Co ti můžu nabídnout?" [level=1] [ref=e55]
+        - heading "Osobní konzultace" [level=2] [ref=e56]
+        - figure "Moje základní nabízená služba je Průvodce výživou a pohybem." [ref=e57]:
+          - img "Moje základní nabízená služba je Průvodce výživou a pohybem." [ref=e58]
+          - generic [ref=e59]: Moje základní nabízená služba je Průvodce výživou a pohybem.
+        - list [ref=e60]:
+          - listitem [ref=e61]: Vyplníš kontaktní formulář a já se ti ozvu.
+          - listitem [ref=e62]: Domluvíme termín konzultace a způsob, kterým se spojíme.
+          - listitem [ref=e63]: Na konzultaci si vyhraď přibližně 60 minut.
+          - listitem [ref=e64]: Probereme tvůj aktuální stav a cíle.
+          - listitem [ref=e65]: Dostaneš ode mě individuální doporučení přesně pro tvou situaci.
+        - link "Chci konzultaci" [ref=e66] [cursor=pointer]:
+          - /url: /osobni-konzultace
+        - heading "Online kurz" [level=2] [ref=e67]
+        - figure [ref=e68]
+        - list [ref=e69]:
+          - listitem [ref=e70]: Unikátní metoda, díky které . zhubneš bez počítání kalorií
+          - listitem [ref=e71]: Inspirativní který doopravdy využiješ v praxi. Včetně a jídelníček na 7 dní, nákupního seznamu receptů.
+          - listitem [ref=e72]: od jógy po intervalový HIIT Video tréninky
+          - listitem [ref=e73]: cílů a priorit na celý rok Plánovač
+          - listitem [ref=e74]: ... a spoustu dalšího!
+        - link "to Mě zajímá" [ref=e75] [cursor=pointer]:
+          - /url: /pruvodce
+        - heading "E-book" [level=2] [ref=e76]
+        - figure [ref=e77]
+        - list [ref=e78]:
+          - listitem [ref=e79]: Provede tě krok za krokem k jídelníčku, který ti pomůže k vysněné postavě.
+          - listitem [ref=e80]: Osvojíš si , které využiješ každý den, ať jsi kdekoli a děláš cokoli. zdravé návyky
+          - listitem [ref=e81]: ", zakázané potraviny a diety. Žádné počítání kalorií"
+          - listitem [ref=e82]: Naučíš se unikátní metodou sestavit jídelníček přesně . podle tvých cílů
+          - listitem [ref=e83]: Zjistíš, že . Jde to, i když vaříš pro rodinu nebo jíš v práci. jíst zdravě je jednoduché
+        - link "to je přesně pro mě" [ref=e84] [cursor=pointer]:
+          - /url: /e-book-jak-sestavit-jidelnicek
+        - heading "Lekce cvičení" [level=2] [ref=e85]
+        - figure "Také nabízím lekce cvičení a tréninky." [ref=e86]:
+          - img "Také nabízím lekce cvičení a tréninky." [ref=e87]
+          - generic [ref=e88]: Také nabízím lekce cvičení a tréninky.
+        - list [ref=e89]:
+          - listitem [ref=e90]: Skupinové lekce pro sílu a kondici
+          - listitem [ref=e91]: Individuální lekce podle tvých potřeb
+          - listitem [ref=e92]: Lekce pro tebe a kamarádku, partnera nebo malou skupinu
+          - listitem [ref=e93]: Diagnostika pohybového aparátu
+        - link "chci vědět víc" [ref=e94] [cursor=pointer]:
+          - /url: /lekce-cviceni
+        - list [ref=e95]:
+          - listitem [ref=e96]: Do kontaktního formuláře vyplníš tvé jméno, e-mail a téma, kterému se chceš věnovat.
+          - listitem [ref=e97]: Ozvu se ti a domluvíme termín konzultace a způsob, kterým ses pojíme.
+          - listitem [ref=e98]: Na konzultaci si vyhraď přibližně 30 minut.
+          - listitem [ref=e99]: Probereme tvůj a . aktuální stav cíle
+          - listitem [ref=e100]: Po skončení konzultace ti pošlu shrnutí a praktické návrhy, co konkrétně dělat.
+          - listitem [ref=e101]: Poprosím tě o krátkou zpětnou vazbu.
+          - listitem [ref=e102]: A pak už je na tobě, jestli se rozhodneš moje doporučení využívat.
+          - listitem [ref=e103]: Když budeš chtít, napíšeš mi a domluvíme se na další spolupráci.
+          - listitem [ref=e104]: Pokud ti ale jedna konzultace bude stačit, je to naprosto v pořádku.
+        - link "Chci konzultaci zdarma" [ref=e105] [cursor=pointer]:
+          - /url: /konzultace-zdarma
+        - heading "Přečti si jednu z referencí na konzultaci" [level=1] [ref=e106]
+        - paragraph [ref=e107]: „Z konzultace jsem si odnesla hlavně , jak si mám poskládat jídlo, když nejím maso. Věděla jsem, že jím málo bílkovin a Iva mi poradila i kombinace jejich rostlinných zdrojů. Taky teď vím, že bych měla celkově jíst víc.“ praktické informace Petra Králíková, maminka 2 kluků
+        - figure [ref=e108]
+        - heading "Co je nového na blogu?" [level=1] [ref=e109]
+        - link "Ze života" [ref=e110] [cursor=pointer]:
+          - /url: /kategorie/ze-zivota
+        - link "Slané" [ref=e111] [cursor=pointer]:
+          - /url: /kategorie/slane
+        - link "Sladké" [ref=e112] [cursor=pointer]:
+          - /url: /kategorie/sladke
+        - link "Rady a tipy" [ref=e113] [cursor=pointer]:
+          - /url: /kategorie/cum-ea
+        - link "Vaření" [ref=e114] [cursor=pointer]:
+          - /url: /kategorie/vareni
+        - link "Pečení" [ref=e115] [cursor=pointer]:
+          - /url: /kategorie/peceni
+        - figure "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký." [ref=e116]:
+          - img "Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký." [ref=e117]
+          - generic [ref=e118]: Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký.
+        - heading "Jarní salát, který zasytí" [level=2] [ref=e119]
+        - paragraph [ref=e120]: Připrav si jarní salát plný chuti a živin. Zasytí tě, dodá energii a přitom je lehký.
+        - figure "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí." [ref=e121]:
+          - img "Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí." [ref=e122]
+          - generic [ref=e123]: Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí.
+        - heading "Datle v čokoládě s malinovým krémem a omega-3" [level=2] [ref=e124]
+        - paragraph [ref=e125]: Plněné datle skvěle doplní tradiční druhy cukroví a nabídnou něco nového a neotřelého. A co je nejlepší? Jejich příprava je rychlá a snadná, což se v předvánočním shonu určitě hodí.
+        - figure "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!" [ref=e126]:
+          - img "Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!" [ref=e127]
+          - generic [ref=e128]: Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!
+        - heading "Ochutnej ořech" [level=2] [ref=e129]
+        - paragraph [ref=e130]: Dostala jsem milou možnost vybrat si balíček několika produktů z e-shopu Ochutnej ořech a podělit se o dojmy. Zajímá tě, jaké ořechy a sušené ovoce jsem si vybrala a jak jsem spokojená? K recenzi přihodím i výživové tipy, triky a bonusové informace. Tak jdeme na to!
+        - link "Další" [ref=e131] [cursor=pointer]:
+          - /url: "?d2e85baa_page=2"
+  - contentinfo [ref=e132]:
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - strong [ref=e135]: Zdraví mě baví
+        - paragraph [ref=e136]: Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - strong [ref=e139]: Rychlé odkazy
+          - link "Konzultace zdarma" [ref=e140] [cursor=pointer]:
+            - /url: /konzultace-zdarma
+          - link "Kontakt" [ref=e141] [cursor=pointer]:
+            - /url: /napis-mi
+          - link "Kalendář" [ref=e142] [cursor=pointer]:
+            - /url: /kalendar
+        - generic [ref=e143]:
+          - strong [ref=e144]: Právní informace
+          - link "Cookies" [ref=e145] [cursor=pointer]:
+            - /url: /cookies
+          - link "GDPR" [ref=e146] [cursor=pointer]:
+            - /url: /gdpr
+          - link "Obchodní podmínky" [ref=e147] [cursor=pointer]:
+            - /url: /obchodni-podminky
+          - link "Odpovědnost" [ref=e148] [cursor=pointer]:
+            - /url: /odpovednost
+        - generic [ref=e149]:
+          - strong [ref=e150]: Další kroky
+          - link "O mně" [ref=e151] [cursor=pointer]:
+            - /url: /o-mne
+          - link "Osobní konzultace" [ref=e152] [cursor=pointer]:
+            - /url: /osobni-konzultace
+          - link "Průvodce" [ref=e153] [cursor=pointer]:
+            - /url: /pruvodce
+          - link "Otevřít app" [ref=e154] [cursor=pointer]:
+            - /url: https://app.zdravimebavi.cz/
+  - alert [ref=e155]
