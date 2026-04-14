@@ -1,0 +1,320 @@
+/* ─── Hero ─────────────────────────────────────────────────── */
+
+.hero {
+  background: var(--color-surface-alt);
+  padding: 4.5rem 0 3rem;
+  overflow: hidden;
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 4.5vw, 3.1rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--color-text);
+}
+
+.heroSub {
+  font-family: var(--font-display);
+  font-size: clamp(1.1rem, 2vw, 1.45rem);
+  font-style: italic;
+  color: var(--color-brand);
+  font-weight: 400;
+  margin-top: -0.5rem;
+}
+
+.heroBody {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  max-width: 44ch;
+}
+
+.heroCta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.heroMedia {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.heroPhoto {
+  border-radius: 2rem 2rem 0.5rem 2rem;
+  width: 100%;
+  height: auto;
+  max-width: 460px;
+  object-fit: cover;
+  display: block;
+}
+
+.heroPodpis {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0;
+  width: 120px;
+  height: auto;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.12));
+}
+
+/* ─── About ─────────────────────────────────────────────────── */
+
+.about {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.aboutInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.aboutMedia {
+  order: 2;
+}
+
+.aboutContent {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.aboutPhoto {
+  width: 100%;
+  border-radius: 1.5rem;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+.aboutTitle {
+  font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--color-text);
+}
+
+.aboutBody {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.aboutSubheading {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--color-brand);
+  margin-top: 0.5rem;
+}
+
+.aboutList {
+  display: grid;
+  gap: 0.5rem;
+  padding-left: 1.25rem;
+}
+
+.aboutList li {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+/* ─── Services ──────────────────────────────────────────────── */
+
+.services {
+  background: var(--color-surface);
+  padding: 5rem 0;
+}
+
+.sectionHeading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.serviceCard {
+  background: var(--color-white);
+  border-radius: var(--radius-panel);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.serviceCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.serviceCardImage {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--color-surface-alt);
+  overflow: hidden;
+}
+
+.serviceCardBody {
+  padding: 1.5rem 1.75rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.serviceCardTitle {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
+}
+
+.serviceCardList {
+  display: grid;
+  gap: 0.4rem;
+  padding-left: 1.2rem;
+  flex: 1;
+}
+
+.serviceCardList li {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
+
+/* ─── CTA Strip ─────────────────────────────────────────────── */
+
+.ctaStrip {
+  background: var(--color-brand);
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+}
+
+.ctaStripTitle {
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  font-weight: 800;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+
+.ctaStripBody {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 2rem;
+  max-width: 55ch;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.75;
+}
+
+/* ─── Blog Preview ──────────────────────────────────────────── */
+
+.blogPreview {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.blogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.blogGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* ─── Responsive ─────────────────────────────────────────────── */
+
+@media (max-width: 960px) {
+  .heroInner,
+  .aboutInner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .heroMedia {
+    order: -1;
+  }
+
+  .heroPhoto {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .aboutMedia {
+    order: 0;
+  }
+
+  .aboutContent {
+    order: 1;
+  }
+
+  .blogGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .hero,
+  .about,
+  .services {
+    padding: 3rem 0;
+  }
+
+  .blogPreview {
+    padding: 3rem 0;
+  }
+
+  .ctaStrip {
+    padding: 3rem 1rem;
+  }
+
+  .servicesGrid,
+  .blogGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .heroCta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .heroCta :global(.btn) {
+    justify-content: center;
+  }
+}

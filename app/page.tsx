@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { PageBuilder } from "@/components/page-builder";
-import { SnapshotContentPage } from "@/components/snapshot-content-page";
+import { HomepageSections } from "@/components/homepage-sections";
 import { getSnapshotMetadata } from "@/lib/content/snapshot";
 import { getHomePageData } from "@/lib/sanity/loaders";
 
@@ -53,15 +53,5 @@ export default async function HomePage() {
     );
   }
 
-  return (
-    <SnapshotContentPage
-      layout="MarketingLayout"
-      notes={[
-        "Tato route je uz napojena na lokalni snapshot jako fallback zdroj obsahu.",
-        "Legacy query parametr d2e85baa_page zustane podporovany pro homepage listing."
-      ]}
-      routePath="/"
-      routeType="page"
-    />
-  );
+  return <HomepageSections />;
 }

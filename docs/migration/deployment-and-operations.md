@@ -78,12 +78,32 @@ Pokud bude repozitář umístěný v GitHub Organization a ne v osobním účtu,
 - GitHub Actions
 - Netlify build hook nebo Netlify CLI deploy
 
-## 5. Doporučené build chování
+## 5. Limity Netlify Free a pravidla pro deploy
+
+### 5.1 Limity plánu (ověřeno 2026-04-13)
+
+| Limit | Hodnota |
+|-------|---------|
+| Build minuty | **300 minut / měsíc** |
+| Chování při překročení | Web se automaticky pozastaví (žádné přeplatky) |
+| Upozornění | při 50 %, 75 %, 90 % a 100 % spotřeby |
+
+Náš Next.js build trvá přibližně **2–3 minuty** → při normálním provozu to umožňuje cca **100–150 deployů za měsíc**.
+
+### 5.2 Doporučená pravidla
+
+- Průběžný vývoj a ladění testovat **lokálně** (`npm run dev`) — ne pushovat každou iteraci.
+- Na GitHub pushovat až **hotové, otestované bloky** — každý push triggeruje deploy.
+- Při blížícím se limitu (upozornění od Netlify) přejít na `netlify deploy --build` ručně přes CLI, nebo dočasně přepnout Netlify na manuální deploy (vypnout auto-publish).
+- Větší obsahové změny v Sanity Studiu **dávkovat** — jeden webhook = jeden rebuild.
+- Sanity webhook na `api/revalidate/sanity` rebuild **nespouští** — pouze invaliduje ISR cache. Build se spustí jen při push do `main`.
+
+## 6. Doporučené build chování
 
 S ohledem na Netlify Free:
 
 - build všech veřejných stránek při merge do `main`
-- content publish v Sanity má triggerovat build přes webhook
+- content publish v Sanity má triggerovat invalidaci přes webhook (ne rebuild)
 - nepoužívat složitý runtime personalization
 - search řešit bez heavy server computingu
 - preferovat route rendering přes static generation a cache-friendly data fetching

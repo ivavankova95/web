@@ -54,11 +54,12 @@ export function LeadForm({ formKey, title, description }: LeadFormProps) {
 
   return (
     <div className="surface-card stack" style={{ padding: "2rem" }}>
-      <div className="stack" style={{ gap: "0.5rem" }}>
-        <p className="eyebrow">Lead form</p>
-        <h2>{title}</h2>
-        <p className="page-lead">{description}</p>
-      </div>
+      {(title || description) && (
+        <div className="stack" style={{ gap: "0.5rem" }}>
+          {title && <h2>{title}</h2>}
+          {description && <p className="page-lead">{description}</p>}
+        </div>
+      )}
       <form action={handleSubmit}>
         <label>
           Jméno

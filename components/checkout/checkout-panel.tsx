@@ -55,13 +55,14 @@ export function CheckoutPanel({
 
   return (
     <div className="surface-card stack" style={{ padding: "2rem" }}>
-      <div className="stack" style={{ gap: "0.5rem" }}>
-        <p className="eyebrow">Stripe checkout</p>
-        <h2>{title}</h2>
-        <p className="page-lead">{description}</p>
-      </div>
-      <button className="button-primary" disabled={isLoading} onClick={handleCheckout} type="button">
-        {isLoading ? "Připravuji checkout..." : "Pokračovat"}
+      {(title || description) && (
+        <div className="stack" style={{ gap: "0.5rem" }}>
+          {title && <h2>{title}</h2>}
+          {description && <p className="page-lead">{description}</p>}
+        </div>
+      )}
+      <button className="btn btn-primary" disabled={isLoading} onClick={handleCheckout} type="button">
+        {isLoading ? "Připravuji checkout..." : "Koupit"}
       </button>
       {message ? <p className="muted">{message}</p> : null}
     </div>

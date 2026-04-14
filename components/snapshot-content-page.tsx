@@ -22,6 +22,14 @@ function asText(value: unknown) {
   return typeof value === "string" ? value : "";
 }
 
+function isUiAsset(alt: string, src: string) {
+  return (
+    /(logo|podpis|ikona|icon|facebook|instagram|twitter|youtube)/i.test(alt) ||
+    /(facebook|instagram|twitter|youtube|social)/i.test(src) ||
+    src.endsWith(".svg")
+  );
+}
+
 function renderBlock(block: SnapshotBlock, key: string) {
   if (block.type === "heading") {
     const Tag = block.level === "1" ? "h1" : block.level === "2" ? "h2" : block.level === "3" ? "h3" : "h4";
@@ -33,17 +41,23 @@ function renderBlock(block: SnapshotBlock, key: string) {
   }
 
   if (block.type === "image" && block.src) {
+    const src = asText(block.src);
+    const alt = asText(block.alt);
+    // Skip Webflow UI decoration icons (logos, social icons, SVGs)
+    if (isUiAsset(alt, src)) {
+      return null;
+    }
     return (
       <figure className="snapshot-figure" key={key}>
-        <img alt={asText(block.alt)} className="snapshot-image" src={asText(block.src)} />
-        {block.alt ? <figcaption className="muted">{asText(block.alt)}</figcaption> : null}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img alt={alt} className="snapshot-image" src={src} loading="lazy" />
       </figure>
     );
   }
 
   if (block.type === "cta" && block.href) {
     return (
-      <a className="button-secondary" href={asText(block.href)} key={key}>
+      <a className="btn btn-primary" href={asText(block.href)} key={key}>
         {asText(block.text) || "Otevřít"}
       </a>
     );
@@ -59,7 +73,7 @@ function renderBlock(block: SnapshotBlock, key: string) {
 
   if (block.type === "blockquote") {
     return (
-      <blockquote className="surface-card snapshot-quote" key={key}>
+      <blockquote className="snapshot-quote" key={key}>
         {asText(block.text)}
       </blockquote>
     );
@@ -114,6 +128,9 @@ export async function SnapshotContentPage({
   notes = [],
   contextLinks = []
 }: SnapshotContentPageProps) {
+  void notes;
+  void layout;
+
   const page = await getSnapshotPage(routePath);
 
   if (!page) {
@@ -124,66 +141,100 @@ export async function SnapshotContentPage({
   const productKey = getSnapshotProductKey(routePath);
   const title = getSnapshotDisplayTitle(page);
   const description = getSnapshotDescription(page);
-  const heroImage = page.images.find(
-    (image) => image.source_url && !/(logo|podpis)/i.test(asText(image.alt))
-  );
-  const visibleBlocks = [...page.blocks];
-  void notes;
 
+  const isLegalPage = routeType === "legalPage";
+  const isArticle = routeType === "blogPost";
+
+  // Hero image — exclude logos, social media icons and SVG assets
+  const heroImage = !isLegalPage
+    ? page.images.find(
+        (image) =>
+          image.source_url &&
+          !isUiAsset(asText(image.alt), image.source_url)
+      )
+    : null;
+
+  const visibleBlocks = [...page.blocks];
+
+  // Remove leading block if it duplicates the page title
   if (
     visibleBlocks[0]?.type === "heading" &&
-    (visibleBlocks[0] as { text?: string }).text &&
     asText((visibleBlocks[0] as { text?: string }).text) === title
   ) {
     visibleBlocks.shift();
   }
 
+  const containerClass = isLegalPage ? "container--narrow" : "container";
+
   return (
     <section className="page-section">
-      <div className="container page-grid">
-        <div className="surface-card stack" style={{ padding: "2rem" }}>
-          <p className="eyebrow">{layout}</p>
-          <h1>{title}</h1>
+      <div className={containerClass}>
+
+        {/* Breadcrumb context links */}
+        {contextLinks.length > 0 && (
+          <div className="taxonomy-pills" style={{ marginBottom: "1.5rem" }}>
+            {contextLinks.map((link) => (
+              <a className="pill-link" href={link.href} key={link.href}>
+                {link.label}
+              </a>
+            ))}
+          </div>
+        )}
+
+        {/* Page header */}
+        <header style={{ marginBottom: "2rem" }}>
+          {isArticle && <p className="eyebrow" style={{ marginBottom: "0.5rem" }}>Článek</p>}
+          <h1 style={{ marginBottom: "0.75rem" }}>{title}</h1>
           <p className="page-lead">{description}</p>
-          {contextLinks.length ? (
-            <div className="taxonomy-pills">
-              {contextLinks.map((link) => (
-                <a className="pill-link" href={link.href} key={link.href}>
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          ) : null}
-          {heroImage?.source_url ? (
-            <figure className="snapshot-figure">
-              <img alt={asText(heroImage.alt) || title} className="snapshot-image" src={heroImage.source_url} />
-              {heroImage.alt ? <figcaption className="muted">{asText(heroImage.alt)}</figcaption> : null}
-            </figure>
-          ) : null}
-        </div>
+        </header>
 
-        {productKey ? (
-          <CheckoutPanel
-            description="Snapshot-backed checkout scaffold. Finální checkout poběží nad Stripe price IDs a Make automatizací."
-            productKey={productKey}
-            sourcePage={routePath}
-            title="Stripe checkout"
-          />
-        ) : null}
+        {/* Hero image */}
+        {heroImage?.source_url && (
+          <figure style={{ margin: "0 0 2.5rem" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              alt={asText(heroImage.alt) || title}
+              src={heroImage.source_url}
+              loading={isArticle ? "eager" : "lazy"}
+              style={{
+                width: "100%",
+                borderRadius: "var(--radius-panel)",
+                display: "block",
+                maxHeight: isArticle ? "480px" : "420px",
+                objectFit: "cover"
+              }}
+            />
+          </figure>
+        )}
 
+        {/* Stripe checkout */}
+        {productKey && (
+          <div style={{ marginBottom: "2rem" }}>
+            <CheckoutPanel
+              productKey={productKey}
+              sourcePage={routePath}
+              title={title}
+              description={description}
+            />
+          </div>
+        )}
+
+        {/* Lead forms */}
         {formKeys.map((formKey) => (
-          <LeadForm
-            description="Formulář je vykreslený podle detekce ze snapshotu. Finální verze se napojí na MailerLite nebo Make."
-            formKey={formKey}
-            key={formKey}
-            title={`Formulář: ${formKey}`}
-          />
+          <div key={formKey} style={{ marginBottom: "2rem" }}>
+            <LeadForm
+              formKey={formKey}
+              title={title}
+              description=""
+            />
+          </div>
         ))}
 
-        <article className="surface-card snapshot-article" style={{ padding: "2rem" }}>
-          {routeType === "blogPost" ? <p className="eyebrow">Článek</p> : null}
+        {/* Page content */}
+        <article className="snapshot-article">
           {renderBlocks(visibleBlocks)}
         </article>
+
       </div>
     </section>
   );
