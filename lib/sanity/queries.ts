@@ -32,6 +32,7 @@ export const servicePageBySlugQuery = groq`
     benefits[] { _key, text },
     steps[] { _key, title, description },
     testimonials[] { _key, quote, author },
+    referenceImages[] { _key, asset, alt },
     pageBuilder,
     seo
   }
@@ -50,6 +51,7 @@ export const offerPageBySlugQuery = groq`
     productPrice,
     whatYouGet[] { _key, text },
     forWhom[] { _key, text },
+    referenceImages[] { _key, asset, alt },
     pageBuilder,
     seo
   }

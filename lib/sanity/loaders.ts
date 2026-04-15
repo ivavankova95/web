@@ -94,6 +94,7 @@ export type SanityServicePage = {
   benefits?: Array<{ _key: string; text: string }>;
   steps?: Array<{ _key: string; title: string; description?: string }>;
   testimonials?: Array<{ _key: string; quote: string; author?: string }>;
+  referenceImages?: Array<{ _key: string; asset?: unknown; alt?: string }>;
   pageBuilder?: PageBuilderBlock[];
   seo?: { metaTitle?: string; metaDescription?: string; canonicalUrl?: string; noIndex?: boolean };
 };
@@ -110,6 +111,7 @@ export type SanityOfferPage = {
   productPrice?: string;
   whatYouGet?: Array<{ _key: string; text: string }>;
   forWhom?: Array<{ _key: string; text: string }>;
+  referenceImages?: Array<{ _key: string; asset?: unknown; alt?: string }>;
   pageBuilder?: PageBuilderBlock[];
   seo?: { metaTitle?: string; metaDescription?: string; canonicalUrl?: string; noIndex?: boolean };
 };

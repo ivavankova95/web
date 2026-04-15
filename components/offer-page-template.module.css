@@ -137,11 +137,42 @@
   }
 }
 
+/* ─── Reference images ──────────────────────────────────────── */
+
+.referenceImages {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.referenceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.referenceItem {
+  border-radius: var(--radius-panel);
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+.referencePhoto {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
 @media (max-width: 600px) {
   .hero,
   .whatYouGet,
   .forWhom,
+  .referenceImages,
   .orderSection {
     padding: 3rem 0;
+  }
+
+  .referenceGrid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -81,6 +81,22 @@ export const servicePageSchema = defineType({
       ]
     }),
     defineField({ name: "leadFormKey", title: "Lead form key", type: "string" }),
+    defineField({
+      name: "referenceImages",
+      title: "Reference images (screenshoty, fotky klientů)",
+      type: "array",
+      of: [
+        defineArrayMember({
+          name: "referenceImage",
+          title: "Image",
+          type: "image",
+          options: { hotspot: false },
+          fields: [
+            defineField({ name: "alt", title: "Alt text", type: "string" })
+          ]
+        })
+      ]
+    }),
     createPageBuilderField(),
     createSeoField(),
     createMigrationSourceField()

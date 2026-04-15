@@ -76,6 +76,32 @@ export function OfferPageTemplate({ page, routePath }: { page: SanityOfferPage; 
         </section>
       )}
 
+      {/* Reference images */}
+      {page.referenceImages && page.referenceImages.length > 0 && (
+        <section className={styles.referenceImages}>
+          <div className="container">
+            <h2 className={styles.sectionTitle}>Reference</h2>
+            <div className={styles.referenceGrid}>
+              {page.referenceImages.map((img) => {
+                const url = urlForImageSized(img, 600, 600, "max");
+                if (!url) return null;
+                return (
+                  <div key={img._key} className={styles.referenceItem}>
+                    <Image
+                      src={url}
+                      alt={img.alt ?? "Reference"}
+                      width={600}
+                      height={600}
+                      className={styles.referencePhoto}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Checkout / Lead form */}
       <section className={styles.orderSection} id="objednavka">
         <div className="container" style={{ maxWidth: 640 }}>

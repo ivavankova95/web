@@ -81,6 +81,22 @@ export const offerPageSchema = defineType({
       initialValue: "stripeRedirect"
     }),
     defineField({ name: "stripePriceId", title: "Stripe price ID", type: "string" }),
+    defineField({
+      name: "referenceImages",
+      title: "Reference images (proměny, screenshoty referencí)",
+      type: "array",
+      of: [
+        defineArrayMember({
+          name: "referenceImage",
+          title: "Image",
+          type: "image",
+          options: { hotspot: false },
+          fields: [
+            defineField({ name: "alt", title: "Alt text", type: "string" })
+          ]
+        })
+      ]
+    }),
     createPageBuilderField(),
     createSeoField(),
     createMigrationSourceField()
