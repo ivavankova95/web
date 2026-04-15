@@ -21,11 +21,38 @@ export const pageBySlugQuery = groq`
 `;
 
 export const servicePageBySlugQuery = groq`
-  *[_type == "servicePage" && slug.current == $slug][0]
+  *[_type == "servicePage" && slug.current == $slug][0] {
+    _id,
+    title,
+    excerpt,
+    slug,
+    serviceKey,
+    leadFormKey,
+    heroImage { asset, alt },
+    benefits[] { _key, text },
+    steps[] { _key, title, description },
+    testimonials[] { _key, quote, author },
+    pageBuilder,
+    seo
+  }
 `;
 
 export const offerPageBySlugQuery = groq`
-  *[_type == "offerPage" && slug.current == $slug][0]
+  *[_type == "offerPage" && slug.current == $slug][0] {
+    _id,
+    title,
+    excerpt,
+    slug,
+    productKey,
+    checkoutMode,
+    stripePriceId,
+    heroImage { asset, alt },
+    productPrice,
+    whatYouGet[] { _key, text },
+    forWhom[] { _key, text },
+    pageBuilder,
+    seo
+  }
 `;
 
 export const legalPageBySlugQuery = groq`
@@ -41,6 +68,11 @@ export const blogPostBySlugQuery = groq`
     publishedAt,
     mainImage { asset, alt },
     categories[]->{ _id, title, slug },
+    ingredientTables[] {
+      _key,
+      title,
+      rows[] { _key, name, amount }
+    },
     content,
     seo
   }
