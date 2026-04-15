@@ -83,6 +83,35 @@ type SanityPageDocument = {
   };
 };
 
+export type SanityServicePage = {
+  _id?: string;
+  title?: string;
+  excerpt?: string;
+  slug?: { current?: string };
+  serviceKey?: string;
+  leadFormKey?: string;
+  heroImage?: { asset?: unknown; alt?: string };
+  benefits?: Array<{ _key: string; text: string }>;
+  steps?: Array<{ _key: string; title: string; description?: string }>;
+  testimonials?: Array<{ _key: string; quote: string; author?: string }>;
+  seo?: { metaTitle?: string; metaDescription?: string; canonicalUrl?: string; noIndex?: boolean };
+};
+
+export type SanityOfferPage = {
+  _id?: string;
+  title?: string;
+  excerpt?: string;
+  slug?: { current?: string };
+  productKey?: string;
+  checkoutMode?: "stripeRedirect" | "stripeEmbedded" | "leadOnly";
+  stripePriceId?: string;
+  heroImage?: { asset?: unknown; alt?: string };
+  productPrice?: string;
+  whatYouGet?: Array<{ _key: string; text: string }>;
+  forWhom?: Array<{ _key: string; text: string }>;
+  seo?: { metaTitle?: string; metaDescription?: string; canonicalUrl?: string; noIndex?: boolean };
+};
+
 type SanityRouteDocumentKind = "page" | "servicePage" | "offerPage" | "legalPage";
 
 const routeDocumentQueries: Record<SanityRouteDocumentKind, string> = {
@@ -103,7 +132,9 @@ function toShellLinks(items?: SanityLinkItem[]) {
     )
     .map((item) => ({
       label: item.label,
-      href: item.href
+      href: item.href,
+      ...(item.variant ? { variant: item.variant } : {}),
+      ...(item.openInNewTab ? { openInNewTab: item.openInNewTab } : {})
     }));
 }
 
@@ -138,8 +169,16 @@ export const getSiteShellData = cache(async (): Promise<SnapshotSiteShell> => {
   }
 
   const { siteSettings, navigation, footer } = globals;
-  const externalHref = navigation?.ctaHref || siteSettings?.appUrl || fallback.externalNav[0]?.href;
-  const externalLabel = navigation?.ctaLabel || fallback.externalNav[0]?.label || "Otevřít app";
+  const ctaHref = navigation?.ctaHref || siteSettings?.appUrl || fallback.externalNav[0]?.href;
+  const ctaLabel = navigation?.ctaLabel || fallback.externalNav[0]?.label || "Členská sekce";
+
+  const sanityNavItems = (navigation?.items && navigation.items.length > 0)
+    ? toShellLinks(navigation.items).filter((item) => item.variant !== "cta")
+    : fallback.primaryNav.filter((item) => item.variant !== "cta");
+
+  const ctaItem = ctaHref
+    ? { label: ctaLabel, href: ctaHref, variant: "cta" as const }
+    : fallback.primaryNav.find((item) => item.variant === "cta");
 
   return {
     brand: {
@@ -147,17 +186,11 @@ export const getSiteShellData = cache(async (): Promise<SnapshotSiteShell> => {
       description: siteSettings?.siteDescription || footer?.aboutText || fallback.brand.description,
       logoPath: fallback.brand.logoPath
     },
-    primaryNav: toShellLinks(navigation?.items).length ? toShellLinks(navigation?.items) : fallback.primaryNav,
+    primaryNav: ctaItem ? [...sanityNavItems, ctaItem] : sanityNavItems,
     footerNav: toShellLinks(footer?.primaryLinks).length ? toShellLinks(footer?.primaryLinks) : fallback.footerNav,
     legalNav: toShellLinks(footer?.legalLinks).length ? toShellLinks(footer?.legalLinks) : fallback.legalNav,
-    externalNav: externalHref
-      ? [
-          {
-            label: externalLabel,
-            href: externalHref,
-            external: true
-          }
-        ]
+    externalNav: ctaHref
+      ? [{ label: ctaLabel, href: ctaHref, external: true }]
       : fallback.externalNav
   };
 });
@@ -219,6 +252,32 @@ export const getHomePageData = cache(async (): Promise<SanityPageDocument | null
 
   try {
     return await sanityClient.fetch<SanityPageDocument | null>(homePageQuery, {}, { next: { revalidate: 60, tags: ["page", "page:home", "route:/"] } });
+  } catch {
+    return null;
+  }
+});
+
+export const getServicePageBySlug = cache(async (slug: string): Promise<SanityServicePage | null> => {
+  if (!hasSanityConfig()) return null;
+  try {
+    return await sanityClient.fetch<SanityServicePage | null>(
+      servicePageBySlugQuery,
+      { slug },
+      { next: { revalidate: 60, tags: ["servicePage", `servicePage:${slug}`] } }
+    );
+  } catch {
+    return null;
+  }
+});
+
+export const getOfferPageBySlug = cache(async (slug: string): Promise<SanityOfferPage | null> => {
+  if (!hasSanityConfig()) return null;
+  try {
+    return await sanityClient.fetch<SanityOfferPage | null>(
+      offerPageBySlugQuery,
+      { slug },
+      { next: { revalidate: 60, tags: ["offerPage", `offerPage:${slug}`] } }
+    );
   } catch {
     return null;
   }
@@ -327,6 +386,18 @@ type SanityCategory = {
   };
 };
 
+export type SanityIngredientRow = {
+  _key?: string;
+  name: string;
+  amount?: string;
+};
+
+export type SanityIngredientTable = {
+  _key?: string;
+  title?: string;
+  rows?: SanityIngredientRow[];
+};
+
 type SanityBlogPost = {
   _id?: string;
   title?: string;
@@ -335,6 +406,7 @@ type SanityBlogPost = {
   publishedAt?: string;
   mainImage?: { asset?: unknown; alt?: string };
   categories?: SanityCategory[];
+  ingredientTables?: SanityIngredientTable[];
   content?: readonly unknown[];
   seo?: {
     metaTitle?: string;
