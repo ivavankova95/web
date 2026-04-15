@@ -1,0 +1,222 @@
+/* ─── Hero ─────────────────────────────────────────────────── */
+
+.hero {
+  background: var(--color-surface-alt);
+  padding: 5rem 0 4rem;
+  overflow: hidden;
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--color-text);
+}
+
+.heroLead {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  max-width: 46ch;
+}
+
+.heroMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.heroPhoto {
+  border-radius: 2rem 2rem 0.5rem 2rem;
+  width: 100%;
+  height: auto;
+  max-width: 440px;
+  object-fit: cover;
+  display: block;
+}
+
+/* ─── Shared ────────────────────────────────────────────────── */
+
+.sectionTitle {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+/* ─── Benefits ──────────────────────────────────────────────── */
+
+.benefits {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.benefitsList {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 3rem;
+  max-width: 900px;
+}
+
+.benefitsItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.checkmark {
+  color: var(--color-brand);
+  font-weight: 800;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+/* ─── Steps ─────────────────────────────────────────────────── */
+
+.steps {
+  background: var(--color-surface);
+  padding: 5rem 0;
+}
+
+.stepsList {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  gap: 2rem;
+  max-width: 760px;
+}
+
+.stepsItem {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.stepNumber {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--color-brand);
+  opacity: 0.25;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 3.5rem;
+  font-family: var(--font-display);
+}
+
+.stepBody {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-top: 0.25rem;
+}
+
+.stepTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.stepDesc {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+/* ─── Testimonials ──────────────────────────────────────────── */
+
+.testimonials {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.testimonialCard {
+  background: var(--color-white);
+  border-radius: var(--radius-panel);
+  padding: 2rem;
+  margin: 0;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonialQuote {
+  font-size: 0.97rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  font-style: italic;
+  margin: 0;
+  font-family: var(--font-display);
+}
+
+.testimonialAuthor {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-brand);
+}
+
+/* ─── Form section ──────────────────────────────────────────── */
+
+.formSection {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+/* ─── Responsive ────────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .heroInner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .heroMedia {
+    order: -1;
+  }
+
+  .heroPhoto {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .benefitsList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero,
+  .benefits,
+  .steps,
+  .testimonials,
+  .formSection {
+    padding: 3rem 0;
+  }
+}
