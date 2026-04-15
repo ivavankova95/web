@@ -25,7 +25,10 @@ export const servicePageSchema = defineType({
       name: "heroImage",
       title: "Hero image",
       type: "image",
-      options: { hotspot: true }
+      options: { hotspot: true },
+      fields: [
+        defineField({ name: "alt", title: "Alt text", type: "string" })
+      ]
     }),
     defineField({
       name: "benefits",
@@ -33,6 +36,8 @@ export const servicePageSchema = defineType({
       type: "array",
       of: [
         defineArrayMember({
+          name: "benefitItem",
+          title: "Benefit",
           type: "object",
           fields: [
             defineField({ name: "text", title: "Text", type: "string", validation: (Rule) => Rule.required() })
@@ -47,6 +52,8 @@ export const servicePageSchema = defineType({
       type: "array",
       of: [
         defineArrayMember({
+          name: "stepItem",
+          title: "Step",
           type: "object",
           fields: [
             defineField({ name: "title", title: "Title", type: "string", validation: (Rule) => Rule.required() }),
@@ -62,6 +69,8 @@ export const servicePageSchema = defineType({
       type: "array",
       of: [
         defineArrayMember({
+          name: "testimonialItem",
+          title: "Testimonial",
           type: "object",
           fields: [
             defineField({ name: "quote", title: "Quote", type: "text", rows: 3, validation: (Rule) => Rule.required() }),

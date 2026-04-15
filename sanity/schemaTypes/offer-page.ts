@@ -25,7 +25,10 @@ export const offerPageSchema = defineType({
       name: "heroImage",
       title: "Hero image",
       type: "image",
-      options: { hotspot: true }
+      options: { hotspot: true },
+      fields: [
+        defineField({ name: "alt", title: "Alt text", type: "string" })
+      ]
     }),
     defineField({
       name: "productPrice",
@@ -38,6 +41,8 @@ export const offerPageSchema = defineType({
       type: "array",
       of: [
         defineArrayMember({
+          name: "whatYouGetItem",
+          title: "Item",
           type: "object",
           fields: [
             defineField({ name: "text", title: "Text", type: "string", validation: (Rule) => Rule.required() })
@@ -52,6 +57,8 @@ export const offerPageSchema = defineType({
       type: "array",
       of: [
         defineArrayMember({
+          name: "forWhomItem",
+          title: "Item",
           type: "object",
           fields: [
             defineField({ name: "text", title: "Text", type: "string", validation: (Rule) => Rule.required() })
