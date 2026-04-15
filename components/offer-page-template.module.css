@@ -1,0 +1,147 @@
+/* ─── Hero ─────────────────────────────────────────────────── */
+
+.hero {
+  background: var(--color-surface-alt);
+  padding: 5rem 0 4rem;
+  overflow: hidden;
+}
+
+.heroInner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heroTitle {
+  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--color-text);
+}
+
+.heroLead {
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  max-width: 46ch;
+}
+
+.heroPrice {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-brand);
+}
+
+.heroMedia {
+  display: flex;
+  justify-content: center;
+}
+
+.heroPhoto {
+  border-radius: 1.5rem;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  object-fit: cover;
+  display: block;
+  box-shadow: var(--shadow-soft);
+}
+
+/* ─── Shared ────────────────────────────────────────────────── */
+
+.sectionTitle {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.featureList {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 3rem;
+  max-width: 900px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.checkmark {
+  color: var(--color-brand);
+  font-weight: 800;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.bullet {
+  color: var(--color-brand);
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+/* ─── Sections ──────────────────────────────────────────────── */
+
+.whatYouGet {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.forWhom {
+  background: var(--color-surface);
+  padding: 5rem 0;
+}
+
+.orderSection {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+/* ─── Responsive ────────────────────────────────────────────── */
+
+@media (max-width: 900px) {
+  .heroInner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .heroMedia {
+    order: -1;
+  }
+
+  .heroPhoto {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .featureList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero,
+  .whatYouGet,
+  .forWhom,
+  .orderSection {
+    padding: 3rem 0;
+  }
+}
