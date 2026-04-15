@@ -1,4 +1,4 @@
-import { defineField, defineType } from "sanity";
+import { defineArrayMember, defineField, defineType } from "sanity";
 import {
   createExcerptField,
   createMigrationSourceField,
@@ -21,6 +21,45 @@ export const offerPageSchema = defineType({
     createSlugField(),
     defineField({ name: "productKey", title: "Product key", type: "string" }),
     createExcerptField(),
+    defineField({
+      name: "heroImage",
+      title: "Hero image",
+      type: "image",
+      options: { hotspot: true }
+    }),
+    defineField({
+      name: "productPrice",
+      title: "Product price (text, např. \"990 Kč\")",
+      type: "string"
+    }),
+    defineField({
+      name: "whatYouGet",
+      title: "What you get (co dostaneš)",
+      type: "array",
+      of: [
+        defineArrayMember({
+          type: "object",
+          fields: [
+            defineField({ name: "text", title: "Text", type: "string", validation: (Rule) => Rule.required() })
+          ],
+          preview: { select: { title: "text" } }
+        })
+      ]
+    }),
+    defineField({
+      name: "forWhom",
+      title: "For whom (pro koho)",
+      type: "array",
+      of: [
+        defineArrayMember({
+          type: "object",
+          fields: [
+            defineField({ name: "text", title: "Text", type: "string", validation: (Rule) => Rule.required() })
+          ],
+          preview: { select: { title: "text" } }
+        })
+      ]
+    }),
     defineField({
       name: "checkoutMode",
       title: "Checkout mode",
