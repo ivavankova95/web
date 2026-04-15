@@ -1,22 +1,24 @@
 import type { Metadata } from "next";
-import { HybridStaticRoutePage } from "@/components/hybrid-static-route-page";
-import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
+import { ServicePageTemplate } from "@/components/service-page-template";
+import { SnapshotContentPage } from "@/components/snapshot-content-page";
+import { getServicePageBySlug, getSanityRouteMetadata } from "@/lib/sanity/loaders";
 
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "servicePage", routePath: "/lekce-cviceni" });
 }
 
-export default function ExerciseLessonsPage() {
+export default async function LekceCviceniPage() {
+  const page = await getServicePageBySlug("lekce-cviceni");
+
+  if (page?._id) {
+    return <ServicePageTemplate page={page} />;
+  }
+
   return (
-    <HybridStaticRoutePage
-      documentKind="servicePage"
-      fallbackLayout="MarketingLayout"
-      fallbackNotes={[
-        "Service page je ted napojena na snapshot fallback vrstvu.",
-        "Finalni Sanity model pozdeji rozhodne, jestli zustane MarketingLayout nebo se upravi podle obsahu."
-      ]}
-      fallbackRouteType="servicePage"
+    <SnapshotContentPage
       routePath="/lekce-cviceni"
+      layout="StandaloneLayout"
+      routeType="servicePage"
     />
   );
 }

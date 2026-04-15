@@ -1,22 +1,24 @@
 import type { Metadata } from "next";
-import { HybridStaticRoutePage } from "@/components/hybrid-static-route-page";
-import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
+import { OfferPageTemplate } from "@/components/offer-page-template";
+import { SnapshotContentPage } from "@/components/snapshot-content-page";
+import { getOfferPageBySlug, getSanityRouteMetadata } from "@/lib/sanity/loaders";
 
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "offerPage", routePath: "/e-book-jak-sestavit-jidelnicek" });
 }
 
-export default function EbookPage() {
+export default async function EbookPage() {
+  const page = await getOfferPageBySlug("e-book-jak-sestavit-jidelnicek");
+
+  if (page?._id) {
+    return <OfferPageTemplate page={page} routePath="/e-book-jak-sestavit-jidelnicek" />;
+  }
+
   return (
-    <HybridStaticRoutePage
-      documentKind="offerPage"
-      fallbackLayout="StandaloneLayout"
-      fallbackNotes={[
-        "E-book landing uz renderuje realny snapshot obsah a checkout panel.",
-        "Finalni checkout se dokonci po doplneni ostrych Stripe price IDs."
-      ]}
-      fallbackRouteType="offerPage"
+    <SnapshotContentPage
       routePath="/e-book-jak-sestavit-jidelnicek"
+      layout="StandaloneLayout"
+      routeType="offerPage"
     />
   );
 }

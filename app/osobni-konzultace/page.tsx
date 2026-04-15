@@ -1,22 +1,24 @@
 import type { Metadata } from "next";
-import { HybridStaticRoutePage } from "@/components/hybrid-static-route-page";
-import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
+import { ServicePageTemplate } from "@/components/service-page-template";
+import { SnapshotContentPage } from "@/components/snapshot-content-page";
+import { getServicePageBySlug, getSanityRouteMetadata } from "@/lib/sanity/loaders";
 
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "servicePage", routePath: "/osobni-konzultace" });
 }
 
-export default function PersonalConsultationPage() {
+export default async function PersonalConsultationPage() {
+  const page = await getServicePageBySlug("osobni-konzultace");
+
+  if (page?._id) {
+    return <ServicePageTemplate page={page} />;
+  }
+
   return (
-    <HybridStaticRoutePage
-      documentKind="servicePage"
-      fallbackLayout="StandaloneLayout"
-      fallbackNotes={[
-        "Osobni konzultace uz renderuje snapshot obsah i detekovany lead formular.",
-        "Pozdeji sem doplnime finalni napojeni servicePage dokumentu a CTA logiku."
-      ]}
-      fallbackRouteType="servicePage"
+    <SnapshotContentPage
       routePath="/osobni-konzultace"
+      layout="StandaloneLayout"
+      routeType="servicePage"
     />
   );
 }
