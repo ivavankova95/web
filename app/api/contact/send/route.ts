@@ -7,6 +7,7 @@ const schema = z.object({
   name: z.string().min(1),
   email: z.string().email(),
   message: z.string().min(1),
+  turnstileToken: z.string().min(1),
 });
 
 function escapeHtml(s: string): string {
@@ -16,6 +17,19 @@ function escapeHtml(s: string): string {
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
+}
+
+async function verifyTurnstile(token: string): Promise<boolean> {
+  const res = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams({
+      secret: env.turnstileSecretKey,
+      response: token,
+    }),
+  });
+  const data = (await res.json()) as { success: boolean };
+  return data.success;
 }
 
 export async function POST(request: Request) {
@@ -29,7 +43,15 @@ export async function POST(request: Request) {
     );
   }
 
-  const { name, email, message } = parsed.data;
+  const { name, email, message, turnstileToken } = parsed.data;
+
+  const turnstileOk = await verifyTurnstile(turnstileToken);
+  if (!turnstileOk) {
+    return NextResponse.json(
+      { ok: false, error: "Ověření bezpečnostní kontroly selhalo." },
+      { status: 403 }
+    );
+  }
 
   if (!env.resendApiKey) {
     console.error("RESEND_API_KEY is not set");

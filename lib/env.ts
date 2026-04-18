@@ -23,4 +23,5 @@ export const env = {
   base44AutomationWebhookUrl: readEnv("BASE44_AUTOMATION_WEBHOOK_URL") ?? "",
   base44AutomationApiKey: readEnv("BASE44_AUTOMATION_API_KEY") ?? "",
   resendApiKey: readEnv("RESEND_API_KEY") ?? "",
+  turnstileSecretKey: readEnv("TURNSTILE_SECRET_KEY") ?? "",
 };
