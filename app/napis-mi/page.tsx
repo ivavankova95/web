@@ -19,7 +19,7 @@ export default function ContactPage() {
               alt="Výživový a pohybový plán"
               width={540}
               height={400}
-              style={{ width: "100%", maxWidth: 600, height: "auto", borderRadius: "var(--radius-panel)" }}
+              style={{ width: "100%", maxWidth: 300, height: "auto", borderRadius: "var(--radius-panel)" }}
             />
           </div>
 
