@@ -38,6 +38,28 @@ a {
   text-decoration: none;
 }
 
+/* Odkazy v textu — podtržené, červené při hoveru */
+p a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+p a:hover {
+  color: var(--color-brand);
+}
+
+/* Blog si řídí styly odkazů sám */
+.article-content p a {
+  text-decoration: none;
+  color: var(--color-brand);
+  font-weight: 700;
+}
+
+.article-content p a:hover {
+  text-decoration: underline;
+  color: var(--color-brand);
+}
+
 img {
   max-width: 100%;
   height: auto;
