@@ -6,6 +6,8 @@ export const env = {
   siteUrl: readEnv("NEXT_PUBLIC_SITE_URL") ?? "http://localhost:3000",
   sanityProjectId: readEnv("NEXT_PUBLIC_SANITY_PROJECT_ID") ?? "",
   sanityDataset: readEnv("NEXT_PUBLIC_SANITY_DATASET") ?? "production",
+  sanityApiReadToken: readEnv("SANITY_API_READ_TOKEN") ?? "",
+  sanityApiWriteToken: readEnv("SANITY_API_WRITE_TOKEN") ?? "",
   sanityRevalidateSecret: readEnv("SANITY_REVALIDATE_SECRET") ?? "",
   stripeSecretKey: readEnv("STRIPE_SECRET_KEY") ?? "",
   stripeWebhookSecret: readEnv("STRIPE_WEBHOOK_SECRET") ?? "",
@@ -19,5 +21,6 @@ export const env = {
   makeAutomationWebhookUrl: readEnv("MAKE_AUTOMATION_WEBHOOK_URL") ?? "",
   makeAutomationApiKey: readEnv("MAKE_AUTOMATION_API_KEY") ?? "",
   base44AutomationWebhookUrl: readEnv("BASE44_AUTOMATION_WEBHOOK_URL") ?? "",
-  base44AutomationApiKey: readEnv("BASE44_AUTOMATION_API_KEY") ?? ""
+  base44AutomationApiKey: readEnv("BASE44_AUTOMATION_API_KEY") ?? "",
+  resendApiKey: readEnv("RESEND_API_KEY") ?? "",
 };
