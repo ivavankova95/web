@@ -48,6 +48,15 @@ p a:hover {
   color: var(--color-brand);
 }
 
+/* Kontaktní sekce — bez podtržení */
+.contact-info a {
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: var(--color-brand);
+}
+
 /* Blog si řídí styly odkazů sám */
 .article-content p a {
   text-decoration: none;
