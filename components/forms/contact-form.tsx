@@ -71,6 +71,7 @@ export function ContactForm() {
         <textarea
           name="message"
           placeholder="Tady je prostor pro tvou zprávu"
+          required
           rows={5}
         />
       </label>

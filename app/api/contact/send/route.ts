@@ -9,6 +9,15 @@ const schema = z.object({
   message: z.string().min(1),
 });
 
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
 export async function POST(request: Request) {
   const body = await request.json();
   const parsed = schema.safeParse(body);
@@ -36,12 +45,12 @@ export async function POST(request: Request) {
     from: "noreply@zdravimebavi.cz",
     to: "info@zdravimebavi.cz",
     replyTo: email,
-    subject: `Nová zpráva od ${name}`,
+    subject: `Nová zpráva od ${escapeHtml(name)}`,
     html: `
-      <p><strong>Jméno:</strong> ${name}</p>
-      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Jméno:</strong> ${escapeHtml(name)}</p>
+      <p><strong>Email:</strong> ${escapeHtml(email)}</p>
       <p><strong>Zpráva:</strong></p>
-      <p>${message.replace(/\n/g, "<br>")}</p>
+      <p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>
     `,
     text: `Jméno: ${name}\nEmail: ${email}\n\nZpráva:\n${message}`,
   });
