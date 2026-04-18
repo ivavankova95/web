@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile";
 
 type LeadFormProps = {
   formKey: string;
@@ -11,42 +12,54 @@ type LeadFormProps = {
 export function LeadForm({ formKey, title, description }: LeadFormProps) {
   const [message, setMessage] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+  const turnstileRef = useRef<TurnstileInstance | undefined>(undefined);
 
-  async function handleSubmit(formData: FormData) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+
+    if (!turnstileToken) {
+      setMessage("Prosím počkejte na dokončení bezpečnostní kontroly.");
+      return;
+    }
+
     setIsSubmitting(true);
     setMessage(null);
 
+    const formData = new FormData(e.currentTarget);
     const payload = {
       formKey,
       name: String(formData.get("name") ?? ""),
       email: String(formData.get("email") ?? ""),
       phone: String(formData.get("phone") ?? ""),
-      sourcePage: window.location.pathname
+      sourcePage: window.location.pathname,
+      turnstileToken,
     };
 
     try {
       const response = await fetch("/api/forms/submit", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(payload)
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
       });
 
       const data = (await response.json()) as {
         ok: boolean;
-        mappedGroupId?: string;
         error?: string;
       };
 
       if (!response.ok || !data.ok) {
-        setMessage(data.error ?? "Form submission failed.");
+        setMessage(data.error ?? "Něco se pokazilo. Zkus to prosím znovu.");
+        turnstileRef.current?.reset();
+        setTurnstileToken(null);
         return;
       }
 
-      setMessage(`Form accepted. MailerLite group: ${data.mappedGroupId ?? "not configured"}`);
-    } catch (error) {
-      setMessage(error instanceof Error ? error.message : "Unexpected form error.");
+      setMessage("Děkujeme! Ozveme se vám co nejdříve.");
+    } catch {
+      setMessage("Něco se pokazilo. Zkus to prosím znovu.");
+      turnstileRef.current?.reset();
+      setTurnstileToken(null);
     } finally {
       setIsSubmitting(false);
     }
@@ -60,7 +73,7 @@ export function LeadForm({ formKey, title, description }: LeadFormProps) {
           {description && <p className="page-lead">{description}</p>}
         </div>
       )}
-      <form action={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <label>
           Jméno
           <input name="name" placeholder="Vaše jméno" required type="text" />
@@ -73,7 +86,13 @@ export function LeadForm({ formKey, title, description }: LeadFormProps) {
           Telefon
           <input name="phone" placeholder="+420..." type="tel" />
         </label>
-        <button className="button-secondary" disabled={isSubmitting} type="submit">
+        <Turnstile
+          ref={turnstileRef}
+          siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? ""}
+          onSuccess={setTurnstileToken}
+          onExpire={() => { setTurnstileToken(null); }}
+        />
+        <button className="button-secondary" disabled={isSubmitting || !turnstileToken} type="submit">
           {isSubmitting ? "Odesílám..." : "Odeslat"}
         </button>
       </form>
@@ -81,4 +100,3 @@ export function LeadForm({ formKey, title, description }: LeadFormProps) {
     </div>
   );
 }
-
