@@ -1036,9 +1036,28 @@ label {
   margin: 0;
 }
 
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "image  header"
+    "info   form";
+  gap: 2rem 4rem;
+  align-items: start;
+}
+.contact-image    { grid-area: image; }
+.contact-header   { grid-area: header; }
+.contact-info     { grid-area: info; }
+.contact-form-wrap { grid-area: form; }
+
 @media (max-width: 768px) {
   .contact-grid {
-    grid-template-columns: 1fr !important;
-    gap: 2rem !important;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "image"
+      "form"
+      "info";
+    gap: 2rem;
   }
 }
