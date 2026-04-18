@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { ContactForm } from "@/components/forms/contact-form";
 
 export const metadata: Metadata = {
@@ -19,8 +20,15 @@ export default function ContactPage() {
           }}
           className="contact-grid"
         >
-          {/* Levý sloupec — kontaktní info */}
+          {/* Levý sloupec — obrázek + kontaktní info */}
           <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+            <Image
+              src="/vyzivovy-pohybovy-plan.png"
+              alt="Výživový a pohybový plán"
+              width={540}
+              height={400}
+              style={{ width: "100%", height: "auto", borderRadius: "var(--radius-panel)" }}
+            />
             <div>
               <p style={{ fontWeight: 600, marginBottom: "0.25rem" }}>Iva Vaňková</p>
               <p className="muted" style={{ lineHeight: 1.6 }}>
