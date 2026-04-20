@@ -6,10 +6,6 @@ export const formRegistry: Record<
     mailerLiteGroupId: "89783754506110464",
     label: "Skupinove_lekce"
   },
-  konzultace_zdarma: {
-    mailerLiteGroupId: "89783694836893670",
-    label: "Konzultace_zdarma"
-  },
   individualni_treninky: {
     mailerLiteGroupId: "89809873728963595",
     label: "Individualni_treninky"
@@ -31,4 +27,3 @@ export const formRegistry: Record<
     label: "Cekaci_listina_Pruvodce"
   }
 };
-

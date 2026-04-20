@@ -104,8 +104,7 @@ const FORM_NAME_TO_KEY: Record<string, string> = {
   "wf-form-Skupinove_lekce-2": "skupinove_lekce",
   "wf-form-Get-In-Touch-Form": "kontakt",
   "wf-form-Individualni_treninky": "individualni_treninky",
-  "wf-form-Osobni_konzultace": "osobni_konzultace",
-  "wf-form-Konzultace_zdarma": "konzultace_zdarma"
+  "wf-form-Osobni_konzultace": "osobni_konzultace"
 };
 
 const PRODUCT_KEY_BY_PATH: Record<string, string> = {

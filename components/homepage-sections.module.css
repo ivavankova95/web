@@ -67,7 +67,7 @@
 
 .heroPodpis {
   position: absolute;
-  bottom: 0.5rem;
+  bottom: -3rem;
   right: 0;
   width: 120px;
   height: auto;
@@ -355,5 +355,9 @@
 
   .heroCta :global(.btn) {
     justify-content: center;
+  }
+
+  .heroPhoto {
+    max-width: 288px;
   }
 }

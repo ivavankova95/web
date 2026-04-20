@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type NavItem = {
   label: string;
@@ -15,7 +15,58 @@ export function NavMenu({
 }: {
   primaryNav: NavItem[];
 }) {
-  const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [menuState, setMenuState] = useState<"closed" | "opening" | "open" | "closing">("closed");
+
+  const isActive = menuState !== "closed";
+  const isVisible = menuState === "open";
+
+  const openMenu = () => {
+    if (isActive) {
+      return;
+    }
+    setMounted(true);
+    setMenuState("opening");
+  };
+
+  const closeMenu = () => {
+    if (menuState === "closed" || menuState === "closing") {
+      return;
+    }
+    setMenuState("closing");
+  };
+
+  useEffect(() => {
+    let frameId: ReturnType<typeof requestAnimationFrame> | undefined;
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
+
+    if (menuState === "opening") {
+      frameId = requestAnimationFrame(() => {
+        setMenuState("open");
+      });
+      return () => {
+        if (frameId) {
+          cancelAnimationFrame(frameId);
+        }
+      };
+    }
+
+    if (menuState === "closing") {
+      timeoutId = setTimeout(() => {
+        setMounted(false);
+        setMenuState("closed");
+      }, 260);
+    }
+
+    return () => {
+      if (frameId) {
+        cancelAnimationFrame(frameId);
+      }
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+    };
+  }, [menuState]);
 
   const renderLink = (item: NavItem, className: string, isMobile = false) => {
     const isExternal = item.href.startsWith("http") || item.openInNewTab;
@@ -27,7 +78,7 @@ export function NavMenu({
           className={className}
           target="_blank"
           rel="noreferrer"
-          onClick={isMobile ? () => setOpen(false) : undefined}
+          onClick={isMobile ? closeMenu : undefined}
         >
           {isMobile ? (
             item.label
@@ -45,7 +96,7 @@ export function NavMenu({
         key={item.href}
         href={item.href}
         className={className}
-        onClick={isMobile ? () => setOpen(false) : undefined}
+        onClick={isMobile ? closeMenu : undefined}
       >
         {isMobile ? (
           item.label
@@ -71,9 +122,9 @@ export function NavMenu({
 
       {/* Mobile hamburger */}
       <button
-        className={`nav-hamburger${open ? " is-open" : ""}`}
-        aria-label="Menu"
-        onClick={() => setOpen((v) => !v)}
+        className={`nav-hamburger${isActive ? " is-open" : ""}`}
+        aria-label={isActive ? "Zavřít menu" : "Menu"}
+        onClick={() => (isActive ? closeMenu() : openMenu())}
       >
         <span />
         <span />
@@ -81,9 +132,22 @@ export function NavMenu({
       </button>
 
       {/* Mobile drawer */}
-      {open && (
-        <div className="nav-mobile-overlay" onClick={() => setOpen(false)}>
-          <nav className="nav-mobile" onClick={(e) => e.stopPropagation()}>
+      {mounted && (
+        <div
+          className={`nav-mobile-overlay${isVisible ? " is-open" : ""}`}
+          onClick={closeMenu}
+        >
+          <nav className={`nav-mobile${isVisible ? " is-open" : ""}`} onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              className="nav-mobile__close"
+              aria-label="Zavřít menu"
+              onClick={closeMenu}
+            >
+              <span />
+              <span />
+            </button>
+
             {primaryNav.map((item) => {
               const isCta = item.variant === "cta";
               return renderLink(item, isCta ? "btn btn-primary nav-cta-mobile" : "nav-mobile__link", true);
@@ -171,6 +235,11 @@ export function NavMenu({
           inset: 0;
           background: rgba(0,0,0,0.35);
           z-index: 200;
+          opacity: 0;
+          transition: opacity 0.26s ease;
+        }
+        .nav-mobile-overlay.is-open {
+          opacity: 1;
         }
         .nav-mobile {
           position: absolute;
@@ -184,6 +253,38 @@ export function NavMenu({
           flex-direction: column;
           gap: 0.25rem;
           box-shadow: -4px 0 24px rgba(0,0,0,0.12);
+          transform: translateX(100%);
+          transition: transform 0.26s ease;
+          will-change: transform;
+        }
+        .nav-mobile.is-open {
+          transform: translateX(0);
+        }
+        .nav-mobile__close {
+          position: absolute;
+          top: 1.25rem;
+          right: 1.25rem;
+          width: 36px;
+          height: 36px;
+          border: none;
+          background: none;
+          padding: 0;
+          cursor: pointer;
+        }
+        .nav-mobile__close span {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 24px;
+          height: 2px;
+          background: var(--color-brand);
+          border-radius: 2px;
+        }
+        .nav-mobile__close span:nth-child(1) {
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+        .nav-mobile__close span:nth-child(2) {
+          transform: translate(-50%, -50%) rotate(-45deg);
         }
         .nav-mobile__link {
           padding: 0.875rem 0;
