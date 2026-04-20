@@ -27,6 +27,8 @@ docs/superpowers/
 *.png
 *.jpg
 !public/**
+!app/icon.png
+!app/apple-icon.png
 
 # Snapshot assets jsou nahrane v Sanity, binarka do repa nepripatri
 snapshot/assets/

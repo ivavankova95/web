@@ -9,7 +9,7 @@ export default defineConfig({
   name: "default",
   title: "Zdraví mě baví",
   basePath: "/studio",
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ?? "placeholder-project",
+  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ?? "4zoa6lwe",
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET ?? "production",
   plugins: [structureTool({ structure: deskStructure })],
   schema: {

@@ -4,7 +4,7 @@ function readEnv(name: string) {
 
 export const env = {
   siteUrl: readEnv("NEXT_PUBLIC_SITE_URL") ?? "http://localhost:3000",
-  sanityProjectId: readEnv("NEXT_PUBLIC_SANITY_PROJECT_ID") ?? "",
+  sanityProjectId: readEnv("NEXT_PUBLIC_SANITY_PROJECT_ID") ?? "4zoa6lwe",
   sanityDataset: readEnv("NEXT_PUBLIC_SANITY_DATASET") ?? "production",
   sanityApiReadToken: readEnv("SANITY_API_READ_TOKEN") ?? "",
   sanityApiWriteToken: readEnv("SANITY_API_WRITE_TOKEN") ?? "",
