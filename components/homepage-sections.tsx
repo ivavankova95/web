@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getSanityBlogPosts } from "@/lib/sanity/loaders";
 import { getSnapshotBlogArticles } from "@/lib/content/snapshot";
+import { BeholdWidget } from "./behold-widget";
 import styles from "./homepage-sections.module.css";
 
 const SERVICES = [
@@ -13,11 +14,15 @@ const SERVICES = [
     imageUrl:
       "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/6469260c09f96ad7708ad841_Pruvodce_vyzivou_mini(1).png",
     imageAlt: "Osobní konzultace",
+    description:
+      "Potřebuješ poradit ohledně výživy, pohybu a zdravého životního stylu? Řešíš konkrétní problém, nebo chceš nasměrovat a podpořit? Zamluv si osobní konzultaci.",
+    bulletsHeading: "Jak konzultace probíhá?",
     bullets: [
-      "Vyplníš kontaktní formulář a ozvu se ti.",
-      "Domluvíme termín konzultace (cca 60 minut).",
+      "Vyplníš kontaktní formulář a já se ti ozvu.",
+      "Domluvíme termín konzultace a způsob, kterým se spojíme.",
+      "Na konzultaci si vyhraď přibližně 60 minut.",
       "Probereme tvůj aktuální stav a cíle.",
-      "Dostaneš individuální doporučení přesně pro tvou situaci.",
+      "Dostaneš ode mě individuální doporučení přesně pro tvou situaci.",
     ],
   },
   {
@@ -28,11 +33,16 @@ const SERVICES = [
     imageUrl:
       "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e07031ac5d639195ac2bdb_Online_kurz_mockup.png",
     imageAlt: "Online kurz mockup",
+    description: "Mám pro tebe komplexní online kurz, díky kterému konečně zhubneš:",
+    tagline: "Získej ještě lepší postavu než před dětmi a udrž si ji už navždy",
+    description2: "Získáš přístup do členské sekce, kde najdeš informace, konkrétní postupy a motivaci.",
+    bulletsHeading: "Co je součástí kurzu?",
     bullets: [
-      "Zhubni bez počítání kalorií — unikátní metoda.",
-      "Jídelníček na 7 dní + nákupní seznam a recepty.",
+      "Unikátní metoda, díky které zhubneš bez počítání kalorií.",
+      "Inspirativní jídelníček na 7 dní, který doopravdy využiješ v praxi. Včetně nákupního seznamu a receptů.",
       "Video tréninky od jógy po intervalový HIIT.",
       "Plánovač cílů a priorit na celý rok.",
+      "… a spoustu dalšího!",
     ],
   },
   {
@@ -43,11 +53,15 @@ const SERVICES = [
     imageUrl:
       "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66dff65b0990f6008059890b_E-book%20mockup%20kniha%201(1).png",
     imageAlt: "E-book — Jak sestavit jídelníček",
+    tagline: "Manuál pro mámy",
+    description: "Představ si e-book, který změní tvůj pohled na jídlo a zjistíš díky němu, jak sestavit jídelníček za každé situace.",
+    bulletsHeading: "Na co se v e-booku můžeš těšit?",
     bullets: [
-      "Krok za krokem k jídelníčku pro vysněnou postavu.",
-      "Zdravé návyky, které využiješ každý den.",
-      "Žádné počítání kalorií ani zakázané potraviny.",
-      "Jíst zdravě je jednoduché.",
+      "Provede tě krok za krokem k jídelníčku, který ti pomůže k vysněné postavě.",
+      "Osvojíš si zdravé návyky, které využiješ každý den, ať jsi kdekoli a děláš cokoli.",
+      "Žádné počítání kalorií, zakázané potraviny a diety.",
+      "Naučíš se unikátní metodou sestavit jídelníček přesně podle tvých cílů.",
+      "Zjistíš, že jíst zdravě je jednoduché. Jde to, i když vaříš pro rodinu nebo jíš v práci.",
     ],
   },
   {
@@ -58,10 +72,12 @@ const SERVICES = [
     imageUrl:
       "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/646925913039900ad6431d69_Treninky_cviceni_mini(1).png",
     imageAlt: "Lekce cvičení",
+    description: "Přijď na skupinovou lekci nebo si domluv osobní trénink.",
+    bulletsHeading: "Kde si spolu zacvičíme naživo?",
     bullets: [
       "Skupinové lekce pro sílu a kondici.",
       "Individuální lekce podle tvých potřeb.",
-      "Lekce pro tebe a kamarádku nebo skupinu.",
+      "Lekce pro tebe a kamarádku, partnera nebo malou skupinu.",
       "Diagnostika pohybového aparátu.",
     ],
   },
@@ -87,10 +103,7 @@ export async function HomepageSections() {
               Jsem certifikovaná kondiční trenérka a výživářka pro ženy.
             </p>
             <div className={styles.heroCta}>
-              <Link href="/konzultace-zdarma" className="btn btn-primary">
-                Konzultace zdarma
-              </Link>
-              <Link href="/o-mne" className="btn btn-outline">
+              <Link href="/o-mne" className="btn btn-primary">
                 Více o mně
               </Link>
             </div>
@@ -112,6 +125,24 @@ export async function HomepageSections() {
               className={styles.heroPodpis}
             />
           </div>
+        </div>
+      </section>
+
+      {/* ─── News strip ─────────────────────────────────────── */}
+      <section className={styles.newsStrip}>
+        <div className={styles.newsStripInner}>
+          <p className={styles.newsStripEyebrow}>Co pro tebe mám nového?</p>
+          <h2 className={styles.newsStripTitle}>
+            Workshop pro mámy: Jak nastartovat hubnutí po dětech
+          </h2>
+          <a
+            href="https://webinar.zdravimebavi.cz"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-white"
+          >
+            Chci vědět více
+          </a>
         </div>
       </section>
 
@@ -170,6 +201,18 @@ export async function HomepageSections() {
                 </div>
                 <div className={styles.serviceCardBody}>
                   <h3 className={styles.serviceCardTitle}>{service.title}</h3>
+                  {"description" in service && service.description && (
+                    <p className={styles.serviceCardDesc}>{service.description}</p>
+                  )}
+                  {"tagline" in service && service.tagline && (
+                    <p className={styles.serviceCardTagline}>{service.tagline}</p>
+                  )}
+                  {"description2" in service && service.description2 && (
+                    <p className={styles.serviceCardDesc}>{service.description2}</p>
+                  )}
+                  {"bulletsHeading" in service && service.bulletsHeading && (
+                    <p className={styles.serviceCardBulletsHeading}>{service.bulletsHeading}</p>
+                  )}
                   <ul className={styles.serviceCardList}>
                     {service.bullets.map((bullet, i) => (
                       <li key={i}>{bullet}</li>
@@ -178,7 +221,7 @@ export async function HomepageSections() {
                   <Link
                     href={service.href}
                     className="btn btn-primary"
-                    style={{ alignSelf: "flex-start", marginTop: "auto" }}
+                    style={{ alignSelf: "center", marginTop: "auto" }}
                   >
                     {service.ctaLabel}
                   </Link>
@@ -189,21 +232,8 @@ export async function HomepageSections() {
         </div>
       </section>
 
-      {/* ─── Free consultation CTA strip ────────────────────── */}
-      <section className={styles.ctaStrip}>
-        <div className="container">
-          <h2 className={styles.ctaStripTitle}>Bezplatná konzultace — 30 minut zdarma</h2>
-          <p className={styles.ctaStripBody}>
-            Probereme tvůj aktuální stav a cíle. Po konzultaci dostaneš shrnutí a praktické návrhy,
-            co konkrétně dělat.
-          </p>
-          <Link href="/konzultace-zdarma" className="btn btn-white">
-            Chci konzultaci zdarma
-          </Link>
-        </div>
-      </section>
 
-      {/* ─── Blog preview ───────────────────────────────────── */}
+{/* ─── Blog preview ───────────────────────────────────── */}
       {blogPosts.length > 0 && (
         <section className={styles.blogPreview}>
           <div className="container">
@@ -241,6 +271,13 @@ export async function HomepageSections() {
           </div>
         </section>
       )}
+      {/* ─── Instagram feed ─────────────────────────────────── */}
+      <section className="section">
+        <div className="container">
+          <h2 className="section-title section-title--center" style={{ marginBottom: "2rem" }}>Sleduj mě na Instagramu</h2>
+          <BeholdWidget />
+        </div>
+      </section>
     </>
   );
 }

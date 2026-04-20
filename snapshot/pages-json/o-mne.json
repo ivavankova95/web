@@ -27,7 +27,7 @@
     {
       "type": "cta",
       "text": "Chci konzultaci zdarma",
-      "href": "/konzultace-zdarma"
+      "href": "/osobni-konzultace"
     }
   ],
   "forms": [],
@@ -257,7 +257,7 @@
     {
       "type": "cta",
       "text": "Chci konzultaci zdarma",
-      "href": "/konzultace-zdarma"
+      "href": "/osobni-konzultace"
     },
     {
       "type": "heading",

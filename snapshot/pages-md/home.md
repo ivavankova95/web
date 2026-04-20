@@ -13,10 +13,10 @@ page_type: "homepage"
 - [Chci vědět víc](https://nabidka.zdravimebavi.cz/zdravi-me/workshoppromamy)
 - [PŘEČTI SI O MNĚ VÍC](/o-mne)
 - [Chci konzultaci](/osobni-konzultace)
-- [to Mě zajímá](/pruvodce)
+- [to Mě zajímá](/zhubni-bez-pocitani-kalorii)
 - [to je přesně pro mě](/e-book-jak-sestavit-jidelnicek)
 - [chci vědět víc](/lekce-cviceni)
-- [Chci konzultaci zdarma](/konzultace-zdarma)
+- [Chci konzultaci zdarma](/osobni-konzultace)
 - [Ze života](/kategorie/ze-zivota)
 - [Slané](/kategorie/slane)
 - [Sladké](/kategorie/sladke)
@@ -103,7 +103,7 @@ Budu se ti věnovat s respektem ke tvému životnímu stylu. Předám ti mé zna
 
 - ... a spoustu dalšího!
 
-[CTA: to Mě zajímá](/pruvodce)
+[CTA: to Mě zajímá](/zhubni-bez-pocitani-kalorii)
 
 ## E-book
 
@@ -153,7 +153,7 @@ Budu se ti věnovat s respektem ke tvému životnímu stylu. Předám ti mé zna
 
 - Pokud ti ale jedna konzultace bude stačit, je to naprosto v pořádku.
 
-[CTA: Chci konzultaci zdarma](/konzultace-zdarma)
+[CTA: Chci konzultaci zdarma](/osobni-konzultace)
 
 # Přečti si jednu z referencí na konzultaci
 

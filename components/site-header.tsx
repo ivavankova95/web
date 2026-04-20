@@ -5,8 +5,6 @@ import { NavMenu } from "@/components/nav-menu";
 
 export async function SiteHeader() {
   const shell = await getSiteShellData();
-  const ctaHref = shell.externalNav[0]?.href ?? "https://app.zdravimebavi.cz/";
-
   return (
     <>
       <header className="site-header">
@@ -15,34 +13,25 @@ export async function SiteHeader() {
             <Image
               src="/logo.png"
               alt={`Logo ${shell.brand.name}`}
-              width={60}
-              height={60}
+              width={70}
+              height={70}
               priority
             />
           </Link>
 
-          <NavMenu
-            primaryNav={shell.primaryNav}
-            ctaHref={ctaHref}
-            ctaLabel="Otevřít app"
-          />
+          <NavMenu primaryNav={shell.primaryNav} />
         </div>
       </header>
 
       <style>{`
         .site-header {
-          position: sticky;
-          top: 0;
-          z-index: 100;
-          background: var(--color-white);
-          border-bottom: 1px solid var(--color-border);
-          box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+          background: var(--color-surface);
         }
         .site-header__inner {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          height: 72px;
+          height: 80px;
         }
         .site-header__brand {
           display: flex;
@@ -50,8 +39,8 @@ export async function SiteHeader() {
           flex-shrink: 0;
         }
         .site-header__brand img {
-          width: 60px;
-          height: 60px;
+          width: 70px;
+          height: 70px;
           object-fit: contain;
         }
       `}</style>

@@ -2,12 +2,14 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { Resend } from "resend";
 import { env } from "@/lib/env";
+import { formRegistry } from "@/lib/forms";
 
 const schema = z.object({
   name: z.string().min(1),
   email: z.string().email(),
   message: z.string().min(1),
   turnstileToken: z.string().min(1),
+  formKey: z.string().optional(),
 });
 
 function escapeHtml(s: string): string {
@@ -43,7 +45,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const { name, email, message, turnstileToken } = parsed.data;
+  const { name, email, message, turnstileToken, formKey } = parsed.data;
 
   const turnstileOk = await verifyTurnstile(turnstileToken);
   if (!turnstileOk) {
@@ -83,6 +85,27 @@ export async function POST(request: Request) {
       { ok: false, error: "Nepodařilo se odeslat zprávu." },
       { status: 500 }
     );
+  }
+
+  if (formKey && env.makeAutomationWebhookUrl) {
+    const config = formRegistry[formKey];
+    if (config) {
+      try {
+        await fetch(env.makeAutomationWebhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            form_name: config.label,
+            name,
+            email,
+            mailerLiteGroupId: config.mailerLiteGroupId,
+            timestamp: new Date().toISOString(),
+          }),
+        });
+      } catch (err) {
+        console.error("Failed to forward lead to Make:", err);
+      }
+    }
   }
 
   return NextResponse.json({ ok: true });

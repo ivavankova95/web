@@ -11,7 +11,7 @@ page_type: "content-page"
 ## CTA
 
 - [chci konzultaci zdarma](#Konzultace_zdarma)
-- [Chci konzultaci zdarma](/konzultace-zdarma)
+- [Chci konzultaci zdarma](/osobni-konzultace)
 
 ## Content
 
@@ -97,7 +97,7 @@ Trenérský kurz akreditovaný MŠMT jsem zakončila závěrečnou prací na té
 
 - Pokud ti ale jedna konzultace bude stačit, je to naprosto v pořádku.
 
-[CTA: Chci konzultaci zdarma](/konzultace-zdarma)
+[CTA: Chci konzultaci zdarma](/osobni-konzultace)
 
 # Přečti si jednu z referencí na konzultaci
 

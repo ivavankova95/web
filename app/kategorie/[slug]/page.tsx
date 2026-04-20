@@ -15,6 +15,19 @@ import {
   getSanityCategories
 } from "@/lib/sanity/loaders";
 
+const SITE_NAME = "Zdraví mě baví";
+
+function pickSeoText(...values: Array<string | undefined>) {
+  for (const value of values) {
+    const normalized = value?.trim();
+    if (normalized && normalized !== SITE_NAME) {
+      return normalized;
+    }
+  }
+
+  return undefined;
+}
+
 export async function generateStaticParams() {
   const [snapshotSlugs, sanityCategories] = await Promise.all([
     getSnapshotCategorySlugs(),
@@ -31,13 +44,21 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  const fallback = await getSnapshotMetadata(`/kategorie/${slug}`);
   const sanityCategory = await getSanityCategoryBySlug(slug);
   if (sanityCategory) {
     const canonical = sanityCategory.seo?.canonicalUrl || `https://www.zdravimebavi.cz/kategorie/${slug}`;
-    const title = sanityCategory.seo?.metaTitle || sanityCategory.title || slug;
-    const description = sanityCategory.seo?.metaDescription || sanityCategory.description || "";
+    const fallbackTitle = typeof fallback.title === "string" ? fallback.title : slug;
+    const fallbackDescription = typeof fallback.description === "string" ? fallback.description : "";
+    const title = pickSeoText(fallbackTitle, sanityCategory.seo?.metaTitle, sanityCategory.title) ?? slug;
+    const description = pickSeoText(
+      fallbackDescription,
+      sanityCategory.seo?.metaDescription,
+      sanityCategory.description
+    ) ?? "";
     const noIndex = sanityCategory.seo?.noIndex ?? false;
     return {
+      ...fallback,
       title,
       description,
       robots: {
@@ -62,7 +83,7 @@ export async function generateMetadata({
       }
     };
   }
-  return getSnapshotMetadata(`/kategorie/${slug}`);
+  return fallback;
 }
 
 export default async function CategoryPage({

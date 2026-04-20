@@ -27,13 +27,17 @@ export function getStripeCheckoutConfig(productKey: string) {
   return configs[productKey];
 }
 
-function getStripeClient() {
+export function getStripeClient() {
   if (!env.stripeSecretKey) {
     throw new Error("Missing STRIPE_SECRET_KEY.");
   }
 
   return new Stripe(env.stripeSecretKey);
 }
+
+export const stripe = new Stripe(env.stripeSecretKey || "placeholder", {
+  apiVersion: "2026-03-25.dahlia"
+});
 
 export async function createCheckoutSession({
   productKey,
@@ -62,4 +66,3 @@ export async function createCheckoutSession({
     }
   });
 }
-

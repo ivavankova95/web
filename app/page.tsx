@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
-import { PageBuilder } from "@/components/page-builder";
 import { HomepageSections } from "@/components/homepage-sections";
+import { StructuredData } from "@/components/structured-data";
 import { getSnapshotMetadata } from "@/lib/content/snapshot";
 import { getHomePageData } from "@/lib/sanity/loaders";
 
 export async function generateMetadata(): Promise<Metadata> {
   const homePage = await getHomePageData();
+  const fallback = await getSnapshotMetadata("/");
+
   if (!homePage?.seo) {
-    return getSnapshotMetadata("/");
+    return fallback;
   }
 
   return {
+    ...fallback,
     title: homePage.seo.metaTitle || homePage.title,
     description: homePage.seo.metaDescription || homePage.excerpt,
     alternates: {
@@ -21,6 +24,7 @@ export async function generateMetadata(): Promise<Metadata> {
       follow: !(homePage.seo.noIndex ?? false)
     },
     openGraph: {
+      ...(fallback.openGraph ?? {}),
       title: homePage.seo.metaTitle || homePage.title,
       description: homePage.seo.metaDescription || homePage.excerpt,
       url: homePage.seo.canonicalUrl || "https://www.zdravimebavi.cz/",
@@ -29,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website"
     },
     twitter: {
-      card: "summary",
+      ...(fallback.twitter ?? {}),
       title: homePage.seo.metaTitle || homePage.title,
       description: homePage.seo.metaDescription || homePage.excerpt
     }
@@ -37,21 +41,36 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function HomePage() {
-  const homePage = await getHomePageData();
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Zdraví mě baví",
+      url: "https://www.zdravimebavi.cz",
+      logo: "https://www.zdravimebavi.cz/logo.png",
+      sameAs: [
+        "https://www.facebook.com/zdravimebavi.fb",
+        "https://www.instagram.com/zdravi_me_bavi/"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Zdraví mě baví",
+      url: "https://www.zdravimebavi.cz",
+      inLanguage: "cs-CZ",
+      publisher: {
+        "@type": "Organization",
+        name: "Zdraví mě baví",
+        url: "https://www.zdravimebavi.cz"
+      }
+    }
+  ];
 
-  if (homePage?.pageBuilder?.length) {
-    return (
-      <section className="page-section">
-        <div className="container">
-          <PageBuilder
-            blocks={homePage.pageBuilder}
-            pagePath="/"
-            pageTitle={homePage.title || "Domovská stránka"}
-          />
-        </div>
-      </section>
-    );
-  }
-
-  return <HomepageSections />;
+  return (
+    <>
+      <StructuredData data={structuredData} />
+      <HomepageSections />
+    </>
+  );
 }

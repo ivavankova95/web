@@ -1,0 +1,164 @@
+.hero {
+  padding: 3rem 0;
+  overflow: hidden;
+}
+
+.heroInner {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.heroTitle {
+  margin-bottom: 1.5rem;
+}
+
+.heroBody {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--color-text);
+  margin-bottom: 2.5rem;
+}
+
+.heroMedia {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.heroPhoto {
+  border-radius: var(--radius-panel);
+  max-width: 100%;
+  height: auto;
+}
+
+.heroPodpis {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 160px;
+  height: auto;
+  z-index: 2;
+}
+
+/* ─── Principles ───────────────────────────────────────── */
+
+.principles {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.principlesTitle {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.principlesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.principleCard {
+  background: var(--color-white);
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1 1 200px;
+  max-width: 340px;
+}
+
+.principleNumber {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--color-brand);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.principleTitle {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.principleBody {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}
+
+/* ─── Fun Facts ────────────────────────────────────────── */
+
+.funFacts {
+  list-style: disc;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+/* ─── Certifications ───────────────────────────────────── */
+
+.certs {
+  padding: 5rem 0;
+}
+
+.certsTitle {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.certsIntro {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.certsGrid {
+  display: grid;
+  gap: 3rem;
+}
+
+.certItem {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.certImageWrap {
+  border-radius: var(--radius-panel);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  background: var(--color-white);
+}
+
+.certImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.certText {
+  font-style: italic;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* ─── Responsive ────────────────────────────────────────── */
+
+@media (min-width: 900px) {
+  .heroInner {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .certsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

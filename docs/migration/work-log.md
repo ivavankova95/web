@@ -207,7 +207,25 @@ Tento soubor je prubezny denik implementace, zmen a blokatoru.
 - po nasazeni na Netlify pridat `SANITY_REVALIDATE_SECRET` do Netlify env vars
 - po nasazeni otestovat end-to-end: upravit dokument ve Studiu → publikovat → overit, ze se zmena propise bez ručního rebuildu
 
-## Sabona dalsiho zaznamu
+## 2026-04-14
+
+### Dokonceno
+- **Oprava dostupnosti:** Vyresen konflikt portu, dev server bezi na portu 3000.
+- **Linter & Stability:** ESLint downgradovan na v9 (kompatibilita), opraveny vsechny TS/lint chyby.
+- **Vizuální parita /o-mne:** Vytvorena dedikovana stranka s gridy a certifikaty odpovidajici originalu.
+- **Globální CSS:** Pridany kontejnery (.container--narrow) a prose typografie.
+- **Stripe Webhook:** Implementovana routa `/api/stripe/webhook` pro odesilani plateb do Make.
+- **Formuláře:** Dokonceno odesilani leadu do Make v `/api/forms/submit`.
+- **Sanity Studio:** Opraven 404 error na `/studio` pridanim chybějící index stranky.
+
+### Aktuální stav
+- Web je technicky stabilni, visualne sjednocen s produkci.
+- Integrace na Make jsou pripravene k testovani (cekaji na ENV klice).
+
+### Dalsi krok
+- Nastaveni Sanity revalidacniho webhooku.
+- Testovani Stripe flow s testovacimi Price ID.
+
 
 ```md
 ## YYYY-MM-DD

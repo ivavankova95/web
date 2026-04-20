@@ -3,32 +3,70 @@
 import Link from "next/link";
 import { useState } from "react";
 
-type NavItem = { label: string; href: string };
+type NavItem = {
+  label: string;
+  href: string;
+  variant?: string;
+  openInNewTab?: boolean;
+};
 
 export function NavMenu({
-  primaryNav,
-  ctaHref,
-  ctaLabel
+  primaryNav
 }: {
   primaryNav: NavItem[];
-  ctaHref: string;
-  ctaLabel: string;
 }) {
   const [open, setOpen] = useState(false);
+
+  const renderLink = (item: NavItem, className: string, isMobile = false) => {
+    const isExternal = item.href.startsWith("http") || item.openInNewTab;
+    if (isExternal) {
+      return (
+        <a
+          key={item.href}
+          href={item.href}
+          className={className}
+          target="_blank"
+          rel="noreferrer"
+          onClick={isMobile ? () => setOpen(false) : undefined}
+        >
+          {isMobile ? (
+            item.label
+          ) : (
+            <>
+              <span>{item.label}</span>
+              <span className="nav-link__line" />
+            </>
+          )}
+        </a>
+      );
+    }
+    return (
+      <Link
+        key={item.href}
+        href={item.href}
+        className={className}
+        onClick={isMobile ? () => setOpen(false) : undefined}
+      >
+        {isMobile ? (
+          item.label
+        ) : (
+          <>
+            <span>{item.label}</span>
+            <span className="nav-link__line" />
+          </>
+        )}
+      </Link>
+    );
+  };
 
   return (
     <>
       {/* Desktop nav */}
       <nav className="nav-desktop">
-        {primaryNav.map((item) => (
-          <Link key={item.href} href={item.href} className="nav-link">
-            <span>{item.label}</span>
-            <span className="nav-link__line" />
-          </Link>
-        ))}
-        <a href={ctaHref} className="btn btn-primary nav-cta" target="_blank" rel="noreferrer">
-          {ctaLabel}
-        </a>
+        {primaryNav.map((item) => {
+          const isCta = item.variant === "cta";
+          return renderLink(item, isCta ? "btn btn-primary nav-cta" : "nav-link");
+        })}
       </nav>
 
       {/* Mobile hamburger */}
@@ -46,25 +84,10 @@ export function NavMenu({
       {open && (
         <div className="nav-mobile-overlay" onClick={() => setOpen(false)}>
           <nav className="nav-mobile" onClick={(e) => e.stopPropagation()}>
-            {primaryNav.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="nav-mobile__link"
-                onClick={() => setOpen(false)}
-              >
-                {item.label}
-              </Link>
-            ))}
-            <a
-              href={ctaHref}
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-              onClick={() => setOpen(false)}
-            >
-              {ctaLabel}
-            </a>
+            {primaryNav.map((item) => {
+              const isCta = item.variant === "cta";
+              return renderLink(item, isCta ? "btn btn-primary nav-cta-mobile" : "nav-mobile__link", true);
+            })}
           </nav>
         </div>
       )}
@@ -73,7 +96,7 @@ export function NavMenu({
         .nav-desktop {
           display: none;
           align-items: center;
-          gap: 0.25rem;
+          gap: 0;
         }
         @media (min-width: 768px) {
           .nav-desktop { display: flex; }
@@ -83,12 +106,12 @@ export function NavMenu({
           display: inline-flex;
           flex-direction: column;
           align-items: center;
-          padding: 0.4rem 0.75rem;
-          font-size: 0.82rem;
-          font-weight: 700;
-          letter-spacing: 0.06em;
+          padding: 10px 15px;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: normal;
           text-transform: uppercase;
-          color: var(--color-text);
+          color: var(--color-brand);
           overflow: hidden;
         }
         .nav-link__line {
@@ -106,8 +129,10 @@ export function NavMenu({
         }
         .nav-cta {
           margin-left: 0.5rem;
-          font-size: 0.78rem;
-          padding: 0.6rem 1.1rem;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 9px 25px;
+          letter-spacing: 1px;
         }
         .nav-hamburger {
           display: flex;
@@ -128,7 +153,7 @@ export function NavMenu({
           display: block;
           width: 100%;
           height: 2px;
-          background: var(--color-text);
+          background: var(--color-brand);
           border-radius: 2px;
           transition: transform 0.2s, opacity 0.2s;
         }
@@ -153,7 +178,7 @@ export function NavMenu({
           right: 0;
           width: min(320px, 85vw);
           height: 100vh;
-          background: var(--color-white);
+          background: var(--color-surface);
           padding: 5rem 2rem 2rem;
           display: flex;
           flex-direction: column;
@@ -162,11 +187,11 @@ export function NavMenu({
         }
         .nav-mobile__link {
           padding: 0.875rem 0;
-          font-size: 1rem;
-          font-weight: 700;
-          letter-spacing: 0.06em;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: normal;
           text-transform: uppercase;
-          color: var(--color-text);
+          color: var(--color-brand);
           border-bottom: 1px solid var(--color-border);
         }
         .nav-mobile .btn {

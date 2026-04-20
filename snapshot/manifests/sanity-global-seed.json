@@ -54,14 +54,8 @@
           "variant": "default"
         },
         {
-          "label": "Osobní konzultace",
-          "href": "/osobni-konzultace",
-          "openInNewTab": false,
-          "variant": "default"
-        },
-        {
-          "label": "Průvodce",
-          "href": "/pruvodce",
+          "label": "Blog",
+          "href": "/blog",
           "openInNewTab": false,
           "variant": "default"
         },
@@ -72,19 +66,13 @@
           "variant": "default"
         },
         {
-          "label": "Lekce cvičení",
-          "href": "/lekce-cviceni",
-          "openInNewTab": false,
-          "variant": "default"
-        },
-        {
-          "label": "Blog",
-          "href": "/blog",
+          "label": "Online kurz",
+          "href": "/zhubni-bez-pocitani-kalorii",
           "openInNewTab": false,
           "variant": "default"
         }
       ],
-      "ctaLabel": "Otevřít app",
+      "ctaLabel": "Členská sekce",
       "ctaHref": "https://app.zdravimebavi.cz/"
     },
     {
@@ -94,20 +82,20 @@
       "aboutText": "Naučím tě, jak skloubit zdravé jídlo, pohyb a péči o sebe s prací, rodinou a volným časem. Zdravý životní styl perfektně zapadne do tvého běžného života.",
       "primaryLinks": [
         {
-          "label": "Konzultace zdarma",
-          "href": "/konzultace-zdarma",
-          "openInNewTab": false,
-          "variant": "default"
-        },
-        {
           "label": "Kontakt",
           "href": "/napis-mi",
           "openInNewTab": false,
           "variant": "default"
         },
         {
-          "label": "Kalendář",
-          "href": "/kalendar",
+          "label": "E-book",
+          "href": "/e-book-jak-sestavit-jidelnicek",
+          "openInNewTab": false,
+          "variant": "default"
+        },
+        {
+          "label": "Online kurz",
+          "href": "/zhubni-bez-pocitani-kalorii",
           "openInNewTab": false,
           "variant": "default"
         }

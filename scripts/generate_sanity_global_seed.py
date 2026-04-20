@@ -13,11 +13,9 @@ OUTPUT_PATH = ROOT / "snapshot" / "manifests" / "sanity-global-seed.json"
 
 PRIMARY_NAV = [
     {"label": "O mně", "href": "/o-mne", "openInNewTab": False, "variant": "default"},
-    {"label": "Osobní konzultace", "href": "/osobni-konzultace", "openInNewTab": False, "variant": "default"},
-    {"label": "Průvodce", "href": "/pruvodce", "openInNewTab": False, "variant": "default"},
-    {"label": "E-book", "href": "/e-book-jak-sestavit-jidelnicek", "openInNewTab": False, "variant": "default"},
-    {"label": "Lekce cvičení", "href": "/lekce-cviceni", "openInNewTab": False, "variant": "default"},
     {"label": "Blog", "href": "/blog", "openInNewTab": False, "variant": "default"},
+    {"label": "E-book", "href": "/e-book-jak-sestavit-jidelnicek", "openInNewTab": False, "variant": "default"},
+    {"label": "Online kurz", "href": "/zhubni-bez-pocitani-kalorii", "openInNewTab": False, "variant": "default"},
 ]
 
 FOOTER_PRIMARY = [
@@ -86,7 +84,7 @@ def build_seed() -> dict:
             "_type": "navigation",
             "title": "Main navigation",
             "items": navigation_items,
-            "ctaLabel": "Otevřít app",
+            "ctaLabel": "Členská sekce",
             "ctaHref": "https://app.zdravimebavi.cz/",
         },
         {

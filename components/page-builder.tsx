@@ -175,6 +175,7 @@ export function PageBuilder({
                       }
                     }
                   }}
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
                   value={(block.content ?? []) as any}
                 />
               </div>

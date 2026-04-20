@@ -14,6 +14,14 @@ coverage
 # Playwright session files
 .playwright-cli/
 .playwright-mcp/
+.superpowers/
+.claude/
+*.tsbuildinfo
+live-header-data*.json
+live-nav-*.json
+pruvodce-snapshot.md
+Make_Integrace*.blueprint.json
+docs/superpowers/
 
 # Dočasné screenshoty
 *.png
@@ -26,4 +34,3 @@ snapshot/assets/
 # Search Console exporty — lokalni analyza, neni soucasti projektu
 zdravimebavi.cz-Performance-on-Search-2026-04-12/
 zdravimebavi.cz-Performance-on-Search-2026-04-12_obrazek/
-

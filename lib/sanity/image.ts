@@ -10,6 +10,7 @@ export function urlForImage(source: unknown): string | undefined {
     return undefined;
   }
   try {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return builder.image(source as any).auto("format").fit("max").url();
   } catch {
     return undefined;
@@ -27,6 +28,7 @@ export function urlForImageSized(
     return undefined;
   }
   try {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let b = builder.image(source as any).auto("format").fit(fit).width(width);
     if (height) b = b.height(height);
     return b.url();

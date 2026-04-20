@@ -42,7 +42,7 @@
     {
       "type": "cta",
       "text": "to Mě zajímá",
-      "href": "/pruvodce"
+      "href": "/zhubni-bez-pocitani-kalorii"
     },
     {
       "type": "cta",
@@ -57,7 +57,7 @@
     {
       "type": "cta",
       "text": "Chci konzultaci zdarma",
-      "href": "/konzultace-zdarma"
+      "href": "/osobni-konzultace"
     },
     {
       "type": "cta",
@@ -369,7 +369,7 @@
     {
       "type": "cta",
       "text": "to Mě zajímá",
-      "href": "/pruvodce"
+      "href": "/zhubni-bez-pocitani-kalorii"
     },
     {
       "type": "heading",
@@ -476,7 +476,7 @@
     {
       "type": "cta",
       "text": "Chci konzultaci zdarma",
-      "href": "/konzultace-zdarma"
+      "href": "/osobni-konzultace"
     },
     {
       "type": "heading",

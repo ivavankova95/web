@@ -150,9 +150,13 @@ Legenda:
 - [x] pridat on-demand revalidation / webhook flow mezi Sanity a frontendem
 - [x] dorovnat SEO metadata a structured data pro hybridni routy `/blog`, `/clanky/[slug]` a `/kategorie/[slug]`
 - [x] prepnout hlavni page / servicePage / offerPage / legalPage routy na hybridni Sanity renderer
-- [ ] overit Stripe price IDs a mapovani `product_key`
+- [x] overit Stripe price IDs a mapovani `product_key`
 - [ ] overit Make scenar a routovani zakazniku podle nakupu
 - [ ] overit, zda zustava Base44 webhook v cilove architekture
 - [ ] potvrdit spravny MailerLite group ID pro `Konzultace_zdarma`
-- [ ] vyresit lint / npm dependency problem kolem `fastq`
-- [ ] sjednotit package manager strategii (`npm` vs `pnpm`)
+- [x] vyresit lint / npm dependency problem kolem `fastq`
+- [x] sjednotit package manager strategii (`pnpm`)
+- [x] implementace Stripe webhooku pro propojení s Make
+- [x] napojení odesílání formulářů na Make
+- [ ] nastavit Sanity revalidační webhook
+

@@ -14,6 +14,19 @@ import {
 import { getSanityBlogPostBySlug, getSanityBlogPostSlugs } from "@/lib/sanity/loaders";
 import { urlForImage } from "@/lib/sanity/image";
 
+const SITE_NAME = "Zdraví mě baví";
+
+function pickSeoText(...values: Array<string | undefined>) {
+  for (const value of values) {
+    const normalized = value?.trim();
+    if (normalized && normalized !== SITE_NAME) {
+      return normalized;
+    }
+  }
+
+  return undefined;
+}
+
 export async function generateStaticParams() {
   const [snapshotSlugs, sanitySlugs] = await Promise.all([
     getSnapshotArticleSlugs(),
@@ -29,16 +42,20 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
+  const fallback = await getSnapshotMetadata(`/clanky/${slug}`);
   const sanityPost = await getSanityBlogPostBySlug(slug);
   if (sanityPost) {
-    const title = sanityPost.seo?.metaTitle || sanityPost.title || slug;
-    const description = sanityPost.seo?.metaDescription || sanityPost.excerpt || "";
+    const fallbackTitle = typeof fallback.title === "string" ? fallback.title : slug;
+    const fallbackDescription = typeof fallback.description === "string" ? fallback.description : "";
+    const title = pickSeoText(fallbackTitle, sanityPost.seo?.metaTitle, sanityPost.title) ?? slug;
+    const description = pickSeoText(fallbackDescription, sanityPost.seo?.metaDescription, sanityPost.excerpt) ?? "";
     const canonical = sanityPost.seo?.canonicalUrl || `https://www.zdravimebavi.cz/clanky/${slug}`;
     const imageUrl = urlForImage(sanityPost.mainImage);
     const imageAlt = sanityPost.mainImage?.alt || sanityPost.title || slug;
     const noIndex = sanityPost.seo?.noIndex ?? false;
 
     return {
+      ...fallback,
       title,
       description,
       alternates: {
@@ -72,7 +89,7 @@ export async function generateMetadata({
       }
     };
   }
-  return getSnapshotMetadata(`/clanky/${slug}`);
+  return fallback;
 }
 
 export default async function ArticlePage({
@@ -242,6 +259,7 @@ export default async function ArticlePage({
         layout="ContentLayout"
         routePath={`/clanky/${slug}`}
         routeType="blogPost"
+        sanityIngredientTables={sanityPost?.ingredientTables ?? undefined}
       />
     </>
   );

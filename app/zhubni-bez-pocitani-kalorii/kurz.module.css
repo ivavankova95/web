@@ -1,0 +1,602 @@
+.hero {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.heroInner {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.heroEyebrow {
+  color: var(--color-brand);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.heroTitle {
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+  color: var(--color-text);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.heroLead {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  max-width: 52ch;
+}
+
+.heroMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroMockup {
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+}
+
+.painPoints {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.painPointsTitle {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.painGrid {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+}
+
+.painCard {
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-card);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.painIcon {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  flex-shrink: 0;
+}
+
+.painText {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.promise {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.promiseText {
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  line-height: 1.75;
+  font-weight: 600;
+  text-align: center;
+  color: var(--color-text);
+  max-width: 72ch;
+  margin: 0 auto;
+}
+
+.benefits {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.benefitsInner {
+  display: grid;
+  gap: 3.5rem;
+}
+
+.benefitsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.benefitsItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.benefitsIcon {
+  flex-shrink: 0;
+  font-size: 1.3rem;
+  margin-top: 0.05em;
+}
+
+.benefitsRight {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.benefitsSubTitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-weight: 800;
+  color: var(--color-text);
+  line-height: 1.3;
+}
+
+.promenyGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 600px) {
+  .promenyGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.promenyPhoto {
+  border-radius: var(--radius-panel);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.courseContent {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.courseContentInner {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.courseContentTitle {
+  margin-bottom: 2rem;
+}
+
+.courseCards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.courseCard {
+  background: var(--color-white);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-card);
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.courseCardIcon {
+  font-size: 1.8rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.courseCardBody {
+  font-size: 0.97rem;
+  line-height: 1.75;
+  color: var(--color-text);
+}
+
+.courseMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coursePhoto {
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-card);
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+}
+
+.included {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.includedInner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.includedTitle {
+  margin-bottom: 0;
+}
+
+.includedList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.includedItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--color-text);
+}
+
+.includedCheck {
+  flex-shrink: 0;
+  color: var(--color-brand);
+  font-size: 1.2rem;
+  margin-top: 0.1em;
+}
+
+.includedBonus {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-brand);
+  text-align: center;
+  padding: 1.25rem;
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-panel);
+  line-height: 1.5;
+}
+
+.includedPhoto {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pricingCta {
+  background: var(--color-brand);
+  padding: 5rem 0;
+}
+
+.pricingCtaBox {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.pricingCtaEyebrow {
+  color: rgba(255,255,255,0.8);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.pricingCtaName {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 800;
+  color: var(--color-white);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.pricingCtaLabel {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.85);
+  font-weight: 500;
+}
+
+.pricingCtaPrice {
+  font-size: clamp(2.8rem, 7vw, 4.5rem);
+  font-weight: 800;
+  color: var(--color-white);
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+.pricingCtaGarance {
+  width: 160px;
+  height: auto;
+}
+
+.pricingCtaGuarantee {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.7;
+  max-width: 56ch;
+}
+
+.pricingCtaBtn {
+  background: var(--color-white);
+  color: var(--color-brand);
+  border-color: var(--color-white);
+  font-size: 0.9rem;
+  padding: 1rem 2.5rem;
+}
+
+.pricingCtaBtn:hover {
+  background: var(--color-surface-alt);
+  border-color: var(--color-surface-alt);
+}
+
+.about {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.aboutInner {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+}
+
+.aboutTitle {
+  margin-bottom: 1.75rem;
+}
+
+.aboutBody {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.aboutPhoto {
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+}
+
+.references {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.referencesTitle {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.referencesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.referenceImg {
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-card);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bottomPricing {
+  background: var(--color-surface-alt);
+  padding: 5rem 0;
+}
+
+.bottomPricingInner {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.bottomPricingCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.bottomPricingLabel {
+  font-size: 1rem;
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.bottomPricingPrice {
+  font-size: clamp(2.4rem, 6vw, 3.8rem);
+  font-weight: 800;
+  color: var(--color-brand);
+  line-height: 1;
+}
+
+.bottomPricingGuarantee {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  max-width: 52ch;
+}
+
+.bottomPricingImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomPricingImg {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bottomPricingGarance {
+  width: 120px;
+  height: auto;
+}
+
+.faq {
+  background: var(--color-white);
+  padding: 5rem 0;
+}
+
+.faqTitle {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.faqItem {
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-panel);
+  background: var(--color-white);
+  overflow: hidden;
+}
+
+.faqItem summary {
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--color-text);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  user-select: none;
+}
+
+.faqItem summary::-webkit-details-marker {
+  display: none;
+}
+
+.faqItem summary::after {
+  content: "+";
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  color: var(--color-brand);
+  font-weight: 400;
+  transition: transform 0.2s;
+}
+
+.faqItem[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faqAnswer {
+  padding: 0 1.5rem 1.5rem;
+  font-size: 0.97rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.finalCta {
+  background: var(--color-brand);
+  padding: 5rem 0;
+}
+
+.finalCtaInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.finalCtaText {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 800;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.finalCtaBtn {
+  background: var(--color-white);
+  color: var(--color-brand);
+  border-color: var(--color-white);
+  font-size: 1rem;
+  padding: 1.1rem 3rem;
+}
+
+.finalCtaBtn:hover {
+  background: var(--color-surface-alt);
+  border-color: var(--color-surface-alt);
+}
+
+@media (min-width: 640px) {
+  .painGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .referencesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .heroInner {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .benefitsInner {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .courseContentInner {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+
+  .aboutInner {
+    grid-template-columns: 0.8fr 1.2fr;
+    align-items: center;
+  }
+
+  .bottomPricingInner {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .painGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .painGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

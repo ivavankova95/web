@@ -8,6 +8,11 @@
 
 import { createClient } from "@sanity/client";
 
+type SeedDocument = {
+  _id: string;
+  _type: string;
+} & Record<string, unknown>;
+
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET ?? "production";
 const token = process.env.SANITY_API_WRITE_TOKEN;
@@ -227,7 +232,7 @@ const zhubniWebinar = {
 async function main() {
   console.log(`Seeding service & offer pages → ${projectId}/${dataset}\n`);
 
-  const docs = [
+  const docs: Array<{ doc: SeedDocument; label: string }> = [
     { doc: osobniKonzultace, label: "servicePage: osobni-konzultace" },
     { doc: lekceCviceni, label: "servicePage: lekce-cviceni" },
     { doc: ebookJidelnicek, label: "offerPage: e-book-jak-sestavit-jidelnicek" },

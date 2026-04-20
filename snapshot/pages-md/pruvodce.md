@@ -10,9 +10,9 @@ page_type: "content-page"
 
 ## CTA
 
-- [chci zhubnout!](/formular---pruvodce-vyzivou-a-pohybem)
-- [To zní skvěle!](/formular---pruvodce-vyzivou-a-pohybem)
-- [chci kurz!](/formular---pruvodce-vyzivou-a-pohybem)
+- [chci zhubnout!](/zhubni-bez-pocitani-kalorii)
+- [To zní skvěle!](/zhubni-bez-pocitani-kalorii)
+- [chci kurz!](/zhubni-bez-pocitani-kalorii)
 
 ## Content
 
@@ -102,7 +102,7 @@ Inspirativní který doopravdy využiješ v praxi. Včetně a jídelníček na 7
 
 Jestli projdeš celou členskou sekci, postupy aplikuješ do svého života a nenastane u tebe žádná změna, napiš mi a já ti vrátím peníze.
 
-[CTA: chci zhubnout!](/formular---pruvodce-vyzivou-a-pohybem)
+[CTA: chci zhubnout!](/zhubni-bez-pocitani-kalorii)
 
 ![Ahoj, jmenuji se Iva a jsem zakladatelka projektu Zdraví mě baví.](../assets/images/d4b9e1672486__6463868a9796734524a26b9b_Photo_mask-1-.png)
 
@@ -132,7 +132,7 @@ Jmenuji se Iva Vaňková, jsem certifikovaná trenérka a nutriční specialistk
 
 # Cena celého kurzu včetně bonusů je
 
-[CTA: To zní skvěle!](/formular---pruvodce-vyzivou-a-pohybem)
+[CTA: To zní skvěle!](/zhubni-bez-pocitani-kalorii)
 
 # Na co se můžeš během naší spolupráce těšit?
 
@@ -190,7 +190,7 @@ Ano, je to možné. Moc ráda se s tebou potkám na . osobní konzultaci
 
 Napiš mi na . :-) info@zdravimebavi.cz
 
-[CTA: chci kurz!](/formular---pruvodce-vyzivou-a-pohybem)
+[CTA: chci kurz!](/zhubni-bez-pocitani-kalorii)
 
 # Přečti si jednu z referencí na Průvodce
 

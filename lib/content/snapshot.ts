@@ -48,6 +48,8 @@ export type SnapshotPage = {
 export type SnapshotSiteLink = {
   label: string;
   href: string;
+  variant?: string;
+  openInNewTab?: boolean;
 };
 
 export type SnapshotSiteShell = {
@@ -114,17 +116,21 @@ const PRODUCT_KEY_BY_PATH: Record<string, string> = {
 
 const PRIMARY_NAV_CONFIG: SnapshotSiteLink[] = [
   { label: "O mně", href: "/o-mne" },
-  { label: "Osobní konzultace", href: "/osobni-konzultace" },
-  { label: "Průvodce", href: "/pruvodce" },
+  { label: "Blog", href: "/blog" },
   { label: "E-book", href: "/e-book-jak-sestavit-jidelnicek" },
-  { label: "Lekce cvičení", href: "/lekce-cviceni" },
-  { label: "Blog", href: "/blog" }
+  { label: "Online kurz", href: "/zhubni-bez-pocitani-kalorii" }
 ];
 
+const PRIMARY_NAV_CTA: SnapshotSiteLink = {
+  label: "Členská sekce",
+  href: "https://app.zdravimebavi.cz/",
+  variant: "cta"
+};
+
 const FOOTER_NAV_CONFIG: SnapshotSiteLink[] = [
-  { label: "Konzultace zdarma", href: "/konzultace-zdarma" },
   { label: "Kontakt", href: "/napis-mi" },
-  { label: "Kalendář", href: "/kalendar" }
+  { label: "E-book", href: "/e-book-jak-sestavit-jidelnicek" },
+  { label: "Online kurz", href: "/zhubni-bez-pocitani-kalorii" }
 ];
 
 const LEGAL_NAV_CONFIG: SnapshotSiteLink[] = [
@@ -137,6 +143,18 @@ const LEGAL_NAV_CONFIG: SnapshotSiteLink[] = [
 const EXTERNAL_NAV_CONFIG: Array<SnapshotSiteLink & { external?: boolean }> = [
   { label: "Otevřít app", href: "https://app.zdravimebavi.cz/", external: true }
 ];
+
+const LEGACY_ROUTE_REWRITES: Record<string, string> = {
+  "/pruvodce": "/zhubni-bez-pocitani-kalorii",
+  "/formular---pruvodce-vyzivou-a-pohybem": "/zhubni-bez-pocitani-kalorii",
+  "/konzultace-zdarma": "/osobni-konzultace",
+  "/osobni-konzultace-objednavka": "/osobni-konzultace",
+  "/cviceni-v-benatkach-nad-jizerou-formular": "/cviceni-v-benatkach-nad-jizerou",
+  "/skupinove-lekce-benatky-nad-jizerou": "/cviceni-v-benatkach-nad-jizerou",
+  "/kalendar": "/",
+  "/letni-prazdninova-vyzva": "/",
+  "/search": "/blog"
+};
 
 const SEO_OVERRIDES: Record<
   string,
@@ -204,6 +222,66 @@ const SEO_OVERRIDES: Record<
     title: "Cvičení v Benátkách nad Jizerou | Zdraví mě baví",
     description:
       "Skupinové i individuální cvičení v Benátkách nad Jizerou. Přehled lekcí, přístup a další kroky ke spolupráci."
+  },
+  "/clanky/skupinove-lekce-cviceni-v-benatkach-nad-jizerou": {
+    title: "Skupinové lekce cvičení v Benátkách nad Jizerou | Zdraví mě baví",
+    description:
+      "Jak vypadají skupinové lekce cvičení v Benátkách nad Jizerou, pro koho jsou vhodné a co od nich čekat."
+  },
+  "/o-mne": {
+    title: "O mně | Iva Vaňková | Zdraví mě baví",
+    description:
+      "Jsem Iva Vaňková, certifikovaná kondiční trenérka a poradkyně pro výživu. Pomáhám ženám najít udržitelný vztah k jídlu, pohybu a péči o sebe."
+  },
+  "/lekce-cviceni": {
+    title: "Tréninky a lekce cvičení | Zdraví mě baví",
+    description:
+      "Skupinové lekce cvičení v Benátkách nad Jizerou i individuální trénink na míru. Kondice, správná technika a podpora bez extrémů."
+  },
+  "/osobni-konzultace": {
+    title: "Osobní konzultace výživy a pohybu | Zdraví mě baví",
+    description:
+      "Online osobní konzultace výživy a pohybu přesně na míru. Dvě konzultace, měsíc podpory a doporučení, která zapadnou do tvého běžného života."
+  },
+  "/e-book-jak-sestavit-jidelnicek": {
+    title: "E-book Manuál pro mámy | Zdraví mě baví",
+    description:
+      "Praktický e-book, který ti pomůže sestavit jídelníček bez diet a zbytečného stresu. Pro zaneprázdněné ženy, které chtějí jíst lépe a mít víc energie."
+  },
+  "/zhubni-bez-pocitani-kalorii": {
+    title: "Zhubni bez počítání kalorií | Zdraví mě baví",
+    description:
+      "Zjisti, jak si jednoduše poskládat jídlo a pohyb tak, abys hubla bez počítání kalorií a bez neustálého začínání od nuly."
+  },
+  "/kategorie/cum-ea": {
+    title: "Co jím a piju | Zdraví mě baví",
+    description:
+      "Tipy a inspirace, co jím a piju v běžném životě. Praktický obsah o jídle, pitném režimu a každodenních volbách bez extrémů."
+  },
+  "/kategorie/peceni": {
+    title: "Pečení | Zdraví mě baví",
+    description:
+      "Recepty na pečení ve zdravějším pojetí. Sladké i slavnostní dobroty, které zvládneš připravit bez zbytečné složitosti."
+  },
+  "/kategorie/sladke": {
+    title: "Sladké recepty | Zdraví mě baví",
+    description:
+      "Zdravější sladké recepty, dezerty a dobroty pro chvíle, kdy máš chuť na něco dobrého a nechceš slevit z kvality."
+  },
+  "/kategorie/slane": {
+    title: "Slané recepty | Zdraví mě baví",
+    description:
+      "Slané recepty a nápady na rychlá i sytá jídla. Praktická inspirace do běžného dne bez dietního chaosu."
+  },
+  "/kategorie/vareni": {
+    title: "Vaření | Zdraví mě baví",
+    description:
+      "Inspirace na každodenní vaření, které je chutné, praktické a podporuje zdravější životní styl bez složitých pravidel."
+  },
+  "/kategorie/ze-zivota": {
+    title: "Ze života | Zdraví mě baví",
+    description:
+      "Osobní články, zkušenosti a postřehy ze života kolem výživy, pohybu, mateřství a udržitelného zdravého životního stylu."
   }
 };
 
@@ -395,6 +473,21 @@ export function normalizeSnapshotPath(routePath: string) {
   return normalized === "/" ? "/" : normalized.replace(/\/+$/, "");
 }
 
+export function rewriteLegacyRoute(href?: string) {
+  if (!href || !href.startsWith("/")) {
+    return href;
+  }
+
+  const [baseWithQuery, hash = ""] = href.split("#");
+  const [basePath, query = ""] = baseWithQuery.split("?");
+  const normalizedBasePath = normalizeSnapshotPath(basePath);
+  const rewrittenBasePath = LEGACY_ROUTE_REWRITES[normalizedBasePath] ?? normalizedBasePath;
+  const search = query ? `?${query}` : "";
+  const fragment = hash ? `#${hash}` : "";
+
+  return `${rewrittenBasePath}${search}${fragment}`;
+}
+
 function routePathToFileName(routePath: string) {
   const normalized = normalizeSnapshotPath(routePath);
 
@@ -429,28 +522,60 @@ function fileNameToRoutePath(fileName: string) {
   return `/${fileName.replace(".json", "")}`;
 }
 
-const readSnapshotPage = cache(async (routePath: string): Promise<SnapshotPage | null> => {
+function normalizeSnapshotPage(page: SnapshotPage): SnapshotPage {
+  return {
+    ...page,
+    ctas: page.ctas.map((cta) => ({
+      ...cta,
+      href: rewriteLegacyRoute(cta.href)
+    })),
+    forms: page.forms.map((form) => ({
+      ...form,
+      action: rewriteLegacyRoute(form.action)
+    })),
+    blocks: page.blocks.map((block) => {
+      if (block.type === "cta") {
+        return {
+          ...block,
+          href: rewriteLegacyRoute(typeof block.href === "string" ? block.href : undefined)
+        };
+      }
+
+      return block;
+    })
+  };
+}
+
+const readSnapshotRecord = cache(async (routePath: string): Promise<{ page: SnapshotPage; lastModified: Date } | null> => {
   const fileName = routePathToFileName(routePath);
   const filePath = path.join(SNAPSHOT_DIR, fileName);
 
   try {
-    const raw = await fs.readFile(filePath, "utf8");
-    return JSON.parse(raw) as SnapshotPage;
+    const [raw, stat] = await Promise.all([fs.readFile(filePath, "utf8"), fs.stat(filePath)]);
+    return {
+      page: normalizeSnapshotPage(JSON.parse(raw) as SnapshotPage),
+      lastModified: stat.mtime
+    };
   } catch {
     return null;
   }
 });
 
 export async function getSnapshotPage(routePath: string) {
-  return readSnapshotPage(normalizeSnapshotPath(routePath));
+  return (await readSnapshotRecord(normalizeSnapshotPath(routePath)))?.page ?? null;
 }
 
 async function filterExistingLinks(links: SnapshotSiteLink[]) {
   const results = await Promise.all(
-    links.map(async (link) => ({
-      link,
-      exists: (await getSnapshotPage(link.href)) !== null
-    }))
+    links.map(async (link) => {
+      const isExternal = link.href.startsWith("http");
+      if (isExternal) return { link, exists: true };
+      
+      return {
+        link,
+        exists: (await getSnapshotPage(link.href)) !== null
+      };
+    })
   );
 
   return results.filter((entry) => entry.exists).map((entry) => entry.link);
@@ -515,7 +640,7 @@ export const getSnapshotSiteShell = cache(async (): Promise<SnapshotSiteShell> =
         "Obsahový web Zdraví mě baví zaměřený na výživu, recepty, pohyb a dlouhodobě udržitelnou změnu.",
       logoPath: homePage?.images?.find((image) => image.local_path)?.local_path
     },
-    primaryNav: await filterExistingLinks(PRIMARY_NAV_CONFIG),
+    primaryNav: [...(await filterExistingLinks(PRIMARY_NAV_CONFIG)), PRIMARY_NAV_CTA],
     footerNav: await filterExistingLinks(FOOTER_NAV_CONFIG),
     legalNav: await filterExistingLinks(LEGAL_NAV_CONFIG),
     externalNav: EXTERNAL_NAV_CONFIG
@@ -547,7 +672,13 @@ const getSnapshotArticleIndex = cache(async () => {
       };
     });
 
-  const articleSlugByTitle = new Map(rawArticles.map((article) => [normalizeTitleKey(article.title), article.slug]));
+  // Index by normalized display title AND by normalized slug (hyphens → spaces)
+  // This covers cases where category h2 matches the slug rather than the full article headline
+  const articleSlugByTitle = new Map<string, string>([
+    ...rawArticles.map((article) => [normalizeTitleKey(article.title), article.slug] as [string, string]),
+    ...rawArticles.map((article) => [article.slug.replace(/-/g, " "), article.slug] as [string, string])
+  ]);
+
   const categorySlugs = await getSnapshotCategorySlugs();
   const categoryMap = new Map<string, Set<string>>();
   const categories: SnapshotCategorySummary[] = [];
@@ -561,7 +692,19 @@ const getSnapshotArticleIndex = cache(async () => {
     const matchedSlugs = Array.from(
       new Set(
         extractListingTitles(page)
-          .map((title) => articleSlugByTitle.get(normalizeTitleKey(title)))
+          .map((title) => {
+            const normCatTitle = normalizeTitleKey(title);
+            // 1. Exact match by display title or slug-normalized title
+            const exact = articleSlugByTitle.get(normCatTitle);
+            if (exact) return exact;
+            // 2. Substring match: category title is a substring of article title or vice versa
+            return (
+              rawArticles.find((a) => {
+                const normH1 = normalizeTitleKey(a.title);
+                return normCatTitle.length >= 4 && (normH1.includes(normCatTitle) || normCatTitle.includes(normH1));
+              })?.slug ?? null
+            );
+          })
           .filter((value): value is string => Boolean(value))
       )
     );
@@ -737,21 +880,22 @@ export async function getSnapshotMetadata(
 }
 
 export async function getSnapshotSitemapEntries(): Promise<
-  Array<{ route: string; imageUrls: string[]; canonical: string }>
+  Array<{ route: string; imageUrls: string[]; canonical: string; lastModified?: Date }>
 > {
   const routes = await getSnapshotRoutes();
 
-  const pages = await Promise.all(
+  const records = await Promise.all(
     routes.map(async (route) => ({
       route,
-      page: await getSnapshotPage(route)
+      record: await readSnapshotRecord(route)
     }))
   );
 
-  return pages.map(({ route, page }) => ({
+  return records.map(({ route, record }) => ({
     route,
-    imageUrls: page ? getContentImageUrls(page).slice(0, 8) : [],
+    imageUrls: record ? getContentImageUrls(record.page).slice(0, 8) : [],
     canonical:
-      page?.canonical ?? (route === "/" ? `${SITE_URL}/` : `${SITE_URL}${route}`)
+      record?.page.canonical ?? (route === "/" ? `${SITE_URL}/` : `${SITE_URL}${route}`),
+    lastModified: record?.lastModified
   }));
 }

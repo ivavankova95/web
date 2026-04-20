@@ -59,6 +59,7 @@ export async function POST(request: Request) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          form_name: config.label,
           formKey: parsed.data.formKey,
           email: parsed.data.email,
           name: parsed.data.name,

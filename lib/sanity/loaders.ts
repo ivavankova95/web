@@ -21,6 +21,7 @@ import { urlForImage } from "@/lib/sanity/image";
 import { env } from "@/lib/env";
 import {
   getSnapshotMetadata,
+  rewriteLegacyRoute,
   getSnapshotSiteShell,
   type SnapshotArticleSummary,
   type SnapshotCategorySummary,
@@ -136,7 +137,7 @@ function toShellLinks(items?: SanityLinkItem[]) {
     )
     .map((item) => ({
       label: item.label,
-      href: item.href,
+      href: rewriteLegacyRoute(item.href) || item.href,
       ...(item.variant ? { variant: item.variant } : {}),
       ...(item.openInNewTab ? { openInNewTab: item.openInNewTab } : {})
     }));
@@ -234,6 +235,7 @@ export const getRootMetadata = cache(async (): Promise<Metadata> => {
       canonical
     },
     openGraph: {
+      ...(fallback.openGraph ?? {}),
       title,
       description,
       url: canonical,
@@ -242,7 +244,7 @@ export const getRootMetadata = cache(async (): Promise<Metadata> => {
       type: "website"
     },
     twitter: {
-      card: "summary",
+      ...(fallback.twitter ?? {}),
       title,
       description
     }
@@ -311,6 +313,17 @@ type SanityRouteMetadataOptions = {
   fallbackDescription?: string;
 };
 
+function pickSeoText(...values: Array<string | undefined>) {
+  for (const value of values) {
+    const normalized = value?.trim();
+    if (normalized && normalized !== "Zdraví mě baví") {
+      return normalized;
+    }
+  }
+
+  return undefined;
+}
+
 export const getSanityRouteMetadata = cache(
   async ({
     kind,
@@ -329,16 +342,13 @@ export const getSanityRouteMetadata = cache(
       return fallback;
     }
 
+    const fallbackTitle = typeof fallback.title === "string" ? fallback.title : slug;
+    const resolvedFallbackDescription = typeof fallback.description === "string" ? fallback.description : "";
     const title =
-      document.seo?.metaTitle ||
-      document.title ||
-      (typeof fallback.title === "string" ? fallback.title : slug);
+      pickSeoText(fallbackTitle, document.seo?.metaTitle, document.title) ?? slug;
     const description =
-      document.seo?.metaDescription ||
-      document.excerpt ||
-      document.summary ||
-      (typeof fallback.description === "string" ? fallback.description : "") ||
-      fallbackDescription ||
+      pickSeoText(resolvedFallbackDescription, document.seo?.metaDescription, document.excerpt, document.summary) ||
+      resolvedFallbackDescription ||
       "Obsahový web Zdraví mě baví zaměřený na výživu, recepty a pohyb.";
     const canonical =
       document.seo?.canonicalUrl ||
