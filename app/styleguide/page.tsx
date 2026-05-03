@@ -2,6 +2,8 @@ import { PageBuilder } from "@/components/page-builder";
 import { RouteScaffoldPage } from "@/components/route-scaffold-page";
 import { styleguideSampleBlocks } from "@/lib/styleguide-sample";
 
+export const dynamic = "force-static";
+
 export const metadata = {
   title: "Styleguide scaffold",
   description: "Interní styleguide route.",

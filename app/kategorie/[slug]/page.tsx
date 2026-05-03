@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleDirectory } from "@/components/article-directory";
 import { StructuredData } from "@/components/structured-data";
+
+export const revalidate = 86400;
 import {
   getSnapshotCategoryArticles,
   getSnapshotCategorySummaries,

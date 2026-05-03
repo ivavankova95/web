@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { ContactForm } from "@/components/forms/contact-form";
 
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title: "Zdraví mě baví - Kontakt",
   description: "Napiš mi — kontaktní formulář Zdraví mě baví.",

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { HybridStaticRoutePage } from "@/components/hybrid-static-route-page";
 import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "legalPage", routePath: "/cookies" });
 }

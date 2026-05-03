@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { SnapshotContentPage } from "@/components/snapshot-content-page";
 import { SanityArticlePage } from "@/components/sanity-article-page";
 import { StructuredData } from "@/components/structured-data";
+
+export const revalidate = 86400;
 import {
   getSnapshotArticleSlugs,
   getSnapshotRecipeData,

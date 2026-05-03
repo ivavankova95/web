@@ -5,6 +5,8 @@ import styles from "./osobni-konzultace.module.css";
 import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 import { OsobniKonzultaceForm } from "./OsobniKonzultaceForm";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "servicePage", routePath: "/osobni-konzultace" });
 }

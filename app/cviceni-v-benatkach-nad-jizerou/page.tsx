@@ -6,6 +6,8 @@ import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 import { CviceniContactForm } from "./CviceniContactForm";
 import styles from "./skupinove.module.css";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "servicePage", routePath: "/cviceni-v-benatkach-nad-jizerou" });
 }
@@ -44,8 +46,6 @@ export default function CviceniPage() {
       areaServed: "Benátky nad Jizerou",
       offers: {
         "@type": "Offer",
-        price: "120",
-        priceCurrency: "CZK",
         url: "https://www.zdravimebavi.cz/cviceni-v-benatkach-nad-jizerou"
       }
     },

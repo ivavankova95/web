@@ -150,9 +150,9 @@ const fetchSanityGlobals = cache(async () => {
 
   try {
     const [siteSettings, navigation, footer] = await Promise.all([
-      sanityClient.fetch<SanitySiteSettings | null>(siteSettingsQuery, {}, { next: { revalidate: 60, tags: ["siteSettings", "siteShell"] } }),
-      sanityClient.fetch<SanityNavigation | null>(navigationQuery, {}, { next: { revalidate: 60, tags: ["navigation", "siteShell"] } }),
-      sanityClient.fetch<SanityFooter | null>(footerQuery, {}, { next: { revalidate: 60, tags: ["footer", "siteShell"] } })
+      sanityClient.fetch<SanitySiteSettings | null>(siteSettingsQuery, {}, { next: { revalidate: 86400, tags: ["siteSettings", "siteShell"] } }),
+      sanityClient.fetch<SanityNavigation | null>(navigationQuery, {}, { next: { revalidate: 86400, tags: ["navigation", "siteShell"] } }),
+      sanityClient.fetch<SanityFooter | null>(footerQuery, {}, { next: { revalidate: 86400, tags: ["footer", "siteShell"] } })
     ]);
 
     if (!siteSettings && !navigation && !footer) {
@@ -257,7 +257,7 @@ export const getHomePageData = cache(async (): Promise<SanityPageDocument | null
   }
 
   try {
-    return await sanityClient.fetch<SanityPageDocument | null>(homePageQuery, {}, { next: { revalidate: 60, tags: ["page", "page:home", "route:/"] } });
+    return await sanityClient.fetch<SanityPageDocument | null>(homePageQuery, {}, { next: { revalidate: 86400, tags: ["page", "page:home", "route:/"] } });
   } catch {
     return null;
   }
@@ -269,7 +269,7 @@ export const getServicePageBySlug = cache(async (slug: string): Promise<SanitySe
     return await sanityClient.fetch<SanityServicePage | null>(
       servicePageBySlugQuery,
       { slug },
-      { next: { revalidate: 60, tags: ["servicePage", `servicePage:${slug}`] } }
+      { next: { revalidate: 86400, tags: ["servicePage", `servicePage:${slug}`] } }
     );
   } catch {
     return null;
@@ -282,7 +282,7 @@ export const getOfferPageBySlug = cache(async (slug: string): Promise<SanityOffe
     return await sanityClient.fetch<SanityOfferPage | null>(
       offerPageBySlugQuery,
       { slug },
-      { next: { revalidate: 60, tags: ["offerPage", `offerPage:${slug}`] } }
+      { next: { revalidate: 86400, tags: ["offerPage", `offerPage:${slug}`] } }
     );
   } catch {
     return null;
@@ -299,7 +299,7 @@ export const getSanityRouteDocument = cache(
       return await sanityClient.fetch<SanityPageDocument | null>(
         routeDocumentQueries[kind],
         { slug },
-        { next: { revalidate: 60, tags: [kind, `${kind}:${slug}`, `route:/${slug}`] } }
+        { next: { revalidate: 86400, tags: [kind, `${kind}:${slug}`, `route:/${slug}`] } }
       );
     } catch {
       return null;
@@ -465,7 +465,7 @@ export const getSanityBlogPosts = cache(async (): Promise<SnapshotArticleSummary
     const posts = await sanityClient.fetch<SanityBlogPost[]>(
       allBlogPostsQuery,
       {},
-      { next: { revalidate: 60, tags: ["blogPost"] } }
+      { next: { revalidate: 86400, tags: ["blogPost"] } }
     );
     if (!posts?.length) {
       return null;
@@ -484,7 +484,7 @@ export const getSanityBlogPostSlugs = cache(async (): Promise<string[]> => {
     const slugs = await sanityClient.fetch<string[]>(
       allBlogPostSlugsQuery,
       {},
-      { next: { revalidate: 300, tags: ["blogPost"] } }
+      { next: { revalidate: 86400, tags: ["blogPost"] } }
     );
     return slugs ?? [];
   } catch {
@@ -500,7 +500,7 @@ export const getSanityBlogPostBySlug = cache(async (slug: string): Promise<Sanit
     return await sanityClient.fetch<SanityBlogPost | null>(
       blogPostBySlugQuery,
       { slug },
-      { next: { revalidate: 60, tags: ["blogPost", `blogPost:${slug}`] } }
+      { next: { revalidate: 86400, tags: ["blogPost", `blogPost:${slug}`] } }
     );
   } catch {
     return null;
@@ -515,7 +515,7 @@ export const getSanityCategories = cache(async (): Promise<SnapshotCategorySumma
     const cats = await sanityClient.fetch<SanityCategory[]>(
       allCategoriesQuery,
       {},
-      { next: { revalidate: 60, tags: ["category"] } }
+      { next: { revalidate: 86400, tags: ["category"] } }
     );
     if (!cats?.length) {
       return null;
@@ -534,7 +534,7 @@ export const getSanityCategoryBySlug = cache(async (slug: string): Promise<Sanit
     return await sanityClient.fetch<SanityCategory | null>(
       categoryBySlugQuery,
       { slug },
-      { next: { revalidate: 60, tags: ["category", `category:${slug}`] } }
+      { next: { revalidate: 86400, tags: ["category", `category:${slug}`] } }
     );
   } catch {
     return null;
@@ -549,7 +549,7 @@ export const getSanityCategoryArticles = cache(async (slug: string): Promise<Sna
     const posts = await sanityClient.fetch<SanityBlogPost[]>(
       categoryArticlesBySlugQuery,
       { slug },
-      { next: { revalidate: 60, tags: ["blogPost", "category", `category:${slug}`] } }
+      { next: { revalidate: 86400, tags: ["blogPost", "category", `category:${slug}`] } }
     );
     if (!posts?.length) {
       return null;

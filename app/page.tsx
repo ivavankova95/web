@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { HomepageSections } from "@/components/homepage-sections";
+
+export const revalidate = 86400;
+
 import { StructuredData } from "@/components/structured-data";
 import { getSnapshotMetadata } from "@/lib/content/snapshot";
 import { getHomePageData } from "@/lib/sanity/loaders";

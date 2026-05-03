@@ -5,6 +5,8 @@ import { StructuredData } from "@/components/structured-data";
 import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 import styles from "./lekce.module.css";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "servicePage", routePath: "/lekce-cviceni" });
 }

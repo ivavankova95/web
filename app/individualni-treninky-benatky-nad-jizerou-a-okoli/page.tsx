@@ -4,6 +4,8 @@ import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 import { IndividualniContactForm } from "./IndividualniContactForm";
 import styles from "./individualni.module.css";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({
     kind: "servicePage",

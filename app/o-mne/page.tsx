@@ -4,6 +4,8 @@ import { StructuredData } from "@/components/structured-data";
 import styles from "./about-me-sections.module.css";
 import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "page", routePath: "/o-mne" });
 }

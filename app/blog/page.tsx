@@ -8,6 +8,8 @@ import {
 } from "@/lib/content/snapshot";
 import { getSanityBlogPosts, getSanityCategories } from "@/lib/sanity/loaders";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   const [sanityArticles, sanityCategories, fallback] = await Promise.all([
     getSanityBlogPosts(),

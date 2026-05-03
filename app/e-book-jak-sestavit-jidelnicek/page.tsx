@@ -5,6 +5,8 @@ import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 import { EbookBuyButton } from "./EbookBuyButton";
 import styles from "./ebook.module.css";
 
+export const revalidate = 86400;
+
 export async function generateMetadata(): Promise<Metadata> {
   return getSanityRouteMetadata({ kind: "offerPage", routePath: "/e-book-jak-sestavit-jidelnicek" });
 }
@@ -32,12 +34,39 @@ export default function EbookPage() {
         "@type": "Brand",
         name: "Zdraví mě baví"
       },
+      review: [
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "Petra Falharová" },
+          reviewBody: "E-book je dobře srozumitelný a zapamatovatelný návod, jak se zorientovat v sestavování denních porcí jídla, se kterým jde fungovat dlouhodobě a pestře."
+        },
+        {
+          "@type": "Review",
+          author: { "@type": "Person", name: "A." },
+          reviewBody: "E-book je vážně super! Dneska čtvrtý den zkouším sestavovat jídla podle návodu a jsem nadšená, jak je to jednoduché. Zvládla jsem to poskládat rovnou z věcí, co byly doma, ale v dalším nákupu doplním podle seznamu několik věcí, co mě zaujaly. Máš pravdu, že vůbec nemám hlad ani myšlenky na nějaké zbytečnosti kolem. Je mi fakt fajn, moc děkuju."
+        }
+      ],
       offers: {
         "@type": "Offer",
         price: "1485",
         priceCurrency: "CZK",
         availability: "https://schema.org/InStock",
-        url: "https://www.zdravimebavi.cz/e-book-jak-sestavit-jidelnicek"
+        url: "https://www.zdravimebavi.cz/e-book-jak-sestavit-jidelnicek",
+        shippingDetails: {
+          "@type": "OfferShippingDetails",
+          shippingRate: { "@type": "MonetaryAmount", value: "0", currency: "CZK" },
+          shippingDestination: { "@type": "DefinedRegion", addressCountry: "CZ" },
+          deliveryTime: {
+            "@type": "ShippingDeliveryTime",
+            handlingTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 0, unitCode: "DAY" },
+            transitTime: { "@type": "QuantitativeValue", minValue: 0, maxValue: 0, unitCode: "DAY" }
+          }
+        },
+        hasMerchantReturnPolicy: {
+          "@type": "MerchantReturnPolicy",
+          applicableCountry: "CZ",
+          returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted"
+        }
       }
     }
   ];
