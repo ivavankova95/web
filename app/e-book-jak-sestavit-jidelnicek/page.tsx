@@ -34,18 +34,6 @@ export default function EbookPage() {
         "@type": "Brand",
         name: "Zdraví mě baví"
       },
-      review: [
-        {
-          "@type": "Review",
-          author: { "@type": "Person", name: "Petra Falharová" },
-          reviewBody: "E-book je dobře srozumitelný a zapamatovatelný návod, jak se zorientovat v sestavování denních porcí jídla, se kterým jde fungovat dlouhodobě a pestře."
-        },
-        {
-          "@type": "Review",
-          author: { "@type": "Person", name: "A." },
-          reviewBody: "E-book je vážně super! Dneska čtvrtý den zkouším sestavovat jídla podle návodu a jsem nadšená, jak je to jednoduché. Zvládla jsem to poskládat rovnou z věcí, co byly doma, ale v dalším nákupu doplním podle seznamu několik věcí, co mě zaujaly. Máš pravdu, že vůbec nemám hlad ani myšlenky na nějaké zbytečnosti kolem. Je mi fakt fajn, moc děkuju."
-        }
-      ],
       offers: {
         "@type": "Offer",
         price: "1485",
