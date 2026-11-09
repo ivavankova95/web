@@ -4,6 +4,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/pruvodce-pristup/domu",
+        destination: "https://app.zdravimebavi.cz/",
+        permanent: true
+      },
+      {
         source: "/contact",
         destination: "/napis-mi",
         permanent: true
