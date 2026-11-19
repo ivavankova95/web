@@ -153,8 +153,6 @@
 }
 
 .coursePhoto {
-  border-radius: var(--radius-panel);
-  box-shadow: var(--shadow-card);
   width: 100%;
   max-width: 440px;
   height: auto;
