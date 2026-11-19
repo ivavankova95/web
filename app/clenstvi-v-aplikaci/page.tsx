@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { StructuredData } from "@/components/structured-data";
 import {
   MEMBERSHIP_PATH,
@@ -27,24 +28,71 @@ export const metadata: Metadata = {
 };
 
 const painPoints = [
-  "Chci se v jídle vyznat i bez počítání kalorií.",
-  "Nevím, jak sestavit jídelníček, který mi sedne.",
-  "Po práci a péči o rodinu mi na cvičení moc času nezbývá."
+  "Všude čtu něco jiného o výživě. Čím mám vlastně začít?",
+  "Ráda bych po dětech zhubla, ale po pár dnech mě každá dieta přestane bavit.",
+  "Snažím se jíst zdravě, jenže kvůli tomu řeším jídlo skoro celý den.",
+  "Chtěla bych se ve svém těle zase cítit dobře, ale moje snaha zatím nepřináší výsledky.",
+  "Mezi prací, rodinou a domácností mi na sebe nezbývá moc času."
+];
+
+const benefits = [
+  {
+    icon: "🧁",
+    title: "Jídlo, které se vejde do běžného dne",
+    text: "Ukážu ti, jak si vybírat a kombinovat potraviny bez počítání kalorií a seznamu zakázaných jídel. Naučíš se sestavit vyvážený talíř tak, aby sis poradila při vaření pro rodinu, s obědem v práci i tehdy, když máš po ruce jen pár surovin."
+  },
+  {
+    icon: "🏋️",
+    title: "Pohyb, který ti sedne",
+    text: "Zjistíš, jak vybrat druh pohybu podle svého cíle, kolik ho zařadit do týdne a na co se při cvičení soustředit. Až budeš chtít přidat na síle nebo kondici, budeš vědět, jak si trénink postupně upravit."
+  },
+  {
+    icon: "❤️",
+    title: "Návyky, ke kterým se můžeš vracet",
+    text: "Dostaneš prostor vyzkoušet si změny postupně a najít si vlastní tempo. Podíváme se i na to, jak si stanovit priority a jak se vrátit k pohybu a péči o sebe po týdnu, kdy na ně nezbyl čas."
+  }
 ];
 
 const courseMaterials = [
-  "Průvodce výživou, pohybem a péčí o sebe, ke kterému se můžeš vracet vlastním tempem.",
-  "Ukázkový jídelníček na 7 dní s nákupním seznamem a recepty.",
-  "Tréninky do 20 minut. Vyber si jógu, posilování nebo kondiční cvičení.",
-  "Video se správnou technikou běžných cviků a návod na sestavení tréninkového plánu.",
-  "Praktické bonusy včetně plánovače pohybu, cílů a priorit."
+  {
+    title: "Průvodce výživou, pohybem a péčí o sebe",
+    text: "Tematické kapitoly ti pomůžou pochopit, co má smysl měnit, pokud chceš zhubnout udržitelně. Získáš postup, jak doporučení zkoušet v běžném životě a postupně si z nich udělat vlastní rutinu."
+  },
+  {
+    title: "Ukázkový jídelníček na 7 dní",
+    text: "Uvidíš, jak může vypadat celý den jídla v praxi. Součástí jsou recepty a nákupní seznam, takže si můžeš rovnou vybrat jídla na příští týden a připravit si nákup."
+  },
+  {
+    title: "Video se správnou technikou cviků",
+    text: "Ukážu ti, na co si dát pozor u běžných cviků a jak si je zjednodušit podle své kondice. Využiješ to i při cvičení podle videí na YouTube."
+  },
+  {
+    title: "Video tréninky do 20 minut",
+    text: "Vyber si jógu, posilování nebo kondiční cvičení podle toho, na co máš zrovna chuť a kolik máš času. Krátké lekce zvládneš doma i mezi dalšími povinnostmi."
+  },
+  {
+    title: "Bonusy a plánovač na celý rok",
+    text: "Najdeš tu návod na sestavení vlastního tréninkového plánu, rozhovor o detoxech, jarní únavě a zdravém přístupu k jídlu i plánovač pohybu, cílů a priorit. Vybrané pracovní materiály si můžeš stáhnout a vytisknout."
+  }
 ];
 
 const ebookMaterials = [
-  "Jak poskládat vyváženou snídani, oběd, večeři i svačinu.",
-  "Jakou roli mají jednotlivé složky jídla a z jakých potravin vybírat.",
-  "Jak upravit porce a složení jídel podle toho, jestli chceš hubnout, udržet váhu nebo přibrat.",
-  "Co jíst před a po sportu a jak se vyhnout častým chybám."
+  {
+    title: "Porozumíš tomu, co máš na talíři",
+    text: "Vysvětlím ti, k čemu tělo využívá jednotlivé složky jídla a ze kterých běžných potravin je získáš. Díky konkrétním příkladům budeš vědět, čím jídlo doplnit a jak vybírat při nákupu."
+  },
+  {
+    title: "Sestavíš si snídani, oběd, večeři i svačinu",
+    text: "U každého jídla tě provedu tím, jak ho poskládat a jak odhadnout porci. Dozvíš se, jaké chyby se při sestavování jídel opakují a co můžeš ve svém jídelníčku zkusit jinak."
+  },
+  {
+    title: "Přizpůsobíš jídelníček svému cíli",
+    text: "Ukážu ti, co se ve skladbě jídel a velikosti porcí mění, když chceš hubnout, váhu si udržet nebo přibrat. Stejný postup můžeš využít, i když se časem změní tvoje cíle nebo množství pohybu."
+  },
+  {
+    title: "Zjistíš, co jíst před a po sportu",
+    text: "Dozvíš se, jak načasovat jídlo kolem tréninku, abys při něm měla energii, a co si dát po cvičení pro doplnění živin a regeneraci."
+  }
 ];
 
 const referenceGroups = [
@@ -62,19 +110,31 @@ const referenceGroups = [
 const questions = [
   {
     question: "Jak získám přístup?",
-    answer: "Nejdřív si vytvoříš účet v aplikaci. Po přihlášení si v aplikaci můžeš aktivovat měsíční členství."
+    answer: "Vytvoř si účet pomocí e-mailu a potvrď ho odkazem, který ti přijde do schránky. Po přihlášení si přímo v aplikaci můžeš aktivovat měsíční členství."
   },
   {
-    question: "Musím jíst podle přesně daného jídelníčku?",
-    answer: "Sedmidenní jídelníček slouží pro inspiraci. Podle Manuálu pro mámy se naučíš odhadnout porce a poskládat si jídlo podle toho, co máš po ruce a čeho chceš dosáhnout."
+    question: "Jak si materiály prohlédnu?",
+    answer: "Průvodce a e-book si můžeš číst přímo v aplikaci. Videa si přehraješ ve stejné aplikaci a k jednotlivým částem se můžeš kdykoli během členství vrátit. Novinky najdeš po přihlášení."
   },
   {
-    question: "Zvládnu tréninky, když se cvičením začínám?",
-    answer: "Začni videem o technice. Iva ti ukáže, jak si běžné cviky upravit a vybrat pohyb, který zapadne do tvého týdne."
+    question: "Dostanu přesně předepsaný jídelníček?",
+    answer: "Sedmidenní jídelníček je ukázka, se kterou můžeš začít. Když ti některé jídlo nesedne nebo zrovna nemáš potřebné suroviny, v e-booku najdeš postup, podle kterého si vybereš náhradu. Díky tomu se postupně obejdeš bez rozpisu na gramy."
   },
   {
-    question: "Kde najdu pomoc, když si s něčím nevím rady?",
-    answer: <>Pokud máš otázku k materiálům nebo tě zajímá individuální spolupráce, napiš mi na <a href="mailto:info@zdravimebavi.cz">info@zdravimebavi.cz</a>.</>
+    question: "Můžu začít, i když jsem dlouho necvičila?",
+    answer: "Ano. Začni s variantami cviků, u kterých se cítíš jistě, a přidávej zátěž postupně. Klidně si nejdřív vyber jednu krátkou lekci a vyzkoušej, jak ti sedne."
+  },
+  {
+    question: "Co můžu od členství čekat?",
+    answer: "Získáš návody a materiály, se kterými si můžeš krok za krokem upravit jídlo a pohyb. Výsledky jsou individuální a záleží na tom, co se ti podaří dlouhodobě zařadit do svého života."
+  },
+  {
+    question: "Můžu se tě zeptat na něco k materiálům?",
+    answer: <>Jestli potřebuješ některou část dovysvětlit, napiš mi na <a href="mailto:info@zdravimebavi.cz">info@zdravimebavi.cz</a> nebo se mi ozvi na sociálních sítích.</>
+  },
+  {
+    question: "Můžu na členství navázat individuální spoluprací?",
+    answer: <>Ano, můžeme se potkat na <Link href="/osobni-konzultace">osobní konzultaci</Link> a probrat, co by ti pomohlo právě teď.</>
   }
 ];
 
@@ -82,13 +142,16 @@ function SignupLink({ className = "" }: { className?: string }) {
   return <a href={MEMBERSHIP_SIGNUP_URL} className={`btn btn-primary ${className}`}>Vytvořit účet v aplikaci</a>;
 }
 
-function MaterialsList({ items }: { items: string[] }) {
+function MaterialsList({ items }: { items: { title: string; text: string }[] }) {
   return (
     <ul className={styles.includedList}>
-      {items.map((item) => (
-        <li key={item} className={styles.includedItem}>
+      {items.map(({ title, text }) => (
+        <li key={title} className={styles.includedItem}>
           <span aria-hidden="true" className={styles.includedCheck}>✓</span>
-          <span>{item}</span>
+          <div>
+            <h3 className={styles.materialTitle}>{title}</h3>
+            <p>{text}</p>
+          </div>
         </li>
       ))}
     </ul>
@@ -113,8 +176,8 @@ export default function MembershipPage() {
               <div>
                 <h1 className={styles.heroTitle}>{MEMBERSHIP_TITLE}</h1>
                 <p className={styles.heroLead}>
-                  Skládej si jídlo bez počítání kalorií a najdi si pohyb, který se vejde do tvého dne.
-                  V aplikaci najdeš program Máma ve formě i e-book Manuál pro mámy.
+                  Průvodce výživou a pohybem pro ženy, které chtějí zhubnout bez diet a najít si čas na sebe i v nabitém týdnu.
+                  V aplikaci tě čeká program Máma ve formě a e-book Manuál pro mámy.
                 </p>
                 <SignupLink />
               </div>
@@ -140,17 +203,42 @@ export default function MembershipPage() {
           </div>
         </section>
 
+        <section className={styles.benefitSection} aria-labelledby="jidlo-pohyb-navyky">
+          <div className={`container ${styles.courseContentInner}`}>
+            <div>
+              <h2 id="jidlo-pohyb-navyky" className={`section-title ${styles.courseContentTitle}`}>
+                Jak na jídlo, pohyb a péči o sebe
+              </h2>
+              <div className={styles.benefitList}>
+                {benefits.map(({ icon, title, text }) => (
+                  <div key={title} className={styles.painCard}>
+                    <span aria-hidden="true" className={styles.painIcon}>{icon}</span>
+                    <div>
+                      <h3 className={styles.materialTitle}>{title}</h3>
+                      <p className={styles.painText}>{text}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className={styles.courseMedia}>
+              <Image src="/kurz/clovek.png" alt="Ukázka průvodce Máma ve formě"
+                width={440} height={782} className={styles.guidePhoto} />
+            </div>
+          </div>
+        </section>
+
         <section className={styles.courseContent} aria-labelledby="mama-ve-forme">
           <div className="container">
             <div className={styles.courseContentInner}>
               <div>
                 <h2 id="mama-ve-forme" className={`section-title ${styles.courseContentTitle}`}>Máma ve formě</h2>
-                <p>Praktický program pro ženy, které chtějí zdravé jídlo a pohyb sladit s rodinou a prací.</p>
+                <p>Pokud po dětech hledáš způsob, jak začít jíst lépe, pravidelně se hýbat a zase se cítit dobře ve svém těle, tady máš konkrétní plán, od kterého se odrazit. Podívej se, co najdeš uvnitř programu.</p>
                 <MaterialsList items={courseMaterials} />
               </div>
               <div className={styles.courseMedia}>
                 <Image src="/kurz/materialy.png" alt="Jídelníček a další materiály programu Máma ve formě"
-                  width={440} height={440} className={styles.coursePhoto} />
+                  width={440} height={190} className={styles.coursePhoto} />
               </div>
             </div>
           </div>
@@ -161,7 +249,7 @@ export default function MembershipPage() {
             <div className={styles.courseContentInner}>
               <div>
                 <h2 id="manual-pro-mamy" className={`section-title ${styles.courseContentTitle}`}>E-book Manuál pro mámy</h2>
-                <p>Krok za krokem tě provedu sestavením jídelníčku, který využiješ doma, v práci i ve dnech, kdy máš na vaření jen chvilku.</p>
+                <p>Tenhle manuál jsem napsala pro chvíle, kdy víš, že chceš jíst vyváženě, ale v množství rad se ztrácíš. Provedu tě každým jídlem dne a ukážu ti, jak si jídelníček upravit podle toho, co ti chutná, kolik máš času a čeho chceš dosáhnout.</p>
                 <MaterialsList items={ebookMaterials} />
               </div>
               <div className={styles.courseMedia}>
@@ -189,7 +277,8 @@ export default function MembershipPage() {
               <h2 className={`section-title ${styles.aboutTitle}`}>Proč do toho jít se mnou?</h2>
               <div className={styles.aboutBody}>
                 <p>Jmenuji se Iva Vaňková. Jsem certifikovaná trenérka, nutriční specialistka a máma dvou dětí. Vím, jaké to je hledat čas na sebe mezi rodinou a prací.</p>
-                <p>Při konzultacích a trénincích pomáhám ženám najít způsob, jak se pravidelně hýbat a dobře jíst i v nabitém týdnu. V aplikaci tě tím provedu krok za krokem.</p>
+                <p>Vedu skupinové i individuální tréninky, sestavuji pohybové a výživové plány a věnuji se osobním konzultacím. Potkávám při nich ženy, které chtějí zhubnout, mít víc energie a znovu se ve svém těle cítit dobře.</p>
+                <p>Do programu i e-booku jsem promítla otázky, se kterými za mnou klientky nejčastěji přicházejí. Najdeš v nich moje vysvětlení i postupy, které můžeš rovnou zkusit u sebe doma.</p>
               </div>
             </div>
           </div>
