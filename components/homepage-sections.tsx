@@ -1,4 +1,4 @@
-import { MEMBERSHIP_PATH, MEMBERSHIP_TITLE } from "@/lib/content/membership";
+import { MEMBERSHIP_PATH, MEMBERSHIP_SIGNUP_URL, MEMBERSHIP_TITLE } from "@/lib/content/membership";
 import Image from "next/image";
 import Link from "next/link";
 import { getSanityBlogPosts } from "@/lib/sanity/loaders";
@@ -110,15 +110,10 @@ export async function HomepageSections() {
         <div className={styles.newsStripInner}>
           <p className={styles.newsStripEyebrow}>Co pro tebe mám nového?</p>
           <h2 className={styles.newsStripTitle}>
-            Workshop pro mámy: Jak nastartovat hubnutí po dětech
+            Zdravé jídlo a pohyb po dětech. Teď v aplikaci Zdraví mě baví.
           </h2>
-          <a
-            href="https://webinar.zdravimebavi.cz"
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-white"
-          >
-            Chci vědět více
+          <a href={MEMBERSHIP_SIGNUP_URL} className="btn btn-white">
+            Vytvořit účet v aplikaci
           </a>
         </div>
       </section>
