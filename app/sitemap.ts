@@ -1,8 +1,10 @@
+import { MEMBERSHIP_PATH, RETIRED_OFFER_PATHS } from "@/lib/content/membership";
 import type { MetadataRoute } from "next";
 import { getSnapshotSitemapEntries } from "@/lib/content/snapshot";
 
 const SITE_URL = "https://www.zdravimebavi.cz";
 const EXCLUDED_ROUTES = new Set([
+  ...RETIRED_OFFER_PATHS,
   "/404",
   "/search",
   "/styleguide",
@@ -55,13 +57,23 @@ function getChangeFrequency(route: string): MetadataRoute.Sitemap[number]["chang
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries = await getSnapshotSitemapEntries();
 
-  return entries
+  const snapshotEntries: MetadataRoute.Sitemap = entries
     .filter((entry) => !EXCLUDED_ROUTES.has(entry.route))
     .map((entry) => ({
-    url: entry.canonical || `${SITE_URL}${entry.route === "/" ? "/" : entry.route}`,
-    lastModified: entry.lastModified,
-    changeFrequency: getChangeFrequency(entry.route),
-    priority: getPriority(entry.route),
-    images: entry.imageUrls
+      url: entry.canonical || `${SITE_URL}${entry.route === "/" ? "/" : entry.route}`,
+      lastModified: entry.lastModified,
+      changeFrequency: getChangeFrequency(entry.route),
+      priority: getPriority(entry.route),
+      images: entry.imageUrls
     }));
+
+  return [
+    ...snapshotEntries,
+    {
+      url: SITE_URL + MEMBERSHIP_PATH,
+      changeFrequency: getChangeFrequency(MEMBERSHIP_PATH),
+      priority: getPriority(MEMBERSHIP_PATH),
+      images: [SITE_URL + "/kurz/mockup.png", SITE_URL + "/ebook/mockup-kniha.png"]
+    }
+  ];
 }

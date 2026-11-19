@@ -1,3 +1,4 @@
+import { MEMBERSHIP_PATH, MEMBERSHIP_TITLE } from "@/lib/content/membership";
 import Image from "next/image";
 import Link from "next/link";
 import { getSanityBlogPosts } from "@/lib/sanity/loaders";
@@ -26,42 +27,18 @@ const SERVICES = [
     ],
   },
   {
-    key: "kurz",
-    title: "Online kurz",
-    href: "/zhubni-bez-pocitani-kalorii",
-    ctaLabel: "Zajímá mě to",
-    imageUrl:
-      "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66e07031ac5d639195ac2bdb_Online_kurz_mockup.png",
-    imageAlt: "Online kurz mockup",
-    description: "Mám pro tebe komplexní online kurz, díky kterému konečně zhubneš:",
-    tagline: "Získej ještě lepší postavu než před dětmi a udrž si ji už navždy",
-    description2: "Získáš přístup do členské sekce, kde najdeš informace, konkrétní postupy a motivaci.",
-    bulletsHeading: "Co je součástí kurzu?",
+    key: "clenstvi",
+    title: MEMBERSHIP_TITLE,
+    href: MEMBERSHIP_PATH,
+    ctaLabel: "Prohlédnout členství",
+    imageUrl: "/kurz/mockup.png",
+    imageAlt: "Ukázka programu Máma ve formě v aplikaci Zdraví mě baví",
+    description: "Program Máma ve formě a e-book Manuál pro mámy najdeš pohromadě v aplikaci Zdraví mě baví.",
+    bulletsHeading: "Na co se můžeš těšit?",
     bullets: [
-      "Unikátní metoda, díky které zhubneš bez počítání kalorií.",
-      "Inspirativní jídelníček na 7 dní, který doopravdy využiješ v praxi. Včetně nákupního seznamu a receptů.",
-      "Video tréninky od jógy po intervalový HIIT.",
-      "Plánovač cílů a priorit na celý rok.",
-      "… a spoustu dalšího!",
-    ],
-  },
-  {
-    key: "ebook",
-    title: "E-book",
-    href: "/e-book-jak-sestavit-jidelnicek",
-    ctaLabel: "To je přesně pro mě",
-    imageUrl:
-      "https://cdn.prod.website-files.com/63ff2d0a40f8ce45bb82885b/66dff65b0990f6008059890b_E-book%20mockup%20kniha%201(1).png",
-    imageAlt: "E-book — Jak sestavit jídelníček",
-    tagline: "Manuál pro mámy",
-    description: "Představ si e-book, který změní tvůj pohled na jídlo a zjistíš díky němu, jak sestavit jídelníček za každé situace.",
-    bulletsHeading: "Na co se v e-booku můžeš těšit?",
-    bullets: [
-      "Provede tě krok za krokem k jídelníčku, který ti pomůže k vysněné postavě.",
-      "Osvojíš si zdravé návyky, které využiješ každý den, ať jsi kdekoli a děláš cokoli.",
-      "Žádné počítání kalorií, zakázané potraviny a diety.",
-      "Naučíš se unikátní metodou sestavit jídelníček přesně podle tvých cílů.",
-      "Zjistíš, že jíst zdravě je jednoduché. Jde to, i když vaříš pro rodinu nebo jíš v práci.",
+      "Návod, jak sestavit vyvážený jídelníček bez počítání kalorií.",
+      "Jídelníček na 7 dní s recepty a nákupním seznamem.",
+      "Krátké tréninky pro sílu, kondici i jógu.",
     ],
   },
   {
@@ -203,12 +180,6 @@ export async function HomepageSections() {
                   <h3 className={styles.serviceCardTitle}>{service.title}</h3>
                   {"description" in service && service.description && (
                     <p className={styles.serviceCardDesc}>{service.description}</p>
-                  )}
-                  {"tagline" in service && service.tagline && (
-                    <p className={styles.serviceCardTagline}>{service.tagline}</p>
-                  )}
-                  {"description2" in service && service.description2 && (
-                    <p className={styles.serviceCardDesc}>{service.description2}</p>
                   )}
                   {"bulletsHeading" in service && service.bulletsHeading && (
                     <p className={styles.serviceCardBulletsHeading}>{service.bulletsHeading}</p>

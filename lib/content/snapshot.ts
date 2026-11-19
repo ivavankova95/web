@@ -1,3 +1,4 @@
+import { MEMBERSHIP_PATH, MEMBERSHIP_TITLE, RETIRED_OFFER_PATHS } from "@/lib/content/membership";
 import type { Metadata } from "next";
 import { cache } from "react";
 import { promises as fs } from "node:fs";
@@ -116,8 +117,7 @@ const PRODUCT_KEY_BY_PATH: Record<string, string> = {
 const PRIMARY_NAV_CONFIG: SnapshotSiteLink[] = [
   { label: "O mně", href: "/o-mne" },
   { label: "Blog", href: "/blog" },
-  { label: "E-book", href: "/e-book-jak-sestavit-jidelnicek" },
-  { label: "Online kurz", href: "/zhubni-bez-pocitani-kalorii" }
+  { label: MEMBERSHIP_TITLE, href: MEMBERSHIP_PATH }
 ];
 
 const PRIMARY_NAV_CTA: SnapshotSiteLink = {
@@ -128,8 +128,7 @@ const PRIMARY_NAV_CTA: SnapshotSiteLink = {
 
 const FOOTER_NAV_CONFIG: SnapshotSiteLink[] = [
   { label: "Kontakt", href: "/napis-mi" },
-  { label: "E-book", href: "/e-book-jak-sestavit-jidelnicek" },
-  { label: "Online kurz", href: "/zhubni-bez-pocitani-kalorii" }
+  { label: MEMBERSHIP_TITLE, href: MEMBERSHIP_PATH }
 ];
 
 const LEGAL_NAV_CONFIG: SnapshotSiteLink[] = [
@@ -144,8 +143,9 @@ const EXTERNAL_NAV_CONFIG: Array<SnapshotSiteLink & { external?: boolean }> = [
 ];
 
 const LEGACY_ROUTE_REWRITES: Record<string, string> = {
-  "/pruvodce": "/zhubni-bez-pocitani-kalorii",
-  "/formular---pruvodce-vyzivou-a-pohybem": "/zhubni-bez-pocitani-kalorii",
+  ...Object.fromEntries(RETIRED_OFFER_PATHS.map((path) => [path, MEMBERSHIP_PATH])),
+  "/pruvodce": MEMBERSHIP_PATH,
+  "/formular---pruvodce-vyzivou-a-pohybem": MEMBERSHIP_PATH,
   "/konzultace-zdarma": "/osobni-konzultace",
   "/osobni-konzultace-objednavka": "/osobni-konzultace",
   "/cviceni-v-benatkach-nad-jizerou-formular": "/cviceni-v-benatkach-nad-jizerou",
@@ -568,7 +568,7 @@ async function filterExistingLinks(links: SnapshotSiteLink[]) {
   const results = await Promise.all(
     links.map(async (link) => {
       const isExternal = link.href.startsWith("http");
-      if (isExternal) return { link, exists: true };
+      if (isExternal || link.href === MEMBERSHIP_PATH) return { link, exists: true };
       
       return {
         link,

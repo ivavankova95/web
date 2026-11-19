@@ -1,3 +1,4 @@
+import { MEMBERSHIP_PATH, MEMBERSHIP_TITLE } from "@/lib/content/membership";
 import { cache } from "react";
 import type { Metadata } from "next";
 import { sanityClient } from "@/lib/sanity/client";
@@ -143,6 +144,25 @@ function toShellLinks(items?: SanityLinkItem[]) {
     }));
 }
 
+function mergeMembershipLinks(links: SnapshotSiteShell["primaryNav"]) {
+  const membershipLink = { href: MEMBERSHIP_PATH, label: MEMBERSHIP_TITLE };
+  const nav: SnapshotSiteShell["primaryNav"] = [];
+  let membershipAdded = false;
+
+  for (const link of links) {
+    const localHref = link.href.replace(/^https?:\/\/(?:www\.)?zdravimebavi\.cz(?=\/)/i, "");
+    const path = rewriteLegacyRoute(localHref)?.split(/[?#]/)[0];
+    if (path !== MEMBERSHIP_PATH) {
+      nav.push(link);
+    } else if (!membershipAdded) {
+      nav.push(membershipLink);
+      membershipAdded = true;
+    }
+  }
+
+  return nav;
+}
+
 const fetchSanityGlobals = cache(async () => {
   if (!hasSanityConfig()) {
     return null;
@@ -181,6 +201,9 @@ export const getSiteShellData = cache(async (): Promise<SnapshotSiteShell> => {
     ? toShellLinks(navigation.items).filter((item) => item.variant !== "cta")
     : fallback.primaryNav.filter((item) => item.variant !== "cta");
 
+  const footerLinks = toShellLinks(footer?.primaryLinks);
+  const primaryNav = mergeMembershipLinks(sanityNavItems);
+
   const ctaItem = ctaHref
     ? { label: ctaLabel, href: ctaHref, variant: "cta" as const }
     : fallback.primaryNav.find((item) => item.variant === "cta");
@@ -191,8 +214,8 @@ export const getSiteShellData = cache(async (): Promise<SnapshotSiteShell> => {
       description: siteSettings?.siteDescription || footer?.aboutText || fallback.brand.description,
       logoPath: fallback.brand.logoPath
     },
-    primaryNav: ctaItem ? [...sanityNavItems, ctaItem] : sanityNavItems,
-    footerNav: toShellLinks(footer?.primaryLinks).length ? toShellLinks(footer?.primaryLinks) : fallback.footerNav,
+    primaryNav: ctaItem ? [...primaryNav, ctaItem] : primaryNav,
+    footerNav: footerLinks.length ? mergeMembershipLinks(footerLinks) : fallback.footerNav,
     legalNav: toShellLinks(footer?.legalLinks).length ? toShellLinks(footer?.legalLinks) : fallback.legalNav,
     externalNav: ctaHref
       ? [{ label: ctaLabel, href: ctaHref, external: true }]

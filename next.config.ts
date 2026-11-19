@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
+import { MEMBERSHIP_PATH, RETIRED_OFFER_PATHS } from "./lib/content/membership";
 
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      ...RETIRED_OFFER_PATHS.map((source) => ({ source, destination: MEMBERSHIP_PATH, permanent: true })),
       {
         source: "/pruvodce-pristup/domu",
         destination: "https://app.zdravimebavi.cz/",
@@ -120,12 +122,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/online-workshop",
-        destination: "/zhubni-bez-pocitani-kalorii",
+        destination: MEMBERSHIP_PATH,
         permanent: true
       },
       {
         source: "/zdravi-me/workshoppromamy",
-        destination: "/zhubni-bez-pocitani-kalorii",
+        destination: MEMBERSHIP_PATH,
         permanent: true
       },
       {
@@ -145,12 +147,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/pruvodce",
-        destination: "/zhubni-bez-pocitani-kalorii",
+        destination: MEMBERSHIP_PATH,
         permanent: true
       },
       {
         source: "/formular---pruvodce-vyzivou-a-pohybem",
-        destination: "/zhubni-bez-pocitani-kalorii",
+        destination: MEMBERSHIP_PATH,
         permanent: true
       },
       {

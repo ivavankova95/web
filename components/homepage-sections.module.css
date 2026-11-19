@@ -187,7 +187,7 @@
 
 .servicesGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -233,19 +233,6 @@
   font-size: 0.85rem;
   color: var(--color-text-muted);
   line-height: 1.6;
-}
-
-.serviceCardTagline {
-  font-size: 0.82rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-text);
-  line-height: 1.4;
-  background: var(--color-surface-alt);
-  border-left: 3px solid var(--color-brand);
-  padding: 0.5rem 0.75rem;
-  border-radius: 0 0.25rem 0.25rem 0;
 }
 
 .serviceCardBulletsHeading {
