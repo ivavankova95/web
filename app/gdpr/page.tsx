@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { HybridStaticRoutePage } from "@/components/hybrid-static-route-page";
+import webLegal from "@/lib/content/web-legal.json";
 import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 
 export const revalidate = 86400;
@@ -13,10 +14,7 @@ export default function GdprPage() {
     <HybridStaticRoutePage
       documentKind="legalPage"
       fallbackLayout="MarketingLayout"
-      fallbackNotes={[
-        "Snapshot fallback vrstva uz pokryva i GDPR route.",
-        "Finalni verze bude migrovana do legalPage dokumentu."
-      ]}
+      fallbackDocument={webLegal["gdpr"]}
       fallbackRouteType="legalPage"
       routePath="/gdpr"
     />

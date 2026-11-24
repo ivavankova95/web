@@ -14,6 +14,8 @@ Tento soubor je prubezny denik implementace, zmen a blokatoru.
 
 - Odstraněn starý checkout pro jednotlivé produkty z veřejného webu. Historické prodejní adresy dál směřují na členství a případné staré checkout bloky v Sanity vedou k registraci v aplikaci.
 
+- Veřejný web má vlastní nastavení cookies s oddělenou analytikou a marketingem. Dřívější banner na doméně Webflow nahradila nová lišta. Texty obchodních podmínek, ochrany osobních údajů a cookies byly sladěny s doručováním poptávek a prodejem členství v aplikaci.
+
 ## 2026-04-09
 
 ### Dokonceno

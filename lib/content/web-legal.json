@@ -1,0 +1,831 @@
+{
+  "obchodni-podminky": {
+    "title": "Obchodní podmínky a informace o službách",
+    "summary": "Členství se sjednává v aplikaci. Tento web uvádí také informace o osobních konzultacích a cvičení.",
+    "content": [
+      {
+        "_type": "block",
+        "_key": "web0",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web0s0",
+            "marks": [],
+            "text": "Provozovatelka"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web1",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web1l1",
+            "href": "mailto:info@zdravimebavi.cz"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web1s0",
+            "marks": [],
+            "text": "Iva Vaňková, IČO 19197110, Dr. Nováka 496/11, 294 71 Benátky nad Jizerou. Kontakt: "
+          },
+          {
+            "_type": "span",
+            "_key": "web1s1",
+            "marks": [
+              "web1l1"
+            ],
+            "text": "info@zdravimebavi.cz"
+          },
+          {
+            "_type": "span",
+            "_key": "web1s2",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web2",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web2s0",
+            "marks": [],
+            "text": "Členství v aplikaci"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web3",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web3l1",
+            "href": "https://app.zdravimebavi.cz/podminky"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web3s0",
+            "marks": [],
+            "text": "Členství, jeho cenu, platbu, automatické prodloužení, ukončení a zpřístupnění digitálního obsahu upravují "
+          },
+          {
+            "_type": "span",
+            "_key": "web3s1",
+            "marks": [
+              "web3l1"
+            ],
+            "text": "podmínky členství v aplikaci"
+          },
+          {
+            "_type": "span",
+            "_key": "web3s2",
+            "marks": [],
+            "text": ". Účet a členství si založíte v aplikaci."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web4",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web4s0",
+            "marks": [],
+            "text": "Konzultace a tréninky"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web5",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web5l1",
+            "href": "/cviceni-v-benatkach-nad-jizerou"
+          },
+          {
+            "_type": "link",
+            "_key": "web5l3",
+            "href": "/osobni-konzultace"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web5s0",
+            "marks": [],
+            "text": "Poptávkový formulář slouží k navázání kontaktu a domluvě služby. Termín, rozsah, cenu a způsob úhrady vám potvrdím při domluvě. U skupinových lekcí najdete aktuální cenu, způsob přihlášení a platby na "
+          },
+          {
+            "_type": "span",
+            "_key": "web5s1",
+            "marks": [
+              "web5l1"
+            ],
+            "text": "stránce skupinového cvičení"
+          },
+          {
+            "_type": "span",
+            "_key": "web5s2",
+            "marks": [],
+            "text": ". Podrobnosti k osobní konzultaci najdete na "
+          },
+          {
+            "_type": "span",
+            "_key": "web5s3",
+            "marks": [
+              "web5l3"
+            ],
+            "text": "stránce konzultací"
+          },
+          {
+            "_type": "span",
+            "_key": "web5s4",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web6",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web6s0",
+            "marks": [],
+            "text": "Dotazy, reklamace a spotřebitelské spory"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web7",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web7l1",
+            "href": "mailto:info@zdravimebavi.cz"
+          },
+          {
+            "_type": "link",
+            "_key": "web7l3",
+            "href": "https://coi.gov.cz/faq/smlouvy-mimo-kamennou-prodejnu-internet-po-telefonu/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web7s0",
+            "marks": [],
+            "text": "S dotazem k domluvené službě, změnou termínu, reklamací nebo odstoupením se můžete obrátit na "
+          },
+          {
+            "_type": "span",
+            "_key": "web7s1",
+            "marks": [
+              "web7l1"
+            ],
+            "text": "info@zdravimebavi.cz"
+          },
+          {
+            "_type": "span",
+            "_key": "web7s2",
+            "marks": [],
+            "text": ". U smluv uzavřených na dálku se právo na odstoupení řídí občanským zákoníkem podle povahy služby a okolností jejího sjednání. Praktické informace uvádí "
+          },
+          {
+            "_type": "span",
+            "_key": "web7s3",
+            "marks": [
+              "web7l3"
+            ],
+            "text": "spotřebitelský průvodce České obchodní inspekce"
+          },
+          {
+            "_type": "span",
+            "_key": "web7s4",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web8",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web8l1",
+            "href": "https://coi.gov.cz/pro-podnikatele/informace-pro-prodejce-zbozi-a-sluzeb/mimosoudni-reseni-spotrebitelskych-sporu-adr/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web8s0",
+            "marks": [],
+            "text": "Pokud se spotřebitelský spor nepodaří vyřešit přímo, můžete se obrátit na "
+          },
+          {
+            "_type": "span",
+            "_key": "web8s1",
+            "marks": [
+              "web8l1"
+            ],
+            "text": "Českou obchodní inspekci pro mimosoudní řešení sporů"
+          },
+          {
+            "_type": "span",
+            "_key": "web8s2",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web9",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web9s0",
+            "marks": [],
+            "text": "Dřívější objednávky"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web10",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web10l1",
+            "href": "mailto:info@zdravimebavi.cz"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web10s0",
+            "marks": [],
+            "text": "U dříve zakoupeného digitálního obsahu se použijí podmínky platné při nákupu. Pokud potřebujete kopii podmínek nebo pomoc s přístupem, napište na "
+          },
+          {
+            "_type": "span",
+            "_key": "web10s1",
+            "marks": [
+              "web10l1"
+            ],
+            "text": "info@zdravimebavi.cz"
+          },
+          {
+            "_type": "span",
+            "_key": "web10s2",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web11",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web11s0",
+            "marks": [],
+            "text": "Aktualizováno 24. listopadu 2026."
+          }
+        ]
+      }
+    ]
+  },
+  "gdpr": {
+    "title": "Ochrana osobních údajů na webu",
+    "summary": "Jak zpracovávám údaje z poptávek a při návštěvě veřejného webu zdravimebavi.cz.",
+    "content": [
+      {
+        "_type": "block",
+        "_key": "web0",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web0s0",
+            "marks": [],
+            "text": "Kdo údaje zpracovává"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web1",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web1l1",
+            "href": "mailto:info@zdravimebavi.cz"
+          },
+          {
+            "_type": "link",
+            "_key": "web1l3",
+            "href": "https://app.zdravimebavi.cz/soukromi"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web1s0",
+            "marks": [],
+            "text": "Správcem je Iva Vaňková, IČO 19197110, Dr. Nováka 496/11, 294 71 Benátky nad Jizerou. Kontakt pro dotazy k soukromí: "
+          },
+          {
+            "_type": "span",
+            "_key": "web1s1",
+            "marks": [
+              "web1l1"
+            ],
+            "text": "info@zdravimebavi.cz"
+          },
+          {
+            "_type": "span",
+            "_key": "web1s2",
+            "marks": [],
+            "text": ". Pro účet a členství platí "
+          },
+          {
+            "_type": "span",
+            "_key": "web1s3",
+            "marks": [
+              "web1l3"
+            ],
+            "text": "informace o soukromí v aplikaci"
+          },
+          {
+            "_type": "span",
+            "_key": "web1s4",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web2",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web2s0",
+            "marks": [],
+            "text": "Poptávky a komunikace"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web3",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web3s0",
+            "marks": [],
+            "text": "Pokud mi napíšete, zpracovávám vaše jméno, e-mail, obsah zprávy a případně telefon, který uvedete. Podle povahy zprávy údaje potřebuji k vyřízení vašeho dotazu, ke krokům před uzavřením smlouvy na vaši žádost nebo k plnění sjednané služby. Odpověď na obecný dotaz a ochrana webu před zneužitím vycházejí z oprávněného zájmu na komunikaci a bezpečném provozu."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web4",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web4s0",
+            "marks": [],
+            "text": "Zpráva z poptávkového formuláře slouží k vyřízení vaší poptávky. Zdravotní údaje prosím do veřejného formuláře nepište."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web5",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web5s0",
+            "marks": [],
+            "text": "Komu se údaje předávají"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web6",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web6l1",
+            "href": "https://resend.com/legal/dpa"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web6s0",
+            "marks": [],
+            "text": "Web je hostovaný na Netlify. Odeslání formuláře chrání Cloudflare Turnstile a zprávu do schránky doručuje Resend. Pro doručení poptávky Resend zpracovává vaši e-mailovou adresu, jméno a obsah zprávy, včetně případného telefonního čísla. Informace o zpracování a mezinárodním předávání jsou ve "
+          },
+          {
+            "_type": "span",
+            "_key": "web6s1",
+            "marks": [
+              "web6l1"
+            ],
+            "text": "zpracovatelských podmínkách Resendu"
+          },
+          {
+            "_type": "span",
+            "_key": "web6s2",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web7",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web7l1",
+            "href": "/cookies"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web7s0",
+            "marks": [],
+            "text": "Pokud sjednáme službu, mohou se nezbytné údaje předat také účetním, daňovým nebo právním poradcům či příslušným orgánům, pokud to vyžaduje zákon nebo ochrana práv. O volitelných nástrojích webu najdete informace na "
+          },
+          {
+            "_type": "span",
+            "_key": "web7s1",
+            "marks": [
+              "web7l1"
+            ],
+            "text": "stránce Cookies"
+          },
+          {
+            "_type": "span",
+            "_key": "web7s2",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web8",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web8s0",
+            "marks": [],
+            "text": "Doba uchování a vaše práva"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web9",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web9s0",
+            "marks": [],
+            "text": "Poptávky a související korespondenci uchovávám po dobu potřebnou k vyřízení a případné navazující domluvě. Údaje k poskytnutým službám uchovávám po dobu potřebnou k plnění smlouvy, zákonných povinností nebo ochraně práv."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web10",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web10l1",
+            "href": "mailto:info@zdravimebavi.cz"
+          },
+          {
+            "_type": "link",
+            "_key": "web10l3",
+            "href": "https://uoou.gov.cz/"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web10s0",
+            "marks": [],
+            "text": "Podle okolností můžete žádat o přístup k údajům, opravu, výmaz, omezení zpracování nebo přenositelnost. Proti zpracování na základě oprávněného zájmu můžete vznést námitku a udělený souhlas můžete kdykoli odvolat. Své požadavky posílejte na "
+          },
+          {
+            "_type": "span",
+            "_key": "web10s1",
+            "marks": [
+              "web10l1"
+            ],
+            "text": "info@zdravimebavi.cz"
+          },
+          {
+            "_type": "span",
+            "_key": "web10s2",
+            "marks": [],
+            "text": ". Stížnost lze podat u "
+          },
+          {
+            "_type": "span",
+            "_key": "web10s3",
+            "marks": [
+              "web10l3"
+            ],
+            "text": "Úřadu pro ochranu osobních údajů"
+          },
+          {
+            "_type": "span",
+            "_key": "web10s4",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web11",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web11s0",
+            "marks": [],
+            "text": "Aktualizováno 24. listopadu 2026."
+          }
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookies na veřejném webu",
+    "summary": "Účely cookies, nastavení souhlasu a ochrana formulářů.",
+    "content": [
+      {
+        "_type": "block",
+        "_key": "web0",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web0s0",
+            "marks": [],
+            "text": "Na kterém webu tyto informace platí"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web1",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web1l1",
+            "href": "https://app.zdravimebavi.cz/cookies"
+          },
+          {
+            "_type": "link",
+            "_key": "web1l3",
+            "href": "mailto:info@zdravimebavi.cz"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web1s0",
+            "marks": [],
+            "text": "Tyto informace platí pro veřejný web zdravimebavi.cz. Nastavení a externí obsah v členské aplikaci popisuje "
+          },
+          {
+            "_type": "span",
+            "_key": "web1s1",
+            "marks": [
+              "web1l1"
+            ],
+            "text": "stránka Cookies a externí obsah v aplikaci"
+          },
+          {
+            "_type": "span",
+            "_key": "web1s2",
+            "marks": [],
+            "text": ". Provozovatelkou veřejného webu je Iva Vaňková, IČO 19197110. Kontakt: "
+          },
+          {
+            "_type": "span",
+            "_key": "web1s3",
+            "marks": [
+              "web1l3"
+            ],
+            "text": "info@zdravimebavi.cz"
+          },
+          {
+            "_type": "span",
+            "_key": "web1s4",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web2",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web2s0",
+            "marks": [],
+            "text": "Nezbytné nástroje"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web3",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web3s0",
+            "marks": [],
+            "text": "Web uloží vaši volbu v místním úložišti prohlížeče pod názvem zmb-cookie-preferences-v1. Platí 180 dní. Cloudflare Turnstile chrání kontaktní formuláře před automatizovaným zneužitím."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web4",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web4s0",
+            "marks": [],
+            "text": "Volitelné nástroje"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web5",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web5s0",
+            "marks": [],
+            "text": "Google Analytics pomáhá měřit návštěvnost a používání webu. Hotjar pomáhá porozumět tomu, jak se návštěvníci na stránkách orientují. Meta Pixel slouží k měření účinnosti reklamy. Tyto nástroje se načtou až po povolení příslušné kategorie."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web6",
+        "style": "h2",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web6s0",
+            "marks": [],
+            "text": "Souhlas a změna nastavení"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web7",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web7s0",
+            "marks": [],
+            "text": "V liště můžete volitelné cookies odmítnout, povolit nebo vybrat jednotlivé kategorie. Pouhá návštěva nebo zavření lišty souhlas nepředstavuje. Volbu můžete kdykoli změnit nebo odvolat tlačítkem Nastavení cookies v patičce webu. Základní obsah a kontaktní formuláře jsou dostupné i při odmítnutí volitelných cookies."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web8",
+        "style": "normal",
+        "markDefs": [
+          {
+            "_type": "link",
+            "_key": "web8l1",
+            "href": "/gdpr"
+          }
+        ],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web8s0",
+            "marks": [],
+            "text": "Další informace o zpracování údajů, vašich právech a kontaktu na správce najdete v "
+          },
+          {
+            "_type": "span",
+            "_key": "web8s1",
+            "marks": [
+              "web8l1"
+            ],
+            "text": "zásadách ochrany osobních údajů"
+          },
+          {
+            "_type": "span",
+            "_key": "web8s2",
+            "marks": [],
+            "text": "."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "web9",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "web9s0",
+            "marks": [],
+            "text": "Aktualizováno 24. listopadu 2026."
+          }
+        ]
+      }
+    ]
+  }
+}
