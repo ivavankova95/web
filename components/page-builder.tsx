@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { PortableText } from "@portabletext/react";
-import { CheckoutPanel } from "@/components/checkout/checkout-panel";
 import { LeadForm } from "@/components/forms/lead-form";
+import { MEMBERSHIP_SIGNUP_URL } from "@/lib/content/membership";
 import { urlForImage } from "@/lib/sanity/image";
 
 export type PageBuilderBlock =
@@ -69,8 +69,6 @@ export type PageBuilderBlock =
 type PageBuilderProps = {
   blocks?: readonly PageBuilderBlock[];
   pageTitle?: string;
-  pagePath?: string;
-  checkoutProductKey?: string;
 };
 
 function renderLinks({
@@ -110,9 +108,7 @@ function getImageUrl(image?: { asset?: { url?: string; _ref?: string; _type?: st
 
 export function PageBuilder({
   blocks = [],
-  pageTitle,
-  pagePath = "/",
-  checkoutProductKey
+  pageTitle
 }: PageBuilderProps) {
   return (
     <div className="stack" style={{ gap: "1.5rem" }}>
@@ -214,15 +210,13 @@ export function PageBuilder({
         }
 
         if (block._type === "formBlock") {
-          if (checkoutProductKey && block.formKey?.includes("checkout")) {
+          if (block.formKey?.includes("checkout")) {
             return (
-              <CheckoutPanel
-                description={block.description || "Stripe checkout flow scaffold."}
-                key={key}
-                productKey={checkoutProductKey}
-                sourcePage={pagePath}
-                title={block.title || "Checkout"}
-              />
+              <div className="surface-card stack" key={key} style={{ padding: "2rem" }}>
+                <a className="button-primary" href={MEMBERSHIP_SIGNUP_URL}>
+                  Vytvořit účet v aplikaci
+                </a>
+              </div>
             );
           }
 

@@ -46,11 +46,9 @@ function buildPortableTextComponents(document: SanityPageDocument) {
 
 function renderSanityDocument({
   document,
-  routePath,
   contextLinks
 }: {
   document: SanityPageDocument;
-  routePath: string;
   contextLinks?: Array<{ href: string; label: string }>;
 }) {
   if (document.pageBuilder?.length) {
@@ -70,8 +68,6 @@ function renderSanityDocument({
           ) : null}
           <PageBuilder
             blocks={document.pageBuilder}
-            checkoutProductKey={document.productKey}
-            pagePath={routePath}
             pageTitle={document.title}
           />
         </div>
@@ -114,7 +110,6 @@ export async function HybridStaticRoutePage({
   const renderedSanityDocument = document
     ? renderSanityDocument({
         document,
-        routePath,
         contextLinks
       })
     : null;

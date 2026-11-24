@@ -19,20 +19,15 @@ This project is a Next.js App Router site with API routes. Netlify detects Next.
 - `TURNSTILE_SECRET_KEY`
 - `SANITY_REVALIDATE_SECRET`
 
-## Required only if Stripe checkout/webhooks are active
+## Required only if the legacy Stripe webhook is in use
 
-- `STRIPE_SECRET_KEY`
 - `STRIPE_WEBHOOK_SECRET`
-- `STRIPE_PRICE_ID_EBOOK`
-- `STRIPE_PRICE_ID_OSOBNI_KONZULTACE`
-- `STRIPE_PRICE_ID_PRUVODCE`
 
-If Stripe links are handled externally for now, the site can still launch without the Stripe variables, but the internal Stripe API routes must not be used.
+The public website has no Stripe checkout. Membership registration and payments are handled by the member application.
 
 ## Service-side follow-up after deploy
 
 - Update the Sanity webhook target to the Netlify production URL.
-- Update the Stripe webhook target to the Netlify production URL, if Stripe is used.
 - Ensure Cloudflare Turnstile allows `zdravimebavi.cz` and `www.zdravimebavi.cz`.
 - Confirm the Resend sending domain is verified for production mail sending.
 

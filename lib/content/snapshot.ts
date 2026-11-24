@@ -108,12 +108,6 @@ const FORM_NAME_TO_KEY: Record<string, string> = {
   "wf-form-Osobni_konzultace": "osobni_konzultace"
 };
 
-const PRODUCT_KEY_BY_PATH: Record<string, string> = {
-  "/e-book-jak-sestavit-jidelnicek": "ebook_jak_sestavit_jidelnicek",
-  "/osobni-konzultace-objednavka": "osobni_konzultace",
-  "/formular---pruvodce-vyzivou-a-pohybem": "pruvodce_vyzivou_a_pohybem"
-};
-
 const PRIMARY_NAV_CONFIG: SnapshotSiteLink[] = [
   { label: "O mně", href: "/o-mne" },
   { label: "Blog", href: "/blog" },
@@ -622,10 +616,6 @@ export function getSnapshotFormKeys(forms: SnapshotForm[]) {
     .map((form) => form.name || "")
     .filter((name) => FORM_NAME_TO_KEY[name])
     .map((name) => FORM_NAME_TO_KEY[name]);
-}
-
-export function getSnapshotProductKey(routePath: string) {
-  return PRODUCT_KEY_BY_PATH[normalizeSnapshotPath(routePath)] ?? null;
 }
 
 export const getSnapshotSiteShell = cache(async (): Promise<SnapshotSiteShell> => {
