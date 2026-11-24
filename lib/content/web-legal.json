@@ -718,7 +718,21 @@
             "_type": "span",
             "_key": "web3s0",
             "marks": [],
-            "text": "Web uloží vaši volbu v místním úložišti prohlížeče pod názvem zmb-cookie-preferences-v1. Platí 180 dní. Cloudflare Turnstile chrání kontaktní formuláře před automatizovaným zneužitím."
+            "text": "Web uloží vaši volbu na 180 dní v místním úložišti prohlížeče pod názvem zmb-cookie-preferences-v2. Cloudflare Turnstile chrání kontaktní formuláře před automatizovaným zneužitím."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "_key": "webEvidence",
+        "style": "normal",
+        "markDefs": [],
+        "children": [
+          {
+            "_type": "span",
+            "_key": "webEvidenceS0",
+            "marks": [],
+            "text": "Pro doložení souhlasu evidujeme jeho udělení, změnu a odvolání v úložišti Netlify Blobs ve Frankfurtu. Záznam obsahuje náhodný identifikátor, datum a čas zápisu, vybrané kategorie, verzi lišty a při změně odkaz na předchozí volbu. Do evidence neukládáme jméno, e-mail ani IP adresu. Záznamy se automaticky mažou přibližně po šesti měsících."
           }
         ]
       },
