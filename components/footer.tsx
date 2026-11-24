@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { CookieConsent } from "@/components/cookie-consent";
 import { getSiteShellData } from "@/lib/sanity/loaders";
 
 export async function Footer() {
@@ -30,16 +31,15 @@ export async function Footer() {
             </div>
           )}
 
-          {shell.legalNav.length > 0 && (
-            <div className="site-footer__col">
-              <div className="site-footer__col-title">Právní info</div>
-              {shell.legalNav.map((item) => (
-                <Link key={item.href} href={item.href} className="site-footer__link">
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          )}
+          <div className="site-footer__col">
+            <div className="site-footer__col-title">Právní info</div>
+            {shell.legalNav.map((item) => (
+              <Link key={item.href} href={item.href} className="site-footer__link">
+                {item.label}
+              </Link>
+            ))}
+            <CookieConsent />
+          </div>
 
           {shell.externalNav.length > 0 && (
             <div className="site-footer__col">

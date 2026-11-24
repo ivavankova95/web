@@ -13,6 +13,7 @@ type HybridStaticRoutePageProps = {
   routePath: string;
   documentKind: SanityRouteDocumentKind;
   fallbackLayout: string;
+  fallbackDocument?: SanityPageDocument;
   fallbackRouteType: string;
   fallbackNotes?: string[];
   contextLinks?: Array<{ href: string; label: string }>;
@@ -101,12 +102,13 @@ export async function HybridStaticRoutePage({
   routePath,
   documentKind,
   fallbackLayout,
+  fallbackDocument,
   fallbackRouteType,
   fallbackNotes,
   contextLinks
 }: HybridStaticRoutePageProps) {
   const slug = routePath.replace(/^\/+/, "");
-  const document = await getSanityRouteDocument(documentKind, slug);
+  const document = (await getSanityRouteDocument(documentKind, slug)) ?? fallbackDocument;
   const renderedSanityDocument = document
     ? renderSanityDocument({
         document,

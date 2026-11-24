@@ -1,0 +1,158 @@
+.settings {
+  align-self: start;
+  background: none;
+  border: 0;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  padding: 0.15rem 0;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.settings:hover,
+.customize:hover {
+  color: var(--color-brand-dark);
+}
+
+.panel {
+  position: fixed;
+  z-index: 1000;
+  inset: auto max(1rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) auto;
+  display: grid;
+  gap: 0.9rem;
+  width: min(28rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow: auto;
+  padding: clamp(1rem, 4vw, 1.5rem);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-brand);
+  border-radius: var(--radius-panel);
+  box-shadow: var(--shadow-soft);
+  color: var(--color-text);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.close {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: var(--radius-button);
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.close:hover {
+  background: var(--color-surface-alt);
+}
+
+.panel h2 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+}
+
+.panel p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.actions button,
+.optionActions button {
+  min-height: 44px;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--color-brand);
+  border-radius: var(--radius-button);
+  background: var(--color-white);
+  color: var(--color-brand-dark);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.81rem;
+  font-weight: 700;
+}
+
+.actions button:hover,
+.optionActions button:hover {
+  background: var(--color-surface-alt);
+}
+
+.panel :focus-visible,
+.settings:focus-visible {
+  outline: 2px solid var(--color-brand-dark);
+  outline-offset: 3px;
+}
+
+.customize {
+  justify-self: start;
+  min-height: 32px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.83rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.options {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.options fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.options legend {
+  padding: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 44px;
+  padding-block: 0.2rem;
+  font-size: 0.86rem;
+}
+
+.options input {
+  width: 1rem;
+  height: 1rem;
+  margin: 0;
+  accent-color: var(--color-brand);
+}
+
+.options small {
+  display: block;
+}
+
+.optionActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}

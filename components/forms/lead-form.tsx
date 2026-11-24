@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { InquiryPrivacyNote } from "@/components/forms/inquiry-privacy-note";
 import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile";
 
 type LeadFormProps = {
@@ -86,6 +87,7 @@ export function LeadForm({ formKey, title, description }: LeadFormProps) {
           Telefon
           <input name="phone" placeholder="+420..." type="tel" />
         </label>
+        <InquiryPrivacyNote className="muted" />
         <Turnstile
           ref={turnstileRef}
           siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? ""}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { InquiryPrivacyNote } from "@/components/forms/inquiry-privacy-note";
 import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile";
 
 type ContactFormState = "idle" | "submitting" | "success" | "error";
@@ -89,6 +90,7 @@ export function ContactForm() {
           rows={5}
         />
       </label>
+      <InquiryPrivacyNote className="muted" />
       <Turnstile
         ref={turnstileRef}
         siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? ""}

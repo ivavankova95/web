@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { HybridStaticRoutePage } from "@/components/hybrid-static-route-page";
+import webLegal from "@/lib/content/web-legal.json";
 import { getSanityRouteMetadata } from "@/lib/sanity/loaders";
 
 export const revalidate = 86400;
@@ -13,10 +14,7 @@ export default function TermsPage() {
     <HybridStaticRoutePage
       documentKind="legalPage"
       fallbackLayout="MarketingLayout"
-      fallbackNotes={[
-        "Legal obsah je renderovany ze snapshotu.",
-        "Pred publikaci bude potreba pravni text zkontrolovat a ulozit do legalPage."
-      ]}
+      fallbackDocument={webLegal["obchodni-podminky"]}
       fallbackRouteType="legalPage"
       routePath="/obchodni-podminky"
     />

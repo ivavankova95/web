@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { InquiryPrivacyNote } from "@/components/forms/inquiry-privacy-note";
 import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile";
 import styles from "./osobni-konzultace.module.css";
 
@@ -84,14 +85,7 @@ export function OsobniKonzultaceForm() {
         si domluvíme termín konzultace.
       </p>
 
-      <div className={styles.checkboxField}>
-        <input type="checkbox" id="terms" name="terms" required />
-        <label htmlFor="terms">Souhlasím s Obchodními podmínkami*</label>
-      </div>
-      <div className={styles.checkboxField}>
-        <input type="checkbox" id="gdpr" name="gdpr" required />
-        <label htmlFor="gdpr">Souhlasím s Podmínkami ochrany osobních údajů*</label>
-      </div>
+      <InquiryPrivacyNote className={styles.requiredNote} />
       <p className={styles.requiredNote}>* Povinný údaj</p>
 
       <Turnstile

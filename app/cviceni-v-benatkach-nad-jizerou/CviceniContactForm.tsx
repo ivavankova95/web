@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { InquiryPrivacyNote } from "@/components/forms/inquiry-privacy-note";
 import { Turnstile, type TurnstileInstance } from "@marsidev/react-turnstile";
 import styles from "./skupinove.module.css";
 
@@ -68,10 +69,7 @@ export function CviceniContactForm() {
         <label htmlFor="message">Potřebuješ se na něco zeptat nebo mi chceš cokoli sdělit?</label>
         <textarea id="message" name="message" placeholder="Tady je prostor pro tvoje dotazy a poznámky" rows={6} />
       </div>
-      <label className={styles.contactCheckbox}>
-        <input type="checkbox" name="terms" required />
-        Souhlasím s Obchodními podmínkami a Podmínkami ochrany osobních údajů*
-      </label>
+      <InquiryPrivacyNote className={styles.contactRequired} />
       <p className={styles.contactRequired}>* Povinný údaj</p>
       <Turnstile
         ref={turnstileRef}

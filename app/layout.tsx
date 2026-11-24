@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "@/app/fonts/fonts.css";
 import "@/app/globals.css";
 import { Footer } from "@/components/footer";
@@ -27,40 +26,6 @@ export default async function RootLayout({
   return (
     <html lang="cs">
       <body>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-MX7LQ3K"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
-
-        <Script id="google-tag-manager" strategy="beforeInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MX7LQ3K');`}
-        </Script>
-
-        <Script id="hotjar-tracking" strategy="beforeInteractive">
-          {`(function(h,o,t,j,a,r){
-    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-    h._hjSettings={hjid:3527254,hjsv:6};
-    a=o.getElementsByTagName('head')[0];
-    r=o.createElement('script');r.async=1;
-    r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-    a.appendChild(r);
-})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
-        </Script>
-
-        <Script
-          id="cookie-script"
-          src="https://cdn.cookie-script.com/s/d5ff9d753db4360bc6c8bbbf049da594.js"
-          strategy="beforeInteractive"
-        />
-
         <SiteHeader />
         <main>{children}</main>
         <Footer />
