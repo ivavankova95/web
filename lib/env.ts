@@ -15,11 +15,6 @@ export const env = {
   stripePriceIdOsobniKonzultace:
     readEnv("STRIPE_PRICE_ID_OSOBNI_KONZULTACE") ?? "",
   stripePriceIdPruvodce: readEnv("STRIPE_PRICE_ID_PRUVODCE") ?? "",
-  mailerLiteApiToken: readEnv("MAILERLITE_API_TOKEN") ?? "",
-  mailerLiteApiBaseUrl:
-    readEnv("MAILERLITE_API_BASE_URL") ?? "https://connect.mailerlite.com/api",
-  makeAutomationWebhookUrl: readEnv("MAKE_AUTOMATION_WEBHOOK_URL") ?? "",
-  makeAutomationApiKey: readEnv("MAKE_AUTOMATION_API_KEY") ?? "",
   base44AutomationWebhookUrl: readEnv("BASE44_AUTOMATION_WEBHOOK_URL") ?? "",
   base44AutomationApiKey: readEnv("BASE44_AUTOMATION_API_KEY") ?? "",
   resendApiKey: readEnv("RESEND_API_KEY") ?? "",

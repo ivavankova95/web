@@ -55,14 +55,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
         </Script>
 
-        <Script id="mailerlite-universal" strategy="beforeInteractive">
-          {`(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '378261');`}
-        </Script>
-
         <Script
           id="cookie-script"
           src="https://cdn.cookie-script.com/s/d5ff9d753db4360bc6c8bbbf049da594.js"

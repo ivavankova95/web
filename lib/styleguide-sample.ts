@@ -37,12 +37,6 @@ export const styleguideSampleBlocks = [
     primaryHref: "/osobni-konzultace"
   },
   {
-    _type: "formBlock",
-    title: "Lead formulář",
-    description: "Ukázka nativního formuláře napojeného na scaffold API route.",
-    formKey: "kontakt"
-  },
-  {
     _type: "faqBlock",
     title: "FAQ",
     items: [

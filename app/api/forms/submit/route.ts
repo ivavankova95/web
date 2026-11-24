@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
-import { formRegistry } from "@/lib/forms";
-import { env } from "@/lib/env";
+import { getFormLabel } from "@/lib/forms";
+import { sendInquiry, verifyTurnstile } from "@/lib/inquiries";
 
 const leadSchema = z.object({
   formKey: z.string().min(1),
@@ -9,25 +9,11 @@ const leadSchema = z.object({
   name: z.string().min(1),
   phone: z.string().optional(),
   sourcePage: z.string().min(1),
-  turnstileToken: z.string().min(1),
+  turnstileToken: z.string().min(1)
 });
 
-async function verifyTurnstile(token: string): Promise<boolean> {
-  const res = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams({
-      secret: env.turnstileSecretKey,
-      response: token,
-    }),
-  });
-  const data = (await res.json()) as { success: boolean };
-  return data.success;
-}
-
 export async function POST(request: Request) {
-  const body = await request.json();
-  const parsed = leadSchema.safeParse(body);
+  const parsed = leadSchema.safeParse(await request.json().catch(() => null));
 
   if (!parsed.success) {
     return NextResponse.json(
@@ -36,41 +22,27 @@ export async function POST(request: Request) {
     );
   }
 
-  const turnstileOk = await verifyTurnstile(parsed.data.turnstileToken);
-  if (!turnstileOk) {
+  const { formKey, name, email, phone, sourcePage, turnstileToken } = parsed.data;
+  if (!(await verifyTurnstile(turnstileToken))) {
     return NextResponse.json(
       { ok: false, error: "Ověření bezpečnostní kontroly selhalo." },
       { status: 403 }
     );
   }
 
-  const config = formRegistry[parsed.data.formKey];
-
-  if (!config) {
-    return NextResponse.json(
-      { ok: false, error: "Unknown form key" },
-      { status: 404 }
-    );
+  const label = getFormLabel(formKey);
+  if (!label) {
+    return NextResponse.json({ ok: false, error: "Unknown form key" }, { status: 404 });
   }
 
-  if (env.makeAutomationWebhookUrl) {
-    try {
-      await fetch(env.makeAutomationWebhookUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          form_name: config.label,
-          formKey: parsed.data.formKey,
-          email: parsed.data.email,
-          name: parsed.data.name,
-          sourcePage: parsed.data.sourcePage,
-          mailerLiteGroupId: config.mailerLiteGroupId,
-          timestamp: new Date().toISOString()
-        })
-      });
-    } catch (err) {
-      console.error("Failed to forward lead to Make:", err);
-    }
+  const error = await sendInquiry({
+    name,
+    email,
+    subject: `Nová poptávka – ${label}`,
+    details: phone ? [["Telefon", phone], ["Stránka", sourcePage]] : [["Stránka", sourcePage]]
+  });
+  if (error) {
+    return NextResponse.json({ ok: false, error }, { status: 500 });
   }
 
   return NextResponse.json({

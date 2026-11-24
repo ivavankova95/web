@@ -6,6 +6,12 @@ Tento soubor drzi architektonicka, produktova a provozni rozhodnuti projektu.
 
 ## Aktivni rozhodnuti
 
+### 2026-11-24 – Sender Free pro marketingový e-mailing
+
+- Veřejný web je první etapou migrace. Nahrazení marketingové synchronizace členské aplikace a import odběratelů následují v samostatných krocích.
+- Poptávky se doručují přes Resend. Nový odběr novinek, pokud se na webu zavede, bude vyžadovat potvrzení adresy.
+- Globální skript MailerLite lze z webu odstranit samostatně po ověření vložených formulářů a pop-upů. Změna předávání do Make závisí na identifikaci produkčního scénáře.
+
 ### 2026-04-09 - Cílový stack
 
 - rozhodnuti: novy web poběží na Next.js + Sanity Free + Netlify Free
