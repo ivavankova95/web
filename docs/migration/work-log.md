@@ -12,6 +12,8 @@ Tento soubor je prubezny denik implementace, zmen a blokatoru.
 - Opraveny české uvozovky na dvou stránkách a odstraněna nevyužitá výjimka ESLintu v galerii. Lint a build webu v čisté kopii prošly.
 - Audit 46 produkčních adres potvrdil, že zákaznické formuláře běží přes kontaktní endpoint s Resendem. Použití druhého endpointu bylo vidět jen v interní ukázce. Webová předávání do Make odstraněna z kódu.
 
+- Odstraněn starý checkout pro jednotlivé produkty z veřejného webu. Historické prodejní adresy dál směřují na členství a případné staré checkout bloky v Sanity vedou k registraci v aplikaci.
+
 ## 2026-04-09
 
 ### Dokonceno

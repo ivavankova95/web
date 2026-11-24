@@ -28,7 +28,7 @@ export default function StyleguidePage() {
         "Pozdeji sem muzeme doplnit komponentovy katalog a testovaci content bloky."
       ]}
     >
-      <PageBuilder blocks={[...styleguideSampleBlocks]} pagePath="/styleguide" pageTitle="Styleguide" />
+      <PageBuilder blocks={[...styleguideSampleBlocks]} pageTitle="Styleguide" />
     </RouteScaffoldPage>
   );
 }

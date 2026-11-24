@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import { CheckoutPanel } from "@/components/checkout/checkout-panel";
 import { LeadForm } from "@/components/forms/lead-form";
 import { ArticleImageGallery } from "@/components/article-image-gallery";
 import {
@@ -7,7 +6,6 @@ import {
   getSnapshotDescription,
   getSnapshotFormKeys,
   getSnapshotPage,
-  getSnapshotProductKey,
   type SnapshotBlock
 } from "@/lib/content/snapshot";
 import type { SanityIngredientTable } from "@/lib/sanity/loaders";
@@ -293,7 +291,6 @@ export async function SnapshotContentPage({
   }
 
   const formKeys = getSnapshotFormKeys(page.forms);
-  const productKey = getSnapshotProductKey(routePath);
   const title = getSnapshotDisplayTitle(page);
   const description = getSnapshotDescription(page);
 
@@ -360,18 +357,6 @@ export async function SnapshotContentPage({
               }}
             />
           </figure>
-        )}
-
-        {/* Stripe checkout */}
-        {productKey && (
-          <div style={{ marginBottom: "2rem" }}>
-            <CheckoutPanel
-              productKey={productKey}
-              sourcePage={routePath}
-              title={title}
-              description={description}
-            />
-          </div>
         )}
 
         {/* Lead forms */}

@@ -11,10 +11,6 @@ export const env = {
   sanityRevalidateSecret: readEnv("SANITY_REVALIDATE_SECRET") ?? "",
   stripeSecretKey: readEnv("STRIPE_SECRET_KEY") ?? "",
   stripeWebhookSecret: readEnv("STRIPE_WEBHOOK_SECRET") ?? "",
-  stripePriceIdEbook: readEnv("STRIPE_PRICE_ID_EBOOK") ?? "",
-  stripePriceIdOsobniKonzultace:
-    readEnv("STRIPE_PRICE_ID_OSOBNI_KONZULTACE") ?? "",
-  stripePriceIdPruvodce: readEnv("STRIPE_PRICE_ID_PRUVODCE") ?? "",
   base44AutomationWebhookUrl: readEnv("BASE44_AUTOMATION_WEBHOOK_URL") ?? "",
   base44AutomationApiKey: readEnv("BASE44_AUTOMATION_API_KEY") ?? "",
   resendApiKey: readEnv("RESEND_API_KEY") ?? "",
