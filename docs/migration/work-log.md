@@ -4,6 +4,14 @@ Datum zalozeni: 2026-04-09
 
 Tento soubor je prubezny denik implementace, zmen a blokatoru.
 
+## 2026-11-24
+
+- Zahájen přechod marketingového e-mailingu na Sender Free auditem veřejného webu. Postup a nálezy jsou v [seznamu úkolů](sender-migration-checklist.md).
+- Z hlavního layoutu byl lokálně odstraněn globální skript MailerLite. Čistý build webu prošel a kontrola HTML potvrdila zachování kontaktních formulářů a Turnstile na prověřených stránkách.
+- Produkční webhook v Netlify přesně odpovídá aktivnímu scénáři „Integrace Next.js web“. Ověřen produkční blueprint. Šest větví podle názvu formuláře zapisuje kontakt a jeho skupinu do MailerLite. Dostupná historie je prázdná.
+- Opraveny české uvozovky na dvou stránkách a odstraněna nevyužitá výjimka ESLintu v galerii. Lint a build webu v čisté kopii prošly.
+- Audit 46 produkčních adres potvrdil, že zákaznické formuláře běží přes kontaktní endpoint s Resendem. Použití druhého endpointu bylo vidět jen v interní ukázce. Webová předávání do Make odstraněna z kódu.
+
 ## 2026-04-09
 
 ### Dokonceno

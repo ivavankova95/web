@@ -256,7 +256,7 @@ export default function CviceniPage() {
             <details className={styles.faqItem}>
               <summary>Jak probíhá přihlašování na lekce?</summary>
               <div className={styles.faqAnswer}>
-                <p>V den lekce dopoledne vkládám do WhatsApp skupiny anketu. Stačí označit „ano", když se chystáš přijít. Pokud se do 15 hod. přihlásí 5 zájemců, lekce se koná.</p>
+                <p>V den lekce dopoledne vkládám do WhatsApp skupiny anketu. Stačí označit „ano“, když se chystáš přijít. Pokud se do 15 hod. přihlásí 5 zájemců, lekce se koná.</p>
               </div>
             </details>
             <details className={styles.faqItem}>

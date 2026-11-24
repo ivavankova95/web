@@ -51,7 +51,7 @@ export default function OsobniKonzultacePage() {
                 ze kterých si vybereš.
               </p>
               <p>
-                Do políčka „Téma konzultace" prosím co nejpřesněji popiš, čemu se chceš na
+                Do políčka „Téma konzultace“ prosím co nejpřesněji popiš, čemu se chceš na
                 konzultaci věnovat.
               </p>
               <p>Už se moc těším na naše setkání!</p>
@@ -113,7 +113,7 @@ export default function OsobniKonzultacePage() {
                 „Z konzultace jsem si odnesla hlavně <strong>praktické informace</strong>, jak si
                 mám poskládat jídlo, když nejím maso. Věděla jsem, že jím málo bílkovin a Iva mi
                 poradila i kombinace jejich rostlinných zdrojů. Taky teď vím, že bych měla celkově
-                jíst víc."
+                jíst víc.“
               </p>
               <cite>Petra Králíková, maminka 2 kluků</cite>
             </blockquote>

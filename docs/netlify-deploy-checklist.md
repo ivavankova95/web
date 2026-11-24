@@ -19,11 +19,6 @@ This project is a Next.js App Router site with API routes. Netlify detects Next.
 - `TURNSTILE_SECRET_KEY`
 - `SANITY_REVALIDATE_SECRET`
 
-## Required if automation should run after forms or Stripe webhooks
-
-- `MAKE_AUTOMATION_WEBHOOK_URL`
-- `MAKE_AUTOMATION_API_KEY`
-
 ## Required only if Stripe checkout/webhooks are active
 
 - `STRIPE_SECRET_KEY`
