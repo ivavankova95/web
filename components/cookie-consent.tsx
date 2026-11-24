@@ -190,7 +190,7 @@ export function CookieConsent() {
     const pending: ConsentChoice = {
       ...preference,
       id: createConsentId(),
-      previousId: current?.pending?.id ?? current?.receiptId ?? null,
+      previousId: current?.receiptId ?? current?.pending?.id ?? null,
       version: consentVersion,
     };
     storePreference({
