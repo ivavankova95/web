@@ -26,7 +26,8 @@ export default function NewsletterPage() {
             src="/hero-iva-new.png"
             alt="Iva Vaňková"
             fill
-            sizes="(max-width: 680px) 90vw, 440px"
+            loading="eager"
+            sizes="(max-width: 680px) 90vw, 464px"
             className={styles.photo}
           />
         </div>
