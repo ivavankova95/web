@@ -1,0 +1,103 @@
+.section {
+  background: var(--color-surface-alt);
+  padding-block: clamp(2.5rem, 7vw, 5.5rem);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5.5rem);
+  max-width: 70rem;
+}
+
+.content {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.content h1 {
+  color: var(--color-brand-dark);
+  margin: 0;
+}
+
+.card {
+  display: grid;
+  gap: 0.85rem;
+  padding: clamp(1.15rem, 3vw, 1.9rem);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-panel);
+  background: var(--color-white);
+}
+
+.card label,
+.card p {
+  margin: 0;
+}
+
+.card button {
+  margin-top: 0.25rem;
+  min-height: 3rem;
+}
+
+.card button:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.consent {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 0.65rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.consent input {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0.15rem 0 0;
+  accent-color: var(--color-brand);
+}
+
+.card :is(input, button, a):focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 3px;
+}
+
+.note {
+  font-size: 0.87rem;
+  color: var(--color-text-muted);
+}
+
+.note a,
+.textLink {
+  color: var(--color-brand-dark);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.error {
+  font-size: 0.9rem;
+  color: #94213c;
+}
+
+.portrait {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
+  justify-self: center;
+  width: min(100%, 29rem);
+}
+
+.photo {
+  object-fit: cover;
+}
+
+@media (max-width: 680px) {
+  .layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

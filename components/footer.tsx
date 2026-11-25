@@ -20,16 +20,15 @@ export async function Footer() {
         </div>
 
         <div className="site-footer__cols">
-          {shell.footerNav.length > 0 && (
-            <div className="site-footer__col">
-              <div className="site-footer__col-title">Rychlé odkazy</div>
-              {shell.footerNav.map((item) => (
-                <Link key={item.href} href={item.href} className="site-footer__link">
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          )}
+          <div className="site-footer__col">
+            <div className="site-footer__col-title">Rychlé odkazy</div>
+            {shell.footerNav.filter(({ href }) => href !== "/odber-novinek").map((item) => (
+              <Link key={item.href} href={item.href} className="site-footer__link">
+                {item.label}
+              </Link>
+            ))}
+            <Link href="/odber-novinek" className="site-footer__link">Novinky od Ivy</Link>
+          </div>
 
           <div className="site-footer__col">
             <div className="site-footer__col-title">Právní info</div>

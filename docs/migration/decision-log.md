@@ -6,6 +6,12 @@ Tento soubor drzi architektonicka, produktova a provozni rozhodnuti projektu.
 
 ## Aktivni rozhodnuti
 
+### 2026-11-25 – Vlastní formulář pro odběr novinek
+
+- Stránka `/odber-novinek` na veřejném webu je jediným formulářem. Patička webu i nastavení soukromí v aplikaci odkazují na ni.
+- Cloudflare Worker ověří Turnstile a pošle potvrzovací odkaz přes Resend. Žádost a potvrzení se evidují v Supabase. Sender dostane adresu do stávající skupiny Newsletter po potvrzení, podle dosavadních pravidel pro odhlášené a blokované adresy.
+- Veřejná stránka je statická. Odesílání a potvrzování požadavků běží v existujícím Workeru.
+
 ### 2026-11-24 – Sender Free pro marketingový e-mailing
 
 - Veřejný web je první etapou migrace. Nahrazení marketingové synchronizace členské aplikace a import odběratelů následují v samostatných krocích.
