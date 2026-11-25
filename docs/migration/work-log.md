@@ -4,6 +4,12 @@ Datum zalozeni: 2026-04-09
 
 Tento soubor je prubezny denik implementace, zmen a blokatoru.
 
+## 2026-11-25
+
+- Připraven vlastní webový formulář pro odběr ve stylu Zdraví mě baví, odkaz v patičce a doplnění informací o ochraně osobních údajů. Členská aplikace odkazuje na stejnou stránku z nastavení soukromí.
+- Produkční spuštění od 2. prosince. Nejdřív ověřit, že je v Resendu u `auth.zdravimebavi.cz` vypnuté měření prokliků a otevření. Nasadit migraci Supabase `202611250002_newsletter_subscriptions` a do Workeru uložit webový klíč Turnstile jako `NEWSLETTER_TURNSTILE_SECRET`. Nasadit web, ověřit dostupnost stránky a nasadit Worker z větve `codex/app-newsletter-form`.
+- Při ostré kontrole použít dohodnutou testovací adresu. Ověřit doručení e-mailu, potvrzení, jediný zápis do skupiny Newsletter a odhlášení. Při návratu použít předchozí nasazení webu a Workeru a zachovat databázové potvrzení již přijatých žádostí.
+
 ## 2026-11-24
 
 - Zahájen přechod marketingového e-mailingu na Sender Free auditem veřejného webu. Postup a nálezy jsou v [seznamu úkolů](sender-migration-checklist.md).

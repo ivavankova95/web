@@ -69,6 +69,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     ...snapshotEntries,
+    { url: SITE_URL + "/odber-novinek", changeFrequency: "monthly", priority: 0.7 },
     {
       url: SITE_URL + MEMBERSHIP_PATH,
       changeFrequency: getChangeFrequency(MEMBERSHIP_PATH),
