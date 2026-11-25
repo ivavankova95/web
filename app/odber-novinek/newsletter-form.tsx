@@ -14,6 +14,10 @@ function subscribeToHash(callback: () => void) {
   return () => window.removeEventListener("hashchange", callback);
 }
 
+function subscribeToHostname() {
+  return () => {};
+}
+
 async function post(action: "request" | "confirm", payload: object) {
   return fetch(`${endpoint}/${action}`, {
     method: "POST",
@@ -24,7 +28,9 @@ async function post(action: "request" | "confirm", payload: object) {
   });
 }
 
-export function NewsletterForm({ preview }: { preview: boolean }) {
+export function NewsletterForm({ preview: deployPreview }: { preview: boolean }) {
+  const hostname = useSyncExternalStore(subscribeToHostname, () => window.location.hostname, () => null);
+  const preview = deployPreview || hostname?.endsWith(".netlify.app") === true;
   const hash = useSyncExternalStore(subscribeToHash, () => window.location.hash, () => "");
   const token = new URLSearchParams(hash.slice(1)).get("potvrzeni");
   const [challenge, setChallenge] = useState("");
@@ -133,7 +139,7 @@ export function NewsletterForm({ preview }: { preview: boolean }) {
         Odběr můžeš kdykoli zrušit odkazem v e-mailu. Přečti si,{" "}
         <Link href="/gdpr#odber-novinek">jak zpracováváme osobní údaje</Link>.
       </p>
-      {siteKey && !preview && (
+      {hostname && siteKey && !preview && (
         <Turnstile
           ref={turnstile}
           siteKey={siteKey}
